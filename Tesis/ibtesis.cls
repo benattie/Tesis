@@ -117,11 +117,11 @@
 }\fi}
 
 % Set default values
-\author{Nombre del autor}
-\director{Agregar Nombre del director}
+\author{Emanuel Alejandro Benatti}
+\director{Ra\'ul Eduardo Bolmaro}
 \carrera{Tesis Carrera de Doctorado en F\'{\i}sica}
-\grado{Doctorando o Maestrando}
-\laboratorio{Lugar de trabajo - Centro At\'{o}mico Bariloche}
+\grado{Doctorando}
+\laboratorio{Lugar de trabajo - Instituto de F\'{\i}sica Rosario}
 \palabrasclave{palabras, clave, espa\~{n}ol}
 \keywords{key, words, English}
 
@@ -173,9 +173,8 @@
 {      \vskip 4ex \vfill%
       \@laboratorio
       \vskip 3em%
-        Instituto Balseiro\\
-        Universidad Nacional de Cuyo\\
-        Comisi\'{o}n Nacional de Energ\'{\i}a At\'{o}mica\\
+        Facultad de Cs. Exactas, Ingenier\'ia y Agrimensura\\
+        Universidad Nacional de Rosario\\
         Argentina
 }    \end{center}\par
      \@thanks%
