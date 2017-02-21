@@ -1,0 +1,11 @@
+\select@language {spanish}
+\contentsline {chapter}{\'{I}ndice de contenidos}{\es@scroman {ii}}{section*.1}
+\contentsline {chapter}{Resumen}{\es@scroman {iii}}{section*.3}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Algunas ideas sobre superconductividad}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Sensores superconductores de borde de transici\IeC {\'o}n}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}El superconductor MgB$_2$}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Crecimiento de films de MgB$_2$}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}Objetivos y organizaci\IeC {\'o}n de la tesis}{8}{section.1.6}
+\contentsline {chapter}{Bibliograf{\'{\i }}a}{10}{section*.8}

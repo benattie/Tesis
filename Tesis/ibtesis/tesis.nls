@@ -1,0 +1,135 @@
+\begin{thenomenclature} 
+
+ \nomgroup{Symbols}
+
+  \item [{$A$}]\begingroup Área del detector.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$A_s$}]\begingroup Área del sustrato.\nomeqref {4.3}
+		\nompageref{37}
+  \item [{$B$}]\begingroup Inducción magnética.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$C$}]\begingroup Capacidad calorífica de un sistema.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$E$}]\begingroup Energía depositada en un detector.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$E_{gap}$}]\begingroup Energía del gap superconductor. Es la energía necesaria para romper un par de Cooper.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$G$}]\begingroup Vínculo térmico entre un sistema y una fuente térmica.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$H$}]\begingroup Campo magnético aplicado.\nomeqref {3.0}
+		\nompageref{29}
+  \item [{$H_{c}$}]\begingroup Campo magnético crítico de un superconductor.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$I$}]\begingroup Corriente que pasa por un circuito.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$Int_{E}$}]\begingroup Integral del pico correspondiente al elemento $E$, en un espectro de EDX.\nomeqref {4.6}
+		\nompageref{41}
+  \item [{$J_c$}]\begingroup Densidad de corriente crítica de un superconductor.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$K$}]\begingroup Energía cinética.\nomeqref {4.1}
+		\nompageref{35}
+  \item [{$P$}]\begingroup Potencia eléctrica.\nomeqref {4.1}
+		\nompageref{35}
+  \item [{$Q$}]\begingroup Energía liberada por una reacción.\nomeqref {1.3}
+		\nompageref{7}
+  \item [{$R$}]\begingroup Resistencia eléctrica.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$S$}]\begingroup Sección eficaz total para la interacción entre un núcleo y un neutrón.\nomeqref {2.8}
+		\nompageref{26}
+  \item [{$T_o$}]\begingroup Temperatura de operación del detector.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$T_{crec}$}]\begingroup Temperatura a la que se crece un film.\nomeqref {4.6}
+		\nompageref{47}
+  \item [{$T_{c}$}]\begingroup Temperatura crítica de un superconductor.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$T_{hs}$}]\begingroup Temperatura que alcanza el volumen en donde se deposita la energía de la reacción.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$V$}]\begingroup Tensión aplicada a un circuito.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$V_{hs}$}]\begingroup Volumen en que se deposita la energía de una reacción.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$Y$}]\begingroup Sputtering yield.\nomeqref {4.1}
+		\nompageref{35}
+  \item [{$\delta$}]\begingroup Densidad de un material.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$\dot{q}$}]\begingroup Flujo de calor.\nomeqref {4.3}
+		\nompageref{37}
+  \item [{$\kappa$}]\begingroup Conductividad térmica.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$\lambda_n$}]\begingroup Camino libre medio de un neutrón en un material dado.\nomeqref {2.8}
+		\nompageref{26}
+  \item [{$\rho$}]\begingroup Resistividad de un material.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$\sigma$}]\begingroup Conductividad eléctrica.\nomeqref {2.3}
+		\nompageref{19}
+  \item [{$\tau$}]\begingroup Tiempo de relajación de un sistema.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$\tau_0$}]\begingroup Tiempo de relajación natural de un sistema.\nomeqref {1.2}
+		\nompageref{6}
+  \item [{$\theta$}]\begingroup Ángulo formado entre la normal a un plano y la dirección de propagación de la radiación incidente/saliente.\nomeqref {4.4}
+		\nompageref{38}
+  \item [{$\varepsilon$}]\begingroup Constante de proporcionalidad.\nomeqref {4.6}
+		\nompageref{47}
+  \item [{$\xi$}]\begingroup Longitud de coherencia superconductora.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$a$}]\begingroup Ancho de un cable.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$c_p$}]\begingroup Calor específico a presión constante.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$d$}]\begingroup Espesor de un film o cable.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$d_s$}]\begingroup Espesor del sustrato.\nomeqref {4.3}
+		\nompageref{37}
+  \item [{$e$}]\begingroup Separación entre planos cristalinos.\nomeqref {4.4}
+		\nompageref{38}
+  \item [{$k_{B}$}]\begingroup Constante de Boltzmann. En el SI vale 1.38 10$^{-23}$\,J/K.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$l$}]\begingroup Longitud de un cable.\nomeqref {2.2}
+		\nompageref{15}
+  \item [{$n$}]\begingroup Número de átomos por unidad de volumen.\nomeqref {2.8}
+		\nompageref{26}
+  \item [{$p$}]\begingroup Presión hidrostática.\nomeqref {3.0}
+		\nompageref{28}
+  \item [{$v_{F}$}]\begingroup Velocidad de Fermi.\nomeqref {1.0}
+		\nompageref{4}
+  \item [{$v_{crec}$}]\begingroup Velocidad de crecimiento de un film.\nomeqref {4.6}
+		\nompageref{47}
+  \item [{$x$}]\begingroup Proporción B/Mg de una muestra.\nomeqref {4.6}
+		\nompageref{47}
+  \item [{$\lambda$}]\begingroup Longitud de onda, longitud de penetración de un superconductor.\nomeqref {1.0}
+		\nompageref{1}
+  \item [{$\mu_{n}$}]\begingroup Momento magnético del neutrón.\nomeqref {1.0}
+		\nompageref{1}
+  \item [{$Z$}]\begingroup Número atómico\nomeqref {1.0}
+		\nompageref{1}
+  \item [{$m_{n}$}]\begingroup Masa del neutrón\nomeqref {1.0}
+		\nompageref{1}
+
+ \nomgroup{B}
+
+  \item [{barn}]\begingroup Unidad de área, equivale a 10$^{-28}$\,m$^{2}$\nomeqref {1.0}
+		\nompageref{3}
+
+ \nomgroup{E}
+
+  \item [{EDX}]\begingroup Siglas en inglés para espectroscopia por rayos X característicos.\nomeqref {4.6}
+		\nompageref{47}
+
+ \nomgroup{R}
+
+  \item [{RBS}]\begingroup Siglas en inglés para retrodispersión de Rutherford.\nomeqref {4.6}
+		\nompageref{47}
+
+ \nomgroup{S}
+
+  \item [{SQUID}]\begingroup Siglas en inglés para dispositivo superconductor de interferencia cuántica.\nomeqref {1.2}
+		\nompageref{6}
+
+ \nomgroup{T}
+
+  \item [{T}]\begingroup Temperatura.\nomeqref {1.0}\nompageref{4}
+  \item [{t}]\begingroup Tiempo.\nomeqref {1.0}\nompageref{4}
+  \item [{TES}]\begingroup Siglas en inglés de sensor de borde de transición.\nomeqref {1.2}
+		\nompageref{6}
+
+\end{thenomenclature}

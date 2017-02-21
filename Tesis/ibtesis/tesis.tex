@@ -1,0 +1,121 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \documentclass[12pt,papel,twoside]{ibtesis}
+%\documentclass[12pt,screen,twoside,pagebackref]{ibtesis}
+ \documentclass[12pt,papel,singlespace,oneside]{ibtesis}
+% \documentclass[12pt,papel,preprint,singlespace,oneside]{ibtesis}
+%%%%%%%%%%%%%%%%%%%%% Paquetes extra %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Por conveniencia: aqu\'{\i} puede cargar todos los paquetes y definir los comandos 
+% que necesite
+\usepackage{ibextra}
+\usepackage{subfig} %para poner varias imagenes en una sola figura
+\usepackage{url} %para citar páginas web
+\usepackage{notoccite}
+\usepackage{verbatim} 
+%\nofiles
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%% Informacion sobre la tesis %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{FILMS DE MgB$_2$: POSIBILIDAD DE USO COMO DETECTOR DE NEUTRONES}
+\author{Lic. Emanuel Alejandro Benatti}
+\director{Dr. Mariano Gómez Berisso}
+\codirector{Dr. Julio Guimpel}
+\carrera{Tesis Carrera de Maestría en Ciencias F\'{\i}sicas}
+\grado{Maestrando}
+\laboratorio{Laboratorio de Bajas Temperaturas -- Centro At\'{o}mico Bariloche}
+\jurado{Dr.~H.~Pastoriza (Centro Atómico Bariloche - Instituto Balseiro) \\ 
+Dr.~J. Luzuriaga (Centro Atómico Bariloche - Instituto Balseiro)\\ 
+Dr.~J.~Blostein (Centro Atómico Bariloche - Instituto Balseiro)}
+\palabrasclave{DETECTOR, SUPERCONDUCTOR, MgB$_{2}$, NEUTRÓN}
+%\keywords{detector, superconductor, MgB$_{2}$, neutron}
+% Si queremos poner la fecha manualmente:
+% \date{Diciembre de 2099}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\titlepagefalse % Si no quiere compilar la portada descomente esta linea
+%\includeonly{apendices} % Compilar s\'{o}lo estos archivos 
+%\graphicspath{{figs/}} % Lugar donde encontrar las figuras generales (se puede poner uno en cada cap{\'{\i}}tulo)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+% Dentro del environment 'preliminary' va:
+% la dedicatoria, resumen, abstract, indices
+
+\begin{preliminary}
+
+% Escriba su dedicatoria
+\dedicatoria{
+A mi familia\\
+A mis amigos\\
+y a todos aquellos cronopios, famas y esperanzas \\
+que me han permitido llegar hasta aquí
+}
+
+%%% \'{I}ndices %%%%
+%\begin{abreviaturas}
+%\printnomenclature
+%\end{abreviaturas}
+
+\tableofcontents                %\'{I}ndice
+
+\listoffigures                  %Figuras
+
+\listoftables                   %Tablas
+
+\listofabbr						%Símbolos y abreviaturas
+
+\include{./Resumen/resumen}
+
+\end{preliminary}
+
+
+% Podemos usar cualquiera de los dos comandos: \input o \include para incluir el texto
+\include{./Caps/intro}
+\include{./Caps/dise}
+\include{./Caps/evap}
+\include{./Caps/sput}
+\include{./Caps/conclusiones}
+
+\appendix
+\include{./Apendice/tablas}
+
+\begin{biblio}
+\bibliography{./bib/biblio,./bib/otra}
+\end{biblio}
+
+\begin{postliminary}
+
+%\begin{seccion}{Publicaciones asociadas}
+%  \begin{enumerate}
+%  \item Mi primer aviso en la revista \textbf{ABC}, 1996
+%  \item Mi segunda publicaci\'{o}n en la revista \textbf{ABC}, 1997
+%  \end{enumerate}
+%\end{seccion}
+
+\begin{seccion}{Agradecimientos}
+Un tipo entra a un bar. O a un salón. No queda muy claro qué, pero parece que es una fiesta, o una reunión, o una de esas cosas que hace alguna gente cuando quiere celebrar algo. Tampoco le queda claro qué es lo que se está celebrando o para quién es la fiesta. No obstante, como es una persona relativamente normal (hay que poner énfasis en la palabra ``relativamente''), el tipo empieza a caminar por el salón buscando una mesa en la que sentarse. Parece que están todas llenas, pero todas llenas con gente conocida, lo que tranquiliza al tipo, porque no es una persona muy sociable. De hecho, a veces puede ser bastante antipático.
+
+Caminando por el salón se encuentra que en una mesa están sus antiguos compañeros de secundaria, el Negro, el Emo, Lu, el jipi Matías y muchos más. Se ve con ellos una vez cada dos meses, a pesar de lo cual siempre se divierte como si nunca hubieran dejado de verse. 
+
+En la mesa de al lado están sus compañeros de atletismo, grupo de interminables cocas, tortas y pasadas de 200, 300, 400, 800 y hasta 1200 mts. Y sí, al estadio también se iba a entrenar. Es la única mesa llena de pizzas de panceta y coca, y se los puede escuchar a Leandro y a Julio dando una disertación acerca de los beneficios de la carne vacuna sobre el pasto, mientras Semino le hace un chiste a Evangelina, que sólo atina a decir ``no me importa''. También están Meli, Dai, los Mauris, el Ema, Leonelita, Juanfer, Pamela, el Poni, el Fede, Valentina y mucha otra gente que hicieron del estadio un segundo hogar.
+
+Pasando de una mesa a la otra, está el gato, o el contador, una persona con la capacidad de cambiar de nombre en función del grupo en el que está. Pero no importa en que grupo esté, siempre conserva su personalidad alocada, que siempre lo lleva a hacer las conclusiones más inverosímilmente astutas que a nadie más se le podrían ocurrir, así como a realizar propuestas que están entre lo loco y lo suicida (a veces las dos cosas al mismo tiempo). El único que lo iguala en eso es Mariano, que seguramente no pudo venir porque se quedó atrapado en Cuzco, o en medio de la selva. Recién ahora el tipo lo ve entrar al tercer mosquetero, Carlos Silva, el alguna vez llamado Rey de los Ladrones. Un Narrador de historias como pocos y, al igual que el gato y Mariano, un tipo de fierro.
+%\newpage
+
+Del otro lado del pasillo (no les dije, el salón tiene un pasillo, con mesas a los dos costados), se encuentran, en una mesa bastante grande, compañeros de la facultad del tipo, los ib09, ib08 e ib10. Son un montón, y sin embargo, todavía se lo puede escuchar al salteño gritando quién sabe que barbaridad, a Marcelo puteando por algo que ni él sabe, a Diana que se ríe con un tono que fácilmente podría romper todas las copas del salón y a Nico, Oscartín y el resto de los mecánicos '08 que siguen gritando ``vamo' el cineclu'\,''. Hay mucha más gente en esa mesa, el tipo no puede creer que haya podido conocer tanta gente en sólo tres años.
+\newpage
+En otra mesa, también bastante grande, se encuentran la gente del laboratorio en el que el tipo estuvo por casi dos años, en donde aprendió un montón de cosas de un montón de gente, sobre todo de Mariano y Julio, sus directores de tesis. Pero lo que más aprendió, y eso lo aprendió en el laboratorio todos los días, fue la ciencia es una construcción que se hace entre todos, con seriedad, pero sobre todo con alegría. En la mesa están también la gente de la pajarera, Cristian, Encina, Victoria, Chacoma y Lourdes y Jorge (en realidad Jorge no es de la pajarera, porque es teórico, pero nadie hace muchas distinciones acá), gente que acompañó al tipo en interminables horas de tesis y materias.
+
+Hay una mesa más, en la que se encuentran sus compañeros de teatro Rodrigo, Tato, Silvina, Marianela, Fabián, Fran y el profe, Adrián. La verdad es que el tipo nunca pensó que podría aprender algo que no sea física pero en ese taller se dio cuenta lo equivocado que estaba.
+
+En la última mesa, en la que está el asiento del tipo (menos mal, me parece que ya se estaba cansando de caminar), están sus viejos, Lucía y Antonio con sus respectivas parejas, Claudio y Silvia, sus tíos y su hermana, su persona más importante, Ayelén. Todos lo acompañaron en cada momento de su vida, a veces peleando, a veces riendo, pero siempre dispuestos a brindar un apoyo sin el cual el tipo no sería nada.
+
+En ese momento, el tipo se da cuenta de qué es lo que está pasando. Se da cuenta de que el tipo soy yo, que yo los reuní a todos acá, en estas líneas, que es el único lugar donde puedo hacerlo. Parece una tontería, pero los reuní para darles las gracias. No sé si hoy puedo decir que soy algo en la vida, pero si lo soy, es gracias a todos ustedes. Muchas gracias.
+%\newpage
+
+Voy a hacer un corte de las cursis líneas que preceden para hacer extenso mi agradecimiento al Instituto Balseiro, Comisión Nacional de Energía Atómica, la Universidad Nacional de Rosario y el Instituto Politécnico Superior. Todas estas instituciones públicas me dieron casi toda la formación necesaria para que hoy pueda estar escribiendo esto, en forma completamente gratuita durante los primeros siete años. En los años siguientes no sólo no tuve que pagar un solo peso por obtener esta educación de calidad, sino que además tuve el privilegio de ser becado para poder hacerlo. Creo que todo esto fue posible porque detrás hay una sociedad, un estado que cree y confía que el camino a una sociedad más justa, libre y soberana, sólo puede construirse con educación. A ellos les agradezco y espero que los años de trabajo que vienen no los defrauden.
+\end{seccion}
+
+\end{postliminary}
+
+\end{document}

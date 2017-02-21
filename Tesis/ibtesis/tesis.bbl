@@ -1,0 +1,300 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+
+\bibitem{squires}
+Squires, G.~L.
+\newblock {Introduction to the theory of thermal neutron scattering}.
+\newblock Cambridge University Press, Cambridge ; New York :, 1978.
+
+\bibitem{secceff}
+NIST.
+\newblock {Neutron scattering lengths and cross sections}.
+\newblock $\backslash$url\{http://webster.ncnr.nist.gov/resources/n-lengths/\},
+  2003.
+
+\bibitem{knoll}
+Knoll, G.~F.
+\newblock {Radiation detection and measurement / Glenn F. Knoll}.
+\newblock 2\raise1ex\hbox{\underbar{\scriptsize a}}
+  ed\raise1ex\hbox{\underbar{\scriptsize \'on}}. Wiley, New York :, 1989.
+\newblock \urlprefix\url{http://www.loc.gov/catdir/toc/onix05/88026142.html}.
+
+\bibitem{Bardeen1957}
+Bardeen, J., Cooper, L.~N., Schrieffer, J.~R.
+\newblock {Theory of Superconductivity}.
+\newblock \emph{Phys. Rev.}, \textbf{108}~(5), 1175--1204, 1957.
+\newblock \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.108.1175}.
+
+\bibitem{Irwin2005}
+Irwin, K.~D., Hilton, G.~C.
+\newblock {Transition-Edge Sensors}.
+\newblock \underline{En}: Topics of Applied Physics, tomo~99, cap.~3, p\'ags.
+  63--152. American Institute of physics, 2005.
+
+\bibitem{Mccammon2005}
+McCammon, D.
+\newblock {Thermal Equilibrium Calorimeters – An Introduction}.
+\newblock \underline{En}: Topics of Applied Physics, tomo~36, cap.~1, p\'ags.
+  1--36. American Physical Society, 2005.
+
+\bibitem{Smith2012}
+Smith, D.~H., Gillett, G., de~Almeida, M.~P., Branciard, C., Fedrizzi, A.,
+  Weinhold, T.~J., \emph{et~al.}
+\newblock Conclusive quantum steering with superconducting transition-edge
+  sensors.
+\newblock \emph{Nature communications}, \textbf{3}, 625, jan 2012.
+\newblock
+  \urlprefix\url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=327%
+4704\&tool=pmcentrez\&rendertype=abstract}.
+
+\bibitem{Hilton1998}
+Hilton, G.~C., Martinis, J.~M., Wollman, D.~A., Irwin, K.~D., Dulcie, L.~L.,
+  Gerber, D., \emph{et~al.}
+\newblock {Impact energy measurement in time-of-flight mass spectrometry with
+  cryogenic microcalorimeters.}
+\newblock \emph{Nature}, \textbf{391}~(6668), 672--675, 1998.
+\newblock
+  \urlprefix\url{http://www.biomedsearch.com/nih/Impact-energy-measurement-in-%
+time/9490410.html}.
+
+\bibitem{Andrews1942}
+Andrews, D.~H., {W. F. Brucksch}, J., Ziegler, W.~T., Blanchard, E.~R.
+\newblock {Attenuated Superconductors I. For Measuring Infra-Red Radiation}.
+\newblock \emph{Review of Scientific Instruments}, \textbf{13}~(7), 281--292,
+  1942.
+\newblock \urlprefix\url{http://link.aip.org/link/?RSI/13/281/1}.
+
+\bibitem{Andrews1949}
+Andrews, D.~H., Fowler, R.~D., Williams, M.~C.
+\newblock {The Effect of Alpha-particles on a Superconductor}.
+\newblock \emph{Phys. Rev.}, \textbf{76}~(1), 154--155, jul. 1949.
+\newblock \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRev.76.154.2}.
+
+\bibitem{Irwin1995}
+Irwin, K.~D.
+\newblock {An application of electrothermal feedback for high resolution
+  cryogenic particle detection}.
+\newblock \emph{Applied Physics Letters}, \textbf{66}~(15), 1998, 1995.
+\newblock
+  \urlprefix\url{http://link.aip.org/link/APPLAB/v66/i15/p1998/s1\&Agg=doi}.
+
+\bibitem{Buzea2001}
+{C. Buzea and T. Yamashita}.
+\newblock {Review of the superconducting properties of MgB2}.
+\newblock \emph{Superconductor Science and Technology}, \textbf{14}, 115--146,
+  2001.
+
+\bibitem{Nagamatsu2001}
+Nagamatsu, J., Nakagawa, N., Muranaka, T., Zenitani, Y., Akimitsu, J.
+\newblock {Superconductivity at 39 K in magnesium diboride.}
+\newblock \emph{Nature}, \textbf{410}~(6824), 63--64, mar. 2001.
+\newblock \urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/12906690}.
+
+\bibitem{Vaglio2002}
+Vaglio, R., Maglione, M.~G., Capua, R.~D.
+\newblock {High-quality MgB2 thin films in situ grown by dc magnetron
+  sputtering}.
+\newblock \emph{Superconductor Science and Technology}, \textbf{15},
+  1236--1239, 2002.
+
+\bibitem{Vinod2010}
+{Vinod K.}
+\newblock {Studies on development of MgB2 superconductor with improved in-field
+  critical current density}.
+\newblock Tesis Doctoral, Cochin University of Science and Technology, 2010.
+
+\bibitem{Naito2004}
+Naito, M., Ueda, K.
+\newblock {Growth and Properties of Superconducting MgB2 Thin Films}.
+\newblock \emph{Superconductor Science and Technology}, \textbf{17}~(7), 48,
+  feb. 2004.
+\newblock
+  \urlprefix\url{http://stacks.iop.org/0953-2048/17/i=7/a=R01?key=crossref.1ac%
+c5dcdcbab564a86e1cfe6fa09bdc8 http://arxiv.org/abs/cond-mat/0402333}.
+
+\bibitem{Satoh2003}
+Satoh, K., Yotsuya, T., Okayasu, S., Hojou, K., Katagiri, M., Saito, A.,
+  \emph{et~al.}
+\newblock {Design of neutron detector by using a novel superconductor MgB2}.
+\newblock \emph{Physica C}, \textbf{396}, 1501--1503, 2003.
+
+\bibitem{Nishikawa2008}
+Nishikawa, M., Kato, M., Machida, M., {Takekazu Ishida}.
+\newblock {Numerical simulations for signals from MgB2 superconducting
+  detector}.
+\newblock \underline{En}: 8th European Conference on Applied Superconductivity,
+  tomo 012276, p\'ag. 012276. 2008.
+
+\bibitem{Ishida2007}
+Ishida, T., Nishikawa, M., Miki, S., Shimakage, H., Wang, Z., Satoh, K.,
+  \emph{et~al.}
+\newblock {Superconducting radiation detector by using a microfabricated
+  MgB\$\_2\$ meander line}.
+\newblock \emph{Physica C: Superconductivity}, \textbf{460-462}, 618--619, sep.
+  2007.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0921453407006879%
+}.
+
+\bibitem{Miki2006}
+Miki, S., Fujiwara, D., {Hisashi Shimakage}, Z.~W., {Kazuo Satoh, Tsutomu
+  Yotsuya}, T.~I.
+\newblock {Superconducting characteristics of a MgB2 neutron detector
+  fabricated on SiN membrane}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research},
+  \textbf{559}, 763--765, 2006.
+
+\bibitem{Xi2004}
+Xi, X.~X., Pogrebnyakov, A.~V., Zeng, X.~H., Redwing, J.~M., Xu, S.~Y., Li, Q.,
+  \emph{et~al.}
+\newblock {Progress in the deposition of MgB2 thin films}.
+\newblock \emph{Superconductor Science and Technology}, \textbf{17}~(5),
+  S196--S201, mayo 2004.
+\newblock
+  \urlprefix\url{http://stacks.iop.org/0953-2048/17/i=5/a=021?key=crossref.449%
+99d8f6cf1ce95934012fa189913f0}.
+
+\bibitem{Zhai1995}
+{H.Y. Zhai, H.M. Christen, L. Zhang, M. Paranthaman, C. Cantoni, B.C. Sales,
+  P.H. Fleming, D.K. Christen, and D.H. Lowndes}.
+\newblock {Growth mechanism of superconducting MgB2 films prepared by various
+  methods}.
+\newblock \emph{Cond-mat/0103618}, \textbf{66}~(February), 1--16, 1995.
+
+\bibitem{Saito2002}
+Saito, A., Kawakami, A., Shimakage, H., Wang, Z.
+\newblock {As-grown MgB2 thin films deposited on Al2O3 substrates with
+  different crystal planes}.
+\newblock \emph{Superconductor Science and Technology}, \textbf{15},
+  1325--1329, 2002.
+
+\bibitem{Park2009}
+Park, S., Song, K., Kang, S., Lim, Y., Chung, J.-K., Kim, C.
+\newblock {Fabrication and characterization of superconducting MgB2 thin films
+  grown by rf sputtering and thermal evaporation method}.
+\newblock \emph{Physica C: Superconductivity}, \textbf{469}~(15-20),
+  1574--1577, oct. 2009.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0921453409003517%
+}.
+
+\bibitem{moffatt1981handbook}
+Moffatt, W.~G.
+\newblock {The handbook of binary phase diagrams}.
+\newblock N\raise1ex\hbox{\underbar{\scriptsize o}} v. 4 en The Handbook of
+  Binary Phase Diagrams. General Electric Company, Corporate Research and
+  Development, Technology Marketing Operation, 1981.
+\newblock \urlprefix\url{http://books.google.com.ar/books?id=AqSGTx3\_m0AC}.
+
+\bibitem{Barrabas2011}
+Barrabas, F.
+\newblock {S\'{\i}ntesis y caracterizaci\'{o}n de pel\'{\i}culas de MgB\_2}.
+\newblock \emph{Instituto Balseiro}, 2011.
+
+\bibitem{Kim2003}
+Kim, J., Singh, R., Newman, N., Rowell, J.
+\newblock {Thermochemistry of MgB2 thin film synthesis}.
+\newblock \emph{IEEE Transactions on Appiled Superconductivity},
+  \textbf{13}~(2), 3238--3241, jun. 2003.
+\newblock
+  \urlprefix\url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber%
+=1212315}.
+
+\bibitem{Lui2003}
+Liu, C.
+\newblock {Effect of heat-treatment temperatures on density and porosity in
+  MgB2 superconductor}.
+\newblock \emph{Physica C: Superconductivity}, \textbf{386}, 603--606, abr.
+  2003.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0921453402021706%
+}.
+
+\bibitem{Putti2003}
+Putti, M., Affronte, M., Manfrinetti, P., Palenzona, A.
+\newblock {Effects of Al doping on the normal and superconducting properties of
+  MgB2: A specific heat study}.
+\newblock \emph{Physical Review B}, \textbf{68}~(9), 1--6, sep. 2003.
+\newblock \urlprefix\url{http://link.aps.org/doi/10.1103/PhysRevB.68.094514}.
+
+\bibitem{Bauer2001}
+Bauer, E., Paul, C., Berger, S., Majumdar, S., Michor, H., Giovannini, M.,
+  \emph{et~al.}
+\newblock {Thermal conductivity of superconducting MgB2}.
+\newblock \emph{Journal of Physics: Condensed matter}, \textbf{13}, L487--493,
+  2001.
+
+\bibitem{Flubacher1959}
+Flubacher, P., Leadbetter, A.~J., Morrison, J.~A.
+\newblock {The heat capacity of pure silicon and germanium and properties of
+  their vibrational frequency spectra}.
+\newblock \emph{Philosophical Magazine}, \textbf{4}~(39), 273--294, 1959.
+\newblock
+  \urlprefix\url{http://www.tandfonline.com/doi/abs/10.1080/14786435908233340}.
+
+\bibitem{incropera}
+Incropera, F.~P.
+\newblock {Fundamentals of heat and mass transfer}.
+\newblock N\raise1ex\hbox{\underbar{\scriptsize o}} v. 1 en Fundamentals of
+  Heat and Mass Transfer. John Wiley, 2007.
+\newblock \urlprefix\url{http://books.google.com.ar/books?id=\_P9QAAAAMAAJ}.
+
+\bibitem{Glassbrenner1964}
+Glassbrenner, C.~J., Slack, G.~A.
+\newblock {Thermal Conductivity of Silicon and Germanium from 3 K to the
+  Melting Point}.
+\newblock \emph{Physical Review}, \textbf{134}~(4A), A1058--A1069, 1964.
+
+\bibitem{Ekin2006}
+Ekin, J.
+\newblock {Experimental Techniques: Cryostat Design, Material Properties and
+  Superconductor Critical-Current Testing}.
+\newblock Oxford University Press, USA, 2006.
+\newblock \urlprefix\url{http://books.google.com.ar/books?id=Q9tmZQTDPiYC}.
+
+\bibitem{Sears1964}
+Sears, F.~W., Zemansky, M.~W.
+\newblock {University physics}.
+\newblock N\raise1ex\hbox{\underbar{\scriptsize o}} v. 2 en Addison-Wesley
+  series in physics. Addison-Wesley Pub. Co., 1964.
+\newblock \urlprefix\url{http://books.google.es/books?id=zu4yAAAAMAAJ}.
+
+\bibitem{Machida2004}
+Machida, M., Koyama, T., Kato, M., Ishida, T.
+\newblock {Direct numerical experiments for neutron detection using
+  superconductor MgB2}.
+\newblock \emph{Nuclear Instruments and Methods in Physics Research Section A:
+  Accelerators, Spectrometers, Detectors and Associated Equipment},
+  \textbf{529}~(1-3), 409--412, ago. 2004.
+\newblock
+  \urlprefix\url{http://linkinghub.elsevier.com/retrieve/pii/S0168900204009386%
+}.
+
+\bibitem{Ishida2008}
+Ishida, T., Nishikawa, M., Fujita, Y., Okayasu, S., Katagiri, M., Satoh, K.,
+  \emph{et~al.}
+\newblock {Superconducting MgB\$\_2\$ Thin Film Detector for Neutrons}.
+\newblock \emph{Journal of Low Temperature Physics}, \textbf{151}~(3-4),
+  1074--1079, jan 2008.
+\newblock
+  \urlprefix\url{http://www.springerlink.com/index/10.1007/s10909-008-9790-x}.
+
+\bibitem{He2002}
+He, T., Cava, R.~J., Rowell, J.~M.
+\newblock {Reactivity of MgB2 with common substrate and electronic materials}.
+\newblock \emph{Applied Physics Letters}, \textbf{80}~(2), 291--293, 2002.
+\newblock
+  \urlprefix\url{http://link.aip.org/link/APPLAB/v80/i2/p291/s1\&Agg=doi}.
+
+\bibitem{tablaconductividad}
+Schuller, I.~K.
+\newblock Tabla de calores espec\'ificos.
+\newblock \url{http://10.73.20.101/intranet/index.php/Tablas}.
+
+\bibitem{tablacalor}
+Schuller, I.~K.
+\newblock Tabla de conductividades t\'ermicas.
+\newblock \url{http://10.73.20.101/intranet/index.php/Tablas}.
+
+\end{thebibliography}

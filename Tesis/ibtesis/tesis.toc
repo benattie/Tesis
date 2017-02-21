@@ -1,0 +1,40 @@
+\select@language {spanish}
+\contentsline {chapter}{\'{I}ndice de contenidos}{\es@scroman {ii}}{section*.1}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {iv}}{section*.3}
+\contentsline {chapter}{\'{I}ndice de tablas}{\es@scroman {vi}}{section*.5}
+\contentsline {chapter}{\'{I}ndice de s{\'{\i }}mbolos}{\es@scroman {vii}}{section*.7}
+\contentsline {chapter}{Resumen}{\es@scroman {ix}}{section*.9}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Algunas ideas sobre superconductividad}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Sensores superconductores de borde de transici\IeC {\'o}n}{5}{section.1.3}
+\contentsline {section}{\numberline {1.4}El superconductor MgB$_2$}{6}{section.1.4}
+\contentsline {section}{\numberline {1.5}Crecimiento de films de MgB$_2$}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}Objetivos y organizaci\IeC {\'o}n de la tesis}{8}{section.1.6}
+\contentsline {chapter}{\numberline {2}Dise\IeC {\~n}o del detector}{10}{chapter.2}
+\contentsline {section}{\numberline {2.1}Respuesta t\IeC {\'e}rmica del detector}{11}{section.2.1}
+\contentsline {section}{\numberline {2.2}Se\IeC {\~n}al del detector}{15}{section.2.2}
+\contentsline {section}{\numberline {2.3}Acoplamiento t\IeC {\'e}rmico-el\IeC {\'e}ctrico}{17}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Simulaciones a corriente constante}{19}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Simulaciones a tensi\IeC {\'o}n constante}{20}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Eficiencia del detector}{23}{section.2.4}
+\contentsline {chapter}{\numberline {3}Crecimiento de films de MgB$_2$ por evaporaci\IeC {\'o}n}{27}{chapter.3}
+\contentsline {section}{\numberline {3.1}Procedimiento}{27}{section.3.1}
+\contentsline {section}{\numberline {3.2}Caracterizaci\IeC {\'o}n de los films de MgB$_2$}{30}{section.3.2}
+\contentsline {section}{\numberline {3.3}An\IeC {\'a}lisis del m\IeC {\'e}todo}{33}{section.3.3}
+\contentsline {chapter}{\numberline {4}Crecimiento de films de MgB$_2$ por sputtering}{34}{chapter.4}
+\contentsline {section}{\numberline {4.1}Procedimiento}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}Caracterizaci\IeC {\'o}n de los films de MgB$_2$}{37}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Espesores y velocidad de crecimiento}{37}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Caracterizaci\IeC {\'o}n de la estructura cristalina por rayos X}{38}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Caracterizaci\IeC {\'o}n de la composici\IeC {\'o}n por EDX}{40}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Caracterizaci\IeC {\'o}n de la composici\IeC {\'o}n por RBS}{43}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Caracterizaci\IeC {\'o}n de las propiedades magn\IeC {\'e}ticas y de transporte}{45}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}An\IeC {\'a}lisis del m\IeC {\'e}todo}{47}{section.4.3}
+\contentsline {chapter}{\numberline {5}Conclusiones}{48}{chapter.5}
+\contentsline {chapter}{\numberline {A}Tablas de calor espec\IeC {\'\i }fico, conductividad t\IeC {\'e}rmica y el\IeC {\'e}ctrica utilizadas en las simulaciones por elementos finitos}{50}{appendix.A}
+\contentsline {section}{\numberline {A.1}Propiedades f\IeC {\'\i }sicas del MgB$_2$}{51}{section.A.1}
+\contentsline {section}{\numberline {A.2}Propiedades f\IeC {\'\i }sicas del silicio}{54}{section.A.2}
+\contentsline {section}{\numberline {A.3}Propiedades f\IeC {\'\i }sicas del zafiro}{56}{section.A.3}
+\contentsline {chapter}{Bibliograf{\'{\i }}a}{57}{section*.63}
+\contentsline {chapter}{Agradecimientos}{61}{section*.65}

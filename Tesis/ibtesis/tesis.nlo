@@ -1,0 +1,58 @@
+\nomenclatureentry{1$\lambda$@[{$\lambda$}]\begingroup Longitud de onda, longitud de penetración de un superconductor.\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{2$\mu_{n}$@[{$\mu_{n}$}]\begingroup Momento magnético del neutrón.\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{3$Z$@[{$Z$}]\begingroup Número atómico\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{4$m_{n}$@[{$m_{n}$}]\begingroup Masa del neutrón\nomeqref {1.0}|nompageref}{1}
+\nomenclatureentry{barn@[{barn}]\begingroup Unidad de área, equivale a 10$^{-28}$\,m$^{2}$\nomeqref {1.0}|nompageref}{3}
+\nomenclatureentry{T@[{T}]\begingroup Temperatura.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{t@[{t}]\begingroup Tiempo.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$B$@[{$B$}]\begingroup Inducción magnética.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$T_{c}$@[{$T_{c}$}]\begingroup Temperatura crítica de un superconductor.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$H_{c}$@[{$H_{c}$}]\begingroup Campo magnético crítico de un superconductor.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$J_c$@[{$J_c$}]\begingroup Densidad de corriente crítica de un superconductor.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$v_{F}$@[{$v_{F}$}]\begingroup Velocidad de Fermi.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$\xi$@[{$\xi$}]\begingroup Longitud de coherencia superconductora.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$k_{B}$@[{$k_{B}$}]\begingroup Constante de Boltzmann. En el SI vale 1.38 10$^{-23}$\,J/K.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{$E_{gap}$@[{$E_{gap}$}]\begingroup Energía del gap superconductor. Es la energía necesaria para romper un par de Cooper.\nomeqref {1.0}|nompageref}{4}
+\nomenclatureentry{TES@[{TES}]\begingroup Siglas en inglés de sensor de borde de transición.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$\tau_0$@[{$\tau_0$}]\begingroup Tiempo de relajación natural de un sistema.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$\tau$@[{$\tau$}]\begingroup Tiempo de relajación de un sistema.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$V$@[{$V$}]\begingroup Tensión aplicada a un circuito.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$I$@[{$I$}]\begingroup Corriente que pasa por un circuito.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$R$@[{$R$}]\begingroup Resistencia eléctrica.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$E$@[{$E$}]\begingroup Energía depositada en un detector.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$C$@[{$C$}]\begingroup Capacidad calorífica de un sistema.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$G$@[{$G$}]\begingroup Vínculo térmico entre un sistema y una fuente térmica.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{SQUID@[{SQUID}]\begingroup Siglas en inglés para dispositivo superconductor de interferencia cuántica.\nomeqref {1.2}|nompageref}{6}
+\nomenclatureentry{$Q$@[{$Q$}]\begingroup Energía liberada por una reacción.\nomeqref {1.3}|nompageref}{7}
+\nomenclatureentry{$d$@[{$d$}]\begingroup Espesor de un film o cable.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$l$@[{$l$}]\begingroup Longitud de un cable.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$a$@[{$a$}]\begingroup Ancho de un cable.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$\kappa$@[{$\kappa$}]\begingroup Conductividad térmica.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$c_p$@[{$c_p$}]\begingroup Calor específico a presión constante.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$A$@[{$A$}]\begingroup Área del detector.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$V_{hs}$@[{$V_{hs}$}]\begingroup Volumen en que se deposita la energía de una reacción.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$\delta$@[{$\delta$}]\begingroup Densidad de un material.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$\rho$@[{$\rho$}]\begingroup Resistividad de un material.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$T_{hs}$@[{$T_{hs}$}]\begingroup Temperatura que alcanza el volumen en donde se deposita la energía de la reacción.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$T_o$@[{$T_o$}]\begingroup Temperatura de operación del detector.\nomeqref {2.2}|nompageref}{15}
+\nomenclatureentry{$\sigma$@[{$\sigma$}]\begingroup Conductividad eléctrica.\nomeqref {2.3}|nompageref}{19}
+\nomenclatureentry{$S$@[{$S$}]\begingroup Sección eficaz total para la interacción entre un núcleo y un neutrón.\nomeqref {2.8}|nompageref}{26}
+\nomenclatureentry{$n$@[{$n$}]\begingroup Número de átomos por unidad de volumen.\nomeqref {2.8}|nompageref}{26}
+\nomenclatureentry{$\lambda_n$@[{$\lambda_n$}]\begingroup Camino libre medio de un neutrón en un material dado.\nomeqref {2.8}|nompageref}{26}
+\nomenclatureentry{$p$@[{$p$}]\begingroup Presión hidrostática.\nomeqref {3.0}|nompageref}{28}
+\nomenclatureentry{$H$@[{$H$}]\begingroup Campo magnético aplicado.\nomeqref {3.0}|nompageref}{29}
+\nomenclatureentry{$K$@[{$K$}]\begingroup Energía cinética.\nomeqref {4.1}|nompageref}{35}
+\nomenclatureentry{$P$@[{$P$}]\begingroup Potencia eléctrica.\nomeqref {4.1}|nompageref}{35}
+\nomenclatureentry{$Y$@[{$Y$}]\begingroup Sputtering yield.\nomeqref {4.1}|nompageref}{35}
+\nomenclatureentry{$d_s$@[{$d_s$}]\begingroup Espesor del sustrato.\nomeqref {4.3}|nompageref}{37}
+\nomenclatureentry{$A_s$@[{$A_s$}]\begingroup Área del sustrato.\nomeqref {4.3}|nompageref}{37}
+\nomenclatureentry{$\dot{q}$@[{$\dot{q}$}]\begingroup Flujo de calor.\nomeqref {4.3}|nompageref}{37}
+\nomenclatureentry{$e$@[{$e$}]\begingroup Separación entre planos cristalinos.\nomeqref {4.4}|nompageref}{38}
+\nomenclatureentry{$\theta$@[{$\theta$}]\begingroup Ángulo formado entre la normal a un plano y la dirección de propagación de la radiación incidente/saliente.\nomeqref {4.4}|nompageref}{38}
+\nomenclatureentry{$Int_{E}$@[{$Int_{E}$}]\begingroup Integral del pico correspondiente al elemento $E$, en un espectro de EDX.\nomeqref {4.6}|nompageref}{41}
+\nomenclatureentry{$T_{crec}$@[{$T_{crec}$}]\begingroup Temperatura a la que se crece un film.\nomeqref {4.6}|nompageref}{47}
+\nomenclatureentry{$v_{crec}$@[{$v_{crec}$}]\begingroup Velocidad de crecimiento de un film.\nomeqref {4.6}|nompageref}{47}
+\nomenclatureentry{EDX@[{EDX}]\begingroup Siglas en inglés para espectroscopia por rayos X característicos.\nomeqref {4.6}|nompageref}{47}
+\nomenclatureentry{RBS@[{RBS}]\begingroup Siglas en inglés para retrodispersión de Rutherford.\nomeqref {4.6}|nompageref}{47}
+\nomenclatureentry{$\varepsilon$@[{$\varepsilon$}]\begingroup Constante de proporcionalidad.\nomeqref {4.6}|nompageref}{47}
+\nomenclatureentry{$x$@[{$x$}]\begingroup Proporción B/Mg de una muestra.\nomeqref {4.6}|nompageref}{47}
