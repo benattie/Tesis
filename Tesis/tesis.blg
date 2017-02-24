@@ -4,48 +4,45 @@ The top-level auxiliary file: tesis.aux
 The style file: ibtesis.bst
 A level-1 auxiliary file: ./Resumen/resumen.aux
 A level-1 auxiliary file: ./Caps/01_intro.aux
-I found no \citation commands---while reading file tesis.aux
-Database file #1: ./bib/biblio.bib
-Database file #2: ./bib/otra.bib
-You've used 0 entries,
-            2634 wiz_defined-function locations,
-            1029 strings with 9261 characters,
-and the built_in function-call counts, 22 in all, are:
-= -- 0
-> -- 0
+Database file #1: ./bib/library.bib
+You've used 1 entry,
+            2652 wiz_defined-function locations,
+            1041 strings with 9548 characters,
+and the built_in function-call counts, 449 in all, are:
+= -- 31
+> -- 12
 < -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
++ -- 6
+- -- 3
+* -- 32
+:= -- 55
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 1
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 1
+duplicate$ -- 42
+empty$ -- 43
+format.name$ -- 4
+if$ -- 91
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 5
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 1
+missing$ -- 11
+newline$ -- 11
+num.names$ -- 1
+pop$ -- 14
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 5
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
+substring$ -- 25
+swap$ -- 32
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 4
-(There was 1 error message)
+while$ -- 3
+width$ -- 2
+write$ -- 17

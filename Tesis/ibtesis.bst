@@ -71,6 +71,7 @@ ENTRY
   {}
   { label }
 INTEGERS { output.state before.all mid.sentence after.sentence after.block }
+
 FUNCTION {init.state.consts}
 { #0 'before.all :=
   #1 'mid.sentence :=
@@ -198,7 +199,13 @@ FUNCTION {underline}
     { "\underline{" swap$ * "}" * }
   if$
 }
-
+% Custom function
+FUNCTION {smallcaps}
+{ duplicate$ empty$
+    { pop$ "" }
+    { "\textsc{" swap$ * "}" * }
+  if$
+}
 FUNCTION {emphasize}
 { duplicate$ empty$
     { pop$ "" }
@@ -747,7 +754,7 @@ FUNCTION {format.names.ed}
   } if$
 }
 FUNCTION {format.authors}
-{ author "author" format.names
+{ author "author" format.names smallcaps
 }
 FUNCTION {get.bbl.editor}
 { editor num.names$ #1 > 'bbl.editors 'bbl.editor if$ }

@@ -1,5 +1,14 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
+
+\bibitem{Mainprice2011}
+\textsc{Mainprice, D., Hielscher, R., Schaeben, H.}
+\newblock {Calculating anisotropic physical properties from texture data using
+  the MTEX open-source package}.
+\newblock \emph{Geol. Soc. London, Spec. Publ.}, \textbf{360}~(1), 175--192,
+  nov 2011.
+\newblock
+  \urlprefix\url{http://sp.lyellcollection.org/cgi/doi/10.1144/SP360.10}.
 
 \end{thebibliography}

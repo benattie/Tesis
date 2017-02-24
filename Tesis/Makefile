@@ -13,7 +13,7 @@ FOLDER/FILE1.tex: $(FILEM).tex
 	$(TEX) $(FILEM)
 	$(TEX) $(FILEM)
 	$(INDEX) $(FILEM).nlo -s nomencl.ist -o $(FILEM).nls
-	# $(BIBTEX) $(FILEM)
+	$(BIBTEX) $(FILEM)
 	$(TEX) $(FILEM)
 	$(TEX) $(FILEM)
 	$(VIEW) $(FILEM).pdf
