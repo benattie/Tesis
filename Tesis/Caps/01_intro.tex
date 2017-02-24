@@ -3,20 +3,57 @@
 \chapterquote{La destrucción es obra de una tarde. La creación es obra de una vida.}{Kamahl, acólito druida}
 \section{Motivación}\label{S:motivacion}
 
+\section{Difracción de Rayos X}\label{S:DRX}
+Los rayos X son una herramienta de vital importancia para el estudio de los materiales cristalinos. 
+En la difracción de Rayos X (DRX), un haz monocromático de de rayos X de longitud de onda $\lambda$ incide sobre una dada muestra (Fig. \ref{fig:Bragg}). 
+Si el cristal es infinito y está libre de cualquier tipo de distorsiones, para una dada familia de planos ${hkl}$, habrá interferencia constructiva para los haces salientes que cumplan con la condición de Bragg[ref]:
 
-\begin{figure}[tbh!]
- \begin{center}
-%%    \includegraphics[width=\textwidth]{secceff}
-  \end{center}
-  \caption{.}
-\label{fig:}
-\end{figure}
-
-\nomenclature{T}{Temperatura.}
+Esto esta medio medio, hay que hablar de que los cristales estan en arreglos periodicos de atomos
 
 \begin{equation}
-  ^{10}\text{B} \ + \text{n} \ \rightarrow \ ^{4}\text{He} \ + ^{7}\text{Li}
-  \label{eq:reaccion}
+  2 \ d_{hkl} \ \sin(\theta_{B}) \ = \ n \ \lambda
+  \label{eq:Bragg}
 \end{equation}
 \noindent
+siendo $d_{hkl}$ la distancia interplanar de la familia de planos {hkl}, 2$\theta_{B}$ el ángulo formado entre el haz incidente y el haz reflejado y $n$ el número de orden de difracción. 
 
+Hay que pensar en el planteo mas riguroso, usando los vectores K, porque lo voy a necesitar para explicar williamson hall
+
+\nomenclature{$\lambda$}{Longitud de onda}
+\nomenclature{$d_{hkl}$}{Distacia interplanar para la familia de planos $hkl$}
+
+\begin{figure}[htb!]
+  \centering
+  \includegraphics[width=\imsize]{BraggLaw}
+  \caption{Ley de Bragg}
+  \label{fig:Bragg}
+\end{figure}
+
+Una consecuencia de la ley expresada en la Ec. \ref{eq:Bragg} es que para un cierto haz incidente habrá reflexiones cuyas distribución de intensidades serán funciones deltas de Dirac[ref], con intensidad infinita para el ángulo $\theta_{B}$ e intensidad nula para los ángulos $\theta$ que no cumplan con la condición de Bragg. Como resultado, los "picos" de difracción tendrán además un ancho nulo. 
+Si, como ocurre en la práctica, el número de planos que contribuyen a la reflexión es finito, la distribución angular de intensidades tendrán un ancho y altura finitos, y lo mismo ocurrirá si la red de átomos tiene distorsiones, es decir, si los átomos no se encuentran en un arreglo perfectamente periódico. 
+En un experimento de DRX real aparecerán además otras contribuciones que ensancharán los picos de difracción. 
+Por un lado el haz incidente no será puntual ni estará constituido por haces completamente paralelos, sino que tendrá de un tamaño finito y estará comprendido entre haces que tendrán cierta divergencia angular. 
+Además, el haz no será completamente monocromático, sino que estará inegrado por rayos X con longitudes de onda en un intervalo $(\lambda \ \pm \ \Delta \lambda)$. 
+Todos estos factores cotribuirán a que haya haces difractados en las vecindades de $\theta_{B}$, aumentando el ancho de los picos de difracción.
+
+
+
+Hay que hablar de los principios de medicion, rayos X de laboratorio y de sincrotron
+Estudio de ancho de pico, Langford, Williamson Hall, Warren Averbach y CMWP
+
+\section{Difracción de electrones retro difundidos}\label{S:EBSD}
+Cómo se mide y cómo se pueden relacionar las magnitudes de EBSD con las de RX
+Que permite y que no permite ver en comparacion con RX
+
+¿Hablo de TEM?
+ 
+\section{Textura cristalográfica}\label{S:Text}
+Definicion de textura, relacion con los procesos de deformacion y la microestructura.
+ODF: definicion y obtencion a partir de RX y EBSD. Diferencias de los dos métodos.
+
+\subsection{FDO y FDO generalizada}\label{SS:ODF}
+Relacion entre la ODF y la ODF generalizada. Relacion de FWHM y energía de deformacion.
+
+\section{Revisión bibliográfica y estado del arte}\label{S:RB}
+
+\section{Organización de la tesis}\label{S:Org}

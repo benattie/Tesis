@@ -1,15 +1,18 @@
 # Makefile for building C stuff with GSL
 #
 FILEM=tesis
+FOLDER=Caps
 FILE1=01_intro
 TEX=pdflatex
 BIBTEX=bibtex
+INDEX=makeindex
 VIEW=okular
 FLAGS = -Wall -O3 -I/usr/local/include
 
-$(FILEM).pdf: $(FILEM).tex
+FOLDER/FILE1.tex: $(FILEM).tex
 	$(TEX) $(FILEM)
 	$(TEX) $(FILEM)
+	$(INDEX) $(FILEM).nlo -s nomencl.ist -o $(FILEM).nls
 	# $(BIBTEX) $(FILEM)
 	$(TEX) $(FILEM)
 	$(TEX) $(FILEM)

@@ -1,6 +1,14 @@
 \select@language {spanish}
 \contentsline {chapter}{\'{I}ndice de contenidos}{\es@scroman {ii}}{section*.1}
-\contentsline {chapter}{Resumen}{\es@scroman {iii}}{section*.3}
+\contentsline {chapter}{\'{I}ndice de figuras}{\es@scroman {iii}}{section*.3}
+\contentsline {chapter}{\'{I}ndice de s{\'{\i }}mbolos}{\es@scroman {iv}}{section*.5}
+\contentsline {chapter}{Resumen}{\es@scroman {v}}{section*.7}
 \contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{1}{section.1.1}
-\contentsline {chapter}{Bibliograf{\'{\i }}a}{2}{section*.6}
+\contentsline {section}{\numberline {1.2}Difracci\IeC {\'o}n de Rayos X}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Difracci\IeC {\'o}n de electrones retro difundidos}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Textura cristalogr\IeC {\'a}fica}{2}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}FDO y FDO generalizada}{2}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Revisi\IeC {\'o}n bibliogr\IeC {\'a}fica y estado del arte}{2}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organizaci\IeC {\'o}n de la tesis}{2}{section.1.6}
+\contentsline {chapter}{Bibliograf{\'{\i }}a}{3}{section*.10}
