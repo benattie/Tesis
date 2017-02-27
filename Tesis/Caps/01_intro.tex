@@ -55,11 +55,40 @@ En el año 1938 [ref] Jones señaló que el perfil de intensidades medido en un 
   \label{eq:conv}
 \end{equation}
 \noindent
-De esta manera, Jones logró remover las contribuciones de las líneas $K\alpha_2$ de la radiación del cobre en las mediciones de tamaño de cristalita.
+De esta manera, Jones logró remover las contribuciones de las líneas $K\alpha_2$ de la radiación del cobre en las mediciones de tamaño de cristalita. 
+En el año 1949 Hall[ref] usó la formulación de Stokes y Wilson [ref] para proponer un método para separar las contribuciones de los efectos de tamaño de cristalita y de deformación de la red cristalina, basándose en el hecho de que cada contribución varía de una forma característica con el orden de difracción. 
+Al graficar el ancho integral de cada pico de difracción en función de $K$, los puntos se acomodan en una recta cuya pendiente está relacionada con el nivel de deformación de la red, y cuya ordenada al origen es el recíproco del tamaño de cristalita promedio ($D$):
+\begin{equation}
+  \beta \ \cos(\frac{\theta}{\lambda}) \ = \frac{1}{D} \ + \ \left(\frac{\eta}{2}\right) \ K
+  \label{eq:WHPlot}
+\end{equation}
+\noindent
+siendo $\eta$ una cantidad que es proporcional a la distorsión de la red cristalina y $\beta$ es el ancho integral de cada reflexión. La primera versión del método de Williamson-Hall, que es como se llamó a la aplicación de la Ec. \ref{eq:WHPlot}, se basa en la suposición de que los picos de difracción tienen un perfil lorentziano.
+
+En el año 1949, Warren y Averbach [ref] también utilizaron la formulación de Stokes y Wilson para derivar otro método para separar las contribuciones de distorsión y tamaño al ensanchamiento de los picos de rayos X. 
+El método de Warren-Averbach se basa en el hecho de que la transformada de Fourier de la convolución de dos funciones es simplemente el producto de las transformadas de Fourier de dichas funciones[ref].
+Por lo tanto, como el perfil de intensidades $I_{muestra}$ es la convolución del perfil obtenido por las contribuciones de tamaño $I_{T}$ y distorsión $I_{D}$, los coeficientes de Fourier del perfil de línea de la muestra $A_n$ son el producto de los coeficientes de tamaño $A_n^T$ y distorsión $A_n^D$:
+
+\begin{equation}
+  A_n \ = \ A_n^T \ A_n^D
+  \label{eq:FCoeff}
+\end{equation}
+\noindent
+Si $l$ es el orden de una dada reflexión, y la deformación media de la red cristalina es $<e^2>$, entonces la ecuación de Warren-Averbach dice que:
+
+\begin{equation}
+  \ln(A_n(l)) \ = \ \ln(A_n^T) \ - \ 2 \pi^2 n^2 l^2 \ <e^2>
+  \label{eq:WAPlot}
+\end{equation}
+\noindent
+
 
 
 \nomenclature{$H$ o $FWHM$}{Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).}
 \nomenclature{$L$}{Longitud característica de la cristalita.}
+\nomenclature{$<e^2>$}{Deformación cuadrática media de la red cristalina}
+\nomenclature{$l$}{Orden de reflexión}
+\nomenclature{$A_n$}{n-ésimo coeficiente de Fourier}
 
 Frase de Warren?
 Definicion de macro, micro, meso, nano estructura?
