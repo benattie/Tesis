@@ -1,6 +1,9 @@
-\nomenclatureentry{$\lambda$@[{$\lambda$}]\begingroup Longitud de onda\nomeqref {1.1}|nompageref}{1}
-\nomenclatureentry{$d_{hkl}$@[{$d_{hkl}$}]\begingroup Distacia interplanar para la familia de planos $hkl$\nomeqref {1.1}|nompageref}{1}
-\nomenclatureentry{$\theta_B$@[{$\theta_B$}]\begingroup Ángulo de Bragg\nomeqref {1.1}|nompageref}{1}
-\nomenclatureentry{XRD@[{XRD}]\begingroup Difracción de Rayos X\nomeqref {1.1}|nompageref}{1}
-\nomenclatureentry{$H$ o $FWHM$@[{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.6}|nompageref}{3}
-\nomenclatureentry{$L$@[{$L$}]\begingroup Longitud característica de la cristalita.\nomeqref {1.6}|nompageref}{3}
+\nomenclatureentry{$\lambda$@[{$\lambda$}]\begingroup Longitud de onda\nomeqref {1.1}|nompageref}{2}
+\nomenclatureentry{$d_{hkl}$@[{$d_{hkl}$}]\begingroup Distacia interplanar para la familia de planos $hkl$\nomeqref {1.1}|nompageref}{2}
+\nomenclatureentry{$\theta_B$@[{$\theta_B$}]\begingroup Ángulo de Bragg\nomeqref {1.1}|nompageref}{2}
+\nomenclatureentry{XRD@[{XRD}]\begingroup Difracción de Rayos X\nomeqref {1.1}|nompageref}{2}
+\nomenclatureentry{$H$ o $FWHM$@[{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.7}|nompageref}{4}
+\nomenclatureentry{$L$@[{$L$}]\begingroup Longitud característica de la cristalita.\nomeqref {1.7}|nompageref}{4}
+\nomenclatureentry{$<e^2>$@[{$<e^2>$}]\begingroup Deformación cuadrática media de la red cristalina\nomeqref {1.7}|nompageref}{4}
+\nomenclatureentry{$l$@[{$l$}]\begingroup Orden de reflexión\nomeqref {1.7}|nompageref}{4}
+\nomenclatureentry{$A_n$@[{$A_n$}]\begingroup n-ésimo coeficiente de Fourier\nomeqref {1.7}|nompageref}{4}
