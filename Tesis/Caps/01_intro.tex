@@ -4,34 +4,49 @@
 \section{Motivación}\label{S:motivacion}
 Dentro de la multitud de materiales existentes, los sólidos cristalinos son aquellos que tienen más impacto en el desarrollo de nuestra vida cotidiana. 
 Los sólidos cristalinos son materiales que están constituidos por cristales, que son arreglos periódicos de átomos. 
-Dado que en el transcurso de este trabajo sólo se hablará de sólidos cristalinos, cuando se hable de sólido, material o muestra, siempre se sobreentenderá que se está hablando de un sólido cristalino. 
-La unidad básica de un cristal es la denominada celda unidad, que se repite en las tres dimensiones del espacio, dándole al cristal una simetría de traslación. 
-Según el principio de Neumann[ref], las propiedades básicas de un sólido cristalino están determinadas en primer lugar por la de la celda unidad, y serán en general anisotrópicas, es decir dependerán de la orientación de dicha celda respecto a un cierto sistema de referencia.
-En un dado sólido, puede ocurrir que todos sus cristales tienen la misma orientación, en cuyo caso se dice que ese material es un mono-cristal. Si por el contrario, el sólido está constituido por cristales orientados en cualquier dirección, y todas las orientaciones se encuentran igualmente representadas, se dice entonces que el material es un poli-cristal. 
-En el caso más general se tendrá una situación intermedia entre un mono-cristal y un poli-cristal, es decir, los cristales tendrán una o más orientaciones preferenciales y habrá una cierta distribución en dichas orientaciones, lo que constituirá la textura de dicho material. La textura de un material es el segundo factor que condicionará la anisotropía de las propiedades macroscópicas de un sólido cristalino.
+Dado que en el transcurso de este trabajo sólo se hablará de sólidos cristalinos, cuando se hable de sólido, material o muestra, siempre se sobreentenderá que se está hablando de un sólido cristalino.
 
-Dar algunos ejemplos de relaciones entre textura y propiedades mecanicas.
+La unidad básica de un cristal es la denominada celda unidad, que se repite en las tres dimensiones del espacio, dándole al cristal una simetría de traslación. Utilizando los métodos de la teoría de grupos, se puede demostrar que existen sólo 14 formas de llenar el espacio con arreglos periódicos de átomos (Fig. \ref{fig:Bravais}), es decir, existen 14 tipos diferentes de celdas unitarias, que se denominan redes de Bravais\cite{hahn2005international}.
 
-En este trabajo se estudia la anisotropía de distintas aleaciones metálicas, buscando relaciones entre las deformaciones mecánicas sufridas por las muestras, su textura y los defectos acumulados por las mismas.
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.6\textwidth]{Bravais}
+  \caption{Las 14 Redes de Bravais posibles para un material tridimensional.}
+  \label{fig:Bravais}
+\end{figure}
 
-\cite{Mainprice2011}
-\section{Difracción de Rayos X}\label{S:DRX}
-Los rayos X son una herramienta de vital importancia para el estudio de los materiales cristalinos. 
-En la difracción de Rayos X (DRX), un haz monocromático de de rayos X de longitud de onda $\lambda$ incide sobre una dada muestra (Fig. \ref{fig:Bragg}). 
-Si el cristal es infinito y está libre de cualquier tipo de distorsiones, para una dada familia de planos ${hkl}$, habrá interferencia constructiva para los haces salientes que cumplan con la condición de Bragg[ref]:
-\begin{equation}
-  2 \ d_{hkl} \ \sin(\theta_{B}) \ = \ n \ \lambda
-  \label{eq:Bragg}
-\end{equation}
-\noindent
-siendo $d_{hkl}$ la distancia interplanar de la familia de planos $\{hkl\}$, 2$\theta_{B}$ el ángulo formado entre el haz incidente y el haz reflejado y $n$ el número de orden de difracción. 
+Sin embargo, a pesar de la variedad de posibles arreglos atómicos disponibles, se observa que en la naturaleza los metales tienden a formar sólo tres de esas estructuras, mostradas en la Fig. \ref{fig:celdasmetalicas} y que se denominan Cúbica Centrada en las Caras (FCC), Cúbica Centrada en el Cuerpo (BCC) y Hexagonal Compacta (HCP). Las siglas que se usarán para caracterizar a cada una de estas celdas están basadas en la nomenclatura inglesa, \textit{Face Centered Cubic}, \textit{Body Centered Cubic} y \textit{Hexagonal Close Packed}. En este trabajo se trabajará con materiales metálicos que tienen alguna de estas tres simetrías, y se pondrá especial foco en los materiales FCC y BCC.
 
-Hay que pensar en el planteo mas riguroso, usando los vectores K, porque lo voy a necesitar para explicar williamson hall
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{celdasmetalicas}
+  \caption{Las tres redes de Bravais que se ibservan en los materiales metálicos.}
+  \label{fig:celdasmetalicas}
+\end{figure}
 
-\nomenclature{$\lambda$}{Longitud de onda}
-\nomenclature{$d_{hkl}$}{Distancia interplanar para la familia de planos $hkl$}
-\nomenclature{$\theta_B$}{Ángulo de Bragg}
-\nomenclature{XRD}{Difracción de Rayos X}
+Según el principio de Neumann\cite{nye1985physical}, las propiedades básicas de un sólido cristalino están determinadas en primer lugar por la de la celda unidad, y serán en general anisotrópicas, es decir dependerán de la orientación de dicha celda respecto a un cierto sistema de referencia.
+En un dado sólido, puede ocurrir que todos sus cristales tienen la misma orientación, en cuyo caso se dice que ese material es un monocristal. Si por el contrario, el sólido está constituido por cristales orientados en cualquier dirección, y todas las orientaciones se encuentran igualmente representadas, se dice entonces que el material es un policristal. 
+En el caso más general se tendrá una situación intermedia entre un monocristal y un policristal, es decir, los cristales tendrán una o más orientaciones preferenciales y habrá una cierta distribución alrededor de dichas orientaciones, lo que constituirá la textura de dicho material. La textura de un material es el segundo factor que condicionará la anisotropía de las propiedades macroscópicas de un sólido cristalino.
+
+La relación entre textura, propiedades mecánicas y procesos de fabricación es de gran interés puro, pero especialmente aplicado, ya que la capacidad de controlar la textura, y con ello la anisotropía de las propiedades mecánicas de los materiales y en las respuesta de los mismos dentro de los procesos productivos. 
+Uno de los ejemplos más estereotípicos que se suele citar el el "orejeado" que puede producirse durante el embutido de chapas metálicas (Fig. \ref{fig:earing}), donde la anisotropía causada por la textura puede resultar en que la copa no tenga una altura homogénea, lo que produce un exceso importante en la chatarra que produce al cortar la boca de esas copas para eliminar el orejeado.
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.5\textwidth]{earingxcf}
+  \caption{Ejemplo de la influencia de la influencia de la textura en la respuesta mecánica que se puede observar en un material metálico, aluminio en este caso. La figura (a) muestra un ejemplo típico de "orejeado", producto de una anisotropía producida por la textura. El material de la figura (b) tiene una textura que resulta en una respuesta más isotrópica del material ante el embutido, eliminando así el orejeado. }
+  \label{fig:earing}
+\end{figure}
+
+Adicionalmente la textura no sólo condiciona las propiedades mecánicas de los materiales, sino que también influencia cómo estos materiales acumularán defectos una vez sometidos a diferentes solicitaciones. Por ejemplo, más adelante en esta tesis se verá como al laminar el acero, se favorecen dos tipos de orientaciones, pero los defectos tienden a acumularse en sólo una de ellas, lo cual a su vez afecta otras propiedades del acero como ser su dureza, ductilidad, etc.
+
+A partir de estas motivaciones surge este trabajo, en donde nos se propone estudiar la anisotropía de distintas aleaciones metálicas, buscando relaciones entre las deformaciones mecánicas sufridas por las muestras, su textura y los defectos acumulados en las mismas.
+
+\section{Cristalografía de Rayos X}\label{S:DRX}
+Los rayos X son una herramienta de vital importancia para el estudio de los materiales cristalinos, ya que de la interacción entre ambos se pueden observar los detalles acerca del ordenamiento de los átomos en un dado material.
+
+Sea un haz monocromático de rayos X de longitud de onda $\lambda$ y vector de onda $\mathbf{k_i}$ que incide sobre una dada muestra cristalina formando un ángulo $\theta$ con la familia de planos cristalinos ${hkl}$, como se observa en la Fig. \ref{fig:Bragg}.
+
 \begin{figure}[htb!]
   \centering
   \includegraphics[width=\imsize]{BraggLaw}
@@ -39,7 +54,34 @@ Hay que pensar en el planteo mas riguroso, usando los vectores K, porque lo voy 
   \label{fig:Bragg}
 \end{figure}
 
-Una consecuencia de la ley expresada en la Ec. \ref{eq:Bragg} es que para un cierto haz incidente habrá reflexiones cuyas distribución de intensidades serán funciones deltas de Dirac[ref], con intensidad infinita para el ángulo $\theta_{B}$ e intensidad nula para los ángulos $\theta$ que no cumplan con la condición de Bragg. Como resultado, los "picos" de difracción tendrán un ancho nulo. 
+Si el haz interactúa con la muestra elásticamente, será dispersado con la misma longitud de onda inicial, pero en una dirección marcada por el vector de onda $\mathbf{k_e}$, que cumplirá $\lvert \mathbf{k_i} \rvert \ = \ \lvert \mathbf{k_e} \rvert \ = \ \frac{2\pi}{\lambda}$, y que formará el mismo ángulo con la familia de planos ${hkl}$.
+Si el cristal es infinito y está libre de cualquier tipo de distorsiones, se observará que el haz dispersado tendrá intensidad máxima sólo cuando:
+\begin{equation}
+  \mathbf{K} \ = \ \mathbf{k_e} - \mathbf{k_i} \ = \ \mathbf{K_B} \ = \ \mathbf{G_{hkl}}
+  \label{eq:Braggvec}
+\end{equation}
+\noindent
+siendo $\mathbf{G_{hkl}}$ un vector de la red recíproca correspondiente a la familia de planos ${hkl}$.
+Ahora bien, como se puede ver en la Fig \ref{fig:Bragg}, $\displaystyle \lvert \mathbf{K} \rvert = \frac{2\sin\theta_B}{\lambda}$, y como $\displaystyle\lvert \mathbf{G_{hkl}} \rvert = \frac{n}{d_{hkl}}$, la condición de Bragg \ref{eq:Braggvec} puede escribirse también:
+\begin{equation}
+  2 \ d_{hkl} \ \sin(\theta_{B}) \ = \ n \ \lambda
+  \label{eq:Bragg}
+\end{equation}
+\noindent
+siendo $d_{hkl}$ la distancia interplanar de la familia de planos $\{hkl\}$, 2$\theta_{B}$ el ángulo formado entre el haz incidente y el haz reflejado cuando se cumple la condición de Bragg y $n$ el número de orden de difracción. La Ec. \ref{eq:Bragg}, se llama Ley de Bragg y es la ecuación fundamental de la difracción de Rayos X (DRX). 
+Adicionalmente, la Ley de Bragg es válida en la medida que se cumplan la condiciones de dispersión cinemática y la condición de difracción de Fraunhoffer. 
+
+La condición de dispersión cinemática se cumple cuando el fotón de rayos X que es dispersado interactúa solamente con un átomo de la muestra, y no es válida cuando se tiene un cristal verdaderamente perfecto.
+Por otro lado, la condición de Fraunhoffer implica que el detector se encuentra a una distancia mucho mayor que la longitud característica del cristal que está dispersando la radiación.
+Para las configuraciones de laboratorio típicas, esto implica que no se pueden estudiar cristales con dimensiones mayores a $~1\,\mu m$.
+Ambas aproximaciones serán válidas para los materiales y las condiciones experimentales mencionadas en este trabajo.
+
+\nomenclature{$\lambda$}{Longitud de onda}
+\nomenclature{$d_{hkl}$}{Distancia interplanar para la familia de planos $hkl$}
+\nomenclature{$\theta_B$}{Ángulo de Bragg}
+\nomenclature{XRD}{Difracción de Rayos X}
+
+Una consecuencia de la ley expresada en la Ec. \ref{eq:Bragg} es que para un cierto haz incidente habrá reflexiones cuyas distribución de intensidades serán funciones deltas de Dirac, con intensidad infinita para el ángulo $\theta_{B}$ e intensidad nula para los ángulos $\theta$ que no cumplan con la condición de Bragg. Como resultado, los "picos" de difracción tendrán un ancho nulo. 
 Si, como ocurre en la práctica, el número de planos que contribuyen a la reflexión es finito, la distribución angular de intensidades tendrán un ancho y altura finitos, y lo mismo ocurrirá si la red de átomos tiene distorsiones, es decir, si los átomos no se encuentran en un arreglo perfectamente periódico. 
 En un experimento de DRX real aparecerán además otras contribuciones que ensancharán los picos de difracción. 
 Por ejemplo, el haz incidente no será puntual ni estará constituido por haces completamente paralelos, sino que tendrá un tamaño finito y estará comprendido entre haces que tendrán cierta divergencia angular.

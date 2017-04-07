@@ -5,44 +5,46 @@ The style file: ibtesis.bst
 A level-1 auxiliary file: ./Resumen/resumen.aux
 A level-1 auxiliary file: ./Caps/01_intro.aux
 Database file #1: ./bib/library.bib
-You've used 1 entry,
+Database file #2: ./bib/Physical_Properties_of_Crystals.bib.bib
+Database file #3: ./bib/International_Tables_for_Crystallography.bib.bib
+You've used 2 entries,
             2652 wiz_defined-function locations,
-            1041 strings with 9548 characters,
-and the built_in function-call counts, 449 in all, are:
-= -- 31
-> -- 12
+            1048 strings with 9753 characters,
+and the built_in function-call counts, 498 in all, are:
+= -- 34
+> -- 8
 < -- 0
-+ -- 6
-- -- 3
-* -- 32
-:= -- 55
-add.period$ -- 4
-call.type$ -- 1
-change.case$ -- 1
++ -- 4
+- -- 2
+* -- 20
+:= -- 65
+add.period$ -- 10
+call.type$ -- 2
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 1
+cite$ -- 2
 duplicate$ -- 42
-empty$ -- 43
-format.name$ -- 4
-if$ -- 91
+empty$ -- 65
+format.name$ -- 2
+if$ -- 117
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 11
-newline$ -- 11
-num.names$ -- 1
-pop$ -- 14
+int.to.str$ -- 2
+missing$ -- 14
+newline$ -- 17
+num.names$ -- 2
+pop$ -- 24
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 5
+skip$ -- 12
 stack$ -- 0
-substring$ -- 25
-swap$ -- 32
+substring$ -- 0
+swap$ -- 20
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 3
-width$ -- 2
-write$ -- 17
+while$ -- 2
+width$ -- 3
+write$ -- 28

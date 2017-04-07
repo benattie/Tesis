@@ -2,13 +2,17 @@
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
-\bibitem{Mainprice2011}
-\textsc{Mainprice, D., Hielscher, R., Schaeben, H.}
-\newblock {Calculating anisotropic physical properties from texture data using
-  the MTEX open-source package}.
-\newblock \emph{Geol. Soc. London, Spec. Publ.}, \textbf{360}~(1), 175--192,
-  nov 2011.
-\newblock
-  \urlprefix\url{http://sp.lyellcollection.org/cgi/doi/10.1144/SP360.10}.
+\bibitem{hahn2005international}
+\textsc{Hahn, T.}
+\newblock International Tables for Crystallography, Space-Group Symmetry.
+\newblock International Tables for Crystallography. Wiley, 2005.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=5sdoAQAACAAJ}.
+
+\bibitem{nye1985physical}
+\textsc{Nye, J.}
+\newblock Physical Properties of Crystals: Their Representation by Tensors and
+  Matrices.
+\newblock Oxford science publications. Clarendon Press, 1985.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=ugwql-uVB44C}.
 
 \end{thebibliography}
