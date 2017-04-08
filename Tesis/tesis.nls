@@ -1,0 +1,27 @@
+\begin{thenomenclature} 
+
+ \nomgroup{Symbols}
+
+  \item [{$<e^2>$}]\begingroup Deformación cuadrática media de la red cristalina\nomeqref {1.8}
+		\nompageref{6}
+  \item [{$A_n$}]\begingroup n-ésimo coeficiente de Fourier\nomeqref {1.8}
+		\nompageref{6}
+  \item [{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.8}
+		\nompageref{6}
+  \item [{$L$}]\begingroup Longitud característica de la cristalita.\nomeqref {1.8}
+		\nompageref{6}
+  \item [{$\lambda$}]\begingroup Longitud de onda\nomeqref {1.2}
+		\nompageref{4}
+  \item [{$\theta_B$}]\begingroup Ángulo de Bragg\nomeqref {1.2}
+		\nompageref{4}
+  \item [{$d_{hkl}$}]\begingroup Distancia interplanar para la familia de planos $hkl$\nomeqref {1.2}
+		\nompageref{4}
+  \item [{$l$}]\begingroup Orden de reflexión\nomeqref {1.8}
+		\nompageref{6}
+
+ \nomgroup{X}
+
+  \item [{XRD}]\begingroup Difracción de Rayos X\nomeqref {1.2}
+		\nompageref{4}
+
+\end{thenomenclature}

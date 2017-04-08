@@ -4,12 +4,17 @@ The top-level auxiliary file: tesis.aux
 The style file: ibtesis.bst
 A level-1 auxiliary file: ./Resumen/resumen.aux
 A level-1 auxiliary file: ./Caps/01_intro.aux
+A level-1 auxiliary file: ./Caps/02_Metodos.aux
+A level-1 auxiliary file: ./Caps/03_IF.aux
+A level-1 auxiliary file: ./Caps/04_F138.aux
+A level-1 auxiliary file: ./Caps/05_Al.aux
+A level-1 auxiliary file: ./Caps/06_Conclusiones.aux
 Database file #1: ./bib/library.bib
 Database file #2: ./bib/Physical_Properties_of_Crystals.bib.bib
 Database file #3: ./bib/International_Tables_for_Crystallography.bib.bib
 You've used 2 entries,
             2652 wiz_defined-function locations,
-            1048 strings with 9753 characters,
+            1053 strings with 9850 characters,
 and the built_in function-call counts, 498 in all, are:
 = -- 34
 > -- 8
