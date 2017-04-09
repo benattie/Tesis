@@ -19,4 +19,4 @@ FOLDER/FILE1.tex: $(FILEM).tex
 	$(VIEW) $(FILEM).pdf
 
 clean:
-	rm -f *~ *.aux *.blg *.out *.bbl *.log
+	rm -f *~ *.aux *.blg *.out *.bbl *.log *.dvi *.pdf
