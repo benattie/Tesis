@@ -531,7 +531,7 @@ year = {1996}
 }
 @article{Ungar1999,
 abstract = {Anisotropic strain broadening in X-ray line profile analysis means that the width of diffraction profiles of Bragg reflections is not a monotonous function of the diffraction angle. The lack of a physically sound model makes the interpretation of line broadening and the structure refinement procedure of Rietveld often difficult or even impossible. A simple and straightforward procedure is presented for the rationalisation of anisotropic strain broadening in terms of the anisotropic contrast effect of dislocations or dislocation-like lattice defects. The procedure makes the evaluation of particle size or coherent domain size, and the density and arrangement of dislocations rather simple with a high precision, especially in the case of untextured polycrystals or when dislocation population on the possible slip systems is uniform. Three illustrative examples of severely deformed microcrystalline copper, the Rb3C60 f.c.c. fullerite and a ball-milled iron powder show the effectiveness of the procedure.},
-author = {Ung{\'{a}}r, Tamás and Tichy, Geza},
+author = {Ungár, Tamás and Tichy, Geza},
 doi = {10.1002/(SICI)1521-396X(199902)171:2<425::AID-PSSA425>3.0.CO;2-W},
 file = {:home/benattie/Documents/Mendeley Desktop/1999/Physica Status Solidi (a)/Ungár, Tichy - The Effect of Dislocation Contrast on X-Ray Line Profiles in Untextured Polycrystals.pdf:pdf},
 isbn = {0031-8965},

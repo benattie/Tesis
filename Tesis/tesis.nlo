@@ -2,8 +2,20 @@
 \nomenclatureentry{$d_{hkl}$@[{$d_{hkl}$}]\begingroup Distancia interplanar para la familia de planos $hkl$\nomeqref {1.2}|nompageref}{4}
 \nomenclatureentry{$\theta_B$@[{$\theta_B$}]\begingroup Ángulo de Bragg\nomeqref {1.2}|nompageref}{4}
 \nomenclatureentry{XRD@[{XRD}]\begingroup Difracción de Rayos X\nomeqref {1.2}|nompageref}{4}
+\nomenclatureentry{$\mathbf{k_i}$@[{$\mathbf{k_i}$}]\begingroup Vector de onda de la radiación incidente.\nomeqref {1.2}|nompageref}{4}
+\nomenclatureentry{$\mathbf{k_e}$@[{$\mathbf{k_e}$}]\begingroup Vector de onda de la radiación saliente.\nomeqref {1.2}|nompageref}{4}
+\nomenclatureentry{$\mathbf{K}$@[{$\mathbf{K}$}]\begingroup Vector diferencia entre los vectores de onda de las radiaciones incidente y saliente. También llamado vector de dispersión.\nomeqref {1.2}|nompageref}{4}
+\nomenclatureentry{$\mathbf{G}$@[{$\mathbf{G}$}]\begingroup Vector de la red recíproca.\nomeqref {1.2}|nompageref}{4}
+\nomenclatureentry{$\mathbf{K_B}$@[{$\mathbf{K_B}$}]\begingroup Vector de dispersión que cumple la ley de Bragg.\nomeqref {1.2}|nompageref}{4}
 \nomenclatureentry{$H$ o $FWHM$@[{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.8}|nompageref}{6}
-\nomenclatureentry{$L$@[{$L$}]\begingroup Longitud característica de la cristalita.\nomeqref {1.8}|nompageref}{6}
 \nomenclatureentry{$<e^2>$@[{$<e^2>$}]\begingroup Deformación cuadrática media de la red cristalina\nomeqref {1.8}|nompageref}{6}
-\nomenclatureentry{$l$@[{$l$}]\begingroup Orden de reflexión\nomeqref {1.8}|nompageref}{6}
+\nomenclatureentry{$L$@[{$L$}]\begingroup Orden de reflexión. Mentira. Escribirlo bien.\nomeqref {1.8}|nompageref}{6}
 \nomenclatureentry{$A_n$@[{$A_n$}]\begingroup n-ésimo coeficiente de Fourier\nomeqref {1.8}|nompageref}{6}
+\nomenclatureentry{$C$@[{$C$}]\begingroup Factor de contraste de una dislocación.\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$\bar{C}$@[{$\bar{C}$}]\begingroup Factor de contraste promedio.\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$H^2$@[{$H^2$}]\begingroup Invariante de cuarto orden que determinal el factor de contraste promedio.\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$\bar{C}_{h00}$@[{$\bar{C}_{h00}$}]\begingroup Factor de contraste promedio para los planos {h00}\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$q$@[{$q$}]\begingroup Caracter hélice-borde de una dislocación\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$\mathbf{b}$@[{$\mathbf{b}$}]\begingroup Vector de burgers de una dislocación.\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$\mathbf{l}$@[{$\mathbf{l}$}]\begingroup Vector de línea de una dislocación.\nomeqref {1.12}|nompageref}{8}
+\nomenclatureentry{$c_{ij}$@[{$c_{ij}$}]\begingroup Constantes elásticas de un material.\nomeqref {1.12}|nompageref}{8}
