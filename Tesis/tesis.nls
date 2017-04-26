@@ -10,7 +10,7 @@
 		\nompageref{8}
   \item [{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.8}
 		\nompageref{6}
-  \item [{$H^2$}]\begingroup Invariante de cuarto orden que determinal el factor de contraste promedio.\nomeqref {1.12}
+  \item [{$H^2$}]\begingroup Invariante de cuarto orden que determina el factor de contraste promedio.\nomeqref {1.12}
 		\nompageref{8}
   \item [{$L$}]\begingroup Orden de reflexión. Mentira. Escribirlo bien.\nomeqref {1.8}
 		\nompageref{6}
@@ -40,7 +40,7 @@
 		\nompageref{8}
   \item [{$d_{hkl}$}]\begingroup Distancia interplanar para la familia de planos $hkl$\nomeqref {1.2}
 		\nompageref{4}
-  \item [{$q$}]\begingroup Caracter hélice-borde de una dislocación\nomeqref {1.12}
+  \item [{$q$}]\begingroup Carácter hélice-borde de una dislocación\nomeqref {1.12}
 		\nompageref{8}
 
  \nomgroup{X}

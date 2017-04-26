@@ -134,6 +134,8 @@ Si los perfiles tienen un carácter gaussiano, muchos pasos en la deducción son
   \label{eq:WHPlot2}
 \end{equation}
 \noindent
+Conceptualmente, lo que dicen las Ecs. \ref{eq:WHPlot} y \ref{eq:WHPlot2} es que el ensanchamiento producido por el tamaño finito de cristalita es independiente del orden de difracción $hkl$ o el vector de difracción $K$, mientras que la contribución debida a las  distorsiones de la red cristalina crecen linealmente o cuadráticamente, respectivamente, con el vector $K$.
+
 En el año 1949, Warren y Averbach\cite{WarrenAverbach1949} también utilizaron la formulación de Stokes y Wilson para derivar otro método para separar las contribuciones de distorsión y tamaño al ensanchamiento de los picos de rayos X. 
 El método de Warren-Averbach se basa en el hecho de que la transformada de Fourier de la convolución de dos funciones es simplemente el producto de las transformadas de Fourier de dichas funciones, y como el perfil de intensidades $I_{muestra}$ es la convolución del perfil obtenido por las contribuciones de tamaño $I_{T}$ y distorsión $I_{D}$, los coeficientes de Fourier del perfil de línea de la muestra $A_n$ son el producto de los coeficientes de tamaño $A_n^T$ y distorsión $A_n^D$:
 \begin{equation}
@@ -141,13 +143,13 @@ El método de Warren-Averbach se basa en el hecho de que la transformada de Four
   \label{eq:FCoeff}
  \end{equation}
 \noindent
-En este caso, si se supone que las cristalitas son de forma esférica y que su distribución de tamaño de de tipo lognormal y se supone un perfil de deformación de tipo gaussiano, se puede llegar a la ecuación que se emplea cuando se aplica el método de Warren-Averbach:
+En este caso, si se supone que las cristalitas son de forma esférica y que su distribución de tamaño de de tipo lognormal\cite{WikiLognormal} y se supone un perfil de deformación de tipo gaussiano, se puede llegar a la ecuación que se emplea cuando se aplica el método de Warren-Averbach:
 \begin{equation}
-  \ln(A_n(L)) \ = \ \ln(A_n^T) \ - \ 2 \pi^2 n^2 L^2 \ <e^2>
+  \ln(A_n(l)) \ = \ \ln(A_n^T) \ - \ 2 \pi^2 n^2 l^2 \ <e^2>
   \label{eq:WAPlot}
  \end{equation}
 \noindent
-En la Ec. \ref{eq:WAPlot}, $l$ es el orden de una dada reflexión, $<e^2>$ es la deformación media de la red cristalina y el resto de los símbolos son acordes a las definiciones anteriores.
+En la Ec. \ref{eq:WAPlot}, $l$ es el orden de una dada reflexión, $<e^2>$ es la deformación cuadrática media de la red cristalina y el resto de los símbolos son acordes a las definiciones anteriores.
 
 \nomenclature{$H$ o $FWHM$}{Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).}
 \nomenclature{$<e^2>$}{Deformación cuadrática media de la red cristalina}
@@ -178,12 +180,12 @@ La causa (i) sólo se puede minimizar a través de una cuidadosa planificación 
 La causa (ii) es difícil de saber a priori y va a depender fuertemente de la historia termo-mecánica de la muestra. 
 La causa (iii) está fuertemente relacionada con la textura del material, sus características cristalográficas y el tipo de procesos termo-mecánicos a los que fue sometido. 
 La causa (iv) siempre estará presente y también será dificil de determinar a priori, salvo para casos particulares.
-Finalmente la causa (v) podrá visualizarse en ciertos casos estudiando la asimetría de los picos de difracción, así como estudiando la dependendencia de la anisotropía con el orden de difracción {hkl}.
+Finalmente la causa (v) podrá visualizarse en ciertos casos estudiando la asimetría de los picos de difracción, así como estudiando la dependendencia de la anisotropía con el orden de difracción {hkl} y estudiando el corrimiento de los picos de difracción.
 
 Las formulaciones del método de WH y como el de WA involucran ciertas suposiciones implicitas para resolver los problemas planteados, a saber, que todas las cristalitas tienen forma esférica y que tienen el mismo tamaño, que no hay defectos planares y que la deformación causada por las dislocaciones es isótropa. 
 
 Hacia finales de los '90 y principios de los '00 modificaron la formulación de WH y WA para tomar en cuenta la anisotropía en el campo de deformaciones de la red cristalina a través del concepto de los factores de contraste.
-El modelo del factor de contraste toma en cuenta que las dislocaciones no son igualmente visibles para cualquier plano cristalino, es decir, la contribución de una dada dislocación al ancho de un determinado pico de difracción definido por el vector $\mathbf{G_{hkl}}$ va a depender de la orientación relativa entre $\mathbf{G_{hkl}}$ y el vector de burgers $\mathbf{b}$ de esa dislocación, tal como se muestra la Fig. \ref{fig:contrast} para dos casos extremos para una dislocación de borde en una red cúbica.
+
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.8\textwidth]{Contrast}
@@ -191,12 +193,14 @@ El modelo del factor de contraste toma en cuenta que las dislocaciones no son ig
   \label{fig:contrast}
 \end{figure}
 
+El modelo del factor de contraste toma en cuenta que las dislocaciones no son igualmente visibles para cualquier plano cristalino, es decir, la contribución de una dada dislocación al ancho de un determinado pico de difracción definido por el vector $\mathbf{G_{hkl}}$ va a depender de la orientación relativa entre $\mathbf{G_{hkl}}$ y el vector de burgers $\mathbf{b}$ de esa dislocación, tal como se muestra la Fig. \ref{fig:contrast} para los dos casos extremos que pueden ocurrir al estudiar para una dislocación de borde en una red cúbica.
+
 Tanto en la parte (a) de la figura como en la (b) se tiene una dislocación de borde cuyo vector de burgers tiene una dirección horizontal con sentido hacia la derecha. 
 Ahora bien, si en un experimento de difracción se observan los planos verticales, es decir se tiene $\mathbf{g} \ \parallel \ \mathbf{b}$, la contribución de esa dislocación hacia el ensanchamiento de pico será máxima, y esto se correlaciona con el hecho que que la distorsión que la dislocación ocasiona en la red cristalina es más visible.
 Por otro lado, al observar los planos horizontales se tiene $\mathbf{g} \ \perp \ \mathbf{b}$ y la contribución de esa dislocación al ensanchamiento de ese pico será nula, o muy pequeña.
 Notar que al ver los planos horizontales la deformación producida en la red cristalina es mucho menos visible.
 
-A partir de este ejemplo es que se puede pensar en el factor de contraste $C$ como una cantidad que va a modificar la visibilidad de las dislocaciones en un experimento de difracción.
+Este ejemplo muestra que se puede pensar en el factor de contraste $C$ como una cantidad que va a corregir el hecho de que una dada dislocación es más o menos ''visible'' en un experimento de difracción, dependiendo del plano cristalino analizado.
 La correcta determinación de estos factores es fundamental si se quiere hacer una cuantificación adecuada de la densidad de dislocaciones de un material.
 Como regla general, el factor de contraste será una cantidad que depende tanto del vector de difracción $G$ como del tipo de dislocación presente en el material, así como de las constantes elásticas del material mismo:
 \begin{equation}
@@ -205,8 +209,8 @@ Como regla general, el factor de contraste será una cantidad que depende tanto 
 \end{equation}
 \noindent
 Donde $\mathbf{G}$ y $\mathbf{b}$ son las cantidades definidas previamente, $\mathbf{l}$ es el vector de línea de la dislocación y $c_{ij}$ representan las componentes del tensor elástico del material.
-El cálculo de C a partir de la Ec \ref{eq:contrast} para un material elásticamente anisotropíco es una tarea que además de laboriosa, requiere conocer a priori del tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
-Sin embargo, Ungar et al han deducido expresiones analíticas para calcular el factor de contraste promedio para materiales de simetría cristalina cúbica y hexagonal. Para materiales cúbicos la Ec. \ref{eq:contrast} toma una forma particularmente simple:
+El cálculo de C a partir de la Ec \ref{eq:contrast} para un material elásticamente anisotróopico es una tarea que, además de laboriosa, requiere conocer a priori del tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
+Sin embargo, Ungar et al\cite{Dragomir1999,Dragomir2002} han deducido expresiones analíticas para calcular el factor de contraste promedio para materiales de simetría cristalina cúbica y hexagonal. Para materiales cúbicos la Ec. \ref{eq:contrast} toma una forma particularmente simple:
 
 \begin{equation}
   \bar{C} \ = \ \bar{C}(hkl) \ = \ A \ + \ B \ H^2
@@ -230,14 +234,43 @@ donde $A \ = \ C_{h00}$ y $q \ = \ -B/A$ ahora puede interpretarse como un núme
 Vale notar que la Ec. \ref{eq:contrast3} es válida sólo si $C_{h00} \neq 0$, cosa que no ocurre en todos los casos, aunque sí lo suficiente como para darle a la Eq. \ref{eq:contrast3} una generalidad aceptable.
 \nomenclature{$C$}{Factor de contraste de una dislocación.}
 \nomenclature{$\bar{C}$}{Factor de contraste promedio.}
-\nomenclature{$H^2$}{Invariante de cuarto orden que determinal el factor de contraste promedio.}
+\nomenclature{$H^2$}{Invariante de cuarto orden que determina el factor de contraste promedio.}
 \nomenclature{$\bar{C}_{h00}$}{Factor de contraste promedio para los planos {h00}}
-\nomenclature{$q$}{Caracter hélice-borde de una dislocación}
+\nomenclature{$q$}{Carácter hélice-borde de una dislocación}
 \nomenclature{$\mathbf{b}$}{Vector de burgers de una dislocación.}
 \nomenclature{$\mathbf{l}$}{Vector de línea de una dislocación.}
 \nomenclature{$c_{ij}$}{Constantes elásticas de un material.}
 
-Suposiciones hechas para sostener el concepto de factores de contraste.
+A partir de la implementación del método de los factores de contraste, se puede avanzar en relacionar la deformación de la red cristalina $e$ con la densidad de dislocaciones. En particular, si la principal cauda de deformación de la red cristalina son dislocaciones, la deformación cuadrática media puede escribirse\cite{Wilkens1970}:
+\begin{equation}
+  <e^2> \ = \ \frac{\rho \ C \ b^2}{4 \pi} f\left(\frac{l}{R_e}\right) \ \xrightarrow[l \to 0]{} \ - \ \frac{\rho \ C \ b^2}{4 \pi} \ln \left(\frac{l}{R_e}\right)
+  \label{eq:Wilkens}
+\end{equation}
+\noindent
+donde $b$ es la longitud del vector de burgers de las dislocaciones, $C$ es el factor de contraste definido en \ref{eq:contrast} y \ref{eq:contrast}, $\rho$ es la densidad de dislocaciones del material y $R_e$ es el radio de corte del campo de deformación producido por las dislocaciones y $f$ es la función de Wilkens. 
+Cuando se busca analizar los detalles de la microestructura, $R_e$ suele reemplazarse por el factor de Wilkens $M \ = \ R_e\,\sqrt{\rho}$, que da una idea no sólo de la cantidad de dislocaciones, sino de cómo éstas interactúan entre si para deformar la estructura cristalina. Se pueden distinguir tres casos:
+
+\begin{itemize}
+  \item[$\bullet$] Si $M \ = \ 1 $ En este caso $R_e\,=\,\frac{1}{\rho}$ y la longitud del campo de deformación producido por las dislocaciones es igual a la distancia promedio entre las mismas.
+  \item[$\bullet$] Si $M \ << \ 1 $ el campo de deformaciones producido por las dislocaciones es menor que la distancia promedio entre ellas y es apantallado por un arreglo de dislocaciones correlacionadas que forman dipolos. En este caso el perfil de ensanchamiento resultante tiende a tener una forma lorentziana.
+  \item[$\bullet$] Por otro lado si $M \ >> \ 1 $ las dislocaciones están distribuidas aleatoriamente, no interactúan entre ellas y el campo de deformaciones es de largo alcance. El perfil resultante de esta microestructura tiene un aspecto gaussiano.
+\end{itemize}
+
+Un análisis más detallado de la contribución de las dislocaciones al ensanchamiento de picos de difracción revela que la Ec. \ref{eq:Wilkens} es el primer orden de un desarrollo más complejo\cite{Groma1988}:
+\begin{equation}
+  \begin{split}
+      <e^2> \ = & \ - \ \frac{Cb^2}{4 \pi}\left< \rho \right> \ln \left( l/R_e \right) \ + \ \\
+      + & \ \frac{1}{4\pi^2g^2} \left( \frac{\pi g^2 C b^2}{2} \right)^2 |\left<\rho^2\right> - \left< \rho \right>^2| \ l^2 \ \ln(l/R_1) \ln(l/R_2) \ - \ \\
+      - & \ \mathbf{i} \ \frac{Cb^2}{4\pi} \ \left< S\rho \right> \ l \ \ln(l/R_3) \ + \ O(l^3)
+  \end{split}
+  \label{eq:WilkensPosta}
+\end{equation}
+\noindent
+
+En la Ec. \ref{eq:WilkensPosta}, $\left< \rho \right>$ es la densidad media de dislocaciones, $|\left<\rho^2\right> - \left< \rho \right>^2|$ es la dispersión alrededor de ese valor, $\left< S\rho \right>$ es una medida polarización del arreglo de dislocaciones, y los coeficientes $R_1$ a $R_3$ son parámetros de longitud que carecen de una interpretación física precisa.
+El término imaginario en la Ec. \ref{eq:WilkensPosta} implica que el ensanchamiento producido por dislocaciones también puede ser asimétrico.
+
+Hablar de como se promedian los factores de contraste y de lo que hay que suponer para eso. Corregir en donde sea necesario en las formulas de arriba.
 
 \section{Difracción de electrones retro difundidos}\label{S:EBSD}
 Cómo se mide y cómo se pueden relacionar las magnitudes de EBSD con las de RX
