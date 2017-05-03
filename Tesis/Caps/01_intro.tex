@@ -202,18 +202,18 @@ Notar que al ver los planos horizontales la deformación producida en la red cri
 
 Este ejemplo muestra que se puede pensar en el factor de contraste $C$ como una cantidad que va a corregir el hecho de que una dada dislocación es más o menos ''visible'' en un experimento de difracción, dependiendo del plano cristalino analizado.
 La correcta determinación de estos factores es fundamental si se quiere hacer una cuantificación adecuada de la densidad de dislocaciones de un material.
-Como regla general, el factor de contraste será una cantidad que depende tanto del vector de difracción $G$ como del tipo de dislocación presente en el material, así como de las constantes elásticas del material mismo:
+Como regla general, el factor de contraste será una cantidad que depende tanto del vector de difracción $\mathbf{G}$ como del tipo de dislocación presente en el material, así como de las constantes elásticas del material mismo:
 \begin{equation}
   C \ = \ C(\mathbf{G},\mathbf{b},\mathbf{l},c_{ij})
   \label{eq:contrast}
 \end{equation}
 \noindent
-Donde $\mathbf{G}$ y $\mathbf{b}$ son las cantidades definidas previamente, $\mathbf{l}$ es el vector de línea de la dislocación y $c_{ij}$ representan las componentes del tensor elástico del material.
-El cálculo de C a partir de la Ec \ref{eq:contrast} para un material elásticamente anisotróopico es una tarea que, además de laboriosa, requiere conocer a priori del tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
-Sin embargo, Ungar et al\cite{Dragomir1999,Dragomir2002} han deducido expresiones analíticas para calcular el factor de contraste promedio para materiales de simetría cristalina cúbica y hexagonal. Para materiales cúbicos la Ec. \ref{eq:contrast} toma una forma particularmente simple:
+Donde $\mathbf{G}$ y $\mathbf{b}$ son las cantidades definidas previamente, $\mathbf{l}$ es el vector de línea de la dislocación y $c_{ij}$ representan las componentes del tensor de elasticidad del material.
+El cálculo de $C$ a partir de la Ec \ref{eq:contrast} para un material elásticamente anisotróopico es una tarea que, además de laboriosa, requiere conocer a priori del tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
+Para sistemas cristalinos cúbicos y hexagonales Ungár et al\cite{Dragomir1999,Dragomir2002} han encontrado expresiones analíticas para calcular el factor de constraste de cualquier tipo de dislocación, siempre que se sepa el sistema de deslizamiento activo y el tipo de dislocación presente. En particular, para sistemas cúbicos se tiene que la Ec. \ref{eq:contrast} toma una forma sencilla:
 
 \begin{equation}
-  \bar{C} \ = \ \bar{C}(hkl) \ = \ A \ + \ B \ H^2
+  C \ = \ C(hkl) \ = \ A \ + \ B \ H^2
   \label{eq:contrast2}
 \end{equation}
 \noindent
@@ -226,11 +226,11 @@ con
 un invariante de cuarto orden de los índices de Miller $hkl$, y $A$ y $B$ constantes que pueden calcularse a para dislocaciones de hélice y borde a partir de las constantes elásticas del material.
 Si se observa con detenimiento la Ec. \ref{eq:H2} se puede notar que $C(h00) \ = \ A$, por que la Ec. \ref{eq:contrast2} suele escribirse de la forma:
 \begin{equation}
-  \bar{C}(hkl) = \bar{C}_{h00}\ (1 \ - \ q\ H^2)
+  C(hkl) = C_{h00}\ (1 \ - \ q\ H^2)
   \label{eq:contrast3}
 \end{equation}
 \noindent
-donde $A \ = \ C_{h00}$ y $q \ = \ -B/A$ ahora puede interpretarse como un número relacionado con la proporción de dislocaciones de hélice respecto de las de borde.
+donde $A \ = \ C_{h00}$ y $q \ = \ -B/A$ ahora puede interpretarse como un número relacionado con el carácter hélice/borde de las dislocaciones presentes.
 Vale notar que la Ec. \ref{eq:contrast3} es válida sólo si $C_{h00} \neq 0$, cosa que no ocurre en todos los casos, aunque sí lo suficiente como para darle a la Eq. \ref{eq:contrast3} una generalidad aceptable.
 \nomenclature{$C$}{Factor de contraste de una dislocación.}
 \nomenclature{$\bar{C}$}{Factor de contraste promedio.}
@@ -241,17 +241,17 @@ Vale notar que la Ec. \ref{eq:contrast3} es válida sólo si $C_{h00} \neq 0$, c
 \nomenclature{$\mathbf{l}$}{Vector de línea de una dislocación.}
 \nomenclature{$c_{ij}$}{Constantes elásticas de un material.}
 
-A partir de la implementación del método de los factores de contraste, se puede avanzar en relacionar la deformación de la red cristalina $e$ con la densidad de dislocaciones. En particular, si la principal cauda de deformación de la red cristalina son dislocaciones, la deformación cuadrática media puede escribirse\cite{Wilkens1970}:
+A partir de la implementación del método de los factores de contraste, se puede avanzar en relacionar la deformación de la red cristalina $e$ con la densidad de dislocaciones. En particular, si la principal causa de deformación de la red cristalina son dislocaciones, la deformación cuadrática media puede escribirse\cite{Wilkens1970}:
 \begin{equation}
-  <e^2> \ = \ \frac{\rho \ C \ b^2}{4 \pi} f\left(\frac{l}{R_e}\right) \ \xrightarrow[l \to 0]{} \ - \ \frac{\rho \ C \ b^2}{4 \pi} \ln \left(\frac{l}{R_e}\right)
+  <e^2> \ = \ \frac{\rho \ C \ b^2}{4 \pi} \ f\left(\frac{l}{R_e}\right) \ \xrightarrow[l \to 0]{} \ - \ \frac{\rho \ C \ b^2}{4 \pi} \ln \left(\frac{l}{R_e}\right)
   \label{eq:Wilkens}
 \end{equation}
 \noindent
-donde $b$ es la longitud del vector de burgers de las dislocaciones, $C$ es el factor de contraste definido en \ref{eq:contrast} y \ref{eq:contrast}, $\rho$ es la densidad de dislocaciones del material y $R_e$ es el radio de corte del campo de deformación producido por las dislocaciones y $f$ es la función de Wilkens. 
+donde $b$ es la longitud del vector de burgers de las dislocaciones, $C$ es el factor de contraste definido en \ref{eq:contrast} y \ref{eq:contrast3}, $\rho$ es la densidad de dislocaciones del material y $R_e$ es el radio de corte del campo de deformación producido por las dislocaciones y $f$ es la función de Wilkens. 
 Cuando se busca analizar los detalles de la microestructura, $R_e$ suele reemplazarse por el factor de Wilkens $M \ = \ R_e\,\sqrt{\rho}$, que da una idea no sólo de la cantidad de dislocaciones, sino de cómo éstas interactúan entre si para deformar la estructura cristalina. Se pueden distinguir tres casos:
 
 \begin{itemize}
-  \item[$\bullet$] Si $M \ = \ 1 $ En este caso $R_e\,=\,\frac{1}{\rho}$ y la longitud del campo de deformación producido por las dislocaciones es igual a la distancia promedio entre las mismas.
+  \item[$\bullet$] Si $M \ = \ 1 $ En este caso $R_e\,=\,\frac{1}{\sqrt{\rho}}$ y la longitud del campo de deformación producido por las dislocaciones es igual a la distancia promedio entre las mismas.
   \item[$\bullet$] Si $M \ << \ 1 $ el campo de deformaciones producido por las dislocaciones es menor que la distancia promedio entre ellas y es apantallado por un arreglo de dislocaciones correlacionadas que forman dipolos. En este caso el perfil de ensanchamiento resultante tiende a tener una forma lorentziana.
   \item[$\bullet$] Por otro lado si $M \ >> \ 1 $ las dislocaciones están distribuidas aleatoriamente, no interactúan entre ellas y el campo de deformaciones es de largo alcance. El perfil resultante de esta microestructura tiene un aspecto gaussiano.
 \end{itemize}
@@ -270,15 +270,90 @@ Un análisis más detallado de la contribución de las dislocaciones al ensancha
 En la Ec. \ref{eq:WilkensPosta}, $\left< \rho \right>$ es la densidad media de dislocaciones, $|\left<\rho^2\right> - \left< \rho \right>^2|$ es la dispersión alrededor de ese valor, $\left< S\rho \right>$ es una medida polarización del arreglo de dislocaciones, y los coeficientes $R_1$ a $R_3$ son parámetros de longitud que carecen de una interpretación física precisa.
 El término imaginario en la Ec. \ref{eq:WilkensPosta} implica que el ensanchamiento producido por dislocaciones también puede ser asimétrico.
 
-Hablar de como se promedian los factores de contraste y de lo que hay que suponer para eso. Corregir en donde sea necesario en las formulas de arriba.
+Como se dijo previamente, en general no se tiene un conocimiento a priori acerca de cuáles son los sistemas de deslizamiento activos, ni el carácter de las dislocaciones presentes en el material. Además, en el caso general, estarán presentes en el material distintos tipos de dislocaciones, y los diferentes sistemas de deslizamiento tendrán diferentes poblaciones. En ese contexto, el factor de contraste resultante será un promedio de los factores de contraste de las dislocaciones presentes:
+
+\begin{equation}
+  \bar{C} \ = \ \sum_i \frac{\rho_i}{\rho} C_i
+  \label{eq:Cav1}
+\end{equation}
+\noindent
+donde $\rho_i/\rho$ es la fracción de dislocaciones del sistema $i$ respecto del total, y la suma se extiende sobre todos los sistemas de deslizamiento presentes.
+Si todos los sistemas de deslizamiento están igualmente poblados, lo cual es una suposición razonable para un material policristalino, se recupera la forma funcional de la Ec. \ref{eq:contrast3}:
+\begin{equation}
+  \bar{C}(hkl) = \bar{C}_{h00}\ (1 \ - \ q\ H^2)
+  \label{eq:Cav2}
+\end{equation}
+\noindent
+En la Ec. \ref{eq:Cav2} las barras denotan que se ha realizado un promedio sobre los factores de contraste de los distintos sistemas de deslizamiento, y ahora $q$ está vinculado con la proporción de dislocaciones de hélice respecto de las de borde.
+
+Finalmente, cuando no sólo se tiene que promediar sobre los diferentes sistemas de deslizamiento, sino que además se tiene que los cristales tienen diferentes tipos y cantidad de dislocaciones, las ecuaciones mencionadas previamente siguen siendo válidas, sólo que deben aplicarse a cada cristal individualmente y promediar entre sí para obtener el coeficiente de Fourier de distorsión de la red. Es decir que el coeficiente de distorsión de la Ec. \ref{eq:FCoeff} es en realidad un promedio sobre las diferentes cristalitas:
+
+\begin{equation}
+  A_n^D \ = \ \left< A_n^D \right> \ = \ \sum_{\alpha} f_{\alpha} \ A_{n}^{D,\alpha}
+  \label{eq:FCoeffAv}
+\end{equation}
+\noindent
+y $f_{\alpha}$ es la fracción de volumen de cada cristalita y los coeficientes de Fourier $A_{n}^{D,\alpha}$ se deben calcular utilizando las Ecs. \ref{eq:WAPlot}, \ref{eq:contrast3}, \ref{eq:Wilkens}, \ref{eq:Cav1} y \ref{eq:Cav2}, según corresponda a cada caso particular para cada cristalita.
+
+Agrego una crítica acerca de todo esto?
+
 
 \section{Difracción de electrones retro difundidos}\label{S:EBSD}
-Cómo se mide y cómo se pueden relacionar las magnitudes de EBSD con las de RX
-Que permite y que no permite ver en comparacion con RX
+La difracción de electrones retro difundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la microestructura promedio de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
+El uso de esta técnica ha aumentado rápidamente desde principios del 2000 debido al aumento de disponibilidad de los microscopios electrónicos de barrido (SEM). El incremento de la velocidad de adquisición y procesamiento de datos también ha permitido lograr que una técnica extremadamente local (capaz de estudiar pocos cristales) pase a tener una estadística comparable, aunque aún menor, que la de los experimentos de rayos X.
+\nomenclature{EBSD}{Difracción de electrones retro difundidos}
+\nomenclature{SEM}{Microscopio electrónico de barrido}
 
-¿Hablo de TEM?
- 
+
+Los patrones que se obtienen en una medición de EBSD se obtienen a partir de las imágenes obtenidas en una pantalla de fósforo. Un haz de electrones de alta energía incide sobre una dada muestra, e interactúa con un volumen del orden de los 20\,nm, como se muestra esquemáticamente en la Fig. \ref{fig:ebsd}.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.6\textwidth]{ebsd.png}
+  \caption{Esquema de una medición de EBSD}
+  \label{fig:ebsd}
+\end{figure}
+
+Entre la multitud de interacciones que ocurren entre los electrones y el cristal, la interacción quasi elástica entre los electrones y el arreglo de planos cristalinos del volumen de interacción es la responsable de producir las llamadas bandas de Kikuchi que pueden verse en la Fig. \ref{fig:kikuchi}.
+Estas bandas, que pueden pensarse como la proyección de una dada familia de planos cristalinos en la pantalla de fósforo, están limitadas por los conos de difracción que se producen cuando los electrones interactúan con la familia de planos $\{ hkl \}$. Se puede demostrar que el espaciamiento angular entre los llamados conos de Kossel es igual a 2$\theta_{hkl}$, donde $\theta_{hkl}$ cumple con la ley de Bragg:
+\begin{equation}
+  2 \ d_{hkl} \ \sin(\theta_{hkl}) \ = \ n \ \lambda
+  \label{eq:BraggEBSD}
+\end{equation}
+\noindent
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.6\textwidth]{kikuchi}
+  \caption{Patrón de Kikuchi}
+  \label{fig:kikuchi}
+\end{figure}
+
+La configuración experimental de una medición de EBSD es tal que los conos de difracción son mucho más grandes que la pantalla de fósforo que los registra, por lo que las banda de Kikuchi que deberían ser curvas se ven practicamente rectas, lo que facilita su procesamiento y reconocimiento a través de herramientas matemáticas desarrolladas hace tiempo, en particular la transformada de Hough[ref].
+
+Como en la práctica el haz incidente no interactúa solamente con una familia de planos sino con todos ellos, en la pantalla de fósforo quedan grabadas multitud de bandas de Kikichi, cada una vinculada a una familia de planos en particular, y el ángulo entre badas de Kikuchi es igual al ángulo que forman los diferentes planos cristalinos entre si[ref], y es esta la característica que permite junto con la indicación de la estructura cristalina del material estudiado (dato que es preferible dar de antemano) determinar a partir de las bandas de Kikichi la orientación promedio de los cristales que interactúan con el haz de electrones.
+
+De esta manera en un experimento de EBSD, el haz de electrones barre la muestra, y en cada ubicación registra una serie de bandas de Kikuchi que permiten determinar, procesamiento de imágen mediante, la orientación de los cristales en el volumen estudiado.
+El resultado final es una imagen en la que se registra la orientación de todos los cristales del área estudiada como la que se puede ver en la Fig. \ref{fig:ebsdex}. 
+En este caso lo que se hace es asignar un color a los cristales que tienen una dada dirección cristalina paralela al eje Z y colorear cada pixel en función de este dato. 
+Nótese que esta imagen, llama mapa de figura de polo inversa, da información acerca de la dirección de los cristales y no de su orientación, aunque combinando la información de distintos mapas, toda la información orientacional de la muestra puede ser analizada.
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{IF70centroTD-IPF}
+  \caption{Ejemplo de mapa EBSD}
+  \label{fig:ebsdex}
+\end{figure}
+
+Adicionalmente, los mapas de EBSD pueden proveer información acerca de la correlación espacial que existe entre las orienciones, por ejemplo, en la imagen de la Fig. \ref{fig:ebsdex} puede verse que todos los puntos que tienen direcciones similares se agrupan a lo ancho de la imagen, dando una idea de ''granos alargados'', consistente con el hecho de que la imagen mostrada proviene de una muestra laminada, con la dirección de laminación paralela a la dirección en que los granos se ''alargan''.
+
+A partir de lo descripto anteriormente se puede apreciar que las magnitudes físicas que se pueden obtener a partir de un experimento de EBSD van a estar definidas a partir de comparar la orientación de los cristales medidos.
+Por ejemplo, en un experimento de DRX uno puede estimar, a partir de las técnicas de LPA, el tamaño de los dominios coherentes de difracción, también llamados cristalitas, mientras que en EBSD se trabaja con el concepto de granos, definidos como porciones del material que tienen una misorientación mayor que determinado umbral, que suele variar entre los 5$^{\circ}$ y los 15$^{\circ}$. (escribir mejor esta parte)
+Una comparación similar se puede hacer cuando se discuten las magitudes asociadas a la deformación de la red cristalina. En los experimentos de DRX se intenta estimar la densidad de dislocaciones del material, observadas por la presencia de un ensanchamiento que crece de una manera particular con los índices  de Miller de los picos estudiados, mientras que en EBSD la cantidad básica para estimar la deformación de la red cristalina es la llama \textit{Kernel Average Misorientation} (KAM) que se define como la misorientación promedio de un pixel con sus vecinos más cercanos.
+Debe quedar claro de las definiciones que tanto en las mediciones de de tamaño de grano como de deformación de la red cristalina, las magnitudes medidas a partir de DRX y de EBSD son diferentes y van a arrojar, en general, valores diferentes.
+Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos sometidos a los materiales debe ser qualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estidios de ancho de pico.
+
 \section{Textura cristalográfica}\label{S:Text}
+
+
 Definicion de textura, relacion con los procesos de deformacion y la microestructura.
 ODF: definicion y obtencion a partir de RX y EBSD. Diferencias de los dos métodos.
 

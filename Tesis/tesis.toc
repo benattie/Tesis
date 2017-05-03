@@ -7,38 +7,38 @@
 \contentsline {section}{\numberline {1.1}Motivaci\IeC {\'o}n}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}Cristalograf\IeC {\'\i }a de Rayos X}{3}{section.1.2}
 \contentsline {subsection}{\numberline {1.2.1}Estudios de ancho de pico}{4}{subsection.1.2.1}
-\contentsline {section}{\numberline {1.3}Difracci\IeC {\'o}n de electrones retro difundidos}{9}{section.1.3}
-\contentsline {section}{\numberline {1.4}Textura cristalogr\IeC {\'a}fica}{10}{section.1.4}
-\contentsline {subsection}{\numberline {1.4.1}FDO y FDO generalizada}{10}{subsection.1.4.1}
-\contentsline {section}{\numberline {1.5}Revisi\IeC {\'o}n bibliogr\IeC {\'a}fica y estado del arte}{10}{section.1.5}
-\contentsline {section}{\numberline {1.6}Organizaci\IeC {\'o}n de la tesis}{10}{section.1.6}
-\contentsline {chapter}{\numberline {2}Materiales y m\IeC {\'e}todos}{11}{chapter.2}
-\contentsline {section}{\numberline {2.1}Experimentos de difracci\IeC {\'o}n de rayos X}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Postprocesamiento de los datos}{11}{section.2.2}
-\contentsline {section}{\numberline {2.3}M\IeC {\'e}todo de CMWP y Langford}{11}{section.2.3}
-\contentsline {section}{\numberline {2.4}Mediciones de EBSD}{11}{section.2.4}
-\contentsline {chapter}{\numberline {3}Estudio sobre el acero libre de intersticiales}{12}{chapter.3}
-\contentsline {section}{\numberline {3.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP}{12}{section.3.1}
-\contentsline {section}{\numberline {3.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{12}{section.3.2}
-\contentsline {section}{\numberline {3.3}Estudio de la microestructura por EBSD}{12}{section.3.3}
-\contentsline {section}{\numberline {3.4}Discusi\IeC {\'o}n de resultados}{12}{section.3.4}
-\contentsline {section}{\numberline {3.5}Conclusiones}{12}{section.3.5}
-\contentsline {chapter}{\numberline {4}Estudio sobre el acero F138}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP - Revisi\IeC {\'o}n}{14}{section.4.1}
-\contentsline {section}{\numberline {4.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{14}{section.4.3}
-\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n de resultados}{14}{section.4.4}
-\contentsline {section}{\numberline {4.5}Conclusiones}{14}{section.4.5}
-\contentsline {chapter}{\numberline {5}Estudio sobre el acero duplex G2205}{15}{chapter.5}
-\contentsline {section}{\numberline {5.1}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{15}{section.5.1}
-\contentsline {section}{\numberline {5.2}Discusi\IeC {\'o}n de resultados}{15}{section.5.2}
-\contentsline {section}{\numberline {5.3}Conclusiones}{15}{section.5.3}
-\contentsline {chapter}{\numberline {6}Estudio sobre el Aluminio 1050}{16}{chapter.6}
-\contentsline {section}{\numberline {6.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP}{16}{section.6.1}
-\contentsline {section}{\numberline {6.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{16}{section.6.2}
-\contentsline {section}{\numberline {6.3}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{16}{section.6.3}
-\contentsline {section}{\numberline {6.4}Discusi\IeC {\'o}n de resultados}{16}{section.6.4}
-\contentsline {section}{\numberline {6.5}Conclusiones}{16}{section.6.5}
-\contentsline {chapter}{\numberline {7}Conclusiones}{17}{chapter.7}
-\contentsline {chapter}{\numberline {8}Proyecciones}{18}{chapter.8}
-\contentsline {chapter}{Bibliograf{\'{\i }}a}{19}{section*.16}
+\contentsline {section}{\numberline {1.3}Difracci\IeC {\'o}n de electrones retro difundidos}{10}{section.1.3}
+\contentsline {section}{\numberline {1.4}Textura cristalogr\IeC {\'a}fica}{13}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}FDO y FDO generalizada}{13}{subsection.1.4.1}
+\contentsline {section}{\numberline {1.5}Revisi\IeC {\'o}n bibliogr\IeC {\'a}fica y estado del arte}{13}{section.1.5}
+\contentsline {section}{\numberline {1.6}Organizaci\IeC {\'o}n de la tesis}{13}{section.1.6}
+\contentsline {chapter}{\numberline {2}Materiales y m\IeC {\'e}todos}{14}{chapter.2}
+\contentsline {section}{\numberline {2.1}Experimentos de difracci\IeC {\'o}n de rayos X}{14}{section.2.1}
+\contentsline {section}{\numberline {2.2}Postprocesamiento de los datos}{14}{section.2.2}
+\contentsline {section}{\numberline {2.3}M\IeC {\'e}todo de CMWP y Langford}{14}{section.2.3}
+\contentsline {section}{\numberline {2.4}Mediciones de EBSD}{14}{section.2.4}
+\contentsline {chapter}{\numberline {3}Estudio sobre el acero libre de intersticiales}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Estudio de la microestructura por EBSD}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Discusi\IeC {\'o}n de resultados}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}Conclusiones}{15}{section.3.5}
+\contentsline {chapter}{\numberline {4}Estudio sobre el acero F138}{17}{chapter.4}
+\contentsline {section}{\numberline {4.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP - Revisi\IeC {\'o}n}{17}{section.4.1}
+\contentsline {section}{\numberline {4.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}Discusi\IeC {\'o}n de resultados}{17}{section.4.4}
+\contentsline {section}{\numberline {4.5}Conclusiones}{17}{section.4.5}
+\contentsline {chapter}{\numberline {5}Estudio sobre el acero duplex G2205}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}Discusi\IeC {\'o}n de resultados}{18}{section.5.2}
+\contentsline {section}{\numberline {5.3}Conclusiones}{18}{section.5.3}
+\contentsline {chapter}{\numberline {6}Estudio sobre el Aluminio 1050}{19}{chapter.6}
+\contentsline {section}{\numberline {6.1}Estudio de la microestructura por el m\IeC {\'e}todo CMWP}{19}{section.6.1}
+\contentsline {section}{\numberline {6.2}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{19}{section.6.2}
+\contentsline {section}{\numberline {6.3}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{19}{section.6.3}
+\contentsline {section}{\numberline {6.4}Discusi\IeC {\'o}n de resultados}{19}{section.6.4}
+\contentsline {section}{\numberline {6.5}Conclusiones}{19}{section.6.5}
+\contentsline {chapter}{\numberline {7}Conclusiones}{20}{chapter.7}
+\contentsline {chapter}{\numberline {8}Proyecciones}{21}{chapter.8}
+\contentsline {chapter}{Bibliograf{\'{\i }}a}{22}{section*.19}

@@ -6,7 +6,7 @@ FILE1=01_intro
 TEX=pdflatex
 BIBTEX=bibtex
 INDEX=makeindex
-VIEW=okular
+VIEW=evince
 FLAGS = -Wall -O3 -I/usr/local/include
 
 FOLDER/FILE1.tex: $(FILEM).tex
