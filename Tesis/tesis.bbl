@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\urlprefix}{URL }
 
@@ -15,11 +15,46 @@
 \newblock Oxford science publications. Clarendon Press, 1985.
 \newblock \urlprefix\url{https://books.google.com.ar/books?id=ugwql-uVB44C}.
 
+\bibitem{Scherrer1918}
+\textsc{Scherrer, P.}
+\newblock Bestimmung der größe und der inneren struktur von kolloidteilchen
+  mittels röntgenstrahlen.
+\newblock \emph{Nachrichten von der Gesellschaft der Wissenschaften zu
+  Göttingen, Mathematisch-Physikalische Klasse}, \textbf{1918}, 98--100, 1918.
+\newblock \urlprefix\url{http://eudml.org/doc/59018}.
+
+\bibitem{Jones16}
+\textsc{Jones, F.~W.}
+\newblock The measurement of particle size by the x-ray method.
+\newblock \emph{Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, \textbf{166}~(924), 16--43, 1938.
+\newblock
+  \urlprefix\url{http://rspa.royalsocietypublishing.org/content/166/924/16}.
+
+\bibitem{WHHall1949}
+\textsc{Hall, W.~H.}
+\newblock X-ray line broadening in metals.
+\newblock \emph{Proceedings of the Physical Society. Section A},
+  \textbf{62}~(11), 741, 1949.
+\newblock \urlprefix\url{http://stacks.iop.org/0370-1298/62/i=11/a=110}.
+
 \bibitem{Scardi2004}
 \textsc{Scardi, P., Leoni, M., Delhez, R.}
 \newblock {Line broadening analysis using integral breadth methods: A critical
   review}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{37}~(3), 381--390, 2004.
+
+\bibitem{WarrenAverbach1949}
+\textsc{{Averbach}, B.~L., {Warren}, B.~E.}
+\newblock {Interpretation of X-Ray Patterns of Cold-Worked Metal}.
+\newblock \emph{Journal of Applied Physics}, \textbf{20}, 885--886, sep. 1949.
+
+\bibitem{WikiLognormal}
+\textsc{Wikipedia}.
+\newblock Log-normal distribution --- wikipedia{,} the free encyclopedia, 2017.
+\newblock
+  \urlprefix\url{https://en.wikipedia.org/w/index.php?title=Log-normal_distribution&oldid=779851885},
+  [Online; accessed 16-May-2017].
 
 \bibitem{Ungar1999}
 \textsc{Ung{\'{a}}r, T., Tichy, G.}
@@ -52,5 +87,25 @@
 \textsc{Groma, I., Ung{\'{a}}r, T., Wilkens, M.}
 \newblock {Asymmetric X-ray line broadening of plastically deformed crystals}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{21}~(1), 47--54, 1988.
+
+\bibitem{randle2000introduction}
+\textsc{Randle, V., Engler, O.}
+\newblock Introduction to Texture Analysis: Macrotexture, Microtexture and
+  Orientation Mapping.
+\newblock Taylor \& Francis, 2000.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=WQas7BbWP-sC}.
+
+\bibitem{bunge2013texture}
+\textsc{Bunge, H.}
+\newblock Texture Analysis in Materials Science: Mathematical Methods.
+\newblock Elsevier Science, 2013.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=wAQcBQAAQBAJ}.
+
+\bibitem{kocks2000texture}
+\textsc{Kocks, U., Tom{\'e}, C., Wenk, H.}
+\newblock Texture and Anisotropy: Preferred Orientations in Polycrystals and
+  Their Effect on Materials Properties.
+\newblock Cambridge University Press, 2000.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=vkyU9KZBTioC}.
 
 \end{thebibliography}
