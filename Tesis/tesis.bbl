@@ -88,6 +88,26 @@
 \newblock {Asymmetric X-ray line broadening of plastically deformed crystals}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{21}~(1), 47--54, 1988.
 
+\bibitem{mittemeijer2003diffraction}
+\textsc{Mittemeijer, E., Scardi, P.}
+\newblock Diffraction Analysis of the Microstructure of Materials.
+\newblock Springer Series in Materials Science. Springer Berlin Heidelberg,
+  2003.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=s\_RLRee1KMYC}.
+
+\bibitem{DeKeijser1982}
+\textsc{de~Keijser, T.~H., Langford, J.~I., Mittemeijer, E.~J., Vogels, A.
+  B.~P.}
+\newblock {Use of the Voigt function in a single-line method for the analysis
+  of X-ray diffraction line broadening}.
+\newblock \emph{J. Appl. Crystallogr.}, \textbf{15}~(3), 308--314, jun 1982.
+
+\bibitem{Thompson1987}
+\textsc{Thompson, P., Cox, D.~E., Hastings, J.~B.}
+\newblock {Rietveld Refinement of Debye-Scherrer Synchrotron X-ray Data from
+  A1203}.
+\newblock \emph{J. Appl. Crystallogr.}, \textbf{20}, 79--83, 1987.
+
 \bibitem{randle2000introduction}
 \textsc{Randle, V., Engler, O.}
 \newblock Introduction to Texture Analysis: Macrotexture, Microtexture and
