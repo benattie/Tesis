@@ -14,44 +14,44 @@ A level-1 auxiliary file: ./Caps/08_Proyecciones.aux
 Database file #1: ./bib/tesis_lib.bib
 Database file #2: ./bib/Physical_Properties_of_Crystals.bib.bib
 Database file #3: ./bib/International_Tables_for_Crystallography.bib.bib
-You've used 19 entries,
+You've used 21 entries,
             2652 wiz_defined-function locations,
-            1182 strings with 13365 characters,
-and the built_in function-call counts, 6209 in all, are:
-= -- 434
-> -- 144
+            1193 strings with 13740 characters,
+and the built_in function-call counts, 6752 in all, are:
+= -- 467
+> -- 164
 < -- 0
-+ -- 72
-- -- 36
-* -- 361
-:= -- 698
-add.period$ -- 71
-call.type$ -- 19
-change.case$ -- 14
++ -- 82
+- -- 41
+* -- 384
+:= -- 756
+add.period$ -- 78
+call.type$ -- 21
+change.case$ -- 16
 chr.to.int$ -- 0
-cite$ -- 19
-duplicate$ -- 613
-empty$ -- 682
-format.name$ -- 47
-if$ -- 1362
+cite$ -- 21
+duplicate$ -- 664
+empty$ -- 744
+format.name$ -- 53
+if$ -- 1486
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 173
-newline$ -- 111
-num.names$ -- 19
-pop$ -- 260
+int.to.str$ -- 21
+missing$ -- 189
+newline$ -- 122
+num.names$ -- 21
+pop$ -- 296
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 109
+skip$ -- 122
 stack$ -- 0
-substring$ -- 260
-swap$ -- 398
+substring$ -- 262
+swap$ -- 428
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 40
-width$ -- 21
-write$ -- 226
+while$ -- 42
+width$ -- 23
+write$ -- 248

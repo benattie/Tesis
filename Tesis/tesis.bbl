@@ -108,6 +108,19 @@
   A1203}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{20}, 79--83, 1987.
 
+\bibitem{schwartz2010electron}
+\textsc{Schwartz, A., Kumar, M., Adams, B., Field, D.}
+\newblock Electron Backscatter Diffraction in Materials Science.
+\newblock Springer US, 2010.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=wcTMT9e3yBYC}.
+
+\bibitem{wiki:Hough}
+\textsc{Wikipedia}.
+\newblock Hough transform --- wikipedia{,} the free encyclopedia, 2017.
+\newblock
+  \urlprefix\url{https://en.wikipedia.org/w/index.php?title=Hough_transform&oldid=782985344},
+  [Online; accessed 2-June-2017].
+
 \bibitem{randle2000introduction}
 \textsc{Randle, V., Engler, O.}
 \newblock Introduction to Texture Analysis: Macrotexture, Microtexture and

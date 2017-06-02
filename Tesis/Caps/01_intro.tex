@@ -73,7 +73,7 @@ Ahora bien, como se puede ver en la Fig \ref{fig:Bragg}, $\displaystyle \lvert \
   \label{eq:Bragg}
 \end{equation}
 \noindent
-siendo $d_{hkl}$ la distancia interplanar de la familia de planos $\{hkl\}$, 2$\theta_{B}$ el ángulo formado entre el haz incidente y el haz reflejado cuando se cumple la condición de Bragg y $n$ el número de orden de difracción. La Ec. \ref{eq:Bragg}, se llama Ley de Bragg y es la ecuación fundamental de la difracción de Rayos X (DRX). 
+siendo $d_{hkl}$ la distancia interplanar de la familia de planos $\{hkl\}$, 2$\theta_{B}$ el ángulo formado entre el haz incidente y el haz reflejado cuando se cumple la condición de Bragg y $n$ el número de orden de difracción. La Ec. \ref{eq:Bragg}, se llama Ley de Bragg y es la ecuación fundamental de la difracción de Rayos X (XRD). 
 
 La Ley de Bragg es válida en la medida que se cumplan la condiciones de dispersión cinemática y la condición de difracción de Fraunhoffer. 
 La primer condición se cumple cuando el fotón de rayos X que es dispersado interactúa solamente con un átomo de la muestra, y no es válida cuando se tiene un cristal verdaderamente perfecto.
@@ -96,16 +96,16 @@ Una consecuencia de la ley expresada en la Ec. \ref{eq:Bragg} es que para un cie
 Como resultado, los ``picos'' de difracción tendrán un ancho nulo. 
 Si, como ocurre en la práctica, el número de planos que contribuyen a la reflexión es finito, la distribución angular de intensidades tendrán un ancho y altura finitos, y lo mismo ocurrirá si la red de átomos tiene distorsiones, es decir, si los átomos no se encuentran en un arreglo perfectamente periódico.
 
-En un experimento de DRX real aparecerán además otras contribuciones que ensancharán los picos de difracción. 
+En un experimento de XRD real aparecerán además otras contribuciones que ensancharán los picos de difracción. 
 Por ejemplo, el haz incidente no será puntual ni estará constituido por haces completamente paralelos, sino que tendrá un tamaño finito y estará comprendido entre haces que tendrán cierta divergencia angular.
 Además, el haz no será completamente monocromático, sino que estará integrado por rayos X con longitudes de onda en un intervalo $(\lambda \ \pm \ \Delta \lambda)$.
 Todos estos factores contribuirán a que haya haces difractados en las vecindades de $\theta_{B}$, aumentando el ancho de los picos de difracción. 
 Una parte importante de esta tesis se tratará de obtener información acerca de la microestructura de los materiales a partir del ensanchamiento de los picos de difracción, por lo que la correcta clasificación y cuantificación de los efectos instrumentales será motivo de discusión permanente en los capítulos siguientes.
 
-\subsection{Estudios de ancho de pico: Revisión bibliográfica y estado del arte}\label{SS:DRX-LPA} 
-Si no se tienen en cuenta los diferentes efectos instrumentales se puede afirmar que, a partir del estudio del ensanchamiento y la forma de los perfiles de intensidad de los picos medidos en un experimento de DRX, es posible obtener información microestructural del material, como la cantidad y tipo de defectos presentes, o la distribución de tamaño de los dominios coherentes de difracción (cristalitas).
+\subsection{Estudios de ancho de pico: Revisión bibliográfica y estado del arte}\label{SS:XRD-LPA} 
+Si no se tienen en cuenta los diferentes efectos instrumentales se puede afirmar que, a partir del estudio del ensanchamiento y la forma de los perfiles de intensidad de los picos medidos en un experimento de XRD, es posible obtener información microestructural del material, como la cantidad y tipo de defectos presentes, o la distribución de tamaño de los dominios coherentes de difracción (cristalitas).
 Al conjunto de técnicas y métodos del campo de la cristalografía que utilizados para obtener este tipo de información se los conoce como Estudios de Ancho de Pico, o LPA, por sus siglas en inglés (\textit{Line Profile Analysis}).
-Aunque el término LPA fue acuñado muchos años después, la técnica, aunque rudimentaria, es tan antigua como los primeros experimentos de DRX, y fue implementada independientemente por Hull en Estados Unidos y Debye y Scherrer en Alemania. 
+Aunque el término LPA fue acuñado muchos años después, la técnica, aunque rudimentaria, es tan antigua como los primeros experimentos de XRD, y fue implementada independientemente por Hull en Estados Unidos y Debye y Scherrer en Alemania. 
 Mientras investigaba el tamaño de partículas de oro y plata en sistemas coloidales, Scherrer incluyó la ecuación que luego llevaría su nombre\cite{Scherrer1918}:
 
 \begin{equation}
@@ -115,7 +115,7 @@ Mientras investigaba el tamaño de partículas de oro y plata en sistemas coloid
 \noindent
 Donde $H$ denota el ancho del pico a la mitad de su intensidad máxima (también abreviado FWHM), $L$ es la longitud característica de la cristalita en la dirección perpendicular a la familia de planos $\{hkl\}$ y el factor numérico $2\sqrt{\ln(2)/\pi}$ se usa para convertir $H$ al ancho integral del pico, suponiendo que el mismo tiene forma Gaussiana.
 Los trabajos que siguieron se dedicaron a mejorar las estimaciones de tamaño y forma de las cristalitas, así como estudiar los perfiles de picos a partir de funciones Lorentzianas y mezclas de funciones Lorentzianas y Gaussianas.
-En el año 1938 Jones\cite{Jones16} señaló que el perfil de intensidades medido en un experimento de DRX, $I_{exp}$, es la convolución del perfil $I_{muestra}$ que se obtendría de la muestra y el debido a todos los efectos instrumentales, $I_{inst}$, es decir:
+En el año 1938 Jones\cite{Jones16} señaló que el perfil de intensidades medido en un experimento de XRD, $I_{exp}$, es la convolución del perfil $I_{muestra}$ que se obtendría de la muestra y el debido a todos los efectos instrumentales, $I_{inst}$, es decir:
 \begin{equation}
   I_{exp} \ = \ I_{muestra} \ \otimes \ I_{inst}
   \label{eq:conv}
@@ -324,36 +324,49 @@ Un problema mayor es que la densidad de dislocaciones obtenida por este método 
 Esto significa que aunque los métodos bottom-up tienen la ventaja de general modelos que pueden vincular directamente el modelado de la microestructura con los experimentos realizados, requieren una cantidad de suposiciones a priori sobre lo que ocurre en el material microscópicamente y los datos disponibles, aún cuando son de muy buena calidad, no siempre logran distinguir concluyentemente entre diferentes posibilidades.
 
 En este sentido es que en este trabajo también se propone trabajar siguiendo un enfoque más sencillo incialmente, pero que permitió realizar un tipo de análisis que no es posible de realizar siguiendo el enfoque bottom-up.
-Este método, propuesto por Langford et al en 1982\cite{DeKeijser1982} consiste en ajustar el pico de cada reflexión con una función de Voigt, que es la convolución de una función Gaussiana $G$ y una función Lorentziana $L$:
+Este método, propuesto por Langford et al en 1982\cite{DeKeijser1982}, consiste en ajustar el pico de cada reflexión con una función de Voigt, que es la convolución de una función Gaussiana $G$ y una función Lorentziana $L$:
 \begin{equation}
-  V(x, H_{G}, H_{L}) \ = \ \int L(\tau; H_{L}) \otimes G(\tau; H_{G}) d\tau
+  V(x, H_{G}, H_{L}) \ = \ G \otimes L \ = \ \int G(x'; H_{G}) L(x - x'; H_{L}) \ dx'
   \label{eq:Voigt}
 \end{equation}
 \noindent
-Cada una de las funciones tiene su propio FWHM, y en el modelo de Langford se asocia el FWHM de la función Gaussiana con la deformación media de la red cristalina:
+Cada una de las funciones tiene su propio FWHM, y en el modelo de Langford se asocia el FWHM de la función Gaussiana con la deformación media de la red cristalina
 \begin{equation}
-  <e> = \frac{1}{2} \ \sqrt{\frac{\pi}{2\log(2)}} \ \frac{H_{G}}{4 \ \tan{theta_{B}}}
+  <e> \ = \ \frac{1}{2} \ \sqrt{\frac{\pi}{2\log(2)}} \ \frac{H_{G}}{4 \ \tan{\theta_B}}
   \label{eq:Gauss}
 \end{equation}
 \noindent
-así como se asocia al FWHM de la función Lorentziana con la lojngitud promedio de cristalita en la dirección definida por el ángulo de Bragg:
+y el FWHM de la función Lorentziana se asocia con la longitud promedio de cristalita en la dirección definida por el ángulo de Bragg:
 \begin{equation}
   L \ = \ \frac{2}{\pi} \ \frac{\lambda}{H_{L} \ \cos{\theta_B}}
   \label{eq:Lorentz}
 \end{equation}
 \noindent
-El problema de utilizar la Ec. \ref{eq:Voigt} para ajustar las reflexiones es que realizar un producto de convolución es muy costoso computacionalmente, por lo que unos años después Thompson et al\cite{Thompson1987} desarollaron un método para aplicar el mismo análisis pero utilizando la llamada función pseudo-Voigt, que es una combinación lineal de una función Gaussiana y una función Lorentziana que poseen el mismo FWHM:
+Al ajustar un dado pico con una función Voigtinana dejando como parámetros de ajuste a $H_G$ y $H_L$, se puede determinar la deformación promedio y la longitud de  cristalina en la dirección perpendicular a la familia de planos $\{hkl\}$ que producen interferencia constructiva para el ángulo $\theta_B$.
+
+El problema de utilizar la Ec. \ref{eq:Voigt} para ajustar las reflexiones es que realizar un producto de convolución es muy costoso computacionalmente, por lo que unos años después Thompson et al\cite{Thompson1987} desarollaron un método para aplicar el mismo análisis, pero utilizando la llamada función pseudo-Voigt, que es una combinación lineal de una función Gaussiana y una función Lorentziana que poseen el mismo FWHM:
 \begin{equation}
   pV(x; H, \eta) \ = \ \eta \ L(x; H) \ + \ (1 - \eta) \ G(x; H)
   \label{eq:pseudovoigt}
 \end{equation}
 \noindent
-El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica que tan intenso va a ser el carácter Lorentziano del pico estudiado.
-Thompson et al demostraron que si se ajusta a un dado pico una función pseudo-Voigt, se puede, a partir del par $[H, \eta]$, determinar los parámetros $[H_G, H_{L}]$ de la función Voigt que da el mejor ajuste al mismo pico, permitiendo así realizar el análisis de Langford con un costo computacional mínimo.
-
+El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica que tan intenso va a ser el carácter Lorentziano del pico estudiado. Al ajustar la expresión \ref{eq:pseudovoigt} e dejan como párametros de ajuste al par $[H, \eta]$ y se emplea las expresiones desarrolladas por Thompson para determinar los valores $[H_G, H_L]$ que se hubieran obtenido de realizar el ajuste utilizando la Ec. \ref{eq:Voigt}:
+\begin{eqnarray}
+  H_G & = & H \ (1 -  0.74417 \ \eta - 0.24781 \ \eta^2 - 0.00810 \ \eta^3)^{1/2} \\
+  H_L & = & H \ (0.72928 \ \eta + 0.19289 \ \eta^2 + 0.07783 \ \eta^3)
+  \label{eq:Hg}
+\end{eqnarray}
+\noindent
+Como tanto la función Voigt como la pseudo-Voigt están normalizadas, esto es $\int V dx \ = \ \int pV dx \ = \ 1$, y para cada pico están centradas en $\theta_B$ la función que se ajusta en la práctica tiene dos parámetros libres más:
+\begin{equation}
+    pV(\theta; I_0, \theta_B, H, \eta) \ = \ I_0 \ [\eta \ L(\theta; \theta_B, H) \ + \ (1 - \eta) \ G(\theta; \theta_B, H)]
+  \label{eq:pVprofile}
+\end{equation}
+\noindent
+lo que permite incorporar la intensidad integrada del pico $I_0$ y el centro $\theta_B$ del mismo, y el ajuste se realiza sobre la variable angular $\theta$.
 
  \section{Difracción de electrones retrodifundidos}\label{S:EBSD}
-La difracción de electrones retro difundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la microestructura promedio de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
+La difracción de electrones retro difundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la microestructura de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
 El uso de esta técnica ha aumentado rápidamente desde principios del 2000 debido al aumento de disponibilidad de los microscopios electrónicos de barrido (SEM). El incremento de la velocidad de adquisición y procesamiento de datos también ha permitido lograr que una técnica extremadamente local (capaz de estudiar pocos cristales) pase a tener una estadística comparable, aunque aún menor, que la de los experimentos de rayos X.
 \nomenclature{EBSD}{Difracción de electrones retro difundidos}
 \nomenclature{SEM}{Microscopio electrónico de barrido}
@@ -368,7 +381,8 @@ Los patrones que se obtienen en una medición de EBSD se obtienen a partir de la
 \end{figure}
 
 Entre la multitud de interacciones que ocurren entre los electrones y el cristal, la interacción quasi elástica entre los electrones y el arreglo de planos cristalinos del volumen de interacción es la responsable de producir las llamadas bandas de Kikuchi que pueden verse en la Fig. \ref{fig:kikuchi}.
-Estas bandas, que pueden pensarse como la proyección de una dada familia de planos cristalinos en la pantalla de fósforo, están limitadas por los conos de difracción que se producen cuando los electrones interactúan con la familia de planos $\{ hkl \}$. Se puede demostrar que el espaciamiento angular entre los llamados conos de Kossel es igual a 2$\theta_{hkl}$, donde $\theta_{hkl}$ cumple con la ley de Bragg:
+Estas bandas, que pueden pensarse como la proyección de una dada familia de planos cristalinos en la pantalla de fósforo, están limitadas por los conos de difracción que se producen cuando los electrones interactúan con la familia de planos $\{ hkl \}$. 
+Se puede demostrar que el espaciamiento angular entre los llamados conos de Kossel es igual a 2$\theta_{hkl}$, donde $\theta_{hkl}$ cumple con la ley de Bragg\cite{schwartz2010electron}:
 \begin{equation}
   2 \ d_{hkl} \ \sin(\theta_{hkl}) \ = \ n \ \lambda
   \label{eq:BraggEBSD}
@@ -379,16 +393,17 @@ Estas bandas, que pueden pensarse como la proyección de una dada familia de pla
   \includegraphics[width=0.6\textwidth]{kikuchi}
   \caption{Patrón de Kikuchi}
   \label{fig:kikuchi}
-\end{figure}
+ \end{figure}
 
-La configuración experimental de una medición de EBSD es tal que los conos de difracción son mucho más grandes que la pantalla de fósforo que los registra, por lo que las banda de Kikuchi que deberían ser curvas se ven practicamente rectas, lo que facilita su procesamiento y reconocimiento a través de herramientas matemáticas desarrolladas hace tiempo, en particular la transformada de Hough[ref].
+La configuración experimental de una medición de EBSD es tal que los conos de difracción son mucho más grandes que la pantalla de fósforo que los registra, por lo que las banda de Kikuchi que deberían ser curvas se ven practicamente rectas, lo que facilita su procesamiento y reconocimiento a través de herramientas matemáticas desarrolladas hace tiempo, en particular la transformada de Hough\cite{wiki:Hough}.
 
-Como en la práctica el haz incidente no interactúa solamente con una familia de planos sino con todos ellos, en la pantalla de fósforo quedan grabadas multitud de bandas de Kikichi, cada una vinculada a una familia de planos en particular, y el ángulo entre badas de Kikuchi es igual al ángulo que forman los diferentes planos cristalinos entre si[ref], y es esta la característica que permite junto con la indicación de la estructura cristalina del material estudiado (dato que es preferible dar de antemano) determinar a partir de las bandas de Kikichi la orientación promedio de los cristales que interactúan con el haz de electrones.
+Como en la práctica el haz incidente no interactúa solamente con una familia de planos, sino con todas las familias presentes en el volumen de interacción, en la pantalla de fósforo quedan grabadas diferentes bandas de Kikuchi, cada una vinculada a una familia de planos en particular.
+Como el ángulo entre las bandas de Kikuchi es igual al ángulo que tienen entre sí los diferentes planos cristalinos\cite{schwartz2010electron} se puede, si se conoce la estructura cristalina del material estudiado, determinar la orientación promedio de los cristales que interactúan con el haz de electrones.
 
-De esta manera en un experimento de EBSD, el haz de electrones barre la muestra, y en cada ubicación registra una serie de bandas de Kikuchi que permiten determinar, procesamiento de imágen mediante, la orientación de los cristales en el volumen estudiado.
+De esta manera, en una medición de EBSD, el haz de electrones barre la muestra, y en cada ubicación registra una serie de bandas de Kikuchi a partir de las cuales determina, la orientación promedio de los cristales en el volumen estudiado.
 El resultado final es una imagen en la que se registra la orientación de todos los cristales del área estudiada como la que se puede ver en la Fig. \ref{fig:ebsdex}. 
 En este caso lo que se hace es asignar un color a los cristales que tienen una dada dirección cristalina paralela al eje Z y colorear cada pixel en función de este dato. 
-Nótese que esta imagen, llama mapa de figura de polo inversa, da información acerca de la dirección de los cristales y no de su orientación, aunque combinando la información de distintos mapas, toda la información orientacional de la muestra puede ser analizada.
+Nótese que esta imagen, llamada mapa de figura de polo inversa, da información acerca de la dirección de los cristales y no de su orientación, aunque combinando la información de distintos mapas, toda la información orientacional de la muestra puede ser analizada.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{IF70centroTD-IPF}
@@ -396,13 +411,14 @@ Nótese que esta imagen, llama mapa de figura de polo inversa, da información a
   \label{fig:ebsdex}
 \end{figure}
 
-Adicionalmente, los mapas de EBSD pueden proveer información acerca de la correlación espacial que existe entre las orienciones, por ejemplo, en la imagen de la Fig. \ref{fig:ebsdex} puede verse que todos los puntos que tienen direcciones similares se agrupan a lo ancho de la imagen, dando una idea de ''granos alargados'', consistente con el hecho de que la imagen mostrada proviene de una muestra laminada, con la dirección de laminación paralela a la dirección en que los granos se ''alargan''.
+Adicionalmente, los mapas de EBSD pueden proveer información acerca de la correlación espacial que existe entre las orientaciones. 
+Por ejemplo, en la imagen de la Fig. \ref{fig:ebsdex} puede verse que todos los puntos que tienen direcciones similares se agrupan a lo ancho de la imagen, dando una idea de ``granos alargados'', consistente con el hecho de que la imagen mostrada proviene de una muestra laminada, con la dirección de laminación paralela a la dirección en que los granos se ``alargan''.
 
 A partir de lo descripto anteriormente se puede apreciar que las magnitudes físicas que se pueden obtener a partir de un experimento de EBSD van a estar definidas a partir de comparar la orientación de los cristales medidos.
-Por ejemplo, en un experimento de DRX uno puede estimar, a partir de las técnicas de LPA, el tamaño de los dominios coherentes de difracción, también llamados cristalitas, mientras que en EBSD se trabaja con el concepto de granos, definidos como porciones del material que tienen una misorientación mayor que determinado umbral, que suele variar entre los 5$^{\circ}$ y los 15$^{\circ}$. (escribir mejor esta parte)
-Una comparación similar se puede hacer cuando se discuten las magitudes asociadas a la deformación de la red cristalina. En los experimentos de DRX se intenta estimar la densidad de dislocaciones del material, observadas por la presencia de un ensanchamiento que crece de una manera particular con los índices  de Miller de los picos estudiados, mientras que en EBSD la cantidad básica para estimar la deformación de la red cristalina es la llama \textit{Kernel Average Misorientation} (KAM) que se define como la misorientación promedio de un pixel con sus vecinos más cercanos.
-Debe quedar claro de las definiciones que tanto en las mediciones de de tamaño de grano como de deformación de la red cristalina, las magnitudes medidas a partir de DRX y de EBSD son diferentes y van a arrojar, en general, valores diferentes.
-Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos sometidos a los materiales debe ser qualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estidios de ancho de pico.
+Por ejemplo, en un experimento de XRD uno puede estimar, a partir de las técnicas de LPA, el tamaño de los dominios coherentes de difracción, también llamados cristalitas, mientras que en EBSD se trabaja con el concepto de granos, definidos como porciones del material que tienen una misorientación mayor que determinado umbral, que suele variar entre los 5$^{\circ}$ y los 15$^{\circ}$. (escribir mejor esta parte)
+Una comparación similar se puede hacer cuando se discuten las magnitudes asociadas a la deformación de la red cristalina. En los experimentos de XRD se intenta estimar la densidad de dislocaciones del material, observadas por la presencia de un ensanchamiento que crece de una manera particular con los índices  de Miller de los picos estudiados, mientras que en EBSD la cantidad básica para estimar la deformación de la red cristalina es la llama \textit{Kernel Average Misorientation} (KAM) que se define como la misorientación promedio de un pixel con sus vecinos más cercanos.
+Debe quedar claro de las definiciones que tanto en las mediciones de de tamaño de grano como de deformación de la red cristalina, las magnitudes medidas a partir de XRD y de EBSD son diferentes y van a arrojar, en general, valores diferentes.
+Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos sometidos a los materiales debe ser qualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estudios de ancho de pico.
 
 \section{Textura cristalográfica}\label{S:Text}
 Como ya se mencionó en la Sec. \ref{S:motivacion}, las propiedades macroscópicas de un sólido cristalino estarán dadas por las propiedades de su celda unidad, y estas serán en general anisotrópicas.
@@ -437,7 +453,7 @@ Bajo esta convención, se parte del sistema del cristal y primero se rota el mis
 Luego se rota al nuevo sistema un ángulo $\Phi$ alrededor del nuevo eje X', y finalmente se realiza una rotación de magnitud $\phi_2$ alrededor del nuevo eje Z'', hasta que el sistema está en coincidencia con el sistema de referencia de la muestra $K_S$.
 A los ángulos que constituyen la terna $\phi_1 \Phi \phi_2$ se los denomina ángulos de Euler, y son los que definen a la orientación del cristal alineado con $K_C$.
 Ahora, si se tienen $N$ cristales, cada uno con una orientación $\mathbf{g}_i$ respecto al sistema de referencia de la muestra, la FDO será aquella que indique que proporción de los $N$ cristales tiene una dada orientación $\mathbf{g}$. 
-En este contexto queda claro que la FDO será una función discreta, sin embargo, si el número de cristales estudiados es grande, como suele ocurrir en los experimentos de DRX, se puede definir a la FDO como una función continua $f(\mathbf{g})$ en el espacio de orientaciones.
+En este contexto queda claro que la FDO será una función discreta, sin embargo, si el número de cristales estudiados es grande, como suele ocurrir en los experimentos de XRD, se puede definir a la FDO como una función continua $f(\mathbf{g})$ en el espacio de orientaciones.
 De esta manera se tiene que la FDO es la función que determina la fracción de volumen que representan los cristales con una orientación que cae en una región $\Delta \Omega$ del espacio de orientaciones\cite{kocks2000texture}:
 \begin{equation}
   \frac{\Delta V}{V} \ = \ \frac{\int_{\Delta \Omega} \ f(\mathbf{g}) \ d\mathbf{g}}{\int_{\Omega_0} \ f(\mathbf{g})\ d\mathbf{g}}
@@ -459,7 +475,7 @@ Esta tarea puede realizarse a partir de los experimentos de EBSD descriptos en l
 Sin embargo, incluso con los avances en automatización y procesamiento de los microscopios modernos, la medición de un volumen de muestra que sea representativo del todo el material a través de los experimentos de EBSD, es una tarea difícil, y a veces posible de lograr.
 
 Por otro lado, los volúmenes de interacción de la radiación de rayos X son muchos más grandes que los que se pueden conseguir con electrones, por lo que la medición de volumen representativo del material se vuelve mucho más sencilla, aunque los rayos X sólo pueden medir proyecciones de $f(\mathbf{g})$ llamadas figuras de polos (FP).
-Para medir una FP en un experimento de DRX se selecciona una dada familia de planos $\{hkl\}$ colocando el detector a un ángulo $2\theta$ adecuado y se mide la inteensidad de dicha reflexión.
+Para medir una FP en un experimento de XRD se selecciona una dada familia de planos $\{hkl\}$ colocando el detector a un ángulo $2\theta$ adecuado y se mide la inteensidad de dicha reflexión.
 En esta situación, los únicos cristales que contribuirán a la intensidad de la reflexión medida son aquellos cuya dirección $[hkl]$ sea perpendicular a la superficie de la muestra, es decir, la intensidad de una figura de polos en una dada dirección $\mathbf{y}$ es proporcional a la cantidad de cristales que cumplen la condición $[hkl] \ // \ y$, lo que se puede expresar como una proyección de la FDO $f(\mathbf{g})$:
 \begin{equation}
   p_{\mathbf{h}}(\mathbf{y}) \ = \ \int_{0}^{2\pi} \ f(\mathbf{g}) \ d\mathbf{\Gamma}
@@ -514,7 +530,7 @@ Sobre qué camino se integra?
 Describo el método de MTEX?
 % \subsection{La textura, su relación con la microestructura y los procesos de deformación}\label{SS:Defo}
 \subsection{FDO y FDO generalizada}\label{SS:ODFG}
-Según lo explicado en la Sec. \ref{S:DRX}, la determinación de la FDO se puede hacer a partir de la medición de figuras de polos, que a su vez pueden ser determinadas por medio de experimentos de DRX, ya que en dichos experimentos se tiene que la intensidad integrada de la reflexión $\{hkl\}$ es proporcional al número de planos cristalinos paralelos a  la superficie del material en la dirección $\mathbf{y}$.
+Según lo explicado en la Sec. \ref{S:DRX}, la determinación de la FDO se puede hacer a partir de la medición de figuras de polos, que a su vez pueden ser determinadas por medio de experimentos de XRD, ya que en dichos experimentos se tiene que la intensidad integrada de la reflexión $\{hkl\}$ es proporcional al número de planos cristalinos paralelos a  la superficie del material en la dirección $\mathbf{y}$.
 Ahora bien, como ya se discutió previamente, a partir del estudio de la forma de picos medidos en la misma dirección $\mathbf{y}$ se puede determinar el tamaño de la microestructura de los planos $\{hkl\}$ que pertenecen a los cristales que están difractando.
 Por ejemplo, si me mide completamente el pico de la reflexión $hkl$ se puede determinar la proporción de cristales que tienen sus planos $\{hkl\}$ paralelos a la superficie del material, pero además se puede a partir del ancho $H$ de dicho pico estimar la longitud de la columna que difracta coherentemente en la dirección $[hkl]$ empleando la Ec. [poner ec de tamaño de Langford] y ver la distorsión perpendicular a esa dirección utilizando la Ec. [poner ec de strain en Langford].
 De esta manera se puede asignar a la dirección $\mathbf{y}$ no sólo un número asociado al número de cristales con sus planos en esa dirección, sino un par de números que indicarán el estado de la microestructura de los planos cristalinos orientados en dicha dirección, lo que permite construir lo que se denominas \textit{Figuras de Polos Generalizadas (FPG)} de tamaño de dominio o de distorsión, respectivamente.
@@ -525,7 +541,7 @@ De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede
 
 \section{Organización de la tesis}\label{S:Org}
 En el Cap. \ref{C:Materiales} se explicarán lo detalles de los experimentos de difracción de rayos X que se realizaron para ponder medir la texura de los materiales estudiados en el desarrollo de esta tesis. 
-También se explicarán los algoritmos empleados para poder procesar el gran caudal de datos que se obtiene de un experimento de DRX realizado con luz sincrotrón, así como una descripción del método empleado en las mediciones de EBSD que usaron para corroborar los resultados obtenidos por medio de las técnicas de LPA aplicada a los resultados de sincrotrón.
+También se explicarán los algoritmos empleados para poder procesar el gran caudal de datos que se obtiene de un experimento de XRD realizado con luz sincrotrón, así como una descripción del método empleado en las mediciones de EBSD que usaron para corroborar los resultados obtenidos por medio de las técnicas de LPA aplicada a los resultados de sincrotrón.
 
 Cada uno de los capítulos que siguen de la Sec. \ref{C:Materiales} está dedicado a uno de los materiales estudiados.
 En los capítulos \ref{C:IF}, \ref{C:F138} y \ref{C:G2205} se estudian tres aceros con caracterísitcas diferentes: el del Cap. \ref{C:IF} es un acero denominado libre de intersticiales (IF) que tiene una estructura cristalina de tipo BCC, el del Cap. \ref{C:F138} es un acero inoxidable denominado F138, que tiene un estructura de tipo FCC y también se estudió un acero de dos fases (BCC + FCC) nomenclado G2205, y cuyos principales resultados se encuentran en el Cap. \ref{C:G2205}.
