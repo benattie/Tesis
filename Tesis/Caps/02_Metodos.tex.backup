@@ -1,0 +1,107 @@
+\chapter{Materiales y métodos}\label{C:Materiales}
+\graphicspath{{./figs/02_Mat/}}
+
+\section{Experimentos de difracción de rayos X}\label{S:MatXRD}
+Buena parte del trabajo de esta tesis se centró alrededor de los experimentos de difracción de rayos X.
+En particular, la mediciones se hicieron empleando la geometría de transmisión, también llamada de Debye-Scherrer, utilizando radiación sincrotrón.
+La facilidad empleada fue PETRA III, cuya fotografía puede verse en la Fig. \label{fig:desy}, y está ubicada en DESY, en la ciudad de Hamburgo, Alemania\cite{desy}.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{desy}
+  \caption{Fotografías del exterior e interior de la facilidad PETRA III, en DESY}
+  \label{fig:desy}
+\end{figure}
+
+En PETRA III, se producen rayos X se alta intensidad, con una longitud de onda de aproximadamente $\lambda \, = \, 0.0142$\,nm, con una divergencia angular de 0.03\,$^{\circ}$.
+
+En los experimentos de transmisión, un haz de rayos X incide sobre la muestra que se desea estudiar y como resultado de la interacción elástica entre el haz incidente y el material, diferentes haces de la misma longitud de 
+
+
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{process}
+  \caption{Esquema basico del proceso de medicion y analisis de datos}
+  \label{fig:transmision}
+\end{figure}
+
+\newpage
+\subsection{Contribuciones instrumentales al ancho de pico}\label{SS:inst}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{IF75R_FWHM_Raw_Points_NoSym}
+  \caption{.}
+  \label{fig:IF75NoSym}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{LaB6_1mm_FWHMvsGammavsBS}
+  \caption{Variacion del ancho instrumental como función del ángulo a lo largo del anillo de Debye.}
+  \label{fig:LaB6vsGamma}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{IF75R_FWHM_Raw_Points_Sym}
+  \caption{.}
+  \label{fig:IF75Sym}
+\end{figure}
+
+\newpage
+\subsection{Postprocesamiento de los datos}\label{SS:MatPost}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Pico_minimo}
+  \caption{La relación señal ruido mínima que permite distinguir y ajustar apropiadamente un pico del difractograma.}
+  \label{fig:MinIntensity}
+\end{figure}
+
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Conv_PF_omega_contourf}
+  \caption{Relación entre las coordenadas angulares y las coordenadas de las figuras de polos.}
+  \label{fig:LabtoPF}
+\end{figure}
+
+\newpage
+\subsection{CMWP}\label{SS:CMWP}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{CMWP_front}
+  \caption{Pantalla de inicio del sofware CMWP.}
+  \label{fig:CMWP_front}
+\end{figure}
+
+\newpage
+\subsection{Langford}\label{SS:Langford}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{GaussianStrain}
+  \caption{Coeficientes de strain gaussiano y lorentziano.}
+  \label{fig:GaussStrainn}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{RealStrain}
+  \caption{Coeficientes de strain posta.}
+  \label{fig:RealStrain}
+\end{figure}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Strain_Compare}
+  \caption{Comparacion del gaussiano con el posta.}
+  \label{fig:RealvsGauss}
+\end{figure}
+
+\newpage
+\section{Mediciones de EBSD}\label{S:MatEBSD}

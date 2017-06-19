@@ -141,4 +141,47 @@
 \newblock Cambridge University Press, 2000.
 \newblock \urlprefix\url{https://books.google.com.ar/books?id=vkyU9KZBTioC}.
 
+\bibitem{desy}
+\textsc{DESY}.
+\newblock Petra iii -- x-ray radiation source, 2017.
+\newblock
+  \urlprefix\url{http://www.desy.de/research/facilities__projects/petra_iii/index_eng.html},
+  [Online; accessed 15-June-2017].
+
+\bibitem{Bunge1996}
+\textsc{Bunge, H.~J., Klein, H.}
+\newblock {Area-Detector Bunge Klein.pdf}.
+\newblock \emph{Z. Met.}, 1996.
+
+\bibitem{FIT2D}
+\textsc{Hammersley, A.~P., Svensson, S.~O., Hanfland, M., Fitch, A.~N.,
+  Häusermann, D.}
+\newblock Two-dimensional detector software: From real detector to idealised
+  image or two-theta scan.
+\newblock \emph{High Pressure Research}, \textbf{14}, 1996.
+
+\bibitem{wiki:Levenberg}
+\textsc{Wikipedia}.
+\newblock Levenberg–marquardt algorithm --- wikipedia{,} the free
+  encyclopedia, 2017.
+\newblock
+  \urlprefix\url{https://en.wikipedia.org/w/index.php?title=Levenberg%E2%80%93Marquardt_algorithm&oldid=771936514},
+  [Online; accessed 19-June-2017].
+
+\bibitem{Caglioti1958}
+\textsc{Caglioti, G., Paoletti, A., Ricci, F.}
+\newblock Choice of collimators for a crystal spectrometer for neutron
+  diffraction.
+\newblock \emph{Nuclear Instruments}, \textbf{3}~(4), 223 -- 228, 1958.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0369643X5890029X}.
+
+\bibitem{Hielscher2008}
+\textsc{Hielscher, R., Schaeben, H.}
+\newblock {A novel pole figure inversion method: specification of the MTEX
+  algorithm}.
+\newblock \emph{J. Appl. Crystallogr.}, \textbf{41}~(6), 1024--1037, nov 2008.
+\newblock
+  \urlprefix\url{http://scripts.iucr.org/cgi-bin/paper?S0021889808030112}.
+
 \end{thebibliography}

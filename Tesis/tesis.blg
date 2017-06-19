@@ -11,47 +11,48 @@ A level-1 auxiliary file: ./Caps/05_G2205.aux
 A level-1 auxiliary file: ./Caps/06_Al.aux
 A level-1 auxiliary file: ./Caps/07_Conclusiones.aux
 A level-1 auxiliary file: ./Caps/08_Proyecciones.aux
+A level-1 auxiliary file: ./Apendice/Input_files.aux
 Database file #1: ./bib/tesis_lib.bib
 Database file #2: ./bib/Physical_Properties_of_Crystals.bib.bib
 Database file #3: ./bib/International_Tables_for_Crystallography.bib.bib
-You've used 21 entries,
+You've used 27 entries,
             2652 wiz_defined-function locations,
-            1193 strings with 13740 characters,
-and the built_in function-call counts, 6752 in all, are:
-= -- 467
-> -- 164
+            1232 strings with 14860 characters,
+and the built_in function-call counts, 8658 in all, are:
+= -- 595
+> -- 220
 < -- 0
-+ -- 82
-- -- 41
-* -- 384
-:= -- 756
-add.period$ -- 78
-call.type$ -- 21
-change.case$ -- 16
++ -- 110
+- -- 55
+* -- 489
+:= -- 968
+add.period$ -- 98
+call.type$ -- 27
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 664
-empty$ -- 744
-format.name$ -- 53
-if$ -- 1486
+cite$ -- 27
+duplicate$ -- 862
+empty$ -- 941
+format.name$ -- 71
+if$ -- 1899
 int.to.chr$ -- 0
-int.to.str$ -- 21
-missing$ -- 189
-newline$ -- 122
-num.names$ -- 21
-pop$ -- 296
+int.to.str$ -- 27
+missing$ -- 242
+newline$ -- 154
+num.names$ -- 27
+pop$ -- 388
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 122
+skip$ -- 155
 stack$ -- 0
-substring$ -- 262
-swap$ -- 428
+substring$ -- 324
+swap$ -- 557
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 42
-width$ -- 23
-write$ -- 248
+while$ -- 51
+width$ -- 29
+write$ -- 317

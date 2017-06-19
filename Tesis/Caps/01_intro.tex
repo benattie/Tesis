@@ -298,18 +298,19 @@ Finalmente, cuando no sólo se tiene que promediar sobre los diferentes sistemas
 y $f_{\alpha}$ es la fracción de volumen de cada cristalita y los coeficientes de Fourier $A_{n}^{D,\alpha}$ se deben calcular utilizando las Ecs. \ref{eq:WAPlot}, \ref{eq:contrast3}, \ref{eq:Wilkens}, \ref{eq:Cav1} y \ref{eq:Cav2}, según corresponda a cada caso particular para cada cristalita.
 
 \subsection{El Método de Langford}\label{SS:Langford}
-Al repasar la historia de las diferentes metodologías aplicadas en los LPA, puede apreciarse que los mismos pueden tener dos enfoques:el enfoque top-down (arriba-abajo) y el de bottom-up (abajo-arriba).
+Al repasar la historia de las diferentes metodologías aplicadas en los LPA, puede apreciarse que los mismos pueden tener dos enfoques: el enfoque top-down (arriba-abajo) y el de bottom-up (abajo-arriba).
 Las metodologías top-down proponen ajustar los picos medidos por XRD con funciones analíticas, como Lorentzianas, Gaussianas o diferentes combinaciones de éstas, para luego asociar a los parámetros de libres de estas funciones con cantidades físicas significativas, como puede ser el tamaño de cristalita, distorsión de la red, o los diferentes efectos instrumentales.
 Ejemplos de este enfoque son las Ecs. \ref{eq:Scherrer}, \ref{eq:WHPlot} y \ref{eq:WHPlot2} en donde se relaciona el ancho de los picos de difracción a un cierto defecto, y luego se usa el valor de $H$ para hacer estimaciones cuantitativas del tamaño de cristalita, por ejemplo.
 En este caso, se suele elegir una función de ajuste que simplifique el tratamiento de los datos, así como la sustracción de los efectos instrumentales.
-Como ya se vio en la sección \ref{SS:DRX-LPA}, a lo largo de la historia de los estudios de ancho de pico se le han asociado a los picos de difracción formas Lorentzianas o Gaussianas, y ese carácter es influido, al menos cualitativamente, por el tipo de defectos presentes, además de por su cantidad.
+Como ya se vio en la sección \ref{SS:XRD-LPA}, a lo largo de la historia de los estudios de ancho de pico se le han asociado a los picos de difracción formas Lorentzianas o Gaussianas, y ese carácter es influido, al menos cualitativamente, por el tipo de defectos presentes, además de por su cantidad.
 
-En la vereda conceptual de enfrente, los métodos bottom-up tratan de modelar precisamente cómo la cantidad y tipo de defectos presentes modificarán la forma de los picos de difracción, básicamente calculando los coeficientes de Fourier que se pueden obtener de diferentes modelos, para luego comparar dichos coeficientes con los obtenidos de los picos experimentales.
+En la vereda conceptual de enfrente, los métodos bottom-up tratan de modelar precisamente cómo la cantidad y tipo de defectos presentes modificarán la forma de los picos de difracción, calculando los coeficientes de Fourier que se pueden obtener de diferentes modelos microestructurales, para luego comparar dichos coeficientes con los obtenidos de los picos experimentales.
 De esta manera se puede interpretar directa y cuantitativamente la microestructura del material a partir de los experimentos de difracción, lo cual resulta muy atractivo en principio.
-Sin embargo, como ya se vio en los párrafos anteriores, la cantidad de factores que influyen en la forma de una dada reflexión son numerosos, así que para poder determinar unívocamente cada uno de ellos se necesitaría medir con gran calidad un número de reflexiones mayor a las que están disponibles en la práctica, o realizar suposiciones a priori sobre cómo se acumularán defectos en el material analizado para poder ajustar los parámetros de interés con los datos experimentales.
+Sin embargo, como ya se vio en los párrafos anteriores, la cantidad de factores que influyen en la forma de una dada reflexión son numerosos, lo que significa que para poder determinar unívocamente todos los parámetros libres que surgen de un dado modelo microestructural, se necesitaría medir con gran calidad un número de reflexiones mayor a las que están disponibles en la práctica para muchos materiales, o realizar suposiciones a priori sobre cómo se acumularán defectos en el material analizado para poder ajustar los parámetros de interés con los datos experimentales.
+La aplicación de los modelos bottom-up también encuentra problemas cuando hay superposición de reflexiones, ya que en ese caso se agrega la incógnica de la fracción de volumen de cada una de las fases presentes en el material.
 
 Un análisis interesante de los alcances y limitaciones de ésta metodología se fue realizado por Kamminga et al\cite{mittemeijer2003diffraction}, donde tratan de determinar la densidad de dislocaciones en films de Al sujetos a tensiones biaxiales.
-En este caso, debido a las condiciones de crecimiento de los films, los sistemas acticos de deslizamiento eran sabidos a priori y fáciles de medir experimentalmente, aunque no era sabido si las dislocaciones eran predominantemente de borde, de hélice o una mezcla de ambas.
+En este caso, debido a las condiciones de crecimiento de los films, los sistemas activos de deslizamiento eran conocidos a priori y fáciles de medir experimentalmente, aunque no era sabido si las dislocaciones eran predominantemente de borde, de hélice o una mezcla de ambas.
 
 \begin{figure}[!htb]
   \centering
@@ -318,15 +319,16 @@ En este caso, debido a las condiciones de crecimiento de los films, los sistemas
   \label{fig:FourierMittemeijer}
 \end{figure}
 
-A partir de un análisis cristalográfico minucioso, Kamminga et al utilizaron el modelo de los factores de contraste para calcular cómo serían los coeficientes de Fourier de los las reflexiones si la dislocaciones fueran solamente de borde, solamente de hélice y si ambas estaban presentes en igual cantidad, para luego comparar dichos coeficientes con los obtenidos experimentalmente.
-Haciendo esto pudieron descartar la posibilidad de que todas las dislocaciones presentes fueran de borde, sin embargo, no pudieron distinguir concluyentemente si la dislocaciones eran de borde o si eran una mezcla de ambas.
-Un problema mayor es que la densidad de dislocaciones obtenida por este método no era tan diferente a la obtenida utilizando la suposición menos probable, pero más sencilla matemáticamente, de que todos los sistemas de deslizamiento estaban igualmente poblados, con igual proporción de dislocaciones de hélice y borde.
-Esto significa que aunque los métodos bottom-up tienen la ventaja de general modelos que pueden vincular directamente el modelado de la microestructura con los experimentos realizados, requieren una cantidad de suposiciones a priori sobre lo que ocurre en el material microscópicamente y los datos disponibles, aún cuando son de muy buena calidad, no siempre logran distinguir concluyentemente entre diferentes posibilidades.
+A partir de un análisis cristalográfico minucioso, Kamminga et al utilizaron el modelo de los factores de contraste para calcular cómo serían los coeficientes de Fourier de las reflexiones si la dislocaciones fueran solamente de borde, solamente de hélice o si ambas estaban presentes en igual cantidad, para luego comparar dichos coeficientes con los obtenidos experimentalmente.
+Haciendo esto pudieron descartar la posibilidad de que todas las dislocaciones presentes fueran de borde, sin embargo, no pudieron distinguir concluyentemente si las dislocaciones eran de hélice o si eran una mezcla con igual proporción de hélice y borde.
 
-En este sentido es que en este trabajo también se propone trabajar siguiendo un enfoque más sencillo incialmente, pero que permitió realizar un tipo de análisis que no es posible de realizar siguiendo el enfoque bottom-up.
+El problema más importante es que la densidad de dislocaciones obtenida por este método no era tan diferente a la obtenida utilizando la suposición menos probable, pero más sencilla matemáticamente, de que todos los sistemas de deslizamiento estaban igualmente poblados, con igual proporción de dislocaciones de hélice y borde.
+Esto significa que aunque los métodos bottom-up tienen el atractivo de dar valores microestructurales con claro sentido físico a partir de los experimentos de XRD, su implementación requiere una cantidad de suposiciones a priori sobre lo que ocurre en el material microscópicamente; y los datos disponibles, aún cuando sean de muy buena calidad, no siempre logran distinguir concluyentemente entre las diferentes posibilidades.
+
+En este sentido es que en este trabajo también se propone trabajar siguiendo un enfoque más sencillo, pero que permitió realizar un tipo de análisis que no fue posible realizar siguiendo el enfoque bottom-up.
 Este método, propuesto por Langford et al en 1982\cite{DeKeijser1982}, consiste en ajustar el pico de cada reflexión con una función de Voigt, que es la convolución de una función Gaussiana $G$ y una función Lorentziana $L$:
 \begin{equation}
-  V(x, H_{G}, H_{L}) \ = \ G \otimes L \ = \ \int G(x'; H_{G}) L(x - x'; H_{L}) \ dx'
+  V(x; H_{G}, H_{L}) \ = \ G \otimes L \ = \ \int G(x'; H_{G}) L(x - x'; H_{L}) \ dx'
   \label{eq:Voigt}
 \end{equation}
 \noindent
@@ -350,7 +352,8 @@ El problema de utilizar la Ec. \ref{eq:Voigt} para ajustar las reflexiones es qu
   \label{eq:pseudovoigt}
 \end{equation}
 \noindent
-El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica que tan intenso va a ser el carácter Lorentziano del pico estudiado. Al ajustar la expresión \ref{eq:pseudovoigt} e dejan como párametros de ajuste al par $[H, \eta]$ y se emplea las expresiones desarrolladas por Thompson para determinar los valores $[H_G, H_L]$ que se hubieran obtenido de realizar el ajuste utilizando la Ec. \ref{eq:Voigt}:
+El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica que tan intenso va a ser el carácter Lorentziano del pico estudiado. 
+Al ajustar la expresión \ref{eq:pseudovoigt} se dejan como párametros de ajuste al par $[H, \eta]$ y se emplea las expresiones desarrolladas por Thompson para determinar los valores $[H_G, H_L]$ que se hubieran obtenido de realizar el ajuste utilizando la Ec. \ref{eq:Voigt}:
 \begin{eqnarray}
   H_G & = & H \ (1 -  0.74417 \ \eta - 0.24781 \ \eta^2 - 0.00810 \ \eta^3)^{1/2} \\
   H_L & = & H \ (0.72928 \ \eta + 0.19289 \ \eta^2 + 0.07783 \ \eta^3)
@@ -364,6 +367,12 @@ Como tanto la función Voigt como la pseudo-Voigt están normalizadas, esto es $
 \end{equation}
 \noindent
 lo que permite incorporar la intensidad integrada del pico $I_0$ y el centro $\theta_B$ del mismo, y el ajuste se realiza sobre la variable angular $\theta$.
+
+Al emplear la Ec. \ref{eq:pVprofile} para ajustar todas las reflexiones de un dado difractograma se pueden distinguir la microestructura de una dada familia de planos de otra.
+Lo que es más, como para una dada orientación de la muestra, los cristales que tengan, por ejemplo, la familia de planos $\{111\}$ en condición de difracción, no serán los mismos que para esa orientación de muestra tengan a la familia de planos $\{200\}$ en condición de reflexión.
+Esto significa que de estudiar el perfil de los dos picos podemos inferir diferencias en la microestructura de ambas poblaciones.
+Si además se realiza este análisis para distintas orientaciones de la muestra, se pueden utilizar los métodos obtenidos del estudio de texturas (Sec. \ref{S:Text}) para correlacionar esta información direccional y general Funciones de Distribución de Orientaciones Generalizadas.
+Los detalles de este proceso se explicarán mejor en la Sec. \ref{SS:ODFG}.
 
  \section{Difracción de electrones retrodifundidos}\label{S:EBSD}
 La difracción de electrones retro difundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la microestructura de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
@@ -538,7 +547,7 @@ De esta manera se puede asignar a la dirección $\mathbf{y}$ no sólo un número
 Es más, si se incorpora la suposición \textit{ad-hoc} de que el ensanchamiento de los picos es proporcional a la energía acumulada en dichos cristales se pueden extender heurísticamente los procedimientos explicados en la Sec. \ref{S:Text} para estimar las FDO a partir de las FP, y utilizarlos para calcular una \textit{Función de Distribución de Orientaciones Generalizada (FDOG)} a partir de las FPG. 
 De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede, en principio estudiar no sólo la orientación preferencial de los cristales para un dado proceso de deformación, sino hacer un análisis semicuantitativo de cómo es la microestructura de los cristales que tienen orienciones similares, lo cual permite extraer muchas conclusiones acerca de como es la anisotropía en la la acumulación de defectos para un determinado material en alguna situación de interés. 
 % \section{Revisión bibliográfica y estado del arte}\label{S:RB}
-
+ 
 \section{Organización de la tesis}\label{S:Org}
 En el Cap. \ref{C:Materiales} se explicarán lo detalles de los experimentos de difracción de rayos X que se realizaron para ponder medir la texura de los materiales estudiados en el desarrollo de esta tesis. 
 También se explicarán los algoritmos empleados para poder procesar el gran caudal de datos que se obtiene de un experimento de XRD realizado con luz sincrotrón, así como una descripción del método empleado en las mediciones de EBSD que usaron para corroborar los resultados obtenidos por medio de las técnicas de LPA aplicada a los resultados de sincrotrón.
