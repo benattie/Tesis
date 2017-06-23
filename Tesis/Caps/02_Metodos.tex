@@ -37,7 +37,7 @@ De cada medición se extrajeron 37 imágenes, cada una de las cuales contaba con
 De cada imagen se extrajeron porciones radiales de ancho angular de 5\,$^{\circ}$ a partir de las cuales se construyeron 72 difractogramas.
 El conjunto de 72 x 37 = 2664 difractogramas fue analizado utilizando diferentes modelos microestructurales, pero hubo dos modelos sobre los que se hizo especial foco: el CMWP (Sec. \ref{SS:CMWP}) y el de Langford (Sec. \ref{SS:02Langford}), y de cada modelo empleado se extrajo diferente información sobre la microestructura.
 
-Cada pico de cada difractograma quedaba identificado por su ánglulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural era susceptible de ser graficada empleando figuras de polos, del misma manera que se grafican las figuras de polos.
+Cada pico de cada difractograma quedaba identificado por su ángulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural era susceptible de ser graficada empleando figuras de polos, del misma manera que se grafican las figuras de polos.
 Para construir figuras de polos a partir de las mediciones realizadas es preciso transformar las coordenadas de los picos en el sistema de laboratorio $(\omega, \gamma, \theta_B)$ al sistema de referencia del cristal $(\alpha, \beta)$, para lo cual se empleó la matriz de rotación ya calculada por Bunge y Klein\cite{Bunge1996}.
 La misma expresión fue empleada para generar las figuras de polos generalizadas.
 
@@ -50,7 +50,7 @@ Para las mediciones de este trabajo se utilizó un polvo de LaB$_6$ como patrón
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=\textwidth]{IF75R_FWHM_Raw_Points_NoSym}
+  \includegraphics[width=0.95\textwidth]{IF75_SymnoSym}
   \caption{.}
   \label{fig:IF75NoSym}
 \end{figure}
@@ -61,13 +61,6 @@ Para las mediciones de este trabajo se utilizó un polvo de LaB$_6$ como patrón
   \includegraphics[width=0.8\textwidth]{LaB6_1mm_FWHMvsGammavsBS}
   \caption{Variacion del ancho instrumental como función del ángulo a lo largo del anillo de Debye.}
   \label{fig:LaB6vsGamma}
-\end{figure}
-
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=0.8\textwidth]{IF75R_FWHM_Raw_Points_Sym}
-  \caption{.}
-  \label{fig:IF75Sym}
 \end{figure}
 
 \newpage
@@ -147,12 +140,12 @@ En el archivo \textit{IRF\_3.dat} también deben especificarse los parámetros g
 
 Los datos así obtenidos fueron procesados y graficados utilizando MTEX\cite{Hielscher2008}, un paquete de Matlab para el procesamiento de texturas.
 
-El software que realiza el ajuste utilizando el método CMWP, tiene dos etapas básicamente: en la primera hace un ajuste al difractograma con una función como la mostrada en la Ec. \ref{eq:Iteor} y siguiendo la metodología descripta anteriormente, y usa los resultados del ajuste para generar una serie de archivos auxiliares que se necesitan para la segunda etapa.
+El software que realiza el ajuste utilizando el método CMWP, tiene dos etapas básicamente: en la primera hace un ajuste al difractograma con una función como la mostrada en la Ec. \ref{eq:Iteor}, y siguiendo la metodología descripta anteriormente usa los resultados del ajuste para generar una serie de archivos auxiliares que se necesitan para la segunda etapa.
 En la segunda etapa corre en forma automática el programa CMWP siguiendo una estrategia de ajuste determinada por el usuario.
 
-Como la primera parte de este programa funciona con un objetivo similar al del programa anterior, el primer archivo de entrada, denominado \textit{data\_info\_1.ini} es casi igual al del programa anterior, con la diferencia de que al especificar la posición de los picos a ajustar se pide que se les indique un número de fase que empieza en 0, ya que este es un dato necesario para el programa CMWP.
+Como la primera parte de este programa funciona con un objetivo similar al del programa anterior, el primer archivo de entrada, denominado \textit{data\_info\_1.ini} es casi igual al del programa anterior, con la diferencia de que al especificar la posición de los picos a ajustar se pide que se indique un número de fase que empieza en 0, ya que este es un dato necesario para el programa CMWP.
 
-El segundo archivo se llama \textit{fit\_strategy\_2.ini} el usuario deber indicar los parámetros iniciales para el ajuste con pseudo-Voigts, como con el programaanterior, pero además deber indicar cuántos pasos de ajuste desea realizar con el programa CMWP, y cuáles son los coeficientes que va a ajustar en cada paso.
+El segundo archivo se llama \textit{fit\_strategy\_2.ini} el usuario deber indicar los parámetros iniciales para el ajuste con pseudo-Voigts, como con el programa anterior, pero además deber indicar cuántos pasos de ajuste desea realizar con el programa CMWP, y cuáles son los coeficientes que va a ajustar en cada paso.
 También debe indicar si desea que el CMWP haga un ajuste por fallas de apilamiento  y si desea que se ajuste independientemente la intensidad y posición de los picos.
 En la práctica se ha visto que hacer un ajuste extra de intensidades alarga mucho el tiempo de cálculo del programa y no aporta valores finales muy diferentes a los que se obtienen cuando no se hace este ajuste.
 
@@ -167,15 +160,65 @@ En la próxima sección, donde se explica el funcionamiento del programa CMWP se
 %\end{figure}
 
 \subsection{CMWP}\label{SS:CMWP}
+El \textit{Convolutional Multiple Whole Profile (CMWP)} es un método desarrollado en base al modelo de Warren-Averbach (Ec. \ref{eq:WAPlot}), que fue codificado en un software que lleva el mismo nombre, y que fue desarrollado por Gábor Ribárik\cite{Ungar2001,Ribarik2001,Ribarik2008}. 
+En lo que sigue se usarán las siglas CMWP tanto para referirse al método que se usa para calcular aspectos de la microestructura a partir de los experimentos de XRD como para el software que aplica este método a datos experimentales concretos.
+El software es gratuito y libre y puede descargarse de \cite{cmwp:web}, y sólo corre en sistemas operativos basados en UNIX.
 
+Una vez descargado el CMWP, el usuario puede acceder a una interfaz gráfica como la que se ve en la Fig. \ref{fig:CMWP_front}, que permite ingresar todos los datos sobre la muestra cuya microestructura se desea conocer.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.8\textwidth]{CMWP_front}
-  \caption{Pantalla de inicio del sofware CMWP.}
+  \caption{Pantalla de inicio del sofware CMWP. En la parte superior de la pantalla se le solicita al usuario que ingrese información sobre la estructura cristalina del material se configuran varias opciones relacionadas con el tipo de ajuste que se desea hacer. En la parte media, el usuario puede configurar detalles relacionados al ajuste propiemente dicho, mientras que en la parte inferior se puede ingresar el valor de las variables que van a ser efectivamente ajustadas.}
   \label{fig:CMWP_front}
 \end{figure}
 
-\newpage
+Para poder resolver la microestructura, el usuario debe ingresar la estructura cristalina del material (sólo se permite trabajar con materiales cúbicos, hexagonales u ortorrómbicos), su/s parámetro/s de red, además de la longitud de onda de la radiación empleada.
+
+El método CMWP es un método de tipo bottom-up, es decir, modela la intensidad teórica a partir de modelar la distribución de tamaños de dominio y de dislocaciones en el material, y luego compara el patrón modelado con las intensidades experimentales para determinar cuál es el valor que deben tener las variables microestructurales para reducir la diferencia enntre lo medido y lo modelado.
+Concretamente, en el CMWP se modela a la intensidad de un experimento de difracción como la convolución de los efectos de tamaño (size), los debidos a las dislocaciones, a las fallas de apilamiento y/o twins y a los efectos instrumentales:
+\begin{equation}
+  I_{teo} \ = \ I_{size} \otimes I_{disl} \otimes I_{twins} \otimes I_{inst}
+  \label{eq:convolucion}
+\end{equation}
+\noindent
+El método luego calcula los coeficientes de Fourier de las distintas funciones que aparecen en la Ec. \ref{eq:convolucion} y los ajusta a partir de los coeficientes de Fourier que obtienen a partir de los picos del difractograma medido.
+
+La intensidad de tamaño se obtiene suponiendo que las cristalitas son de forma esférica y tienen una distribución lognormal con media $m$ y desviación estándar $\sigma$:
+\begin{equation}
+  f(L) \ = \ \frac{1}{L \sigma \sqrt{2 \pi}} \ e^{-\frac{(\ln(L)-m)}{2 \sigma^2}}
+  \label{eq:lognormal}
+\end{equation}
+\noindent
+lo que da una distribución de intensidades\cite{Ribarik2008}:
+\begin{equation}
+  I_{size}(s) \ \sim \ \int_0^{\infty} L \ \frac{\sin^2{L \pi s}}{(\pi s)^2} \ errf \left[ \frac{\ln{\frac{L}{m}}}{\sqrt{2}\sigma} \right] dL
+  \label{eq:Isize}
+\end{equation}
+\noindent
+donde $s = \frac{2}{\lambda} \ (\sin \theta - \sin \theta_B)$, y $L$ es la longitud de las columnas que difractan coherentemente en la dirección del vector de difracción $\mathbf{K}$.
+Al emplear el CMWP, el usuario obtiene los parámetros $m$ y $\sigma$ de la función de distribución de dominios que mejor ajusta a la muestra medida a través de las variables de ajuste \textit{init\_b} y \textit{init\_c}.
+
+Los coeficientes de Fourier para el cálculo de las dislocaciones usan la Ec. \ref{eq:Wilkens} para relacionar la densidad de dislocaciones con el ensanchamiento producido por la microdeformación, y el programa emplea la Ec. \ref{eq:contrast3} para calcular los factores de contraste, donde el factor $C_{h00}$ debe ser ingresado por el usuario, pero el factor $q$ es un parámetro libre del método, que corresponde a la variable \textit{init\_a} en el \textit{front-end} de la Fig. \ref{fig:CMWP_front}.
+El programa además devuelve directamente el valor de la densidad de dislocaciones $\rho$ y de la longitud efectiva del campo de deformación producido por las dislocaciones $R_e$, ambos parámetros relacionados con las variables de ajuste \textit{init\_d} e \textit{init\_e}, respectivamente. 
+El software también usa los valores de $\rho$ y $R_e$ para calcular el valor del factor de Wilkens $M$.
+
+En caso de no querer emplear la relación \ref{eq:contrast3} para el cálculo de los factores de constraste, el usuario es libre de ingresar valores individuales de los mismos, e incluso ajustarlos individualmente, aunque esta opción deja muchas variables libres y puede introducir inestabilidades al momento realizar el ajuste, así que no se recomienda a menos que se tenga una idea de cuánto valen los factores de contraste, o se hayan medido muchos picos en el difractograma.
+
+La función de intensidad para modelar el ensanchamiento por fallas de apilamiento es una función que se puede introducir opcionalmente y para el modelo CMWP se escribe\cite{Ribarik2008}:
+\begin{equation}
+  I_{twins} \ = \ p_0^{hkl} \ \delta(s) \ + \sum_{i=1}^{3} \frac{p_{i}^{hkl}}{1+\left( \frac{s - s_i^{hkl}}{w_i^{hkl}} \right)^2}
+  \label{eq:Itwins}
+\end{equation}
+\noindent
+donde $\delta(s)$ es la función delta de Dirac, $p_0$ da la contribución simétrica de las fallas de apilamiento al ensanchamiento de los picos, y los $p_i^{hkl}\,i=1,2,3$ dan las contribuciones al ensanchamiento asimétrico (coeficientes de Fourier imaginarios).
+
+Las fallas de apilamiento producen un corrimiento de los picos, además de un ensanchamiento de tipo lorentziano, como se puede deducir a partir de la presencia de las funciones Lorentzianas en la Ec. \ref{eq:Itwins}, que tienen un centro en $s_i^{hkl}$ y un ancho $w_i^{hkl}$.
+Estas seis constantes se pueden desarrollar en polinomios de orden 5, que son función de la probabilidad $\alpha_{twins}$ de que ocurran fallas de apilamiento o maclas\cite{Ribarik2008}, y los coeficientes de dicho desarrollo, junto con los coeficientes $p_i^{hkl},\,i=0,1,2,3,4$ pueden ser calculados para cada material utilizando el programa DIFFAX\cite{Treacy1991}, y deben ser dados como datos de entrada si se quiere que el programa calcule la probabilidad de fallas de apilamiento.
+
+La función $I_{inst}$ no se calcula teóricamente sino que se extrapola para cada uno de los picos medidos experimentalmente a partir de un patrón instrumental que también debe ser provisto de antemano por el usuario.
+
+Una vez determinadas todas las funciones relevantes, el CMWP emplea el algoritmo de mínimos cuadrados Levenberg-Marquardt para estimar el conjunto de parámetros físicos que reduce la discrepancia entre la función $I_{teo}$ y las intensidades experimentales, y devuelve el conjunto de datos microestructurales que resultan de ese proceso de minimización.
+\iffalse
 \subsection{Langford}\label{SS:02Langford}
 
 \begin{figure}[!htb]
@@ -200,4 +243,6 @@ En la próxima sección, donde se explica el funcionamiento del programa CMWP se
 \end{figure}
 
 \newpage
+\fi
 \section{Mediciones de EBSD}\label{S:MatEBSD}
+

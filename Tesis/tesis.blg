@@ -13,46 +13,48 @@ A level-1 auxiliary file: ./Caps/07_Conclusiones.aux
 A level-1 auxiliary file: ./Caps/08_Proyecciones.aux
 A level-1 auxiliary file: ./Apendice/Input_files.aux
 Database file #1: ./bib/tesis_lib.bib
-Database file #2: ./bib/Physical_Properties_of_Crystals.bib.bib
-Database file #3: ./bib/International_Tables_for_Crystallography.bib.bib
-You've used 27 entries,
+Database file #2: ./bib/Physical_Properties_of_Crystals.bib
+Database file #3: ./bib/International_Tables_for_Crystallography.bib
+Warning--missing school in Ribarik2008
+You've used 32 entries,
             2652 wiz_defined-function locations,
-            1232 strings with 14860 characters,
-and the built_in function-call counts, 8658 in all, are:
-= -- 595
-> -- 220
+            1264 strings with 15771 characters,
+and the built_in function-call counts, 10342 in all, are:
+= -- 713
+> -- 268
 < -- 0
-+ -- 110
-- -- 55
-* -- 489
-:= -- 968
-add.period$ -- 98
-call.type$ -- 27
-change.case$ -- 24
++ -- 134
+- -- 67
+* -- 590
+:= -- 1156
+add.period$ -- 114
+call.type$ -- 32
+change.case$ -- 29
 chr.to.int$ -- 0
-cite$ -- 27
-duplicate$ -- 862
-empty$ -- 941
-format.name$ -- 71
-if$ -- 1899
+cite$ -- 33
+duplicate$ -- 1031
+empty$ -- 1109
+format.name$ -- 86
+if$ -- 2256
 int.to.chr$ -- 0
-int.to.str$ -- 27
-missing$ -- 242
-newline$ -- 154
-num.names$ -- 27
-pop$ -- 388
+int.to.str$ -- 32
+missing$ -- 288
+newline$ -- 180
+num.names$ -- 32
+pop$ -- 461
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 155
+skip$ -- 182
 stack$ -- 0
-substring$ -- 324
-swap$ -- 557
+substring$ -- 401
+swap$ -- 677
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
-warning$ -- 0
-while$ -- 51
-width$ -- 29
-write$ -- 317
+warning$ -- 1
+while$ -- 62
+width$ -- 34
+write$ -- 373
+(There was 1 warning)

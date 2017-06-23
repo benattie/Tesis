@@ -18,5 +18,10 @@ FOLDER/FILE1.tex: $(FILEM).tex
 	$(TEX) $(FILEM)
 	$(VIEW) $(FILEM).pdf
 
+quick: $(FILEM).tex
+	$(TEX) $(FILEM)
+	$(VIEW) $(FILEM).pdf
+
+
 clean:
-	rm -f *~ *.aux *.blg *.out *.bbl *.log *.dvi *.pdf
+	rm -f *~ *.aux *.blg *.out *.bbl *.log *.ilg *.ind *.lof *.nlo *.nls *.toc *.dvi *.pdf

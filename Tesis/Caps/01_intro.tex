@@ -182,10 +182,10 @@ En ensanchamiento anisotrópico puede tener multitud de causas, entre ellas:
 La causa (i) sólo se puede minimizar a través de una cuidadosa planificación y ejecución de los experimentos, aunque siempre va a estar presente en alguna medida, y va a tener mayor importancia cuando se esté estudiando el perfil de picos de baja intensidad respecto al ruido de fondo. 
 La causa (ii) es difícil de saber a priori y va a depender fuertemente de la historia de la muestra. 
 La causa (iii) está fuertemente relacionada con la textura del material, sus características cristalográficas y el tipo de procesos a las que fue sometida. 
-La causa (iv) siempre estará presente y también será dificil de determinar a priori, salvo para casos particulares.
+La causa (iv) siempre estará presente y también será difícil de determinar a priori, salvo para casos particulares.
 Finalmente la causa (v) podrá visualizarse en ciertos casos estudiando la asimetría de los picos de difracción, así como estudiando la dependendencia de la anisotropía con el orden de difracción $\{hkl\}$ y estudiando el corrimiento de los picos de difracción.
 
-Las formulaciones del método de WH y de WA involucran ciertas suposiciones implicitas para resolver los problemas planteados, a saber, que todas las cristalitas tienen forma esférica y que tienen el mismo tamaño, que no hay defectos planares y que la deformación causada por las dislocaciones es isótropa. 
+Las formulaciones del método de WH y de WA involucran ciertas suposiciones implícitas para resolver los problemas planteados, a saber, que todas las cristalitas tienen forma esférica y que tienen el mismo tamaño, que no hay defectos planares y que la deformación causada por las dislocaciones es isótropa. 
 
 Hacia finales de los '90 y principios de los 2000 Ungar et al modificaron la formulación de WH y WA para tomar en cuenta la anisotropía en el campo de deformaciones de la red cristalina a través del concepto de los factores de contraste.
 
@@ -212,7 +212,7 @@ Como regla general, el factor de contraste será una cantidad que depende tanto 
 \end{equation}
 \noindent
 Donde $\mathbf{G}$ y $\mathbf{b}$ son las cantidades definidas previamente, $\mathbf{l}$ es el vector de línea de la dislocación y $c_{ij}$ representan las componentes del tensor de elasticidad del material.
-El cálculo de $C$ a partir de la Ec. \ref{eq:contrast} para un material elásticamente anisotróopico es una tarea que, además de laboriosa, requiere conocer a priori el tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
+El cálculo de $C$ a partir de la Ec. \ref{eq:contrast} para un material elásticamente anisotrópico es una tarea que, además de laboriosa, requiere conocer a priori el tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
 Para sistemas cristalinos cúbicos y hexagonales Ungár et al\cite{Dragomir1999,Dragomir2002} han encontrado expresiones analíticas para calcular el factor de contraste de cualquier tipo de dislocación, siempre que se sepa el sistema de deslizamiento activo y el tipo de dislocación presente. En particular, para sistemas cúbicos se tiene que la Ec. \ref{eq:contrast} toma una forma sencilla:
 
 \begin{equation}
@@ -430,7 +430,7 @@ Debe quedar claro de las definiciones que tanto en las mediciones de de tamaño 
 Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos sometidos a los materiales debe ser qualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estudios de ancho de pico.
 
 \section{Textura cristalográfica}\label{S:Text}
-Como ya se mencionó en la Sec. \ref{S:motivacion}, las propiedades macroscópicas de un sólido cristalino estarán dadas por las propiedades de su celda unidad, y estas serán en general anisotrópicas.
+Como ya se mencionó en la Sec. \ref{S:motivacion}, las propiedades macroscópicas de un sólido cristalino estarán dadas por las propiedades de su celda unidad, y éstas serán en general anisotrópicas.
 Por ejemplo, si se toma un monocristal de hierro y se mide su módulo de Young $E$ en la dirección [100] se obtendrá un valor un poco inferior a los 150\,GPa, mientras que si la misma medición se realiza en la dirección [111], que forma un ángulo de unos 57$^{\circ}$ con la dirección [100], se obtendrá un valor de unos 300\,GPa, es decir, el módulo de Young se incrementará casi un 100\,\%.
 Según el principio de Neumann\cite{nye1985physical} el módulo de Young de una pieza macroscópica de hierro será el promedio del módulo de Young de los diferentes cristales de Fe que se encuentren en la pieza, ponderado según la cantidad de cristales que tengan una dada orientación respecto al eje en que se aplica la tensión.
 De esto se deduce que si todos los cristales está en igual proporción, el módulo de Young del hierro será isotrópico.
@@ -439,7 +439,7 @@ Para este caso particular el valor promedio es de 210\,GPa, como se puede ver en
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{ironaniso}
-  \caption{Módulo de Young $E$ para un monocristal de Hierro como función del ángulo entre la dirección [100] y el eje sobre el que se aplica la tensión. Imagen obtenida de \cite{randle2000introduction}.}
+  \caption{Módulo de Young $E$ para un monocristal de Hierro como función del ángulo entre la dirección [100] y el eje sobre el que se aplica la tensión. En línea de puntos se muestra el valor promedio de módulo de Young, que se obtiene si todas las orientaciones critalinas se encuentran presentes en igual cantidad. Imagen obtenida de \cite{randle2000introduction}.}
   \label{fig:ironaniso}
 \end{figure}
 
@@ -447,8 +447,8 @@ De lo dicho anteriormente se deduce la importancia de no sólo caracterizar, sin
 En particular, se define como \textit{Textura Cristalográfica} a la orientación preferencial que tienen los diferentes cristales en un dado sólido cristalino, y la forma de estudiar cuantitaviamente la textura es la denominada \textit{Función de Distribución de Orientaciones (FDO)}.
 Para poder definir adecuadamente la FDO, primero se define un sistema de referencia $K_S$ fijo a la muestra macroscópica.
 La elección de $K_S$ es arbitraria, pero en general se elije de modo tal de respetar las direcciones y simetrías del material en estudio. 
-Por ejemplo, para una chapa laminada, los ejes de $K_S$ suelen definirse como el de laminado (RD), el transverso (TD), que es perpendicular a RD, pero está en el plano de la chapa, y el normal (ND), perpendicular al plano RD-TD, es decir el del la chapa.
-El otro sistema de referencia será solidario a un dado cristal y se lo notará $K_C$, y también elegirá de modo tal que respeta las simetrías del cristal representado.
+Por ejemplo, para una chapa laminada, los ejes de $K_S$ suelen definirse como el de laminado (RD), el transverso (TD), que es perpendicular a RD, pero está en el plano de la chapa, y el normal (ND), perpendicular al plano RD-TD.
+El segundo sistema de referencia se elije solidario a un dado cristal y se lo nota $K_C$, y también se elige de modo tal que respete las simetrías del cristal representado.
 Se define entonces a la orientación de un cristal como la rotación $\mathbf{g}$ que lleva desde el sistema de coordenadas $K_C$ al sistema $K_S$:
 
 \begin{equation}
@@ -458,18 +458,19 @@ Se define entonces a la orientación de un cristal como la rotación $\mathbf{g}
 \noindent
 
 Existen muchas maneras de caracterizar a las rotaciones, pero en este trabajo se empleará fundamentalmente la de los \textit{Ángulos de Euler}, usando la convención de Bunge\cite{bunge2013texture}.
-Bajo esta convención, se parte del sistema del cristal y primero se rota el mismo un ángulo $\phi_1$ alrededor del eje Z de $K_C$.
-Luego se rota al nuevo sistema un ángulo $\Phi$ alrededor del nuevo eje X', y finalmente se realiza una rotación de magnitud $\phi_2$ alrededor del nuevo eje Z'', hasta que el sistema está en coincidencia con el sistema de referencia de la muestra $K_S$.
-A los ángulos que constituyen la terna $\phi_1 \Phi \phi_2$ se los denomina ángulos de Euler, y son los que definen a la orientación del cristal alineado con $K_C$.
-Ahora, si se tienen $N$ cristales, cada uno con una orientación $\mathbf{g}_i$ respecto al sistema de referencia de la muestra, la FDO será aquella que indique que proporción de los $N$ cristales tiene una dada orientación $\mathbf{g}$. 
-En este contexto queda claro que la FDO será una función discreta, sin embargo, si el número de cristales estudiados es grande, como suele ocurrir en los experimentos de XRD, se puede definir a la FDO como una función continua $f(\mathbf{g})$ en el espacio de orientaciones.
-De esta manera se tiene que la FDO es la función que determina la fracción de volumen que representan los cristales con una orientación que cae en una región $\Delta \Omega$ del espacio de orientaciones\cite{kocks2000texture}:
+Bajo esta convención, se parte del sistema del cristal y se rota el mismo un ángulo $\phi_1$ alrededor del eje Z de $K_C$, generando un sistema de coordenadas intermedio X'Y'Z'.
+Luego se rota éste sistema un ángulo $\Phi$ alrededor de su eje X', lo que produce un segundo sistema de referencia intermedio, denominado X''Y''Z''. Finalmente, se realiza una rotación de magnitud $\phi_2$ alrededor del nuevo eje Z'', hasta que el sistema está en coincidencia con el sistema de referencia de la muestra $K_S$.
+A los ángulos que constituyen la terna $\phi_1 \Phi \phi_2$ se los denomina ángulos de Euler de la orientación $\mathbf{g}$, y son los que definen a la orientación del cristal alineado con $K_C$.
+
+Ahora, si se tienen $N$ cristales, cada uno con una orientación $\mathbf{g}_i$ respecto al sistema de referencia de la muestra, la FDO $f(\mathbf{g}$ será aquella que indique qué proporción de los $N$ cristales tiene una dada orientación $\mathbf{g}$.
+En este contexto queda claro que la FDO será una función discreta, sin embargo, si el número de cristales estudiados es grande, como suele ocurrir en los experimentos de XRD, se puede definir a la FDO como una función continua en el espacio de orientaciones.
+De esta manera, se tiene que la FDO es la función que determina la fracción de volumen que representan los cristales con una orientación que cae en una región $\Delta \Omega$ del espacio de orientaciones\cite{kocks2000texture}:
 \begin{equation}
   \frac{\Delta V}{V} \ = \ \frac{\int_{\Delta \Omega} \ f(\mathbf{g}) \ d\mathbf{g}}{\int_{\Omega_0} \ f(\mathbf{g})\ d\mathbf{g}}
   \label{eq:ODF}
 \end{equation}
 \noindent
-donde $\Omega_0$ es el espacio total considerado, que puede tener un volumen máximo de $8\pi^2$ o un valor menor dado por el volumen del subespacio irreducible que se obtiene de aplicar al espacio total los grupos de simetría de la red de Bravais considerada más las simetrías de muestras que pudieran existir.
+donde $\Omega_0$ es el espacio total considerado, que puede tener un volumen máximo de $8\pi^2$ o un valor menor, dado por el volumen del subespacio irreducible que se obtiene de aplicar al espacio total los grupos de simetría de la red de Bravais considerada, más las simetrías de muestra que pudieran existir.
 Si la orientaciones se representan usando los ángulos de Euler, el elemento infinitesimal de volumen vale:
 \begin{equation}
   d\mathbf{g} \ = \ \frac{1}{8\pi^2} \sin(\Phi) d\phi_1 d\Phi d\phi_2
@@ -481,17 +482,18 @@ donde el factor $1/(8\pi^2)$ es un factor de normalización que se vuelve necesa
 \subsection{Determinación de la FDO}\label{SS:FDO}
 La forma más sencilla de determinar la FDO para un dado material sería medir la orientación de cada uno de los cristales que están presentes en un cierto volumen $V$, para luego computar la FDO exacta (discreta), que luego puede aproximarse por la $f(\mathbf{g})$ continua, que es más fácil de manipular matemáticamente.
 Esta tarea puede realizarse a partir de los experimentos de EBSD descriptos en la sección \ref{S:EBSD}, con el beneficio además de que se puede obtener la orientación de los cristales en función de la posición de la muestra, lo que provee una descripción en principio más completa de la microestructura del material.
-Sin embargo, incluso con los avances en automatización y procesamiento de los microscopios modernos, la medición de un volumen de muestra que sea representativo del todo el material a través de los experimentos de EBSD, es una tarea difícil, y a veces posible de lograr.
+Sin embargo, incluso con los avances en automatización y procesamiento de los microscopios modernos, la medición de un volumen de muestra que sea representativo del todo el material a través de los experimentos de EBSD es una tarea difícil de lograr.
 
-Por otro lado, los volúmenes de interacción de la radiación de rayos X son muchos más grandes que los que se pueden conseguir con electrones, por lo que la medición de volumen representativo del material se vuelve mucho más sencilla, aunque los rayos X sólo pueden medir proyecciones de $f(\mathbf{g})$ llamadas figuras de polos (FP).
-Para medir una FP en un experimento de XRD se selecciona una dada familia de planos $\{hkl\}$ colocando el detector a un ángulo $2\theta$ adecuado y se mide la inteensidad de dicha reflexión.
-En esta situación, los únicos cristales que contribuirán a la intensidad de la reflexión medida son aquellos cuya dirección $[hkl]$ sea perpendicular a la superficie de la muestra, es decir, la intensidad de una figura de polos en una dada dirección $\mathbf{y}$ es proporcional a la cantidad de cristales que cumplen la condición $[hkl] \ // \ y$, lo que se puede expresar como una proyección de la FDO $f(\mathbf{g})$:
+Por otro lado, los volúmenes de interacción de la radiación de rayos X son muchos más grandes que los que se pueden conseguir con electrones, por lo que la medición de volumen representativo del material se vuelve mucho más sencilla.
+El problema es que empleando rayos X sólo pueden medir proyecciones de $f(\mathbf{g})$ llamadas figuras de polos (FP).
+Para medir una FP en un experimento de XRD se selecciona una dada familia de planos $\{hkl\}$ colocando el detector a un ángulo $2\theta$ adecuado y se mide la intensidad de dicha reflexión.
+En esta situación, los únicos cristales que contribuirán a la intensidad de la reflexión medida son aquellos cuya dirección $[hkl]$ sea perpendicular a la superficie de la muestra, es decir, la intensidad de una figura de polos en una dada dirección $\mathbf{y}$ es proporcional a la cantidad de cristales que cumplen la condición $[hkl] \ // \ \mathbf{y}$, lo que matemáticamente se escribe como:
 \begin{equation}
   p_{\mathbf{h}}(\mathbf{y}) \ = \ \int_{0}^{2\pi} \ f(\mathbf{g}) \ d\mathbf{\Gamma}
   \label{eq:PDF}
 \end{equation}
 \noindent
-donde $\mathbf{h} \ = \ [hkl]$ y $\Gamma$ es un cierto camino dentro del espacio de orientaciones que se obtiene al efectuar una rotación completa alrededor del polo $[hkl]$.
+donde $p_{\mathbf{h}}(\mathbf{y})$ es la intensidad de la FP en la dirección $\mathbf{y}$ de la muestra, para la familia de planos cristalinos definidos por $\mathbf{h} \ = \ [hkl]$, y $\mathbf{\Gamma}$ es un cierto camino dentro del espacio de orientaciones que se obtiene al efectuar una rotación completa alrededor del polo $[hkl]$.
 
 Para resolver el problema de inversión de las figuras de polos, es decir, para obener $f(\mathbf{g})$ a partir de la medición de diferentes $p_{\mathbf{h}}(\mathbf{y})$, Bunge partió del hecho que $f(\mathbf{g})$ puede desarrollarse en armónicos esféricos:
 \begin{equation}
@@ -499,10 +501,10 @@ Para resolver el problema de inversión de las figuras de polos, es decir, para 
   \label{eq:ODFharm}
 \end{equation}
 \noindent
-donde $C_{l}^{\mu \nu}$ son los coeficientes del desarrollo de $f(\mathbf{g}$ y $T_{l}^{\mu \nu}(\mathbf{g})$ son los armónicos esféricos generalizados.
-Por otro lado, al ser una proyección, para cada $\mathbf{h}_i$, $p_{\mathbf{h}}(\mathbf{y})$ se puede desarrollar en armónicos esféricos superficiales:
+donde $C_{l}^{\mu \nu}$ son los coeficientes del desarrollo de $f(\mathbf{g})$ y $T_{l}^{\mu \nu}(\mathbf{g})$ son los armónicos esféricos generalizados.
+Por otro lado, al ser una proyección, para cada $\mathbf{h}_i$, $p_{\mathbf{h}_i}(\mathbf{y})$ se puede desarrollar en armónicos esféricos superficiales:
 \begin{equation}
-  p_{\mathbf{h}_i}(\mathbf{y}) \ = \ \sum_{l=0}^{\infty} \sum_{\nu=1}^{N(l)} F_{l}^{\nu}(\mathbf{h}_i) \ k_{l}^{\nu}(\mathbf{y}
+  p_{\mathbf{h}_i}(\mathbf{y}) \ = \ \sum_{l=0}^{\infty} \sum_{\nu=1}^{N(l)} F_{l}^{\nu}(\mathbf{h}_i) \ k_{l}^{\nu}(\mathbf{y})
   \label{eq:PDFharm}
 \end{equation}
 \noindent
@@ -519,8 +521,9 @@ A partir de combinar las Ecs. \ref{eq:PDF}, \ref{eq:ODFharm} y \ref{eq:PDFharm},
 \end{equation}
 \noindent
 La Ec. \ref{eq:CoefHarm} permite entonces la determinación experimental de los coeficientes $F_{l}^{\nu}(\mathbf{h}_i)$, que junto con la igualdad \ref{eq:FPDFharm} constituyen un sistema de $i$ ecuaciones (una por cada FP medida) e infinitas incógnitas, de donde se deduce que para determinar completamente una FDO se necesecitan medir infinitas FPs, lo cual es imposible en la práctica.
-No obstante este problema, Bunge\cite{bunge2013texture} también logró demostrar que dependiendo de la simetrías de cristal y de muestra dadas, el número de coeficientes independientes en \ref{eq:FPDFharm} se puede reducir notablemente, cómo se pude ver en la Fig. \ref{fig:harmonics}, lo que permite estimar la FDO con una precisión razonable habiendo medido sólo unas pocas FPs, ya que el empleo de las simetrías permite conocer coeficientes de órdenes más altos a partir de aquellos de órdenes más bajos. 
-Por ejemplo para materiales con simetría cristalina cúbica, se puede recostruir razonablemente bien la FDO solamente con tres FPs.
+No obstante este problema, Bunge\cite{bunge2013texture} también logró demostrar que dependiendo de la simetrías de cristal y de muestra dadas, el número de coeficientes independientes en \ref{eq:FPDFharm} se puede reducir notablemente, cómo se pude ver en la Fig. \ref{fig:harmonics}.
+Esto permite estimar la FDO con una precisión razonable midiendo sólo unas pocas FPs, ya que el empleo de las simetrías permite conocer coeficientes de órdenes más altos a partir de aquellos de órdenes más bajos. 
+Por ejemplo para materiales con simetría cristalina cúbica, se puede reconstruir razonablemente bien la FDO solamente con tres FPs.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.7\textwidth]{harmonics}
@@ -530,22 +533,22 @@ Por ejemplo para materiales con simetría cristalina cúbica, se puede recostrui
 
 Otra cantidad que se puede derivar a partir de $f(\mathbf{g})$ es la llamada \textit{Figura de Polos Inversa (FPI)} que se obtiene de contar cuántos cristales tienen una cierta familia de planos $\mathbf{h}$ en la dirección $\mathbf{y}$ de la muestra, lo que matemáticamente se expresa como
 \begin{equation}
-  a_{\mathbf{y}}(\mathbf{h}) \ = \ \frac{1}{2 \pi} \oint f(\mathbf{g}) d\Gamma
+  a_{\mathbf{y}}(\mathbf{h}) \ = \ \frac{1}{2 \pi} \oint f(\mathbf{g}) d\mathbf{\Gamma}
   \label{eq:IPF}
 \end{equation}
 \noindent
-Sobre qué camino se integra?
+donde ahora el camino $\mathbf{\Gamma}$ es una rotación alrededor de la dirección de la muestra definida por $\mathbf{y}$.
+Si bien toda la información sobre la distribución de orientaciones está contenida en la $f(\mathbf{g})$, a menudo resulta más sencillo estudiar la textura de los materiales a partir de las FPs o de las FPI, sobre todo cuando se trabaja con materiales y procesos conocidos.
 
-Describo el método de MTEX?
 % \subsection{La textura, su relación con la microestructura y los procesos de deformación}\label{SS:Defo}
 \subsection{FDO y FDO generalizada}\label{SS:ODFG}
 Según lo explicado en la Sec. \ref{S:DRX}, la determinación de la FDO se puede hacer a partir de la medición de figuras de polos, que a su vez pueden ser determinadas por medio de experimentos de XRD, ya que en dichos experimentos se tiene que la intensidad integrada de la reflexión $\{hkl\}$ es proporcional al número de planos cristalinos paralelos a  la superficie del material en la dirección $\mathbf{y}$.
 Ahora bien, como ya se discutió previamente, a partir del estudio de la forma de picos medidos en la misma dirección $\mathbf{y}$ se puede determinar el tamaño de la microestructura de los planos $\{hkl\}$ que pertenecen a los cristales que están difractando.
-Por ejemplo, si me mide completamente el pico de la reflexión $hkl$ se puede determinar la proporción de cristales que tienen sus planos $\{hkl\}$ paralelos a la superficie del material, pero además se puede a partir del ancho $H$ de dicho pico estimar la longitud de la columna que difracta coherentemente en la dirección $[hkl]$ empleando la Ec. [poner ec de tamaño de Langford] y ver la distorsión perpendicular a esa dirección utilizando la Ec. [poner ec de strain en Langford].
+Por ejemplo, si me mide completamente el pico de la reflexión $hkl$ se puede determinar la proporción de cristales que tienen sus planos $\{hkl\}$ paralelos a la superficie del material, pero además se puede a partir del ancho $H$ de dicho pico estimar la longitud de la columna que difracta coherentemente en la dirección $[hkl]$ empleando la Ec. \ref{eq:Scherrer} o la Ec. \ref{eq:Lorentz} y ver la distorsión perpendicular a esa dirección utilizando la Ec. \ref{eq:Gauss}.
 De esta manera se puede asignar a la dirección $\mathbf{y}$ no sólo un número asociado al número de cristales con sus planos en esa dirección, sino un par de números que indicarán el estado de la microestructura de los planos cristalinos orientados en dicha dirección, lo que permite construir lo que se denominas \textit{Figuras de Polos Generalizadas (FPG)} de tamaño de dominio o de distorsión, respectivamente.
 
 Es más, si se incorpora la suposición \textit{ad-hoc} de que el ensanchamiento de los picos es proporcional a la energía acumulada en dichos cristales se pueden extender heurísticamente los procedimientos explicados en la Sec. \ref{S:Text} para estimar las FDO a partir de las FP, y utilizarlos para calcular una \textit{Función de Distribución de Orientaciones Generalizada (FDOG)} a partir de las FPG. 
-De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede, en principio estudiar no sólo la orientación preferencial de los cristales para un dado proceso de deformación, sino hacer un análisis semicuantitativo de cómo es la microestructura de los cristales que tienen orienciones similares, lo cual permite extraer muchas conclusiones acerca de como es la anisotropía en la la acumulación de defectos para un determinado material en alguna situación de interés. 
+De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede, en principio, estudiar no sólo la orientación preferencial de los cristales para un dado proceso de deformación, sino hacer un análisis semicuantitativo de cómo es la microestructura de los cristales que tienen orienciones similares, lo cual permite extraer muchas conclusiones acerca de como es la anisotropía en la la acumulación de defectos para un determinado material en alguna situación de interés. 
 % \section{Revisión bibliográfica y estado del arte}\label{S:RB}
  
 \section{Organización de la tesis}\label{S:Org}
