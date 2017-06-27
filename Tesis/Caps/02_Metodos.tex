@@ -245,4 +245,61 @@ Una vez determinadas todas las funciones relevantes, el CMWP emplea el algoritmo
 \newpage
 \fi
 \section{Mediciones de EBSD}\label{S:MatEBSD}
+Los métodos de determinación de microestructura empleando difracción de rayos X tienen la ventaja de permitir estudiar propiedades volumétricas del material con una estadística más que razonable.
+Sin embargo, dado que los estudios de ancho de pico son métodos indirectos que requieren la resolución de un problema matemáticamente mal planteado, en el transcurso de esta tesis fue necesario complementar los resultados obtenidos con mediciones de EBSD, que permite hacer una determinación más directa de ciertas características microestructurales, sobre todo aquellas que tienen que ver con la orientación de los cristales en el material.
+Entre éstas se encuentran la textura cristalográfica, los tamaños de dominio y la deformación acumulada.
 
+Las mediciones de EBSD fueron realizadas en el microscopio electrónico de barrido (SEM, por sus siglas en inglés) instalado en CCT Rosario - Laboratorio de Microscopía Electrónica de Barrido.
+El mismo es un microscopio FEI Quanta 200E con cañón emisor de efecto de campo, detector de electrones secundarios y retrodispersados, con capacidad de trabajar en alto y bajo vacío y en condiciones ambientales (ESEM) y detector de EBSD (Ver Fig. \ref{fig:SEM}).
+El software de adquisición empleado es TSL OIM Data Collection 5, para el análisi de los datos se emplearon los programas OIM TSL 5(?) y MTEX.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{SEM}
+  \caption{Fotografías del microscopio electrónico de barrido FEI Quanta 200E ubicado en el CCT Rosario - Laboratorio de Microscopía Electrónica de Barrido. (a) Vista externa del microscopio y computadoras para adquisición, análisis y soporte. (b) Imágen del interior del microscopio, donde se pueden apreciar el cañón emisor y los detectores.}
+  \label{fig:SEM}
+\end{figure}
+
+La preparación de las muestras para este instrumento fue muy similar la utilizada para difracción de rayos X, pero el paso final de pulido electrolítico fue reemplazado por un pulido en sílica coloidal de 0.05\,$\mu$m; el motivo para este cambio es que el electropulido genera desniveles en la muestra donde hay alta energía almacenada (bordes de grano, dislocaciones, bordes de interfase), y como la muestra debe inclinarse 70$\circ$ para el análisis usando electrones retrodispersados estos desniveles distorsionan el desplazamiento de los electrones al interponerse en el camino del haz, y no se obtienen buenos patrones en estas zonas, dificultando la indexación.
+El pulido con sílica coloidal, en cambio, consigue una superficie con mínimas rayas y relieves, por lo que resulta ideal para el análisis de EBSD.
+
+Para determinar la textura del material con EBSD y poder compararla con la medida a través de XRD, es preciso hacer barridos de gran área para aumentar la estadística, lo que obliga a reducir la resolución del barrido para reducir el tiempo de barrido y de post-procesamiento.
+Para los materiales estudiados, los barridos realizados para la determinación de textura se realizaron sobre áreas del orden de 600\,$\mu$m (RD) x 500\,$\mu$m (ND/TD) con una resolución de 0.4\,$\mu$m.
+Se eligió que la dirección más larga del barrido sea siempre RD, ya que como la mayoría de los materiales estudiados fueron laminados, se esperaba que los granos fueran más largos en la dirección que laminado que en cualquiera de las direcciones perpendiculares.
+
+El análisis de la anisotropía en la deformación acumulada y en el tamaño de grano se realizó sobre mapas con menor área y mayor resolución, ya que los detalles de la microestructura de los materiales deformados se pierden a resoluciones bajas.
+Por ejemplo, si en un material deformado se espera tener granos de tamaño del orden de pocos micrones, o incluso de algunos nanómetros, si la resolución es de 0.4\,$\mu$m se cometer el error de asignar múltiples granos a un solo píxel.
+Por lo tanto, los barridos realizados para obtener detalles de la microestructura se realizaron sobre áreas de 250\,$\mu$m (RD) x 80\,$\mu$m (ND/TD) con una resolución de 0.1\,$\mu$m.
+Como se explicó en el párrafo anterior, fue preciso aumentar la longitud estudiada en la dirección de laminado de las muestras por la morfología que se esperaba observar en los granos de los materiales estudiados.
+
+En esta tesis no se aplicaron métodos de “clean-up” para limpiar los datos ya que los puntos de los barridos con bajo índice de calidad corresponden a las zonas de alta deformación del material, y son precisamente estas zonas las que se intentan estudiar en esta tesis. 
+Eso exigió un trabajo especial en obtener superficies adecuadas con la calidad necesaria para que la indexación sea la adecuada en una gran proporción de los puntos inspeccionados.
+
+La determinación de la textura en las mediciones de EBSD es un proceso directo, ya que se mide la orientación de los cristales.
+En el caso de MTEX, el cálculo de la ODF se hace a partir del desarrollo en serie de las llamadas funciones radialmente simétricas $\psi_L$:
+
+\begin{equation}
+  f(g) \ \sim \ \sum_{l=0}^{L} \sum_{k,k'=-l}^{l} \ \hat{f}(l, k, k') \ \psi_L(\omega(gg_i)) 
+  \label{eq:ODFEBSD}
+\end{equation}
+\noindent
+donde los coeficientes $\hat{f}$ del desarrollo \ref{eq:ODFEBSD} se calculan directamente a partir de las $N$ orientaciones $g_i$ medidas en el experimento de EBSD:
+\begin{equation}
+  \hat{f}(l, k, k') \ = \ \frac{1}{N} \ \frac{(l + 1/2)^{1/2}}{2 \pi} \sum_{i=1}^{N} \overline{D_l^{k k'} (g_i)}; \quad l \leq L, \ k, k' = -l, \cdots, l
+  \label{eq:ODFcoef}
+\end{equation}
+\noindent
+donde $D_l^{k k'}$ son los armónicos esféricos generalizados, y la barra denota conjugación compleja. Las funciones $\psi_L$ represetan orientaciones ideales en el espacio de orientaciones $SO(3)$ y son funciones de distribución que tienen su máximo cuando $g \ = \ g_i$ y decrecen monótonamente a medida que aumenta el ángulo $\omega$ entre $g$ y $g_i$.
+Las funciones radialmente simétricas tienen asociado un ancho de de banda que se denota $\kappa$, que determina que tan intensa va a ser la textura alrededor de la orientación $g_i$.
+A mayor $\kappa$, la distribución se vuelve más ancha y la textura menos intensa.
+
+En teoría, el desarrollo \ref{eq:ODFEBSD} tiene infinitos términos, sin embargo por cuestiones de cómputo la serie se trunca en el $L$-ésimo término, que debe incrementarse para texturas muy intensas, es decir, en la medida que se quiera determinar una ODF muy intensa, el desarrollo en serie debe truncarse para $L$'s cada vez mayores, lo cual se logra reduciendo el parámetro $\kappa$ que condiciona el ancho de las funciones $\psi_L$.
+
+La determinación de tamaño de grano en EBSD es conceptualmente distinta a los métodos análogos que se emplean en XRD o incluso en la metalografía tradicional.
+Mientras que en XRD se obtiene una longitud promedio de las columnas cristalinas que difractan coherentemente en una dada dirección, en los análisis de EBSD el concepto de grano se define a partir de regiones cerradas que poseen una misorientación menor que cierto valor umbral definido por el usuario.
+En general, y salvo que se especifique lo contrario, dos píxeles se considerarán en diferentes granos si su misorientación es mayor a 5\,$^{\circ}$, que es el criterio que se emplea normalmente en los análisis de EBSD.
+
+La determinación de la deformación de la deformación acumulada en el material se hizo a partir del cálculo de las dislocaciones geométricamente necesarias (GND, por sus siglas en inglés).
+El cálculo de las GND se hace a partir de calcular el tensor de Nye\cite{Nye1953}, que se calcula a partir de la curvatura de la red cristalina, que a su vez puede obtenerse a partir de medir la misorientación entre celdas vecinas\cite{Pantleon2008}.
+La curvatura de la red cristalina se calcula midiendo la misorientación entre un dado pixel y sus vecinos en un dado mapa de EBSD, dejando afuera aquellos píxeles que pertenezcan a granos diferentes.
+Debe notarse además que píxeles con una misorientación menor a los 0.5\,$^{\circ}$ tendrán una misorientación nula, ya que esa es la incerteza que se comete al medir misorientaciones con un microscopio como el empleado en este trabajo.

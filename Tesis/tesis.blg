@@ -16,45 +16,45 @@ Database file #1: ./bib/tesis_lib.bib
 Database file #2: ./bib/Physical_Properties_of_Crystals.bib
 Database file #3: ./bib/International_Tables_for_Crystallography.bib
 Warning--missing school in Ribarik2008
-You've used 32 entries,
+You've used 34 entries,
             2652 wiz_defined-function locations,
-            1264 strings with 15771 characters,
-and the built_in function-call counts, 10342 in all, are:
-= -- 713
-> -- 268
+            1280 strings with 16175 characters,
+and the built_in function-call counts, 11066 in all, are:
+= -- 765
+> -- 276
 < -- 0
-+ -- 134
-- -- 67
-* -- 590
-:= -- 1156
-add.period$ -- 114
-call.type$ -- 32
-change.case$ -- 29
++ -- 138
+- -- 69
+* -- 640
+:= -- 1238
+add.period$ -- 122
+call.type$ -- 34
+change.case$ -- 31
 chr.to.int$ -- 0
-cite$ -- 33
-duplicate$ -- 1031
-empty$ -- 1109
-format.name$ -- 86
-if$ -- 2256
+cite$ -- 35
+duplicate$ -- 1103
+empty$ -- 1191
+format.name$ -- 88
+if$ -- 2414
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 288
-newline$ -- 180
-num.names$ -- 32
-pop$ -- 461
+int.to.str$ -- 34
+missing$ -- 306
+newline$ -- 192
+num.names$ -- 34
+pop$ -- 481
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 182
+skip$ -- 190
 stack$ -- 0
-substring$ -- 401
-swap$ -- 677
+substring$ -- 455
+swap$ -- 727
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
-while$ -- 62
-width$ -- 34
-write$ -- 373
+while$ -- 66
+width$ -- 36
+write$ -- 399
 (There was 1 warning)

@@ -220,4 +220,19 @@
 \newblock
   \urlprefix\url{http://rspa.royalsocietypublishing.org/content/433/1889/499}.
 
+\bibitem{Nye1953}
+\textsc{Nye, J.}
+\newblock Some geometrical relations in dislocated crystals.
+\newblock \emph{Acta Metallurgica}, \textbf{1}~(2), 153 -- 162, 1953.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0001616053900546}.
+
+\bibitem{Pantleon2008}
+\textsc{Pantleon, W.}
+\newblock Resolving the geometrically necessary dislocation content by
+  conventional electron backscattering diffraction.
+\newblock \emph{Scripta Materialia}, \textbf{58}~(11), 994 -- 997, 2008.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1359646208000912}.
+
 \end{thebibliography}
