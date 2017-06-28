@@ -45,13 +45,18 @@
 
  \nomgroup{E}
 
-  \item [{EBSD}]\begingroup Difracción de electrones retro difundidos\nomeqref {1.24}
-		\nompageref{13}
+  \item [{EBSD}]\begingroup Difracción de electrones retro difundidos\nomeqref {1.27}
+		\nompageref{16}
+
+ \nomgroup{L}
+
+  \item [{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}
+		\nompageref{25}
 
  \nomgroup{S}
 
-  \item [{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.24}
-		\nompageref{13}
+  \item [{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.27}
+		\nompageref{16}
 
  \nomgroup{X}
 

@@ -3,16 +3,16 @@
 \section{Experimentos de difracción de rayos X}\label{S:MatXRD}
 Buena parte del trabajo de esta tesis se centró alrededor de los experimentos de difracción de rayos X.
 En particular, la mediciones se hicieron empleando la geometría de transmisión, también llamada de Debye-Scherrer, utilizando radiación sincrotrón.
-La facilidad empleada fue PETRA III, cuya fotografía puede verse en la Fig. \label{fig:desy}, y está ubicada en el complejo DESY, en la ciudad de Hamburgo, Alemania\cite{desy}.
+La facilidad en la que se trabajó fue PETRA III, cuya fotografía puede verse en la Fig. \ref{fig:desyfoto}, y está ubicada en el complejo DESY, en la ciudad de Hamburgo, Alemania\cite{desy}.
 
-\begin{figure}[!htb]
+\begin{figure}[!htb] 
   \centering
   \includegraphics[width=\textwidth]{desy}
   \caption{Fotografías del exterior e interior de la facilidad PETRA III, en DESY. Imágenes obtenidas de \cite{desy}.}
-  \label{fig:desy}
+  \label{fig:desyfoto}
 \end{figure}
 
-En los experimentos de transmisión realizados, un haz de rayos X con $\lambda \ \approx \ 0.0142$\,nm incide sobre una dada muestra, como se puede apreciar en la imagen de la Fig. \ref{fig:transmision}. 
+En los experimentos de transmisión realizados, se hizo incidir un haz de rayos\,X con $\lambda \ \approx \ 0.0142$\,nm sobre una muestra, como está esquematizado en la imagen de la Fig. \ref{fig:transmision}. 
 Como resultado de la interacción elástica entre el haz incidente y el material, diferentes haces con la misma energía que el incidente, son dispersados por diferentes familias de planos en ángulos que están dados por la Ley de Bragg \ref{eq:Bragg}.
 Para una dada familia de planos $\{hkl\}$ todos los haces difractados están comprendidos en un cono, que al interceptar el detector forman un círculo, denominado anillo de Debye, y la intensidad del haz difractado a lo largo de largo del anillo de Debye está determinada por la cantidad de planos cristalinos en condición de difracción para esa dada orientación de la muestra.
 
@@ -23,45 +23,68 @@ Para obtener una caracterización completa de la textura de la muestra, fue nece
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{process}
-  \caption{Esquema básico del proceso de medición y análisis de datos. Las mediciones se realizaron empleando una geometría de transmisión, para diferentes rotaciones $\omega$ de la muestra. Por cada posición de la muestra se registraron una serie de anillos de Debye, a partir de los cuales se extrajeron porciones radiales con los que se construyeron los difractogramas que luego fueron procesados siguiendo diferentes modelos microestructurales. A partir de estos resultados, y realizando la conversión adecuada de las coordenadas de laboratorio a las coordenadas del sistema de referencia del cristal, se construyeron figuras de polos y figuras de polos generalizadas.}
+  \caption{Esquema básico del proceso de medición y análisis de datos. Las mediciones se realizaron empleando una geometría de transmisión, para diferentes rotaciones $\omega$ de la muestra. Por cada posición de la muestra se registraron una serie de anillos de Debye, a partir de los cuales se extrajeron porciones radiales, con las que se construyeron difractogramas que luego fueron procesados siguiendo diferentes modelos de LPA. A partir de estos resultados, y realizando la conversión adecuada de las coordenadas de laboratorio a las coordenadas del sistema de referencia del cristal, se construyeron figuras de polos y figuras de polos generalizadas.}
   \label{fig:transmision}
 \end{figure}
 
-El haz que incidente tiene un tamaño de 100\,$\mu$m x 100\,$\mu$m, lo que permite obener una gran resolución sobre la microestructura del material.
+\nomenclature{LPA}{Análisis de ancho de pico}
+
+El haz que incidente tenía un tamaño de 100\,$\mu$m x 100\,$\mu$m, lo que permitía obener una gran resolución sobre la microestructura del material.
 Las muestras empleadas tenían forma de varillas con su eje colocado verticalmente, es decir, paralelas al eje de giro.
-El ancho de las varillas era de entre 2\,mm y 5\,mm, y se tuvo especial cuidado durante la alineación de que el haz esté completamente adentro de la muestra en todo el rango de rotación de la muestra.
+El ancho de las varillas era de entre 2\,mm y 5\,mm, y se tuvo especial cuidado durante la alineación de que el haz esté completamente adentro de la muestra en todo el rango de rotación de la misma.
+
 Se utilizó un detector de estado sólido Mar345 de forma cuadrada, con una grilla de 3450\,pixels x 3450\,pixels, de 100\,$\mu$m x 100\,$\mu$m cada uno.
-El detector se colocó 1081\,mm detrás de la muestra, y los tiempos de detección se modificaron de acuerdo a la intensidad de salida del haz y la absorción de la muestra, de modo de que las intensidades máximas siempre estén cerca del número máximo de cuentas medibles por el detector.
+El detector se colocó 1081\,mm detrás de la muestra, y los tiempos de detección se modificaron de acuerdo a la intensidad de salida del haz y la absorción de la muestra, de modo de que las intensidades máximas siempre estén cerca del número máximo de cuentas adquiribles por el detector.
 
 De cada medición se extrajeron 37 imágenes, cada una de las cuales contaba con conjuntos de 5 a 7 anillos de Debye, dependiendo de la muestra.
 De cada imagen se extrajeron porciones radiales de ancho angular de 5\,$^{\circ}$ a partir de las cuales se construyeron 72 difractogramas.
-El conjunto de 72 x 37 = 2664 difractogramas fue analizado utilizando diferentes modelos microestructurales, pero hubo dos modelos sobre los que se hizo especial foco: el CMWP (Sec. \ref{SS:CMWP}) y el de Langford (Sec. \ref{SS:02Langford}), y de cada modelo empleado se extrajo diferente información sobre la microestructura.
+El conjunto de 72 x 37 = 2664 difractogramas fue analizado utilizando diferentes modelos de LPA, pero hubo dos modelos sobre los que se hizo especial foco: el de Langford (Sec. \ref{SS:Langford}) y el CMWP (Sec. \ref{SS:CMWP}), y de cada modelo empleado se extrajo diferente información sobre la microestructura de la muestra.
 
-Cada pico de cada difractograma quedaba identificado por su ángulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural era susceptible de ser graficada empleando figuras de polos, del misma manera que se grafican las figuras de polos.
-Para construir figuras de polos a partir de las mediciones realizadas es preciso transformar las coordenadas de los picos en el sistema de laboratorio $(\omega, \gamma, \theta_B)$ al sistema de referencia del cristal $(\alpha, \beta)$, para lo cual se empleó la matriz de rotación ya calculada por Bunge y Klein\cite{Bunge1996}.
+Cada pico de cada difractograma quedaba identificado por su ángulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural que se extraía del ancho de los picos era susceptible de ser graficada empleando figuras de polos, del misma manera que se grafican las figuras de polos.
+Para construir figuras de polos a partir de las mediciones realizadas fue preciso transformar las coordenadas de los picos en el sistema de laboratorio $(\omega, \gamma, \theta_B)$ a la del sistema de referencia del cristal $(\alpha, \beta)$, para lo cual se empleó la matriz de rotación ya calculada por Bunge y Klein\cite{Bunge1996}.
 La misma expresión fue empleada para generar las figuras de polos generalizadas.
 
 \subsection{Contribuciones instrumentales al ancho de pico}\label{SS:inst}
 Para poder realizar un análisis microestructural preciso a partir de mediciones de ancho de pico, es necesario dar cuenta del ancho instrumental del equipo empleado.
 Se define como ancho instrumental al ensanchamiento que se observa alrededor de los picos de Bragg y que es independiente de la microestructura de la muestra estudiada.
 Para medir el ancho instrumental se emplean patrones de laboratorio, es decir, muestras que poseen una geometría similar a la de las muestras a estudiar y que no poseen ensanchamiento (o poseen un ensanchamiento muy pequeño) debido a factores microestructurales, como ser tensiones internas y tamaño de grano.
-También es preciso que los patrones instrumentales no posean ningún tipo de textura.
+También es necesario que los patrones instrumentales no posean ningún tipo de textura.
 Para las mediciones de este trabajo se utilizó un polvo de LaB$_6$ como patrón instrumental.
+
+En la Fig. \ref{fig:LaB6vsGamma} puede verse el ancho de uno de los picos del patrón de LaB$_6$ a lo largo del anillo de Debye para tamaños de haz de 100\,$\mu$m x 100\,$\mu$m y 500\,$\mu$m x 500\,$\mu$m.
+Notar que no sólo el ancho instrumental se reduce con el tamaño del haz, sino que además existe una variación del mismo a medida que se recorre el anillo de Debye, con mínimos en 90\,$^{\circ}$ y 270\,$^{\circ}$, un máximo local en 180\,$^{\circ}$ y un máximo absoluto en 0\,$^{\circ}$, y que esta variación se reduce también con el tamaño del haz, aunque nunca se puede eliminar del todo.
 
 \begin{figure}[!htb]
   \centering
+  \includegraphics[width=0.8\textwidth]{LaB6_1mm_FWHMvsGammavsBS.pdf}
+  \caption{Variación del ancho instrumental como función del ángulo a lo largo del anillo de Debye para diferentes tamaños del haz incidente. Puede apreciarse que reducir el tamaño del haz reduce el valor promedio del ancho instrumental. También puede verse que el ancho instrumental no es uniforme a lo largo de todo el anillo de Debye, sino que se presentan oscilaciones que también se reducen al reducir el área del haz incidente.}
+  \label{fig:LaB6vsGamma}
+\end{figure}
+
+La razón de esta oscilación en el ancho instrumental se debe a la divergencia del haz de rayos X\cite{Wcislak2002} y esta es una fuente de errores sistemáticos bastante común en los experimentos realizados con geometrías de transmisión, aunque su presencia suele quedar enmascarada cuando el ensanchamiento de los picos debido a la microestructura es mucho más grande que el instrumental.
+
+En casos donde el ensanchamiento de la muestra no es tan grande, la contribución de la divergencia del haz se puede apreciar fundamentalmente como una asimetría izquierda-derecha en las figuras de polos generalizadas de ancho de pico, en el que el lado derecho e izquierdo tienen la misma estructura general, pero el derecho tiene un valor promedio visiblemente más alto, como se ve en la Fig. \ref{fig:IF75NoSym}-a.
+
+\begin{figure}[!htb] 
+  \centering
   \includegraphics[width=0.95\textwidth]{IF75_SymnoSym}
-  \caption{.}
+  \caption{Efecto de la contribución de la divergencia del haz al ancho de pico medido. En la parte (a) de la figura pueden observarse las figuras de polos generalizadas de ancho de pico de una muestra de acero libre de instersticiales. Se observa que los datos a la derecha tienen una estructura similar a la de los de la izquierda, sólo que con un valor medio un poco más alto. En la parte (b) de la figura se simetrizó la figura de polos a partir de reflejar los datos de la izquierda a la derecha.}
   \label{fig:IF75NoSym}
 \end{figure}
 
+Inicialmente se intentó hacer una sustracción del ancho instrumental a partir de ajustar el patrón de LaB$_6$ y ajustar la componente lorentziana y gaussiana de cada uno de los picos empleando la expresión de Caglioti\cite{Caglioti1958} y luego restando el ancho instrumental del medido:
+\begin{align}
+  H_L^{micr} & = H_L^{exp} \ - \ H_L^{inst} \nonumber \\
+  (H_G^{micr})^2 & = (H_G^{exp})^2 \ - \ (H_G^{inst})^2 
+  \label{eq:instrumental}
+\end{align}
+\noindent
+donde $H_i^{micr}$, $H_i^{exp}$ y $H_i^{inst}$ representan los ensanchamientos microestructurales, experimentales e instrumentales respectivamente, y la substracción que se hace es la que corresponde atendiendo al carácter lorentziano o gaussiano de los picos.
 
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=0.8\textwidth]{LaB6_1mm_FWHMvsGammavsBS}
-  \caption{Variacion del ancho instrumental como función del ángulo a lo largo del anillo de Debye.}
-  \label{fig:LaB6vsGamma}
-\end{figure}
+
+El problema de hacer esto fue que. . .
+
+Asi que decidimos simetrizar y listo.
 
 \newpage
 \subsection{Postprocesamiento de los datos}\label{SS:MatPost}
@@ -105,15 +128,15 @@ La rutina de mínimos cuadrados minimiza la suma total de la diferencia entre la
 \end{equation}
 \noindent
 donde la función de ruido una función lineal dentro de un intervalo definido por $2\theta_j$ y $2\theta_{j+1}$ definido por el usuario y cero fuera de ese intervalo.
-La función de ruido tiene intensidad $I_j$ en el punto $2\theta_j$ e intensidad $I_{j+1}$ en el punto $2\theta_{j+1}$, y las intensidades $I_j$ e $I_{j+1}$ son ajustadas dentro de la rutina de míminos cuadrados.
+La función de ruido tiene intensidad $I_j$ en el punto $2\theta_j$ e intensidad $I_{j+1}$ en el punto $2\theta_{j+1}$, y las intensidades $I_j$ e $I_{j+1}$ son ajustadas dentro de la rutina de mínimos cuadrados.
 De las funciones $pV(x)$, de las que hay una por pico, se ajusta su intensidad integrada $I_{0i}$, su centro $2\theta_{Bi}$ y su ancho y factor de mezcla.
 El FWHM y el factor de mezcla de cada pico se generan a partir de un valor global (el mismo para todos los picos) y uno particular que se ajustan en pasos distintos del algoritmo de ajuste:
 
-\begin{eqnarray}
-  H_i & = & H_{gll} \ + \ sH_i \\
-  \eta_i & = & \eta_{gl} \ + \ s\eta_i
+\begin{align}
+  H_i & = H_{gll} \ + \ sH_i \nonumber \\
+  \eta_i & =  \eta_{gl} \ + \ s\eta_i
   \label{eq:global}
-\end{eqnarray}
+\end{align}
 \noindent
 El motivo de esta separación es pura y exclusivamente por cuestiones de estabilidad numérica durante el ajuste, y no tiene una razón física detrás.
 
@@ -128,12 +151,12 @@ Como el ajuste se realiza sobre cada difractograma en forma individual, $N$ indi
 
 Una vez realizado el ajuste sobre todos los difractogramas, se toma la información de cada pico, el conjunto $(\theta_B, \ I_0, \ H, \ \eta)$ que tiene asociadas las coordenadas en el sistema de laboratorio $(\omega, \ \gamma, \ \theta_B)$ y se les asigna las coordenadas  $(\alpha, \ \beta)$ en el sistema de referencia del cristal, y con esos datos se construyen las figuras de polos y las figuras de polos generalizadas.
 Antes de imprimir la salida de los archivos, el software substrae el ancho instrumental a partir de los valores que están presentes en el archivo \textit{IRF\_3.dat}.
-Las substracción de los datos se hace suponiendo que el ancho instrumental tiene una componente Gaussiana y una componente Lorentziana, y que ambas crecen con el ánguo $\theta$ siguiendo la ley de Caglioti\cite{Caglioti1958}:
-\begin{eqnarray}
-  \left[H_{ins}^{G}\right]^2 & = & U_G \ \tan^2(\theta) \ + \ V_G \ \tan(\theta) \ + \ W_G \\
-  H_{ins}^{L} & = & U_L \ \tan^2(\theta) \ + \ V_L \ \tan(\theta) \ + \ W_L
+Las substracción de los datos se hace suponiendo que el ancho instrumental tiene una componente Gaussiana y una componente Lorentziana, y que ambas crecen con el ángulo $\theta$ siguiendo la ley de Caglioti\cite{Caglioti1958}:
+\begin{align}
+  \left[H_{ins}^{G}\right]^2 & =  U_G \ \tan^2(\theta) \ + \ V_G \ \tan(\theta) \ + \ W_G \nonumber \\
+  H_{ins}^{L} & =  U_L \ \tan^2(\theta) \ + \ V_L \ \tan(\theta) \ + \ W_L
   \label{eq:caglioti}
-\end{eqnarray}
+\end{align}
 \noindent
 donde los parámetros $(U_i, V_i, W_i)$ deben ser especificados por el usuario.
 En el archivo \textit{IRF\_3.dat} también deben especificarse los parámetros geométricos de la muestra para tener en cuenta la contribución del ancho de la muestra al ensanchamiento de los picos.
@@ -149,8 +172,7 @@ El segundo archivo se llama \textit{fit\_strategy\_2.ini} el usuario deber indic
 También debe indicar si desea que el CMWP haga un ajuste por fallas de apilamiento  y si desea que se ajuste independientemente la intensidad y posición de los picos.
 En la práctica se ha visto que hacer un ajuste extra de intensidades alarga mucho el tiempo de cálculo del programa y no aporta valores finales muy diferentes a los que se obtienen cuando no se hace este ajuste.
 
-Los siguientes tres archivos que debe generar el usuario son llamados archivos \textit{plantilla}, ya que estos archivos no suelen escribirse a mano, sino que son generados por el programa CMWP automáticamente.
-En la próxima sección, donde se explica el funcionamiento del programa CMWP se explica además cómo generar los archivos plantilla.
+Los siguientes tres archivos que debe generar el usuario son llamados archivos \textit{plantilla}, ya que estos archivos no suelen escribirse a mano, sino que son generados por el programa CMWP automáticamente, como ya se explicó en la Sec \ref{SS:CMWP}.
 
 %\begin{figure}[!htb]
 %  \centering
@@ -159,67 +181,8 @@ En la próxima sección, donde se explica el funcionamiento del programa CMWP se
 %  \label{fig:LabtoPF}
 %\end{figure}
 
-\subsection{CMWP}\label{SS:CMWP}
-El \textit{Convolutional Multiple Whole Profile (CMWP)} es un método desarrollado en base al modelo de Warren-Averbach (Ec. \ref{eq:WAPlot}), que fue codificado en un software que lleva el mismo nombre, y que fue desarrollado por Gábor Ribárik\cite{Ungar2001,Ribarik2001,Ribarik2008}. 
-En lo que sigue se usarán las siglas CMWP tanto para referirse al método que se usa para calcular aspectos de la microestructura a partir de los experimentos de XRD como para el software que aplica este método a datos experimentales concretos.
-El software es gratuito y libre y puede descargarse de \cite{cmwp:web}, y sólo corre en sistemas operativos basados en UNIX.
-
-Una vez descargado el CMWP, el usuario puede acceder a una interfaz gráfica como la que se ve en la Fig. \ref{fig:CMWP_front}, que permite ingresar todos los datos sobre la muestra cuya microestructura se desea conocer.
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=0.8\textwidth]{CMWP_front}
-  \caption{Pantalla de inicio del sofware CMWP. En la parte superior de la pantalla se le solicita al usuario que ingrese información sobre la estructura cristalina del material se configuran varias opciones relacionadas con el tipo de ajuste que se desea hacer. En la parte media, el usuario puede configurar detalles relacionados al ajuste propiemente dicho, mientras que en la parte inferior se puede ingresar el valor de las variables que van a ser efectivamente ajustadas.}
-  \label{fig:CMWP_front}
-\end{figure}
-
-Para poder resolver la microestructura, el usuario debe ingresar la estructura cristalina del material (sólo se permite trabajar con materiales cúbicos, hexagonales u ortorrómbicos), su/s parámetro/s de red, además de la longitud de onda de la radiación empleada.
-
-El método CMWP es un método de tipo bottom-up, es decir, modela la intensidad teórica a partir de modelar la distribución de tamaños de dominio y de dislocaciones en el material, y luego compara el patrón modelado con las intensidades experimentales para determinar cuál es el valor que deben tener las variables microestructurales para reducir la diferencia enntre lo medido y lo modelado.
-Concretamente, en el CMWP se modela a la intensidad de un experimento de difracción como la convolución de los efectos de tamaño (size), los debidos a las dislocaciones, a las fallas de apilamiento y/o twins y a los efectos instrumentales:
-\begin{equation}
-  I_{teo} \ = \ I_{size} \otimes I_{disl} \otimes I_{twins} \otimes I_{inst}
-  \label{eq:convolucion}
-\end{equation}
-\noindent
-El método luego calcula los coeficientes de Fourier de las distintas funciones que aparecen en la Ec. \ref{eq:convolucion} y los ajusta a partir de los coeficientes de Fourier que obtienen a partir de los picos del difractograma medido.
-
-La intensidad de tamaño se obtiene suponiendo que las cristalitas son de forma esférica y tienen una distribución lognormal con media $m$ y desviación estándar $\sigma$:
-\begin{equation}
-  f(L) \ = \ \frac{1}{L \sigma \sqrt{2 \pi}} \ e^{-\frac{(\ln(L)-m)}{2 \sigma^2}}
-  \label{eq:lognormal}
-\end{equation}
-\noindent
-lo que da una distribución de intensidades\cite{Ribarik2008}:
-\begin{equation}
-  I_{size}(s) \ \sim \ \int_0^{\infty} L \ \frac{\sin^2{L \pi s}}{(\pi s)^2} \ errf \left[ \frac{\ln{\frac{L}{m}}}{\sqrt{2}\sigma} \right] dL
-  \label{eq:Isize}
-\end{equation}
-\noindent
-donde $s = \frac{2}{\lambda} \ (\sin \theta - \sin \theta_B)$, y $L$ es la longitud de las columnas que difractan coherentemente en la dirección del vector de difracción $\mathbf{K}$.
-Al emplear el CMWP, el usuario obtiene los parámetros $m$ y $\sigma$ de la función de distribución de dominios que mejor ajusta a la muestra medida a través de las variables de ajuste \textit{init\_b} y \textit{init\_c}.
-
-Los coeficientes de Fourier para el cálculo de las dislocaciones usan la Ec. \ref{eq:Wilkens} para relacionar la densidad de dislocaciones con el ensanchamiento producido por la microdeformación, y el programa emplea la Ec. \ref{eq:contrast3} para calcular los factores de contraste, donde el factor $C_{h00}$ debe ser ingresado por el usuario, pero el factor $q$ es un parámetro libre del método, que corresponde a la variable \textit{init\_a} en el \textit{front-end} de la Fig. \ref{fig:CMWP_front}.
-El programa además devuelve directamente el valor de la densidad de dislocaciones $\rho$ y de la longitud efectiva del campo de deformación producido por las dislocaciones $R_e$, ambos parámetros relacionados con las variables de ajuste \textit{init\_d} e \textit{init\_e}, respectivamente. 
-El software también usa los valores de $\rho$ y $R_e$ para calcular el valor del factor de Wilkens $M$.
-
-En caso de no querer emplear la relación \ref{eq:contrast3} para el cálculo de los factores de constraste, el usuario es libre de ingresar valores individuales de los mismos, e incluso ajustarlos individualmente, aunque esta opción deja muchas variables libres y puede introducir inestabilidades al momento realizar el ajuste, así que no se recomienda a menos que se tenga una idea de cuánto valen los factores de contraste, o se hayan medido muchos picos en el difractograma.
-
-La función de intensidad para modelar el ensanchamiento por fallas de apilamiento es una función que se puede introducir opcionalmente y para el modelo CMWP se escribe\cite{Ribarik2008}:
-\begin{equation}
-  I_{twins} \ = \ p_0^{hkl} \ \delta(s) \ + \sum_{i=1}^{3} \frac{p_{i}^{hkl}}{1+\left( \frac{s - s_i^{hkl}}{w_i^{hkl}} \right)^2}
-  \label{eq:Itwins}
-\end{equation}
-\noindent
-donde $\delta(s)$ es la función delta de Dirac, $p_0$ da la contribución simétrica de las fallas de apilamiento al ensanchamiento de los picos, y los $p_i^{hkl}\,i=1,2,3$ dan las contribuciones al ensanchamiento asimétrico (coeficientes de Fourier imaginarios).
-
-Las fallas de apilamiento producen un corrimiento de los picos, además de un ensanchamiento de tipo lorentziano, como se puede deducir a partir de la presencia de las funciones Lorentzianas en la Ec. \ref{eq:Itwins}, que tienen un centro en $s_i^{hkl}$ y un ancho $w_i^{hkl}$.
-Estas seis constantes se pueden desarrollar en polinomios de orden 5, que son función de la probabilidad $\alpha_{twins}$ de que ocurran fallas de apilamiento o maclas\cite{Ribarik2008}, y los coeficientes de dicho desarrollo, junto con los coeficientes $p_i^{hkl},\,i=0,1,2,3,4$ pueden ser calculados para cada material utilizando el programa DIFFAX\cite{Treacy1991}, y deben ser dados como datos de entrada si se quiere que el programa calcule la probabilidad de fallas de apilamiento.
-
-La función $I_{inst}$ no se calcula teóricamente sino que se extrapola para cada uno de los picos medidos experimentalmente a partir de un patrón instrumental que también debe ser provisto de antemano por el usuario.
-
-Una vez determinadas todas las funciones relevantes, el CMWP emplea el algoritmo de mínimos cuadrados Levenberg-Marquardt para estimar el conjunto de parámetros físicos que reduce la discrepancia entre la función $I_{teo}$ y las intensidades experimentales, y devuelve el conjunto de datos microestructurales que resultan de ese proceso de minimización.
 \iffalse
-\subsection{Langford}\label{SS:02Langford}
+\subsection{Langford}\label{SS:MLgfrd}
 
 \begin{figure}[!htb]
   \centering
@@ -251,7 +214,7 @@ Entre éstas se encuentran la textura cristalográfica, los tamaños de dominio 
 
 Las mediciones de EBSD fueron realizadas en el microscopio electrónico de barrido (SEM, por sus siglas en inglés) instalado en CCT Rosario - Laboratorio de Microscopía Electrónica de Barrido.
 El mismo es un microscopio FEI Quanta 200E con cañón emisor de efecto de campo, detector de electrones secundarios y retrodispersados, con capacidad de trabajar en alto y bajo vacío y en condiciones ambientales (ESEM) y detector de EBSD (Ver Fig. \ref{fig:SEM}).
-El software de adquisición empleado es TSL OIM Data Collection 5, para el análisi de los datos se emplearon los programas OIM TSL 5(?) y MTEX.
+El software de adquisición empleado es TSL OIM Data Collection 5, para el análisi de los datos se emplearon los programas OIM TSL 7.3 y MTEX.
 
 \begin{figure}[!htb]
   \centering

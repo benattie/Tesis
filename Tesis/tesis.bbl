@@ -108,6 +108,42 @@
   A1203}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{20}, 79--83, 1987.
 
+\bibitem{Ungar2001}
+\textsc{Ungár, T., Gubicza, J., Ribárik, G., Borbély, A.}
+\newblock Crystallite size distribution and dislocation structure determined by
+  diffraction profile analysis: Principles and practical application to cubic
+  and hexagonal crystals.
+\newblock \emph{Journal of Applied Crystallography}, \textbf{34}~(3), 298--310,
+  2001.
+
+\bibitem{Ribarik2001}
+\textsc{Ribárik, G., Ungár, T., Gubicza, J.}
+\newblock Mwp-fit: A program for multiple whole-profile fitting of diffraction
+  peak profiles by ab initio theoretical functions.
+\newblock \emph{Journal of Applied Crystallography}, \textbf{34}~(5), 669--676,
+  10 2001.
+
+\bibitem{Ribarik2008}
+\textsc{Rib{\'{a}}rik, G.}
+\newblock {Modeling of diffraction patterns based on microstructural
+  properties}.
+\newblock Tesis Doctoral, 2008.
+
+\bibitem{cmwp:web}
+\textsc{Gábor, R.}
+\newblock Cmwp software, 2008.
+\newblock \urlprefix\url{http://csendes.elte.hu/cmwp/}, [Online; accessed
+  19-June-2017].
+
+\bibitem{Treacy1991}
+\textsc{Treacy, M. M.~J., Newsam, J.~M., Deem, M.~W.}
+\newblock A general recursion method for calculating diffracted intensities
+  from crystals containing planar faults.
+\newblock \emph{Proceedings of the Royal Society of London A: Mathematical,
+  Physical and Engineering Sciences}, \textbf{433}~(1889), 499--520, 1991.
+\newblock
+  \urlprefix\url{http://rspa.royalsocietypublishing.org/content/433/1889/499}.
+
 \bibitem{schwartz2010electron}
 \textsc{Schwartz, A., Kumar, M., Adams, B., Field, D.}
 \newblock Electron Backscatter Diffraction in Materials Science.
@@ -153,6 +189,20 @@
 \newblock {Area-Detector Bunge Klein.pdf}.
 \newblock \emph{Z. Met.}, 1996.
 
+\bibitem{Wcislak2002}
+\textsc{Wcislak, L., Klein, H., Bunge, H.~J., Garbe, U., Tschentscher, T.}
+\newblock {Texture analysis with high-energy synchrotron radiation research
+  papers}.
+\newblock \emph{J. Appl. Crystallogr.}, \textbf{35}, 82--95, 2002.
+
+\bibitem{Caglioti1958}
+\textsc{Caglioti, G., Paoletti, A., Ricci, F.}
+\newblock Choice of collimators for a crystal spectrometer for neutron
+  diffraction.
+\newblock \emph{Nuclear Instruments}, \textbf{3}~(4), 223 -- 228, 1958.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0369643X5890029X}.
+
 \bibitem{FIT2D}
 \textsc{Hammersley, A.~P., Svensson, S.~O., Hanfland, M., Fitch, A.~N.,
   Häusermann, D.}
@@ -168,14 +218,6 @@
   \urlprefix\url{https://en.wikipedia.org/w/index.php?title=Levenberg%E2%80%93Marquardt_algorithm&oldid=771936514},
   [Online; accessed 19-June-2017].
 
-\bibitem{Caglioti1958}
-\textsc{Caglioti, G., Paoletti, A., Ricci, F.}
-\newblock Choice of collimators for a crystal spectrometer for neutron
-  diffraction.
-\newblock \emph{Nuclear Instruments}, \textbf{3}~(4), 223 -- 228, 1958.
-\newblock
-  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0369643X5890029X}.
-
 \bibitem{Hielscher2008}
 \textsc{Hielscher, R., Schaeben, H.}
 \newblock {A novel pole figure inversion method: specification of the MTEX
@@ -183,42 +225,6 @@
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{41}~(6), 1024--1037, nov 2008.
 \newblock
   \urlprefix\url{http://scripts.iucr.org/cgi-bin/paper?S0021889808030112}.
-
-\bibitem{Ungar2001}
-\textsc{Ungár, T., Gubicza, J., Ribárik, G., Borbély, A.}
-\newblock Crystallite size distribution and dislocation structure determined by
-  diffraction profile analysis: Principles and practical application to cubic
-  and hexagonal crystals.
-\newblock \emph{Journal of Applied Crystallography}, \textbf{34}~(3), 298--310,
-  2001.
-
-\bibitem{Ribarik2001}
-\textsc{Ribárik, G., Ungár, T., Gubicza, J.}
-\newblock Mwp-fit: A program for multiple whole-profile fitting of diffraction
-  peak profiles by ab initio theoretical functions.
-\newblock \emph{Journal of Applied Crystallography}, \textbf{34}~(5), 669--676,
-  10 2001.
-
-\bibitem{Ribarik2008}
-\textsc{Rib{\'{a}}rik, G.}
-\newblock {Modeling of diffraction patterns based on microstructural
-  properties}.
-\newblock Tesis Doctoral, 2008.
-
-\bibitem{cmwp:web}
-\textsc{Gábor, R.}
-\newblock Cmwp software, 2008.
-\newblock \urlprefix\url{http://csendes.elte.hu/cmwp/}, [Online; accessed
-  19-June-2017].
-
-\bibitem{Treacy1991}
-\textsc{Treacy, M. M.~J., Newsam, J.~M., Deem, M.~W.}
-\newblock A general recursion method for calculating diffracted intensities
-  from crystals containing planar faults.
-\newblock \emph{Proceedings of the Royal Society of London A: Mathematical,
-  Physical and Engineering Sciences}, \textbf{433}~(1889), 499--520, 1991.
-\newblock
-  \urlprefix\url{http://rspa.royalsocietypublishing.org/content/433/1889/499}.
 
 \bibitem{Nye1953}
 \textsc{Nye, J.}
