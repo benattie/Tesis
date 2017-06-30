@@ -1,10 +1,11 @@
-\chapter{Archivos de entrada utilizados para correr los programas empleados en el desarrollo de esta tesis}\label{CA:input}
+\chapter{Archivos auxiliares}\label{CA:input}
 %\chapterquote{Negociemos Don Inodoro}{Fernando de la R\'{u}a, 2001}
 %\chapterquote{Smartness runs in my family.  When I went to school I was so smart my teacher was in my class for five years}{George Burns}
 \graphicspath{{figs/Apendice}}
 En las secciones siguientes se muestran archivo de ejemplo de los archivos de entrada necesarios para la ejecución de los programas empleados en el transcurso de esta tesis.
 El detalle acerca del flujo de trabajo puede encontrarse en el capítulo \ref{C:Materiales}, y al final del nombre de cada archivo figura un número que indica el orden en que debe ingresarse cuando se corre el programa.
 \section{Datos de entrada de IDEA}
+\hypertarget{datainfo}{}
 \subsection{Archivo \textit{data\_info\_1.ini}}
 \begin{lstlisting}[language=Python]
 1.PathForOutput     : /path/to/output/
@@ -42,7 +43,7 @@ II. Peak Positions
 4.391 1650 1685 1620 1700
 \end{lstlisting}
 
-
+\hypertarget{fitini}{}
 \subsection{Archivo \textit{fit\_ini\_2.ini}}
 \begin{lstlisting}
 #FIT_INI: archivo con las estimaciones de los valores iniciales para el ajuste
@@ -82,6 +83,7 @@ II. Peak Positions
 8.937       28.0050
 \end{lstlisting}
 
+\hypertarget{IRF}{}
 \subsection{Archivo \textit{IRF\_3.dat}}
 \begin{lstlisting}
 # Instrumental broadening
@@ -100,6 +102,7 @@ Absorption (1/cm):     3.0
 \end{lstlisting}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Datos de entrada de IDEA-CMWP}
+\hypertarget{dinfoCMWP}{}
 \subsection{Archivo \textit{data\_info\_1.ini}}
 \begin{lstlisting}
 File Input Data
@@ -142,6 +145,7 @@ ph hkl 2Theta Peak-L Peak-R BG-L BG-R:
 1 220 8.052 1521 1539 1510 1560
 \end{lstlisting}
 
+\hypertarget{fitstrategy}{}
 \subsection{Archivo \textit{fit\_strategy\_2.ini}}
 \begin{lstlisting}
 #FIT_INI: seeds of the fitting and fitting strategy

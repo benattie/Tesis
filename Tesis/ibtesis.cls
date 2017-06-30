@@ -429,6 +429,7 @@
 
 \setlength{\headheight}{15.6pt}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%% Declaraciones \'{u}tiles %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newlength{\imsizeL}\setlength{\imsizeL}{0.9\textwidth}

@@ -3,21 +3,21 @@
  \nomgroup{Symbols}
 
   \item [{$<e^2>$}]\begingroup Deformación cuadrática media de la red cristalina\nomeqref {1.8}
-		\nompageref{6}
+		\nompageref{7}
   \item [{$A_n$}]\begingroup n-ésimo coeficiente de Fourier\nomeqref {1.8}
-		\nompageref{6}
+		\nompageref{7}
   \item [{$C$}]\begingroup Factor de contraste de una dislocación.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$H$ o $FWHM$}]\begingroup Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).\nomeqref {1.8}
-		\nompageref{6}
+		\nompageref{7}
   \item [{$H^2$}]\begingroup Invariante de cuarto orden que determina el factor de contraste promedio.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$L$}]\begingroup Orden de reflexión. Mentira. Escribirlo bien.\nomeqref {1.8}
-		\nompageref{6}
+		\nompageref{7}
   \item [{$\bar{C}$}]\begingroup Factor de contraste promedio.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$\bar{C}_{h00}$}]\begingroup Factor de contraste promedio para los planos {h00}\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$\lambda$}]\begingroup Longitud de onda\nomeqref {1.2}
 		\nompageref{4}
   \item [{$\mathbf{G}$}]\begingroup Vector de la red recíproca.\nomeqref {1.2}
@@ -27,36 +27,47 @@
   \item [{$\mathbf{K}$}]\begingroup Vector diferencia entre los vectores de onda de las radiaciones incidente y saliente. También llamado vector de dispersión.\nomeqref {1.2}
 		\nompageref{4}
   \item [{$\mathbf{b}$}]\begingroup Vector de burgers de una dislocación.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$\mathbf{k_e}$}]\begingroup Vector de onda de la radiación saliente.\nomeqref {1.2}
 		\nompageref{4}
   \item [{$\mathbf{k_i}$}]\begingroup Vector de onda de la radiación incidente.\nomeqref {1.2}
 		\nompageref{4}
   \item [{$\mathbf{l}$}]\begingroup Vector de línea de una dislocación.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$\theta_B$}]\begingroup Ángulo de Bragg\nomeqref {1.2}
 		\nompageref{4}
   \item [{$c_{ij}$}]\begingroup Constantes elásticas de un material.\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
   \item [{$d_{hkl}$}]\begingroup Distancia interplanar para la familia de planos $hkl$\nomeqref {1.2}
 		\nompageref{4}
   \item [{$q$}]\begingroup Carácter hélice-borde de una dislocación\nomeqref {1.12}
-		\nompageref{9}
+		\nompageref{10}
 
  \nomgroup{E}
 
   \item [{EBSD}]\begingroup Difracción de electrones retro difundidos\nomeqref {1.27}
-		\nompageref{16}
+		\nompageref{18}
+
+ \nomgroup{F}
+
+  \item [{FDO}]\begingroup Función de Distribución de Orientaciones\nomeqref {1.37}
+		\nompageref{26}
+  \item [{FDOG}]\begingroup Función de Distribución de Orientaciones Generalizadas\nomeqref {1.37}
+		\nompageref{26}
+  \item [{FP}]\begingroup Figura de Polos\nomeqref {1.37}
+		\nompageref{26}
+  \item [{FPG}]\begingroup Figura de Polos Generalizadas\nomeqref {1.37}
+		\nompageref{26}
 
  \nomgroup{L}
 
   \item [{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}
-		\nompageref{25}
+		\nompageref{30}
 
  \nomgroup{S}
 
   \item [{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.27}
-		\nompageref{16}
+		\nompageref{18}
 
  \nomgroup{X}
 

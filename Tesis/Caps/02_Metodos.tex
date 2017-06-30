@@ -13,12 +13,13 @@ La facilidad en la que se trabajó fue PETRA III, cuya fotografía puede verse e
 \end{figure}
 
 En los experimentos de transmisión realizados, se hizo incidir un haz de rayos\,X con $\lambda \ \approx \ 0.0142$\,nm sobre una muestra, como está esquematizado en la imagen de la Fig. \ref{fig:transmision}. 
+
 Como resultado de la interacción elástica entre el haz incidente y el material, diferentes haces con la misma energía que el incidente, son dispersados por diferentes familias de planos en ángulos que están dados por la Ley de Bragg \ref{eq:Bragg}.
 Para una dada familia de planos $\{hkl\}$ todos los haces difractados están comprendidos en un cono, que al interceptar el detector forman un círculo, denominado anillo de Debye, y la intensidad del haz difractado a lo largo de largo del anillo de Debye está determinada por la cantidad de planos cristalinos en condición de difracción para esa dada orientación de la muestra.
 
-En la configuración que se muestra en la Fig. \ref{fig:transmision} la muestra se colocó en un portamuestra que permitía la alineación con el haz y el detector, y daba a la muestra la libertad de girar alrededor de un eje vertical que pasaba por su centro.
-La muestra rotaba gracias a un motor paso a paso y que permitía rotar con una precisión de 5\,$^{\circ}$.
-Para obtener una caracterización completa de la textura de la muestra, fue necesario rotar la misma un rango de 180\,$^{\circ}$, lo que sumado a la resolución en la rotación significa que por cada muestra se obtuvieron 37 anillos de Debye.
+En la configuración que se muestra en la Fig. \ref{fig:transmision} la muestra se colocó en un portamuestra que permitía la alineación con el haz y el detector, y le daba a la misma la libertad de girar alrededor de un eje vertical que pasaba por su centro.
+La muestra giraba gracias a un motor paso a paso y que permitía rotarla con una precisión de 5\,$^{\circ}$ por paso.
+Para obtener una caracterización completa de la textura de la muestra, fue necesario rotar la misma un rango de 180\,$^{\circ}$, lo que sumado al paso de la rotación significó que por cada muestra se obtuvieron 37 anillos de Debye.
 
 \begin{figure}[!htb]
   \centering
@@ -29,8 +30,8 @@ Para obtener una caracterización completa de la textura de la muestra, fue nece
 
 \nomenclature{LPA}{Análisis de ancho de pico}
 
-El haz que incidente tenía un tamaño de 100\,$\mu$m x 100\,$\mu$m, lo que permitía obener una gran resolución sobre la microestructura del material.
-Las muestras empleadas tenían forma de varillas con su eje colocado verticalmente, es decir, paralelas al eje de giro.
+El haz que incidente tenía un tamaño de 100\,$\mu$m x 100\,$\mu$m, lo que permitía obtener una gran resolución sobre la microestructura del material.
+Las muestras empleadas eran varillas aproximadamente cuadradas, con su eje colocado verticalmente, es decir, paralelo al eje de giro.
 El ancho de las varillas era de entre 2\,mm y 5\,mm, y se tuvo especial cuidado durante la alineación de que el haz esté completamente adentro de la muestra en todo el rango de rotación de la misma.
 
 Se utilizó un detector de estado sólido Mar345 de forma cuadrada, con una grilla de 3450\,pixels x 3450\,pixels, de 100\,$\mu$m x 100\,$\mu$m cada uno.
@@ -40,24 +41,24 @@ De cada medición se extrajeron 37 imágenes, cada una de las cuales contaba con
 De cada imagen se extrajeron porciones radiales de ancho angular de 5\,$^{\circ}$ a partir de las cuales se construyeron 72 difractogramas.
 El conjunto de 72 x 37 = 2664 difractogramas fue analizado utilizando diferentes modelos de LPA, pero hubo dos modelos sobre los que se hizo especial foco: el de Langford (Sec. \ref{SS:Langford}) y el CMWP (Sec. \ref{SS:CMWP}), y de cada modelo empleado se extrajo diferente información sobre la microestructura de la muestra.
 
-Cada pico de cada difractograma quedaba identificado por su ángulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural que se extraía del ancho de los picos era susceptible de ser graficada empleando figuras de polos, del misma manera que se grafican las figuras de polos.
+Cada pico de cada difractograma quedaba identificado por su ángulo de Bragg $\theta_B$, su coordenada angular $\gamma$ en el anillo de Debye y la rotación de la muestra $\omega$ cuando se realizó la medición, por lo que la información microestructural que se extraía del ancho de los picos era susceptible de ser graficada empleando figuras de polos, de la misma manera que se grafican las figuras de polos.
 Para construir figuras de polos a partir de las mediciones realizadas fue preciso transformar las coordenadas de los picos en el sistema de laboratorio $(\omega, \gamma, \theta_B)$ a la del sistema de referencia del cristal $(\alpha, \beta)$, para lo cual se empleó la matriz de rotación ya calculada por Bunge y Klein\cite{Bunge1996}.
 La misma expresión fue empleada para generar las figuras de polos generalizadas.
 
 \subsection{Contribuciones instrumentales al ancho de pico}\label{SS:inst}
 Para poder realizar un análisis microestructural preciso a partir de mediciones de ancho de pico, es necesario dar cuenta del ancho instrumental del equipo empleado.
-Se define como ancho instrumental al ensanchamiento que se observa alrededor de los picos de Bragg y que es independiente de la microestructura de la muestra estudiada.
-Para medir el ancho instrumental se emplean patrones de laboratorio, es decir, muestras que poseen una geometría similar a la de las muestras a estudiar y que no poseen ensanchamiento (o poseen un ensanchamiento muy pequeño) debido a factores microestructurales, como ser tensiones internas y tamaño de grano.
+Se define como ancho instrumental al ensanchamiento que se observa alrededor de los picos de Bragg, y que es independiente de la microestructura de la muestra estudiada.
+Para medir el ancho instrumental se emplean muestras patrones, es decir, muestras que poseen una geometría similar a la de las muestras a estudiar y que no poseen ensanchamiento (o poseen un ensanchamiento muy pequeño) debido a factores microestructurales, como ser tensiones internas y tamaño de grano.
 También es necesario que los patrones instrumentales no posean ningún tipo de textura.
 Para las mediciones de este trabajo se utilizó un polvo de LaB$_6$ como patrón instrumental.
 
 En la Fig. \ref{fig:LaB6vsGamma} puede verse el ancho de uno de los picos del patrón de LaB$_6$ a lo largo del anillo de Debye para tamaños de haz de 100\,$\mu$m x 100\,$\mu$m y 500\,$\mu$m x 500\,$\mu$m.
-Notar que no sólo el ancho instrumental se reduce con el tamaño del haz, sino que además existe una variación del mismo a medida que se recorre el anillo de Debye, con mínimos en 90\,$^{\circ}$ y 270\,$^{\circ}$, un máximo local en 180\,$^{\circ}$ y un máximo absoluto en 0\,$^{\circ}$, y que esta variación se reduce también con el tamaño del haz, aunque nunca se puede eliminar del todo.
+Notar que no sólo el ancho instrumental se reduce con el tamaño del haz, sino que además existe una variación del mismo a medida que se recorre el anillo de Debye, con mínimos en 90\,$^{\circ}$ y 270\,$^{\circ}$, un máximo local en 180\,$^{\circ}$ y un máximo absoluto en 0\,$^{\circ}$/360\,$^{\circ}$, y que esta variación se reduce también con el tamaño del haz, aunque nunca desaparece del todo.
 
 \begin{figure}[!htb]
   \centering
-  \includegraphics[width=0.8\textwidth]{LaB6_1mm_FWHMvsGammavsBS.pdf}
-  \caption{Variación del ancho instrumental como función del ángulo a lo largo del anillo de Debye para diferentes tamaños del haz incidente. Puede apreciarse que reducir el tamaño del haz reduce el valor promedio del ancho instrumental. También puede verse que el ancho instrumental no es uniforme a lo largo de todo el anillo de Debye, sino que se presentan oscilaciones que también se reducen al reducir el área del haz incidente.}
+  \includegraphics[width=0.95\textwidth]{LaB6_1mm_FWHMvsGammavsBS.pdf}
+  \caption{Variación del ancho instrumental como función del ángulo $\gamma$ a lo largo del anillo de Debye para diferentes tamaños del haz incidente. Puede apreciarse que reducir el tamaño del haz reduce el valor promedio del ancho instrumental. También puede verse que el ancho instrumental no es uniforme a lo largo de todo el anillo de Debye, sino que se presentan oscilaciones que también se reducen al reducir el área del haz incidente.}
   \label{fig:LaB6vsGamma}
 \end{figure}
 
@@ -72,7 +73,7 @@ En casos donde el ensanchamiento de la muestra no es tan grande, la contribució
   \label{fig:IF75NoSym}
 \end{figure}
 
-Inicialmente se intentó hacer una sustracción del ancho instrumental a partir de ajustar el patrón de LaB$_6$ y ajustar la componente lorentziana y gaussiana de cada uno de los picos empleando la expresión de Caglioti\cite{Caglioti1958} y luego restando el ancho instrumental del medido:
+Inicialmente se intentó hacer una sustracción del ancho instrumental a partir de ajustar el patrón de LaB$_6$ y ajustar la componente lorentziana y gaussiana de cada uno de los picos empleando la expresión de Caglioti\cite{Caglioti1958}, para luego restar el ancho instrumental al medido en los experimentos:
 \begin{align}
   H_L^{micr} & = H_L^{exp} \ - \ H_L^{inst} \nonumber \\
   (H_G^{micr})^2 & = (H_G^{exp})^2 \ - \ (H_G^{inst})^2 
@@ -81,16 +82,21 @@ Inicialmente se intentó hacer una sustracción del ancho instrumental a partir 
 \noindent
 donde $H_i^{micr}$, $H_i^{exp}$ y $H_i^{inst}$ representan los ensanchamientos microestructurales, experimentales e instrumentales respectivamente, y la substracción que se hace es la que corresponde atendiendo al carácter lorentziano o gaussiano de los picos.
 
+Para hacer sustracción se decidió integrar la intensidad a lo largo de todos los anillos, y emplear este difractograma ''promedio'' para hacer los ajustes de los que se obtendrían los valores $H_L^{inst}$ y $H_G^{inst}$  que se emplearían en las Ecs. \ref{eq:instrumental}.
+El problema que se manifestó al tratar el ensanchamiento instrumental de esta manera fue que las oscilaciones observadas en la Fig. \ref{fig:LaB6vsGamma}, aunque pequeñas representan una parte no despreciable de los ensanchamientos medidos.
+El otro problema que se observó es que como los ensanchamientos medidos son muy pequeños, al restar los anchos instrumentales, lo valores resultantes de $H_L^{micr}$ y $H_G^{micr}$ resultaban tener un error mucho mayor que el que era razonable esperar a partir de los datos obtenidos.
 
-El problema de hacer esto fue que. . .
+Fue por estas razones que se decidió no restar el ancho instrumental cuando se realizaran análisis empleando el método de Langford, y teniendo en cuenta que todos los procesos mecánicos producen texturas con simetría ortorrómbica, se procedió a realizar los análisis empleando sólo la mitad izquierda de las figuras de polos generalizadas.
+Para facilitar el análisis y observación de las FPG se decidió simetrizar las mismas, como se muestra en la Fig. \ref{fig:IF75NoSym}-b y emplear dichas figuras simetrizadas para el cálculo de las FDOG, y dado que el método de Langford y de las FPOG son métodos semi-cuantitativos para empezar, se considera que no se está perdiendo generalidad ni validez en los análisis al no restar la contribución instrumental al ancho de pico.
 
-Asi que decidimos simetrizar y listo.
+Por otro lado, teniendo en cuenta la geometría y simetría de los materiales estudiados, y que las oscilaciones tienen su mínima amplitud en el rango de 90\,$^{\circ}$ a 270\,$^{\circ}$, la contribución instrumental se puede considerar como un aporte constante e igual para todas las FPGs analizadas, lo que permitió realizar afirmaciones certeras acerca de los \textit{cambios} en la microestructura, por más que no se puedan hacer afirmaciones sobre los valores absolutos que determinan la misma con el mismo nivel de certeza.
 
-\newpage
 \subsection{Postprocesamiento de los datos}\label{SS:MatPost}
-Para obtener los difractogramas necesarios tanto para medir la textura como para realizar los estudios de ancho de pico, es preciso convertir las imágenes obtenidas de los detectores de estado sólido a archivos de texto con información numérica que pueda ser procesada por programas de computadora.
-Las imágenes obtenidas por el detector Mar345 fueron procesadas con el programa FIT2D\cite{FIT2D}, que permitió obtener porciones radiales con $\Delta \gamma \ = \ 5\,^{\circ}$ de ancho para cada conjunto de anillos, permitiendo obtener un difractograma para cada porción radial en la imagen registrada.
-Como cada anillo barre un ángulo de 360\,$^{\circ}$, para cada ángulo $\omega$ que representa la rotación de la muestra se obtuvieron 72 difractogramas, cada uno de los cuales tenía asociada una coordenada $\gamma$, que marcaba su posición angular en la imagen extraída del programa FIT2D (Fig. \ref{fig:fit2d}).
+Para poder medir la textura y realizar los estudios de ancho de pico, fue necessario procesar las imágenes obtenidas del detector de estado sólido, para extraer la información de las intensidades en forma de difractogramas. 
+Las intensidades fueron escritas en archivos de texto de modo tal que la información numérica pueda ser procesada por programas de computadora.
+
+Las imágenes obtenidas por el detector Mar345 fueron procesadas con el programa FIT2D\cite{FIT2D}, que permitió obtener porciones radiales con $\Delta \gamma \ = \ 5\,^{\circ}$ de ancho para cada conjunto de anillos, permitiendo obtener un difractograma para cada porción radial en la imagen registrada, como se muestra en la Fig. \ref{fig:fit2d}.
+Como cada anillo comprende un ángulo de 360\,$^{\circ}$, para cada uno de los 37 ángulos $\omega$ que representa el giro de la muestra, se obtuvieron 72 difractogramas, cada uno de los cuales tenía asociado el par de coordenadas $(\omega, \gamma)$, que marcaba su posición angular en el sistema de laboratorio.
 
 \begin{figure}[!htb] 
   \centering
@@ -99,12 +105,12 @@ Como cada anillo barre un ángulo de 360\,$^{\circ}$, para cada ángulo $\omega$
   \label{fig:fit2d}
 \end{figure}
 
-Una vez obtenidos los 2664 difractogramas, los mismos fueron ajustados con un software de elaboración propia, tanto para aplicar el método de Langford como el CMWP.
+Una vez obtenidos todos los difractogramas, los mismos fueron tratados con un software de elaboración propia, tanto para aplicar el método de Langford como el CMWP.
 
 Ambos softwares toman como dato de entrada todos los difractogramas obtenidos con FIT2D, además de otros archivos que deben ser escritos por el usuario, y que se encuentran ejemplificados en el apéndice \ref{CA:input}.
 
 En el caso del programa que realiza el análisis de Langford se precisan tres archivos además de los datos extraídos de FIT2D.
-El primero se denomina \textit{data\_info\_1.ini} y contiene la información que indica dónde se guardarán los resultados y dónde se encuentran los archivos de entrada, así como su cantidad y los datos necesarios para realizar la conversión angular.
+El primero se denomina \hyperlink{datainfo}{data\_info\_1.ini} y contiene la información que indica dónde se guardarán los resultados y dónde se encuentran los archivos de entrada, así como su cantidad y los datos necesarios para realizar la conversión angular.
 También la resolución en píxeles del detector y la distancia entre el detector y la muestra, datos necesarios para convertir las distancias sobre el detector a la variable 2$\theta$.
 La opción \textit{Treshold} es un dato numérico que se emplea para determinar cuál es la intensidad mínima por encima del ruido de fondo que debe tener un pico para ser ajustado por el método de mínimo cuadrados. 
 Como ajustar picos de baja intensidad puede llevar a alargar el tiempo que lleva procesar los datos, además de dar resultados poco confiables, no se recomienda colocar 0 como valor de umbral, mientras que un valor de 5 ha dado buenos resultados para las mediciones realizadas en esta tesis, como se puede ver en la Fig. \ref{fig:MinIntensity}
@@ -120,7 +126,7 @@ Las banderas \textit{Printpattern} y \textit{Correctwitdh} determinan si se van 
 Esta es una característica experimental al momento de la escritura de la tesis, y debe emplearse con mucho cuidado.
 Finalmente, también debe indicarse la cantidad de picos que se desean ajustar, junto con una coordenada aproximada de su centro (en 2$\theta$), los píxeles que definen inicio y final de cada pico, y dos píxeles que se determinarán el valor del ruido debajo de cada pico.
 
-En el archivo \textit{fit\_ini\_2.ini} debe indicarse nuevamente la cantidad de picos a ajustar, así como la cantidad de puntos de ruido que se ajustarán en la rutina de mínimos cuadrados.
+En el archivo \hypertarget{fitini}{\textit{fit\_ini\_2.ini}} debe indicarse nuevamente la cantidad de picos a ajustar, así como la cantidad de puntos de ruido que se ajustarán en la rutina de mínimos cuadrados.
 La rutina de mínimos cuadrados minimiza la suma total de la diferencia entre las intensidades experimentales $I_{exp}$ y las intensidades teóricas $I_{teor}$ dadas por una suma de funciones pseudo-Voigt (Ec. \ref{eq:pseudovoigt}), una por cada pico, además de un ruido que se modela como una función lineal por partes, con $N_{ruido}$ partes, cantidad que es definida por el usuario:
 \begin{equation}
   I_{teor} \ = \sum_{i=1}^{N_{picos}} \ pV_i (2\theta; \ I_{0i}, 2\theta_{B_i}, H_{gl}, \eta_{gl}, sH_i, s\eta_i) \ + \sum_{j=0}^{N_{ruido}} Bg(2\theta; \ I_{B_j}, I_{B_{j+1}})
@@ -150,7 +156,7 @@ donde $\mathbf{\chi}$ es el conjunto de todos los parámetros que se varían par
 Como el ajuste se realiza sobre cada difractograma en forma individual, $N$ indica la cantidad de mediciones que hay en un dado difractograma.
 
 Una vez realizado el ajuste sobre todos los difractogramas, se toma la información de cada pico, el conjunto $(\theta_B, \ I_0, \ H, \ \eta)$ que tiene asociadas las coordenadas en el sistema de laboratorio $(\omega, \ \gamma, \ \theta_B)$ y se les asigna las coordenadas  $(\alpha, \ \beta)$ en el sistema de referencia del cristal, y con esos datos se construyen las figuras de polos y las figuras de polos generalizadas.
-Antes de imprimir la salida de los archivos, el software substrae el ancho instrumental a partir de los valores que están presentes en el archivo \textit{IRF\_3.dat}.
+Antes de imprimir la salida de los archivos, el software substrae el ancho instrumental a partir de los valores que están presentes en el archivo \hyperlink{IRF}{\textit{IRF\_3.dat}}.
 Las substracción de los datos se hace suponiendo que el ancho instrumental tiene una componente Gaussiana y una componente Lorentziana, y que ambas crecen con el ángulo $\theta$ siguiendo la ley de Caglioti\cite{Caglioti1958}:
 \begin{align}
   \left[H_{ins}^{G}\right]^2 & =  U_G \ \tan^2(\theta) \ + \ V_G \ \tan(\theta) \ + \ W_G \nonumber \\
@@ -166,9 +172,9 @@ Los datos así obtenidos fueron procesados y graficados utilizando MTEX\cite{Hie
 El software que realiza el ajuste utilizando el método CMWP, tiene dos etapas básicamente: en la primera hace un ajuste al difractograma con una función como la mostrada en la Ec. \ref{eq:Iteor}, y siguiendo la metodología descripta anteriormente usa los resultados del ajuste para generar una serie de archivos auxiliares que se necesitan para la segunda etapa.
 En la segunda etapa corre en forma automática el programa CMWP siguiendo una estrategia de ajuste determinada por el usuario.
 
-Como la primera parte de este programa funciona con un objetivo similar al del programa anterior, el primer archivo de entrada, denominado \textit{data\_info\_1.ini} es casi igual al del programa anterior, con la diferencia de que al especificar la posición de los picos a ajustar se pide que se indique un número de fase que empieza en 0, ya que este es un dato necesario para el programa CMWP.
+Como la primera parte de este programa funciona con un objetivo similar al del programa anterior, el primer archivo de entrada, denominado \hyperlink{dinfoCMWP}{\textit{data\_info\_1.ini}} es casi igual al del programa anterior, con la diferencia de que al especificar la posición de los picos a ajustar se pide que se indique un número de fase que empieza en 0, ya que este es un dato necesario para el programa CMWP.
 
-El segundo archivo se llama \textit{fit\_strategy\_2.ini} el usuario deber indicar los parámetros iniciales para el ajuste con pseudo-Voigts, como con el programa anterior, pero además deber indicar cuántos pasos de ajuste desea realizar con el programa CMWP, y cuáles son los coeficientes que va a ajustar en cada paso.
+El segundo archivo se llama \hyperlink{fitstrategy}{\textit{fit\_strategy\_2.ini}} el usuario deber indicar los parámetros iniciales para el ajuste con pseudo-Voigts, como con el programa anterior, pero además deber indicar cuántos pasos de ajuste desea realizar con el programa CMWP, y cuáles son los coeficientes que va a ajustar en cada paso.
 También debe indicar si desea que el CMWP haga un ajuste por fallas de apilamiento  y si desea que se ajuste independientemente la intensidad y posición de los picos.
 En la práctica se ha visto que hacer un ajuste extra de intensidades alarga mucho el tiempo de cálculo del programa y no aporta valores finales muy diferentes a los que se obtienen cuando no se hace este ajuste.
 
