@@ -16,11 +16,11 @@ FOLDER/FILE1.tex: $(FILEM).tex
 	$(BIBTEX) $(FILEM)
 	$(TEX) $(FILEM)
 	$(TEX) $(FILEM)
-	$(VIEW) $(FILEM).pdf
+	$(VIEW) $(FILEM).pdf &
 
 quick: $(FILEM).tex
 	$(TEX) $(FILEM)
-	$(VIEW) $(FILEM).pdf
+	$(VIEW) $(FILEM).pdf &
 
 
 clean:

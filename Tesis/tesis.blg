@@ -6,11 +6,6 @@ A level-1 auxiliary file: ./Resumen/resumen.aux
 A level-1 auxiliary file: ./Caps/01_intro.aux
 A level-1 auxiliary file: ./Caps/02_Metodos.aux
 A level-1 auxiliary file: ./Caps/03_IF.aux
-A level-1 auxiliary file: ./Caps/04_F138.aux
-A level-1 auxiliary file: ./Caps/05_G2205.aux
-A level-1 auxiliary file: ./Caps/06_Al.aux
-A level-1 auxiliary file: ./Caps/07_Conclusiones.aux
-A level-1 auxiliary file: ./Caps/08_Proyecciones.aux
 A level-1 auxiliary file: ./Apendice/Input_files.aux
 Database file #1: ./bib/tesis_lib.bib
 Database file #2: ./bib/Physical_Properties_of_Crystals.bib
@@ -18,7 +13,7 @@ Database file #3: ./bib/International_Tables_for_Crystallography.bib
 Warning--missing school in Ribarik2008
 You've used 35 entries,
             2652 wiz_defined-function locations,
-            1285 strings with 16347 characters,
+            1280 strings with 16242 characters,
 and the built_in function-call counts, 11501 in all, are:
 = -- 794
 > -- 296
