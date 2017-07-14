@@ -52,6 +52,9 @@ En este contexto, queda claro que no todas las orientaciones están igualmente r
 En las dos secciones que siguen se analizará la anisotropía de la microestructura a partir de dos modelos, el de Langford y el CMWP, y se observará que ambos dan lugar a interpretaciones diferentes, que se tratarán de compatibilizar con los resultados de las mediciones de EBSD (Sec \ref{S:IFEBSD}).
 
 \section{Estudio de la microestructura por el método de Langford y figuras de polos generalizadas}\label{S:IFLANG}
+Como se explicó en la Sec. \ref{SS:MatPost}, de los experimentos de difracción no sólo se extrajo la intensidad de los picos que se empleó para medir la textura de los materiales, sino que también se extrajo información sobre la forma del pico, en particular el FWHM.
+Los FWHM obtenidos para cada pico en la orientación de la muestra fueron graficados en figuras de polos generalizadas, como las que se muestran en la Fig. \ref{fig:IFFWHMRawRec}.
+La contribución instrumental al FWHM fue tratada según lo explicado en la Sec. \ref{SS:inst} y se emplearon dichas FPG para construir una FDOG, tal como se explicó en la Sec. \ref{SS:ODFG}.
 
 \begin{figure}[!htb]
   \centering
@@ -60,6 +63,17 @@ En las dos secciones que siguen se analizará la anisotropía de la microestruct
   \label{fig:IFFWHMRawRec}
 \end{figure}
 
+Para determinar si los FWHM medidos responden de alguna manera a la textura cristalográfica se compararon las FPs con las FPGs, para ver si entre las mismas hay algún tipo de correlación.
+Al comparar la Fig. \ref{fig:IFTextRawRec}-a con la Fig. \ref{fig:IFFWHMRawRec}-a puede apreciarse cierta complementariedad entre ambas, lo que se podría interpretar como que las orientaciones favorecidas por la textura son aquellas que acumularon menos defectos.
+Sin embargo, como en las FP y las FPG se observan mezclas de diferentes orientaciones, no se puede afirmar si la fibra $\alpha$ y la $\gamma$ acumulan igual cantidad de defectos o no.
+
+La otra manera que se empleó para ver qué tan bien los FWHM sonn representables por una FDOG fue pasar los datos de la Fig. \ref{fig:IFFWHMRawRec}-a por la misma rutina de reconstrucción de ODF que se aplicó a las texturas y luego, a partir de dicha FDOG recalcular las FPGs, y comparar ese resultado con los datos experimentales.
+
+Al comparar los datos experimentales que aparecen en la Fig. \ref{fig:IFFWHMRawRec}-a con los recalculados de la Fig. \ref{fig:IFFWHMRawRec}-b puede apreciarse que existe un acuerdo cualitativo muy bueno entre ambas figuras, aunque las intensidades máximas y mínimas se modifican al pasar de los datos experimentales a los recalculados.
+Teniendo en cuenta lo observado, se decidió emplear la FDOG obtenida para tratar de dilucidar diferencias cualitativas que pudieran aparecer en la microestructura de diferentes componentes de textura, dejando de lado la interpretación cuantitativa de los resultados.
+
+El siguiente paso del estudio fue comparar la FDO con la FDOG de FWHM que se puede observar en la Fig. \ref{fig:IFODFComp}-b.
+La Fig. \ref{fig:IFODFComp}-a es la misma FDO que se ve en la Fig. \ref{fig:IFODF}, que se decidió mostrar junto a la FDOG para facilitar al lector la comparación de las mismas.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.9\textwidth]{IF75_ODF_Comp}
@@ -67,14 +81,29 @@ En las dos secciones que siguen se analizará la anisotropía de la microestruct
   \label{fig:IFODFComp}
 \end{figure}
 
-\newpage
+Al comparar las secciones $\phi_2 \ = \ 45$\,$^{\circ}$ de la FDO y la FDOG puede apreciarse que a pesar de que la textura está definida por dos componentes principales, la fibra $\alpha$ y  la $\gamma$, los defectos no se acumularon equitativamente en ambas fibras, sino que los mismos fueron a parar a la fibra $\gamma$, mientras que la $\alpha$ acumuló una cantidad de defectos considerablemente menor.
+El máximo en la FDOG se encuentra, sin embargo, en las orientaciones intermedias entre ambas fibras.
+
 \section{Estudio de la microestructura por el método CMWP}\label{S:IFCMWP}
+El análisis siguiendo el método CMWP tiene dos diferencias fundamentales con el método de Langford, ya que al tratarse de un método bottom-up los resultados que se obtienen son inherentemente cuantitativos, además, como el método supone que el ensanchamiento anisotrópico se debe solamente al cambio de los factores de contraste de las dislocaciones, produce resultados que permiten caracterizar la microestructura sólo como función de la orientación de la muestra, promediando la información que se obtiene de cada uno de los picos de un difractograma. 
+Este enfoque parece intuitivamente acertado cuando se quiere estudiar la forma de los granos, ya que se sabe que los mismos tienden a adquirir una morfología dada por el proceso de deformación, más que por su orientación cristalográfica.
+Qué tan acertado es este modelo cuando se estudia la acumulación de dislocaciones es un tema abierto hoy en día.
+
+En las Figs. \ref{fig:IFCMWPSize}-a y \ref{fig:IFCMWPSize}-b puede observarse cómo varía la distribución de tamaño de las cristalitas con la orientación de la muestra a través de los parámetros fundamentales de la distribución: su moda y su dispersión.
+A partir de estos parámetros se puede calcular trivialmente el tamaño promedio de cristalita de la muestra para cada orientación, que se exhibe en la Fig. \ref{fig:IFCMWPSize}-c.
+
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{CMWP_size}
   \caption{Figuras de polos de la moda de la distribución lognormal de tamaño de cristalita (a), dispersión de dicha distribución (b) y tamaño medio de cristalita(c).}
-  \label{fig:IFCMWPsize}
+  \label{fig:IFCMWPSize}
 \end{figure}
+
+Al observar la FPG de tamaño de dominio puede observarse cierto parecido con la FP (110) de la Fig. \ref{fig:IFTextRawRec}, lo que podría interpretarse que son los planos $\{110\}$ los que comandan el tamaño de las cristalitas, y que las mismas tienen una variación importante en su tamaño promedio, estando el mismo en el rango de los 50\,nm a los 350\,nm, estando los máximos en los mismos lugares que los máximos de la FP (110) del acero IF.
+
+Para estudiar la acumulación de dislocaciones en el acero IF el método CMWP provee más información que en el caso de la distribución de tamaño, ya que no sólo se puede obtener la densidad de dislocaciones como función de la orientación de la muestra (Fig. \ref{fig:IFCMWPrho}-b), sino que también se puede calcular cómo varía el carácter de dichas dislocaciones a través del factor $q$ de la Ec. \ref{eq:Cav2} (Fig. \ref{fig:IFCMWPrho}-a).
+Una vez determinado el carácter y cantidad de dislocaciones, se puede determinar hasta donde se extiende el campo de deformación producido por las mismas (Fig. \ref{fig:IFCMWPRe}-a) y si éstas se encuentran dispersas aleatoria y uniformemente en la cristalita o si interactúan entre ellas formando arreglos compactos.
+Esta última característica es determinada por el facto de Wilkens que fue definido al final de la Sec. \ref{SS:XRD-LPA}, y que se encuentra graficado en la Fig. \ref{fig:IFCMWPRe}-b.
 
 \begin{figure}[!htb]
   \centering
@@ -83,6 +112,10 @@ En las dos secciones que siguen se analizará la anisotropía de la microestruct
   \label{fig:IFCMWPrho}
 \end{figure}
 
+Si se compara la forma de la FP de densidad de dislocaciones con la de tamaño de cristalita puede notarse que ambas son cualitativamente similares, lo que implicaría que los dominios más grandes son los que han acumulado más dislocaciones.
+La forma de la FP de $q$ es bien diferente a las FP anteriores, teniendo un valor de aproximadamente 1 en todo el rango, incrementándose a 2.5 en las direcciones RD y TD, lo que indicaría que las dislocaciones tienden a tener un carácter de hélice (?) en esas direcciones de la muestra.
+Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de compacidad de los arreglos son muy similares entre sí, a la vez que a las FP de $\rho$ y tamaño, lo que significa que las orientaciones de muestra paralelas a la familia de planos (110) tienen dominios más grandes, con el máximo de densidad de dislocaciones, y que las mismas interactúan débilmente entre sí, generando un campo de distorsión con un alcance de uno 200 nm en promedio. Nótese que el alcance del campo de tensiones de las dislocaciones es similar a la del tamaño de dominio, lo que constituiría el máximo valor esperable para dicha distancia.
+
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.7\textwidth]{CMWP_Re}
@@ -90,7 +123,6 @@ En las dos secciones que siguen se analizará la anisotropía de la microestruct
   \label{fig:IFCMWPRe}
 \end{figure}
 
-\newpage
 \section{Estudio de la microestructura por EBSD}\label{S:IFEBSD}
 
 \begin{figure}[!htb]
@@ -116,4 +148,13 @@ En las dos secciones que siguen se analizará la anisotropía de la microestruct
 
 \newpage
 \section{Discusión de resultados}\label{S:IFDis}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{Quitandodatos}
+  \caption{Removiendo datos}
+  \label{fig:IFFWHMRecvsCrop}
+\end{figure}
+
+\newpage
 \section{Conclusiones}\label{S:IFConclusiones}
