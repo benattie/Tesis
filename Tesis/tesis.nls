@@ -59,6 +59,11 @@
   \item [{FPG}]\begingroup Figura de Polos Generalizadas\nomeqref {1.37}
 		\nompageref{27}
 
+ \nomgroup{G}
+
+  \item [{GND}]\begingroup Dislocaciones geométricamente necesarias\nomeqref {3.0}
+		\nompageref{49}
+
  \nomgroup{L}
 
   \item [{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}

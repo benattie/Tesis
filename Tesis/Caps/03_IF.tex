@@ -3,12 +3,11 @@
 \chapterquote{The void is without substance but cuts like steel.}{Mark Rosewater}
 
 En este capítulo se estudia la microestructura de un acero libre de intersticiales (IF) que fue laminado hasta lograr una reducción de la sección transversal del 70\,\%.
+Este acero fue obtenido comercialmente, y posee la textura propia de un material BCC laminado, con dos componentes predominantes: la fibra $\alpha$ y la fibra $\gamma$.
 
-Composición? Comercial? Que textura se esperaba que tenga? Textura inicial?
+Se eligió este acero por su importancia en la industria automotriz y porque existe cierto consenso acerca de cómo se desarrolla la microestructura de este material en condiciones de laminado, donde se espera que los defectos se acumulan predominantemente en la fibra $\gamma$.
 
-Se eligió este acero por su importancia en la industria automotriz y porque existe cierto consenso acerca de cómo se desarrolla la microestructura de este material en condiciones de laminado.
-
-Explico un poco que se espera de este material?
+El material fue estudiado por dos técnicas independientes, EBSD y XRD, y los datos de XRD fueron analizados dos modelos diferentes, el CMWP y empleando figuras de polos generalizadas a partir de los anchos de los picos de difracción, y se encontró que este modelo es que el que mejor representa lo que ocurre con la microestructura del material, ya que no sólo responde a lo que se esperaba según la experiencia previa, sino que además va de acuerdo con lo que se pudo concluir a partir de los experimentos de EBSD.
 
 \section{Textura}\label{S:IFText}
 Mediciones de textura fueron realizadas según lo descrito en la Sec. \ref{S:MatXRD} y las figuras de polos experimentales que se muestran en la Fig. \ref{fig:IFTextRawRec}-a fueron analizadas por una rutina de inversión FP-FDO del software MTEX.
@@ -114,7 +113,6 @@ Esta última característica es determinada por el facto de Wilkens que fue defi
 
 Si se compara la forma de la FP de densidad de dislocaciones con la de tamaño de cristalita puede notarse que ambas son cualitativamente similares, lo que implicaría que los dominios más grandes son los que han acumulado más dislocaciones.
 La forma de la FP de $q$ es bien diferente a las FP anteriores, teniendo un valor de aproximadamente 1 en todo el rango, incrementándose a 2.5 en las direcciones RD y TD, lo que indicaría que las dislocaciones tienden a tener un carácter de hélice (?) en esas direcciones de la muestra.
-Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de compacidad de los arreglos son muy similares entre sí, a la vez que a las FP de $\rho$ y tamaño, lo que significa que las orientaciones de muestra paralelas a la familia de planos (110) tienen dominios más grandes, con el máximo de densidad de dislocaciones, y que las mismas interactúan débilmente entre sí, generando un campo de distorsión con un alcance de uno 200 nm en promedio. Nótese que el alcance del campo de tensiones de las dislocaciones es similar a la del tamaño de dominio, lo que constituiría el máximo valor esperable para dicha distancia.
 
 \begin{figure}[!htb]
   \centering
@@ -123,7 +121,15 @@ Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de com
   \label{fig:IFCMWPRe}
 \end{figure}
 
+Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de compacidad de los arreglos son muy similares entre sí, a la vez que a las FP de $\rho$ y tamaño, lo que significa que las orientaciones de muestra paralelas a la familia de planos (110) tienen dominios más grandes, con el máximo de densidad de dislocaciones, y que las mismas interactúan débilmente entre sí, generando un campo de distorsión con un alcance de uno 200 nm en promedio. Nótese que el alcance del campo de tensiones de las dislocaciones es similar a la del tamaño de dominio, lo que constituiría el máximo valor esperable para dicha distancia.
+
 \section{Estudio de la microestructura por EBSD}\label{S:IFEBSD}
+Si se compara los resultados obtenidos en las secciones anteriores, puede verse que el método de Langford y el CMWP tienen una diferencia conceptual importante: mientras que el primero da la información microestructural relacionado con la orientación de los cristales, el segundo da esa información como función de la orientación de la muestra.
+Si bien hay bases conceptuales para aceptar cualquiera de las dos suposiciones, las conclusiones que se obtienen de ambos modelos pueden llegar a ser contradictorias.
+En ese sentido, las mediciones de EBSD, al permitir observar la microestructura más directamente, permitieron dar una base independiente para tratar de resoler cuál de los dos modelos representa más adecuadamente la microestructura del acero IF.
+
+Las mediciones de EBSD se realizaron según lo especificado en la Sec. \ref{S:MatEBSD}, y permitieron obtener mapas como el que se observa en la Fig. \ref{fig:IFEBSD}.
+En el mapa de figura de polo inversa pueden observarse que los granos (no confundir con el concepto de cristalita empleado en XRD) se encuentran alargados en la dirección de RD, como es de esperar para un material laminado.
 
 \begin{figure}[!htb]
   \centering
@@ -132,12 +138,40 @@ Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de com
   \label{fig:IFEBSD}
 \end{figure}
 
+Como se explicó en la Sec. \ref{S:MatEBSD}, a partir de un dado mapa de EBSD se puede calcular la FDO directamente, sin necesidad de realizar una inversión, como en el caso de XRD.
+El problema que puede aparecer en las FDO obtenidas desde las mediciones de EBSD es que la estadística provista por un mapa suele ser insuficiente, y se puede cuestionar la representatividad de los datos microestructurales obtenidos a partir de cierto mapa.
+En la Fig. \ref{fig:IFEBSDText} se muestran las FPs obtenidas a partir del mapa de EBSD que se muestra en la Fig. \ref{fig:IFEBSD}, que muestran un gran parecido cualitativo con las FPs obtenidas de las mediciones de XRD que se muestran en la Fig. \ref{fig:IFTextRawRec}.
+El hecho de que las FP obtenidas de los mapas de EBSD sean más intensas y dispersas que las obtenidas por XRD se debe precisamente a la falta de estadística en las primeras, sin embargo el parecido entre ambas es suficiente como para asegurar que la comparación entre los resultados obtenidos de ambos experimentos es válida.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{IF75_RDup}
+  \caption{Figuras de polos calculadas a partir del mapa de EBSD mostrado en la Fig. \ref{fig:IFEBSD}. El parecido que guardan estas figuras de polos con las obtenidas a través de los experimentos de rayos X, que se muestran en la Fig. \ref{fig:IFFWHMRawRec}.}
+  \label{fig:IFEBSDText}
+\end{figure}
+
+Para estudiar las características de la anisotropía de la microestructura del acero IF, se sacó provecho del hecho de que la mayoría de los cristales se encuentran en la fibra $\alpha$ o en la fibra $\gamma$.
+Como primer paso se tomó cada mapa de EBSD y se crearon dos particiones, una con todos los cristales con su dirección [110] paralela a RD (fibra $\alpha$) y otra con el resto de los cristales.
+Luego se realizaron dos particiones más, sólo que separando los cristales pertenecientes a la fibra $\gamma$, es decir, con su dirección [111] paralela a ND, y los que no pertenecían a dicha fibra, también partiendo del mapa original.
+Una vez creados los cuatro mapas, que pueden verse en las imágenes de la Fig. \ref{fig:IFEBSDPar}, se procedió a determinar la microestructura de cada uno de ellos.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{EBSD/IFEBSD_Partitions}
   \caption{Para estudiar la anisotropía en la microestructura del acero IF se tomaron los mapas de EBSD y se comparó la microestructura de las orientaciones cuyos planos $\{110\}$ eran perpendiculares a RD (pertenecientes a la fibra $\alpha$ y las que no. Se hizo la misma comparación con las orientaciones del mismo mapa que tenían sus planos $\{111\}$ perpendiculares a ND (pertenecientes a la fibra $\gamma$) y las que no lo tenían.}
   \label{fig:IFEBSDPar}
 \end{figure}
+
+Para poder analizar la microestructura en un mapa de EBSD es fundamental realizar una reconstrucción de granos previo a cualquier estudio.
+La reconstrucción de granos consiste en colocar un borde de grano entre dos píxeles que tienen una misorientación mayor a cierto ángulo, definido por el usuario, y que en este trabajo se consideró 5\,$^{\circ}$. Las propiedades de la microestructura que se decidieron estudiar fueron el tamaño de grano y la densidad de dislocaciones.
+
+\nomenclature{GND}{Dislocaciones geométricamente necesarias}
+
+El tamaño de grano se estimó a partir de la determinación de la longitud de intercepción media.
+Dicho método consiste en trazar líneas y determinar la longitud promedio de los segmentos que surgen entre las intersecciones entre las líneas y los bordes de grano.
+La densidad de dislocaciones se mide en función del modelo de \textit{Dislocaciones Geométricamente Necesarias (GND, por sus siglas en inglés)}\cite{Pantleon2008}, que estima la densidad de dislocaciones en el material de acuerdo a las misorientaciones de los cristales vecinos.
+Si bien ninguno de estos dos conceptos es estrictamente igual a los que se miden cuando realiza LPA, es una suposición razonable que el comportamiento cualitativo debería respetarse, es decir, si los granos que pertenecen a la fibra $\gamma$ tienen menor cantidad de dislocaciones, medidas a través de LPA, deberían tener menor cantidad de GNDs, medidas a partir de un mapa de EBSD.
+
+En la Fig. \ref{fig:IFEBSDVs} se muestran gráficas de las cuatro particiones mencionadas, comparando el tamaño de grano (a) y densidad de dislocaciones (b).
 
 \begin{figure}[!htb]
   \centering
@@ -146,15 +180,53 @@ Por otro lado, tanto la FP de longitud del campo de dislocaciones como la de com
   \label{fig:IFEBSDVs}
 \end{figure}
 
-\newpage
+Observando la Fig. \ref{fig:IFEBSDVs}-a puede verse que los granos que pertenecen a la fibra $\alpha$ son más grandes que los que pertenecen a la fibra $\gamma$, más allá de la dispersión calculada a partir del mapa, y por un factor de aproximadamente 2.5.
+Dado que un mayor tamaño de grano se vincula con un menor ensanchamiento de pico, este resultado es consistente con el observado en la FDOG de FWHM mostrada en la Fig. \ref{fig:IFODFComp}.
+Adicionalmente, el tamaño de grano que se obtiene para los granos que no pertenecen a la fibra $\alpha$, se acerca al que resulta a partir de considerar los granos que no pertenecen a la fibra $\gamma$, como es razonable esperar.
+
+A partir de la analizar los dos histogramas que aparecen en la Fig. \ref{fig:IFEBSDVs}-b se obtienen conclusiones parecidas, ya que el valor promedio de la distribución de GND para las orientaciones pertenecientes a la fibra $\alpha$ de 1.30 10$^{14}$\,m$^{-2}$, es claramente menor al obtenido tomando sólo las orientaciones pertenecientes a la fibra $\gamma$, que es igual a 1.79 10$^{14}$\,m$^{-2}$.
+Es más, la propia distribución de GND de las orientaciones pertenecientes a la fibra $\gamma$ es más ancha, con muchos más valores altos que la distribución de las orientaciones que pertenecen a fibra $\alpha$, explicando por qué el promedio de una es mayor que el de la otra, más allá de que la moda de ambas distribuciones es parecida.
+Finalmente, puede verse que las distribuciones complementarias son parecidas, es decir que la distribución de GND de las orientaciones que no pertenecen a la fibra $\alpha$ es parecida a la distribución de orientaciones que pertenecen a fibra $\gamma$, y viceversa.
 \section{Discusión de resultados}\label{S:IFDis}
+Como se dijo al principio de la Sec. \ref{S:IFCMWP}, el método de Langford y el CMWP no sólo difieren en la forma en que presentan los datos, sino que ambos modelan de forma conceptualmente distinta la anisotropía en la microestructura de los materiales.
+Mientra el primer método considera que la anisotropía está vinculada fundamentalmente con la orientación de los cristales caracterizada por la textura, el segundo considera que las cristalitas tienen forma esférica y que la anisotropía en los ensanchamientos no tiene relación con la textura, sino que es consecuencia de variaciones en el factor de contraste, es decir, la anisotropía de ensanchamiento es una consecuencia geométrica, definida por la relación entre el vector de Burgers de una dislocación y el vector de difracción.
+Como consecuencia de esto, la acumulación de defectos no depende de la textura, sino de la orientación de la muestra.
+De alguna manera, esta conclusión es inevitable si se tiene en cuenta que expresiones como la Ec. \ref{eq:Cav2}, que son las empleadas en el software CMWP, se obtienen a partir de la suposición de que el material no tiene textura y de que todos los sistemas de deslizamiento están igualmente poblados.
+
+Desde luego la suposición de que el material no tiene textura claramente no se puede aplicar a este material, sin embargo puede considerarse que todos los sistemas de deslizamiento están igualmente poblados en materiales cúbicos, ya que éstos poseen pocos sistemas de deslizamiento activos.
+El problema que tiene este modelo para estudiar la densidad de dislocaciones del material, es que debido a las suposiciones en que se basa, predice que la densidad de dislocaciones debe ser uniforme para todo el material, lo que no parece corresponder con la FPG que se observa en la Fig. \ref{fig:IFCMWPrho}-b, a menos que se considere que la precisión del método CMWP para estimar densidad de dislocaciones sólo permite estimar el orden de magnitud de dicha cantidad.
+Notar que este es un problema parecido al que se le presentó a Kamminga et al en \cite{mittemeijer2003diffraction}, y que fue abordado en la Sec. \ref{SS:Langford}.
+
+Por otro lado, suponer que el tamaño de cristalita depende solamente de la orientación de la muestra resulta verosímil al ver los mapa de EBSD, donde se ve que la forma de los granos está claramente condicionada por la forma en que el material fue deformado, aunque siempre debe recordarse que el concepto de grano definido por la metalografía o EBSD es diferente al concepto de cristalita derivado de los experimentos de XRD, ya que ambos surgen de interacciones físicas completamente diferentes.
+
+Sin embargo, es claro que el factor de contraste contribuye al menos parcialmente al efecto de ensanchamiento anisotrópico, aunque no queda claro en qué medida, y el no tomar en cuenta este factor es una de las críticas que se le puede hacer al método de Langford.
+
+La otra crítica que se puede hacer es que la en la reconstrucción de la FDOG de FWHM se tienen que emplear datos con elevado error, ya que el ancho de pico es una cantidad difícil de estimar apropiadamente cuando el pico tiene poca intensidad.
+Si bien esto también ocurre en alguna medida cuando se miden FPs, en el caso de la textura los datos menos confiables son los valores más pequeños de la FP, por lo que su contribución a la FDO es menor.
+En el caso de la FPG de FWHM ocurre que los los picos de menor intensidad tienden a ser de los que poseen mayor FWHM, por  lo que en la FPG, lo valores más elevados pueden ser los menos confiables, lo que a su vez reduciría la confiabilidad de la FDOG obtenida a partir de las FPG.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{Quitandodatos}
-  \caption{Removiendo datos}
+  \caption{Figuras de polos recalculadas para distintos datos de entrada. Para verificar la consistencia de las FDOs calculadas se fueron removiendo datos en las FPGs de FWHM, con base a la intensidad de la FP de intensidad. Los porcentajes que figuran en la imagen indican que se removieron los FWHM que correspondían a puntos que están en el 0\,\%, 10\,\%, 20\,\%, 30\,\% de la distribución de intensidad en las FPs, ya que esos FWHM son lo que tienen mayor error.}
   \label{fig:IFFWHMRecvsCrop}
 \end{figure}
 
-\newpage
+Para poner a prueba la importancia que tienen estos valores poco confiables en la construcción de la FDOG, se decidió analizar cómo varía la reconstrucción de las FPGs de FWHM cuando se remueven de la FPG experimental los valores de FWHM que provienen de los picos de menor intensidad.
+El proceso se repitió removiendo el 10\,\%, 20\,\%, y 30\,\% de los valores menos intensos, y como se puede ver en la progresión de la Fig. \ref{fig:IFFWHMRecvsCrop}, si bien se puede observar pequeñas variaciones en las FPGs recalculadas, la relaciones cualitativas se mantienen intactas, aún cuando se remueve tanto como el 30\,\% de los datos, lo que resulta en un apoyo importante al método de Langford.
+
+Finalmente, cuando se tienen en cuenta los resultados obtenidos por EBSD, puede verse que cuando se analiza la microestructura a partir de la misorientación de los cristales, la conclusión es que los granos que pertenecen a la fibra $\alpha$ son en promedio más grandes y con menor cantidad de dislocaciones que los que pertenecen a la fibra $\gamma$, lo que implica que los experimentos de EBSD predicen que los picos que se obtendrían de realizar experimentos de XRD sobre los granos que pertenecen a la fibra $\alpha$ deberían ser más angostos que los que se medirían si se hiciera un experimento de difracción sólo con los cristales que pertenecen a la fibra $\gamma$, en acuerdo con lo que se observó en la FDOG de FWHM en la Fig. \ref{fig:IFODFComp}, en apoyo al método de Langford.
+Este apoyo se vuelve más sólido si se tiene en cuenta que los datos de microestructura obtenidos por EBSD son completamente independientes de los obtenidos por XRD, y que, a pesar de que la estadística provista por los experimentos de EBSD es menor que la de XRD, las FDO que se obtienen son lo suficientemente similares como para sostener que ambas mediciones son igualmente representativas de los que ocurre con la microestructura de la muestra.
+
 \section{Conclusiones}\label{S:IFConclusiones}
+Se deformó un acero libre de intersticiales por laminado hasta lograr una reducción de la sección transversal del 75\,\%, y se estudió su microestructura por medio de mediciones de EBSD y de difracción de rayos X.
+Los datos obtenidos por difracción de rayos X fueron analizados siguiendo el modelo de Langford y el de CMWP.
+Mientras el primer método atribuye el ensanchamiento anisotrópico a diferencias en la acumulación de defectos dadas por la textura, el segundo considera que dicha anisotropía se debe únicamente a razones geométricas, por lo que considera que la microestructura depende únicamente de la orientación de la muestra y no de la textura de la misma.
+
+La textura de este acero era la esperada para un material BCC deformado, con las orientaciones acumuladas principalmente en dos componentes, las llamadas fibra $\alpha$ y fibra $\gamma$.
+
+El método de Langford de figuras de polos generalizadas indicó que los defectos tienden a acumularse en la fibra $\gamma$, ya que es en esta región del espacio de orientaciones en que la FDOG de FWHM tiene sus valores máximos, mientras que las orientaciones correspondientes a la fibra $\alpha$ este función tiende a anularse, lo que debe interpretarse como que la fibra $\alpha$ posee cristalitas de mayor tamaño y con menos dislocaciones.
+
+El método CMWP también indica que los dominios más grandes son lo que han acumulado más dislocaciones, pero en vez de atribuir dichos dominios a una componente de textura, los coloca en la orientaciones de la muestra que son paralelas a la dirección (110).
+
+Se realizaron mediciones de EBSD para tener una caracterización independiente de la microestructura que permitiera dilucidar cuál de los dos modelos representa mejor la microestructura del material, encontrándose un mejor acuerdo con el modelo de Langford que con el CMWP, lo que parecería indicar que aunque el método de Lanford no toma en cuenta la contribución de los factores de contraste al ensanchamiento de los picos, resulta más adecuado para describir la anisotropía de la microestructura en materiales con textura que el método CMWP, que emplea un modelo cuantitativo para calcular los factores de contraste a costa de despreciar las contribuciones de la textura al ensanchamiento de los picos.
