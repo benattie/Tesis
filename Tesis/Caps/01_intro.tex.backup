@@ -4,7 +4,7 @@
 \section{Motivación}\label{S:motivacion}
 Dentro de la multitud de materiales existentes, los sólidos cristalinos son aquellos que tienen más impacto en el desarrollo de nuestra vida cotidiana. 
 Los sólidos cristalinos son materiales que están constituidos por cristales, que son arreglos periódicos de átomos. 
-Dado que en el transcurso de este trabajo sólo se hablará de sólidos cristalinos, cuando se hable de sólido, material o muestra, siempre se sobreentenderá que se está hablando de un sólido cristalino.
+En el transcurso de este trabajo sólo se hablará de sólidos cristalinos, cuando se hable de sólido, material o muestra.
 
 \begin{figure}[h!]
   \centering
@@ -15,7 +15,7 @@ Dado que en el transcurso de este trabajo sólo se hablará de sólidos cristali
 
 La unidad básica de un cristal es la denominada celda unidad, que se repite en las tres dimensiones del espacio, dándole al cristal una simetría de traslación. Utilizando los métodos de la teoría de grupos, se puede demostrar que existen sólo 14 formas de llenar el espacio con arreglos periódicos de átomos (Fig. \ref{fig:Bravais}), es decir, existen 14 tipos diferentes de celdas unitarias, que se denominan redes de Bravais\cite{hahn2005international}.
 
-Sin embargo, a pesar de la variedad de posibles arreglos atómicos disponibles, se observa que en la naturaleza los metales tienden a formar sólo tres de esas estructuras, que se muestran en la Fig. \ref{fig:celdasmetalicas} y que se denominan Cúbica Centrada en las Caras (FCC), Cúbica Centrada en el Cuerpo (BCC) y Hexagonal Compacta (HCP). 
+Sin embargo, a pesar de la variedad de posibles arreglos atómicos disponibles, se observa que en la naturaleza los metales tienden a formar tres de esas estructuras, que se muestran en la Fig. \ref{fig:celdasmetalicas} y que se denominan Cúbica Centrada en las Caras (FCC), Cúbica Centrada en el Cuerpo (BCC) y Hexagonal Compacta (HCP). 
 Las siglas que se usarán para caracterizar a cada una de estas celdas están basadas en la nomenclatura inglesa, \textit{Face Centered Cubic}, \textit{Body Centered Cubic} y \textit{Hexagonal Close Packed}. En este trabajo se trabajará con materiales metálicos que tienen alguna de estas tres simetrías, y se pondrá especial foco en los materiales FCC y BCC.
 
 \begin{figure}[h!]
@@ -27,9 +27,9 @@ Las siglas que se usarán para caracterizar a cada una de estas celdas están ba
 
 Según el principio de Neumann\cite{nye1985physical}, las propiedades básicas de un sólido cristalino están determinadas en primer lugar por la de la celda unidad, y serán en general anisotrópicas, es decir dependerán de la orientación de dicha celda respecto a un cierto sistema de referencia.
 En un dado sólido, puede ocurrir que todos sus cristales tengan la misma orientación, en cuyo caso se dice que ese material es un mono-cristal.
-Si por el contrario, el sólido está constituido por cristales orientados en cualquier dirección, y todas las orientaciones se encuentran igualmente representadas, se dice entonces que el material es un poli-cristal.
+Si por el contrario, el sólido está constituido por cristales orientados en cualquier dirección, y todas las orientaciones se encuentran igualmente representadas, se dice entonces que el material es un poli-cristal aleatorio.
 En este caso, las propiedades macroscópicas del cristal se pueden obtener a partir de promediar las propiedades de la celda unidad en todas las orientaciones posibles.
-El caso más general consistirá en una situación intermedia entre un mono-cristal y un poli-cristal, es decir, los cristales tendrán una o más orientaciones preferenciales y habrá una cierta distribución alrededor de dichas orientaciones, lo que constituirá la textura de dicho material. 
+El caso más general consistirá en una situación intermedia entre un mono-cristal y un poli-cristal aleatorio, es decir, los cristales tendrán una o más orientaciones preferenciales y habrá una cierta distribución alrededor de dichas orientaciones, lo que constituirá la textura de dicho material. 
 La textura de un material es el segundo factor que condicionará la anisotropía de las propiedades macroscópicas de un sólido cristalino.
 
 La relación entre textura, propiedades mecánicas y procesos de fabricación es de gran interés puro, pero especialmente aplicado, ya que la capacidad de controlar la textura, y con ello la anisotropía de las propiedades mecánicas de los materiales, puede implicar beneficios económicos importantes.
@@ -43,7 +43,7 @@ Uno de los ejemplos más estereotípicos que se suele citar es el ``orejeado'' q
 \end{figure}
 
 Adicionalmente la textura no sólo condiciona las propiedades mecánicas de los materiales, sino que también influencia cómo estos materiales acumularán defectos una vez sometidos a diferentes solicitaciones. 
-Por ejemplo, más adelante en esta tesis se verá como al laminar el acero, se favorecen dos tipos de orientaciones, pero los defectos tienden a acumularse en sólo una de ellas, lo cual a su vez afecta otras propiedades del acero como ser su dureza, ductilidad, etc.
+Por ejemplo, más adelante en esta tesis se verá cómo al laminar el acero, se favorecen dos tipos de orientaciones, pero los defectos tienden a acumularse en sólo una de ellas, lo cual a su vez afecta otras propiedades del acero como ser su dureza, ductilidad, etc.
 
 A partir de estas motivaciones surge este trabajo, en donde se propone estudiar la anisotropía de distintas aleaciones metálicas, así como buscar relaciones entre las deformaciones mecánicas sufridas por las muestras, su textura y los defectos acumulados en las mismas.
 
@@ -104,7 +104,7 @@ Una parte importante de esta tesis se tratará de obtener información acerca de
 
 \subsection{Estudios de ancho de pico: Revisión bibliográfica y estado del arte}\label{SS:XRD-LPA} 
 Si no se tienen en cuenta los diferentes efectos instrumentales se puede afirmar que, a partir del estudio del ensanchamiento y la forma de los perfiles de intensidad de los picos medidos en un experimento de XRD, es posible obtener información micro-estructural del material, como la cantidad y tipo de defectos presentes, o la distribución de tamaño de los dominios coherentes de difracción (cristalitas).
-Al conjunto de técnicas y métodos del campo de la cristalografía que utilizados para obtener este tipo de información se los conoce como Estudios de Ancho de Pico, o LPA, por sus siglas en inglés (\textit{Line Profile Analysis}).
+Al conjunto de técnicas y métodos del campo de la cristalografía que son utilizados para obtener este tipo de información se los conoce como Estudios de Ancho de Pico, o LPA, por sus siglas en inglés (\textit{Line Profile Analysis}).
 Aunque el término LPA fue acuñado muchos años después, la técnica, aunque rudimentaria, es tan antigua como los primeros experimentos de XRD, y fue implementada independientemente por Hull en Estados Unidos y Debye y Scherrer en Alemania. 
 Mientras investigaba el tamaño de partículas de oro y plata en sistemas coloidales, Scherrer incluyó la ecuación que luego llevaría su nombre\cite{Scherrer1918}:
 
@@ -130,8 +130,8 @@ Al graficar el ancho integral de cada pico de difracción en función de $K$, lo
 \end{equation}
 \noindent
 siendo $\epsilon$ una cantidad que es proporcional a la distorsión de la red cristalina y $\beta$ es el ancho integral de cada reflexión.
-La primera versión del método de Williamson-Hall, que es como se llamó a la aplicación de la Ec. \ref{eq:WHPlot}, se basa en la suposición de que los picos de difracción tienen un perfil lorentziano.
-Si los perfiles tienen un carácter gaussiano, muchos pasos en la deducción son iguales, pero el resultado final es lo que se denomina la forma cuadrática de la ecuación de Williamson-Hall\cite{Scardi2004}:
+La primera versión del método de Williamson-Hall, que es como se llamó a la aplicación de la Ec. \ref{eq:WHPlot}, se basa en la suposición de que los picos de difracción tienen un perfil Lorentziano.
+Si los perfiles tienen un carácter Gaussiano, muchos pasos en la deducción son iguales, pero el resultado final es lo que se denomina la forma cuadrática de la ecuación de Williamson-Hall\cite{Scardi2004}:
  \begin{equation}
   (\Delta K)^2 \ = \ \left[\beta \ \cos\left(\frac{\theta}{\lambda}\right)\right]^2 \ = \left(\frac{1}{D}\right)^2 \ + \ 4 \ \epsilon^2 \ K^2
   \label{eq:WHPlot2}
@@ -146,7 +146,7 @@ El método de Warren-Averbach se basa en el hecho de que la transformada de Four
   \label{eq:FCoeff}
  \end{equation}
 \noindent
-En este caso, si se supone que las cristalitas son de forma esférica y que su distribución de tamaño de tipo log-normal\cite{WikiLognormal} y se supone un perfil de deformación de tipo gaussiano, se puede llegar a la ecuación que se emplea cuando se aplica el método de Warren-Averbach:
+En este caso, si se supone que las cristalitas son de forma esférica y que su distribución de tamaño es de tipo log-normal\cite{WikiLognormal} y se supone un perfil de deformación de tipo Gaussiano, se puede llegar a la ecuación que se emplea cuando se aplica el método de Warren-Averbach:
 \begin{equation}
   \ln(A_n(l)) \ = \ \ln(A_n^T) \ - \ 2 \pi^2 n^2 l^2 \ <e^2>
   \label{eq:WAPlot}
@@ -154,7 +154,8 @@ En este caso, si se supone que las cristalitas son de forma esférica y que su d
 \noindent
 En la Ec. \ref{eq:WAPlot}, $l$ es el orden de una dada reflexión, $<e^2>$ es la deformación cuadrática media de la red cristalina y el resto de los símbolos son los definidos anteriormente.
 
-\nomenclature{$H$ o $FWHM$}{Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Witdth at Half Maximum).}
+\nomenclature{$H$ o $FWHM$}{Ancho de pico a media altura. También abreviado como FWHM por sus siglas en inglés (Full Width at Half Maximum).}
+\nomenclature{$\eta$}{Factor de mezcla de una función pseudo-Voigt, o bien componente Lorentziana de la misma.}
 \nomenclature{$<e^2>$}{Deformación cuadrática media de la red cristalina}
 \nomenclature{$L$}{Orden de reflexión. Mentira. Escribirlo bien.}
 \nomenclature{$A_n$}{n-ésimo coeficiente de Fourier}
@@ -166,11 +167,11 @@ En la práctica, si en el material estudiado las dislocaciones son un mecanismo 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{MWH}
-  \caption{Ejemplo del ensanchamiento anisotrópica. Imágenes obtenidas de \cite{Ungar1999}}
+  \caption{Ejemplo del ensanchamiento anisotrópica. En la parte (a) de la figura, el ensanchamiento $\Delta K$ de los picos no crece monótonamente con $K$, contrario a lo que predice la relación de Williamson-Hall. Sin embargo cuando se toman en cuenta los factores de contraste de las dislocaciones, como se muestra en la parte (b) de la figura, $\Delta K$ crece suave y monótonamente con $K$, como era de esperar. Imágenes obtenidas de \cite{Ungar1999}.}
   \label{fig:MWH}
 \end{figure}
 
-En ensanchamiento anisotrópico puede tener multitud de causas, entre ellas:
+El ensanchamiento anisotrópico puede tener multitud de causas, entre ellas:
 \begin{enumerate}[(i)]
   \item Errores sistemáticos y estadísticos en la medición. 
   \item Anisotropía en el tamaño de cristalita.
@@ -187,12 +188,12 @@ Finalmente la causa (v) podrá visualizarse en ciertos casos estudiando la asime
 
 Las formulaciones del método de WH y de WA involucran ciertas suposiciones implícitas para resolver los problemas planteados, a saber, que todas las cristalitas tienen forma esférica y que tienen el mismo tamaño, que no hay defectos planares y que la deformación causada por las dislocaciones es isótropa. 
 
-Hacia finales de los '90 y principios de los 2000 Ungar et al modificaron la formulación de WH y WA para tomar en cuenta la anisotropía en el campo de deformaciones de la red cristalina a través del concepto de los factores de contraste.
+Hacia finales de los '90 y principios de los 2000 T. Ungar y colaboradores modificaron la formulación de WH y WA para tomar en cuenta la anisotropía en el campo de deformaciones de la red cristalina a través del concepto de los factores de contraste\cite{Csiszar2011,}.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.8\textwidth]{Contrast}
-  \caption{Ejemplo de la influencia del factor de contraste para dos casos extremos. Ver si puedo encontrar una referencia.}
+  \caption{Ejemplo de la influencia del factor de contraste para dos casos extremos. En el caso (a) el vector de dispersión $\mathbf{g}$ es paralelo al vector de Burger $\mathbf{b}$ de la dislocación resultando en que el ensanchamiento producido por dicha dislocación será máximo, mientras que en el caso (b) la dislocación no contribuirá al ensanchamiento del pico de difracción, ya que el vector de Burgers es perpendicular a $\mathbf{g}$.}
   \label{fig:contrast}
 \end{figure}
 
@@ -213,7 +214,7 @@ Como regla general, el factor de contraste será una cantidad que depende tanto 
 \noindent
 Donde $\mathbf{G}$ y $\mathbf{b}$ son las cantidades definidas previamente, $\mathbf{l}$ es el vector de línea de la dislocación y $c_{ij}$ representan las componentes del tensor de elasticidad del material.
 El cálculo de $C$ a partir de la Ec. \ref{eq:contrast} para un material elásticamente anisotrópico es una tarea que, además de laboriosa, requiere conocer a priori el tipo de dislocaciones presentes en el material y los sistemas de deslizamiento activos, lo que en general no ocurre.
-Para sistemas cristalinos cúbicos y hexagonales Ungár et al\cite{Dragomir1999,Dragomir2002} han encontrado expresiones analíticas para calcular el factor de contraste de cualquier tipo de dislocación, siempre que se sepa el sistema de deslizamiento activo y el tipo de dislocación presente. En particular, para sistemas cúbicos se tiene que la Ec. \ref{eq:contrast} toma una forma sencilla:
+Para sistemas cristalinos cúbicos y hexagonales Ungár et al.\cite{Dragomir1999,Dragomir2002} han encontrado expresiones analíticas para calcular el factor de contraste de cualquier tipo de dislocación, siempre que se sepa el sistema de deslizamiento activo y el tipo de dislocación presente. En particular, para sistemas cúbicos se tiene que la Ec. \ref{eq:contrast} toma una forma sencilla:
 
 \begin{equation}
   C \ = \ C(hkl) \ = \ A \ + \ B \ H^2
@@ -226,7 +227,7 @@ con
   \label{eq:H2}
 \end{equation}
 \noindent
-un invariante de cuarto orden de los índices de Miller $hkl$, y $A$ y $B$ constantes que pueden calcularse a para dislocaciones de hélice y borde a partir de las constantes elásticas del material.
+un invariante de cuarto orden de los índices de Miller $hkl$, y $A$ y $B$ constantes que pueden calcularse para dislocaciones de hélice y borde a partir de las constantes elásticas del material.
 Si se observa con detenimiento la Ec. \ref{eq:H2} se puede notar que $C(h00) \ = \ A$, por que la Ec. \ref{eq:contrast2} suele escribirse de la forma:
 \begin{equation}
   C(hkl) = C_{h00}\ (1 \ - \ q\ H^2)
@@ -234,7 +235,7 @@ Si se observa con detenimiento la Ec. \ref{eq:H2} se puede notar que $C(h00) \ =
 \end{equation}
 \noindent
 donde $A \ = \ C_{h00}$ y $q \ = \ -B/A$ es un factor que puede relacionarse con el carácter hélice/borde de las dislocaciones presentes.
-Vale notar que la Ec. \ref{eq:contrast3} es válida sólo si $C_{h00} \neq 0$, cosa que no ocurre en todos los casos, aunque sí lo suficiente como para darle a la Ec. \ref{eq:contrast3} una generalidad aceptable.
+Notar que la Ec. \ref{eq:contrast3} es válida sólo si $C_{h00} \neq 0$, cosa que no ocurre en todos los casos, aunque sí lo suficiente como para darle a la Ec. \ref{eq:contrast3} una generalidad aceptable.
 \nomenclature{$C$}{Factor de contraste de una dislocación.}
 \nomenclature{$\bar{C}$}{Factor de contraste promedio.}
 \nomenclature{$H^2$}{Invariante de cuarto orden que determina el factor de contraste promedio.}
@@ -251,12 +252,12 @@ A partir de la implementación del método de los factores de contraste, se pued
 \end{equation}
 \noindent
 donde $b$ es la longitud del vector de Burgers de las dislocaciones, $C$ es el factor de contraste definido en \ref{eq:contrast} y \ref{eq:contrast3}, $\rho$ es la densidad de dislocaciones del material y $R_e$ es el radio de corte del campo de deformación producido por las dislocaciones y $f$ es la función de Wilkens. 
-Cuando se busca analizar los detalles de la micro-estructura, $R_e$ suele reemplazarse por el factor de Wilkens $M \ = \ R_e\,\sqrt{\rho}$, que da una idea no sólo de la cantidad de dislocaciones, sino de cómo éstas interactúan entre si para deformar la estructura cristalina. Se pueden distinguir tres casos:
+Cuando se busca analizar los detalles de la micro-estructura, $R_e$ suele reemplazarse por el factor de Wilkens $M \ = \ R_e\,\sqrt{\rho}$, que da una idea no sólo de la cantidad de dislocaciones, sino de cómo éstas interactúan entre si para deformar la estructura cristalina. Se pueden distinguir tres casos\cite{Kerber2011}:
 
 \begin{itemize}
   \item[$\bullet$] Si $M \ = \ 1 $ En este caso $R_e\,=\,\frac{1}{\sqrt{\rho}}$ y la longitud del campo de deformación producido por las dislocaciones es igual a la distancia promedio entre las mismas.
-  \item[$\bullet$] Si $M \ << \ 1 $ el campo de deformaciones producido por las dislocaciones es menor que la distancia promedio entre ellas y es apantallado por un arreglo de dislocaciones correlacionadas que forman dipolos. En este caso el perfil de ensanchamiento resultante tiende a tener una forma lorentziana.
-  \item[$\bullet$] Por otro lado si $M \ >> \ 1 $ las dislocaciones están distribuidas aleatoriamente, no interactúan entre ellas y el campo de deformaciones es de largo alcance. El perfil resultante de esta micro-estructura tiene un aspecto gaussiano.
+  \item[$\bullet$] Si $M \ << \ 1 $ el campo de deformaciones producido por las dislocaciones es menor que la distancia promedio entre ellas y es apantallado por un arreglo de dislocaciones correlacionadas que forman dipolos. En este caso el perfil de ensanchamiento resultante tiende a tener una forma Lorentziana.
+  \item[$\bullet$] Por otro lado, si $M \ >> \ 1 $, las dislocaciones están distribuidas aleatoriamente, no interactúan entre ellas y el campo de deformaciones es de largo alcance. El perfil resultante de esta micro-estructura tiene un aspecto Gaussiano.
 \end{itemize}
 
 Un análisis más detallado de la contribución de las dislocaciones al ensanchamiento de picos de difracción revela que la Ec. \ref{eq:Wilkens} es el primer orden de un desarrollo más complejo\cite{Groma1988}:
@@ -297,83 +298,6 @@ Finalmente, cuando no sólo se tiene que promediar sobre los diferentes sistemas
 \noindent
 y $f_{\alpha}$ es la fracción de volumen de cada cristalita y los coeficientes de Fourier $A_{n}^{D,\alpha}$ se deben calcular utilizando las Ecs. \ref{eq:WAPlot}, \ref{eq:contrast3}, \ref{eq:Wilkens}, \ref{eq:Cav1} y \ref{eq:Cav2}, según corresponda a cada caso particular para cada cristalita.
 
-\subsection{El Método de Langford}\label{SS:Langford}
-Al repasar la historia de las diferentes metodologías aplicadas en los LPA, puede apreciarse que los mismos pueden tener dos enfoques: el enfoque top-down (arriba-abajo) y el de bottom-up (abajo-arriba).
-Las metodologías top-down proponen ajustar los picos medidos por XRD con funciones analíticas, como Lorentzianas, Gaussianas o diferentes combinaciones de éstas, para luego asociar a los parámetros de libres de estas funciones con cantidades físicas significativas, como puede ser el tamaño de cristalita, distorsión de la red, o los diferentes efectos instrumentales.
-Ejemplos de este enfoque son las Ecs. \ref{eq:Scherrer}, \ref{eq:WHPlot} y \ref{eq:WHPlot2} en donde se relaciona el ancho de los picos de difracción a un cierto defecto, y luego se usa el valor de $H$ para hacer estimaciones cuantitativas del tamaño de cristalita, por ejemplo.
-En este caso, se suele elegir una función de ajuste que simplifique el tratamiento de los datos, así como la sustracción de los efectos instrumentales.
-Como ya se vio en la sección \ref{SS:XRD-LPA}, a lo largo de la historia de los estudios de ancho de pico se le han asociado a los picos de difracción formas Lorentzianas o Gaussianas, y ese carácter es influido, al menos cualitativamente, por el tipo de defectos presentes, además de por su cantidad.
-
-En la vereda conceptual de enfrente, los métodos bottom-up tratan de modelar precisamente cómo la cantidad y tipo de defectos presentes modificarán la forma de los picos de difracción, calculando los coeficientes de Fourier que se pueden obtener de diferentes modelos micro-estructurales, para luego comparar dichos coeficientes con los obtenidos de los picos experimentales.
-De esta manera se puede interpretar directa y cuantitativamente la micro-estructura del material a partir de los experimentos de difracción, lo cual resulta muy atractivo en principio.
-Sin embargo, como ya se vio en los párrafos anteriores, la cantidad de factores que influyen en la forma de una dada reflexión son numerosos, lo que significa que para poder determinar unívocamente todos los parámetros libres que surgen de un dado modelo micro-estructural, se necesitaría medir con gran calidad un número de reflexiones mayor a las que están disponibles en la práctica para muchos materiales, o realizar suposiciones a priori sobre cómo se acumularán defectos en el material analizado para poder ajustar los parámetros de interés con los datos experimentales.
-La aplicación de los modelos bottom-up también encuentra problemas cuando hay superposición de reflexiones, ya que en ese caso se agrega la incógnita de la fracción de volumen de cada una de las fases presentes en el material.
-
-Un análisis interesante de los alcances y limitaciones de ésta metodología se fue realizado por Kamminga et al\cite{mittemeijer2003diffraction}, donde tratan de determinar la densidad de dislocaciones en láminas delgadas de Al sujetos a tensiones biaxiales.
-En este caso, debido a las condiciones de crecimiento de las láminas delgadas, los sistemas activos de deslizamiento eran conocidos a priori y fáciles de medir experimentalmente, aunque no era sabido si las dislocaciones eran predominantemente de borde, de hélice o una mezcla de ambas.
-
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=0.8\textwidth]{Mittemeijer}
-  \caption{(a) Ajuste de los coeficientes de Fourier suponiendo que todos los sistemas de deslizamiento están igualmente poblados, y con igual proporción de dislocaciones de hélice y borde. $\rho = 3 \ 10^{14}$\,m$^{-2}$. (b) Curvas de coeficientes de Fourier. En este análisis se ajustaron diferentes modelos para las curvas de $\omega = 22\,^{\circ}$ y se usaron los parámetros obtenidos para simular las curvas con $\omega = 48\,^{\circ}$. Puede apreciarse que si se supone que las dislocaciones son sólo de borde no se obtiene un buen acuerdo entre el modelo y el experimento. Por otro lado, tanto el modelo con 100\% de dislocaciones de hélice y con mitad de dislocaciones de dislocaciones de hélice y mitad de borde parecen predecir razonablemente el comportamiento observado. Las dislocaciones obtenidas son 2.2, 2.5 y 2.3 10$^{14}$\,m$^{-2}$. Imágenes obtenidas de \cite{mittemeijer2003diffraction}.}
-  \label{fig:FourierMittemeijer}
-\end{figure}
-
-A partir de un análisis cristalográfico minucioso, Kamminga et al utilizaron el modelo de los factores de contraste para calcular cómo serían los coeficientes de Fourier de las reflexiones si la dislocaciones fueran solamente de borde, solamente de hélice o si ambas estaban presentes en igual cantidad, para luego comparar dichos coeficientes con los obtenidos experimentalmente.
-Haciendo esto pudieron descartar la posibilidad de que todas las dislocaciones presentes fueran de borde, sin embargo, no pudieron distinguir concluyentemente si las dislocaciones eran de hélice o si eran una mezcla con igual proporción de hélice y borde.
-
-El problema más importante es que la densidad de dislocaciones obtenida por este método no era tan diferente a la obtenida utilizando la suposición menos probable, pero más sencilla matemáticamente, de que todos los sistemas de deslizamiento estaban igualmente poblados, con igual proporción de dislocaciones de hélice y borde.
-Esto significa que aunque los métodos bottom-up tienen el atractivo de dar valores micro-estructurales con claro sentido físico a partir de los experimentos de XRD, su implementación requiere una cantidad de suposiciones a priori sobre lo que ocurre en el material microscópicamente; y los datos disponibles, aún cuando sean de muy buena calidad, no siempre logran distinguir concluyentemente entre las diferentes posibilidades.
-
-En este sentido es que en este trabajo también se propone trabajar siguiendo un enfoque más sencillo, pero que permitió realizar un tipo de análisis que no fue posible realizar siguiendo el enfoque bottom-up.
-Este método, propuesto por Langford et al en 1982\cite{DeKeijser1982}, consiste en ajustar el pico de cada reflexión con una función de Voigt, que es la convolución de una función Gaussiana $G$ y una función Lorentziana $L$:
-\begin{equation}
-  V(x; H_{G}, H_{L}) \ = \ G \otimes L \ = \ \int G(x'; H_{G}) L(x - x'; H_{L}) \ dx'
-  \label{eq:Voigt}
-\end{equation}
-\noindent
-Cada una de las funciones tiene su propio FWHM, y en el modelo de Langford se asocia el FWHM de la función Gaussiana con la deformación media de la red cristalina
-\begin{equation}
-  <e> \ = \ \frac{1}{2} \ \sqrt{\frac{\pi}{2\log(2)}} \ \frac{H_{G}}{4 \ \tan{\theta_B}}
-  \label{eq:Gauss}
-\end{equation}
-\noindent
-y el FWHM de la función Lorentziana se asocia con la longitud promedio de cristalita en la dirección definida por el ángulo de Bragg:
-\begin{equation}
-  L \ = \ \frac{2}{\pi} \ \frac{\lambda}{H_{L} \ \cos{\theta_B}}
-  \label{eq:Lorentz}
-\end{equation}
-\noindent
-Al ajustar un dado pico con una función Voigtinana dejando como parámetros de ajuste a $H_G$ y $H_L$, se puede determinar la deformación promedio y la longitud de  cristalina en la dirección perpendicular a la familia de planos $\{hkl\}$ que producen interferencia constructiva para el ángulo $\theta_B$.
-
-El problema de utilizar la Ec. \ref{eq:Voigt} para ajustar las reflexiones es que realizar un producto de convolución es muy costoso computacionalmente, por lo que unos años después Thompson et al\cite{Thompson1987} desarrollaron un método para aplicar el mismo análisis, pero utilizando la llamada función pseudo-Voigt, que es una combinación lineal de una función Gaussiana y una función Lorentziana que poseen el mismo FWHM:
-\begin{equation}
-  pV(x; H, \eta) \ = \ \eta \ L(x; H) \ + \ (1 - \eta) \ G(x; H)
-  \label{eq:pseudovoigt}
-\end{equation}
-\noindent
-El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica que tan intenso va a ser el carácter Lorentziano del pico estudiado. 
-Al ajustar la expresión \ref{eq:pseudovoigt} se dejan como parámetros de ajuste al par $[H, \eta]$ y se emplea las expresiones desarrolladas por Thompson para determinar los valores $[H_G, H_L]$ que se hubieran obtenido de realizar el ajuste utilizando la Ec. \ref{eq:Voigt}:
-\begin{align}
-  H_G & =  H \ (1 -  0.74417 \ \eta - 0.24781 \ \eta^2 - 0.00810 \ \eta^3)^{1/2} \nonumber \\
-  H_L & =  H \ (0.72928 \ \eta + 0.19289 \ \eta^2 + 0.07783 \ \eta^3)
-  \label{eq:Hg}
-\end{align}
-\noindent
-Como tanto la función Voigt como la pseudo-Voigt están normalizadas, esto es $\int V dx \ = \ \int pV dx \ = \ 1$, y para cada pico están centradas en $\theta_B$ la función que se ajusta en la práctica tiene dos parámetros libres más:
-\begin{equation}
-    pV(\theta; I_0, \theta_B, H, \eta) \ = \ I_0 \ [\eta \ L(\theta; \theta_B, H) \ + \ (1 - \eta) \ G(\theta; \theta_B, H)]
-  \label{eq:pVprofile}
-\end{equation}
-\noindent
-lo que permite incorporar la intensidad integrada del pico $I_0$ y el centro $\theta_B$ del mismo, y el ajuste se realiza sobre la variable angular $\theta$.
-
-Al emplear la Ec. \ref{eq:pVprofile} para ajustar todas las reflexiones de un dado difractograma se pueden distinguir la micro-estructura de una dada familia de planos de otra.
-Lo que es más, como para una dada orientación de la muestra, los cristales que tengan, por ejemplo, la familia de planos $\{111\}$ en condición de difracción, no serán los mismos que para esa orientación de muestra tengan a la familia de planos $\{200\}$ en condición de reflexión.
-Esto significa que de estudiar el perfil de los dos picos podemos inferir diferencias en la micro-estructura de ambas poblaciones.
-Si además se realiza este análisis para distintas orientaciones de la muestra, se pueden utilizar los métodos obtenidos del estudio de texturas (Sec. \ref{S:Text}) para correlacionar esta información direccional y general Funciones de Distribución de Orientaciones Generalizadas.
-Los detalles de este proceso se explicarán en la Sec. \ref{SS:ODFG}.
-
 \subsection{El método CMWP}\label{SS:CMWP}
 El \textit{Convolutional Multiple Whole Profile (CMWP)} es un método desarrollado en base al modelo de Warren-Averbach, que fue codificado en un software que lleva el mismo nombre, y que fue desarrollado por Gábor Ribárik\cite{Ungar2001,Ribarik2001,Ribarik2008}. 
 En lo que sigue se usarán las siglas CMWP tanto para referirse al método que se usa para calcular aspectos de la micro-estructura a partir de los experimentos de XRD como para el software que aplica este método a datos experimentales concretos.
@@ -387,7 +311,7 @@ Una vez descargado el CMWP, el usuario puede acceder a una interfaz gráfica com
   \label{fig:CMWP_front}
 \end{figure}
 
-Para poder resolver la micro-estructura, el usuario debe ingresar la estructura cristalina del material (sólo se permite trabajar con materiales cúbicos, hexagonales u ortorrómbicos), su/s parámetro/s de red, además de la longitud de onda de la radiación empleada.
+Para poder resolver la micro-estructura, el usuario debe ingresar la estructura cristalina del material (sólo se permite trabajar con materiales cúbicos, hexagonales u ortorrómbicos) y su/s parámetro/s de red, además de la longitud de onda de la radiación empleada.
 
 El método CMWP es un método de tipo bottom-up, es decir, calcula la intensidad teórica de los picos a partir de modelar la distribución de tamaños de dominio y de dislocaciones en el material, y luego compara el patrón modelado con las intensidades experimentales para determinar cuál es el valor que deben tener las variables micro-estructurales, de modo de minimizar la diferencia entre lo medido y lo modelado.
 Concretamente, en el CMWP se modela a la intensidad de un experimento de difracción como la convolución de los efectos de tamaño (size), los debidos a las dislocaciones, a las fallas de apilamiento y/o maclas (twins) y a los efectos instrumentales:
@@ -397,7 +321,7 @@ Concretamente, en el CMWP se modela a la intensidad de un experimento de difracc
 \end{equation}
 \noindent
 El método luego calcula los coeficientes de Fourier de las distintas funciones que aparecen en la Ec. \ref{eq:convolucion} y los ajusta a partir de los coeficientes de Fourier que obtienen a partir de los picos del difractograma medido.
-\newpage
+
 La intensidad de tamaño se obtiene suponiendo que las cristalitas son de forma esférica y tienen una distribución log-normal con media $m$ y desviación estándar $\sigma$:
 \begin{equation}
   f(L) \ = \ \frac{1}{L \sigma \sqrt{2 \pi}} \ e^{-\frac{(\ln(L)-m)}{2 \sigma^2}}
@@ -427,7 +351,7 @@ La función de intensidad para modelar el ensanchamiento por fallas de apilamien
 \noindent
 donde $\delta(s)$ es la función delta de Dirac, $p_0$ da la contribución simétrica de las fallas de apilamiento al ensanchamiento de los picos, y los $p_i^{hkl}, \ i=1,2,3$ dan las contribuciones al ensanchamiento asimétrico (coeficientes de Fourier imaginarios).
 
-Las fallas de apilamiento producen un corrimiento de los picos, además de un ensanchamiento de tipo súper-lorentziano, como se puede deducir a partir de la presencia de las funciones Lorentzianas en la Ec. \ref{eq:Itwins}, que tienen un centro en $s_i^{hkl}$ y un ancho $w_i^{hkl}$.
+Las fallas de apilamiento producen un corrimiento de los picos, además de un ensanchamiento de tipo súper-Lorentziano, como se puede deducir a partir de la presencia de las funciones Lorentzianas en la Ec. \ref{eq:Itwins}, que tienen centro $s_i^{hkl}$ y ancho $w_i^{hkl}$.
 Estas seis constantes se pueden desarrollar en polinomios de orden 5, cuya variable de desarrollo es la probabilidad $\alpha_{twins}$ de que ocurran fallas de apilamiento o maclas\cite{Ribarik2008}.
 Los coeficientes de dicho desarrollo, junto con los coeficientes $p_i^{hkl},\,i=0,1,2,3,4$ pueden ser calculados para cada material utilizando el programa DIFFAX\cite{Treacy1991}, y deben ser dados como datos de entrada si se quiere que el programa calcule la probabilidad de fallas de apilamiento.
 
@@ -435,19 +359,96 @@ La función $I_{inst}$ no se calcula teóricamente sino que se extrapola para ca
 
 Una vez determinadas todas las funciones relevantes, el CMWP emplea el algoritmo de mínimos cuadrados Levenberg-Marquardt para estimar el conjunto de parámetros físicos que reduce la discrepancia entre la función $I_{teo}$ y las intensidades experimentales, y devuelve el conjunto de datos micro-estructurales que resultan de ese proceso de minimización.
 
- \section{Difracción de electrones retro-difundidos}\label{S:EBSD}
-La difracción de electrones retro difundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la micro-estructura de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
+\subsection{El Método de Langford}\label{SS:Langford}
+Al repasar la historia de las diferentes metodologías aplicadas en los LPA, puede apreciarse que los mismos pueden tener dos enfoques: el enfoque top-down (arriba-abajo) y el de bottom-up (abajo-arriba).
+Las metodologías top-down proponen ajustar los picos medidos por XRD con funciones analíticas, como Lorentzianas, Gaussianas o diferentes combinaciones de éstas, para luego asociar a los parámetros libres de estas funciones con cantidades físicas significativas, como puede ser el tamaño de cristalita, distorsión de la red, o los diferentes efectos instrumentales.
+Ejemplos de este enfoque son las Ecs. \ref{eq:Scherrer}, \ref{eq:WHPlot} y \ref{eq:WHPlot2} en donde se relaciona el ancho de los picos de difracción a un cierto defecto, y luego se usa el valor de $H$ para hacer estimaciones cuantitativas del tamaño de cristalita, por ejemplo.
+En este caso, se suele elegir una función de ajuste que simplifique el tratamiento de los datos, así como la sustracción de los efectos instrumentales.
+Como ya se vio en la sección \ref{SS:XRD-LPA}, a lo largo de la historia de los estudios de ancho de pico se le han asociado a los picos de difracción formas Lorentzianas o Gaussianas, y ese carácter es influido, al menos cualitativamente, por el tipo de defectos presentes, además de por su cantidad.
+
+En la vereda conceptual de enfrente, los métodos bottom-up tratan de modelar precisamente cómo la cantidad y tipo de defectos presentes modificarán la forma de los picos de difracción, calculando los coeficientes de Fourier que se pueden obtener de diferentes modelos micro-estructurales, para luego comparar dichos coeficientes con los obtenidos de los picos experimentales.
+De esta manera se puede interpretar directa y cuantitativamente la micro-estructura del material a partir de los experimentos de difracción, lo cual resulta muy atractivo en principio.
+Sin embargo, como ya se vio en los párrafos anteriores, la cantidad de factores que influyen en la forma de una dada reflexión son numerosos, lo que significa que para poder determinar unívocamente todos los parámetros libres que surgen de un dado modelo micro-estructural, se necesitaría medir con gran calidad un número de reflexiones mayor a las que están disponibles en la práctica para muchos materiales, o realizar suposiciones a priori sobre cómo se acumularán defectos en el material analizado para poder ajustar los parámetros de interés con los datos experimentales.
+La aplicación de los modelos bottom-up también encuentra problemas cuando hay superposición de reflexiones, ya que en ese caso se agrega la incógnita de la fracción de volumen de cada una de las fases presentes en el material.
+
+Un análisis interesante de los alcances y limitaciones de ésta metodología se fue realizado por Kamminga et al.\cite{mittemeijer2003diffraction}, donde tratan de determinar la densidad de dislocaciones en láminas delgadas de Al sujetos a tensiones biaxiales.
+En este caso, debido a las condiciones de crecimiento de las láminas delgadas, los sistemas activos de deslizamiento eran conocidos a priori y fáciles de medir experimentalmente, aunque no era sabido si las dislocaciones eran predominantemente de borde, de hélice o una mezcla de ambas.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=0.8\textwidth]{Mittemeijer}
+  \caption{(a) Ajuste de los coeficientes de Fourier suponiendo que todos los sistemas de deslizamiento están igualmente poblados, y con igual proporción de dislocaciones de hélice y borde. $\rho = 3 \ 10^{14}$\,m$^{-2}$. (b) Curvas de coeficientes de Fourier. En este análisis se ajustaron diferentes modelos para las curvas de $\omega = 22\,^{\circ}$ y se usaron los parámetros obtenidos para simular las curvas con $\omega = 48\,^{\circ}$. Puede apreciarse que si se supone que las dislocaciones son sólo de borde no se obtiene un buen acuerdo entre el modelo y el experimento. Por otro lado, tanto el modelo con 100\% de dislocaciones de hélice y con mitad de dislocaciones de hélice y mitad de borde parecen predecir razonablemente el comportamiento observado. Las dislocaciones obtenidas son 2.2, 2.5 y 2.3 x 10$^{14}$\,m$^{-2}$. Imágenes obtenidas de \cite{mittemeijer2003diffraction}.}
+  \label{fig:FourierMittemeijer}
+\end{figure}
+
+A partir de un análisis cristalográfico minucioso, Kamminga et al. utilizaron el modelo de los factores de contraste para calcular cómo serían los coeficientes de Fourier de las reflexiones si la dislocaciones fueran solamente de borde, solamente de hélice o si ambas estaban presentes en igual cantidad, para luego comparar dichos coeficientes con los obtenidos experimentalmente.
+Haciendo esto pudieron descartar la posibilidad de que todas las dislocaciones presentes fueran de borde, sin embargo, no pudieron distinguir concluyentemente si las dislocaciones eran de hélice o si eran una mezcla con igual proporción de hélice y borde.
+
+El problema más importante es que la densidad de dislocaciones obtenida por este método no era tan diferente a la obtenida utilizando la suposición menos probable, pero más sencilla matemáticamente, de que todos los sistemas de deslizamiento estaban igualmente poblados, con igual proporción de dislocaciones de hélice y borde.
+Esto significa que aunque los métodos bottom-up tienen el atractivo de dar valores micro-estructurales con claro sentido físico a partir de los experimentos de XRD, su implementación requiere una cantidad de suposiciones a priori sobre lo que ocurre en el material microscópicamente; y los datos disponibles, aún cuando sean de muy buena calidad, no siempre logran distinguir concluyentemente entre las diferentes posibilidades.
+
+En este sentido es que en este trabajo también se propone trabajar siguiendo un enfoque más sencillo, pero que permitió realizar un tipo de análisis que no fue posible realizar siguiendo el enfoque bottom-up.
+Este método, propuesto por Langford et al. en 1982\cite{DeKeijser1982}, consiste en ajustar el pico de cada reflexión con una función de Voigt, que es la convolución de una función Gaussiana $G$ y una función Lorentziana $L$:
+\begin{equation}
+  V(x; H_{G}, H_{L}) \ = \ G \otimes L \ = \ \int G(x'; H_{G}) L(x - x'; H_{L}) \ dx'
+  \label{eq:Voigt}
+\end{equation}
+\noindent
+Cada una de las funciones tiene su propio FWHM, y en el modelo de Langford se asocia el FWHM de la función Gaussiana con la deformación media de la red cristalina
+\begin{equation}
+  <e> \ = \ \frac{1}{2} \ \sqrt{\frac{\pi}{2\log(2)}} \ \frac{H_{G}}{4 \ \tan{\theta_B}}
+  \label{eq:Gauss}
+\end{equation}
+\noindent
+y el FWHM de la función Lorentziana se asocia con la longitud promedio de cristalita en la dirección definida por el ángulo de Bragg:
+\begin{equation}
+  L \ = \ \frac{2}{\pi} \ \frac{\lambda}{H_{L} \ \cos{\theta_B}}
+  \label{eq:Lorentz}
+\end{equation}
+\noindent
+Al ajustar un dado pico con una función Voigtinana dejando como parámetros de ajuste a $H_G$ y $H_L$, se puede determinar la deformación promedio y la longitud de  cristalina en la dirección perpendicular a la familia de planos $\{hkl\}$ que producen interferencia constructiva para el ángulo $\theta_B$.
+
+El problema de utilizar la Ec. \ref{eq:Voigt} para ajustar las reflexiones es que realizar un producto de convolución es muy costoso computacionalmente, por lo que unos años después Thompson et al.\cite{Thompson1987} desarrollaron un método para aplicar el mismo análisis, pero utilizando la llamada función pseudo-Voigt, que es una combinación lineal de una función Gaussiana y una función Lorentziana que poseen el mismo FWHM:
+\begin{equation}
+  pV(x; H, \eta) \ = \ \eta \ L(x; H) \ + \ (1 - \eta) \ G(x; H)
+  \label{eq:pseudovoigt}
+\end{equation}
+\noindent
+El parámetro $\eta \ \in \ [0,1]$ se denomina parámetro de mezcla e indica qué tan intenso va a ser el carácter Lorentziano del pico estudiado. 
+Al ajustar la expresión \ref{eq:pseudovoigt} se dejan como parámetros de ajuste al par $[H, \eta]$ y se emplea las expresiones desarrolladas por Thompson para determinar los valores $[H_G, H_L]$ que se hubieran obtenido de realizar el ajuste utilizando la Ec. \ref{eq:Voigt}:
+\begin{align}
+  H_G & =  H \ (1 -  0.74417 \ \eta - 0.24781 \ \eta^2 - 0.00810 \ \eta^3)^{1/2} \nonumber \\
+  H_L & =  H \ (0.72928 \ \eta + 0.19289 \ \eta^2 + 0.07783 \ \eta^3)
+  \label{eq:Hg}
+\end{align}
+\noindent
+Como tanto la función Voigt como la pseudo-Voigt están normalizadas, esto es $\int V dx \ = \ \int pV dx \ = \ 1$, y para cada pico están centradas en $\theta_B$ la función que se ajusta en la práctica tiene dos parámetros libres más:
+\begin{equation}
+    pV(\theta; I_0, \theta_B, H, \eta) \ = \ I_0 \ [\eta \ L(\theta; \theta_B, H) \ + \ (1 - \eta) \ G(\theta; \theta_B, H)]
+  \label{eq:pVprofile}
+\end{equation}
+\noindent
+lo que permite incorporar la intensidad integrada del pico $I_0$ y el centro $\theta_B$ del mismo, y el ajuste se realiza sobre la variable angular $\theta$.
+
+Al emplear la Ec. \ref{eq:pVprofile} para ajustar todas las reflexiones de un dado difractograma se pueden distinguir la micro-estructura de una dada familia de planos de otra.
+Lo que es más, como para una dada orientación de la muestra, los cristales que tengan, por ejemplo, la familia de planos $\{111\}$ en condición de difracción, no serán los mismos que para esa orientación de muestra tengan a la familia de planos $\{200\}$ en condición de reflexión.
+Esto significa que de estudiar el perfil de los dos picos podemos inferir diferencias en la micro-estructura de ambas poblaciones.
+Si además se realiza este análisis para distintas orientaciones de la muestra, se pueden utilizar los métodos obtenidos del estudio de texturas (Sec. \ref{S:Text}) para correlacionar esta información direccional y generar Funciones de Distribución de Orientaciones Generalizadas.
+Los detalles de este proceso se explicarán en la Sec. \ref{SS:ODFG}.
+
+ \section{Difracción de electrones retrodifundidos}\label{S:EBSD}
+La difracción de electrones retrodifundidos (EBSD por sus siglas en inglés) es una técnica que se utiliza en conjunto con las técnicas de microscopía de barrido, por lo que permite no sólo caracterizar la micro-estructura de un material, sino correlacionar espacialmente información como la textura, tamaño de grano y acumulación de defectos.
 El uso de esta técnica ha aumentado rápidamente desde principios del 2000 debido al aumento de disponibilidad de los microscopios electrónicos de barrido (SEM). El incremento de la velocidad de adquisición y procesamiento de datos también ha permitido lograr que una técnica extremadamente local (capaz de estudiar pocos cristales) pase a tener una estadística comparable, aunque aún menor, que la de los experimentos de rayos X.
 
-\nomenclature{EBSD}{Difracción de electrones retro difundidos}
+\nomenclature{EBSD}{Difracción de electrones retrodifundidos}
 \nomenclature{SEM}{Microscopio electrónico de barrido}
 
-Los patrones que se obtienen en una medición de EBSD se obtienen a partir de las imágenes obtenidas en una pantalla de fósforo. Un haz de electrones de alta energía incide sobre una dada muestra, e interactúa con un volumen del orden de los 20\,nm, como se muestra esquemáticamente en la Fig. \ref{fig:ebsd}.
+Los patrones que se obtienen en una medición de EBSD se obtienen a partir de las imágenes obtenidas en una pantalla de fósforo. Un haz de electrones de alta energía incide sobre una dada muestra, e interactúa con un área mínima de 20\,nm-30\,nm de lado, como se muestra esquemáticamente en la Fig. \ref{fig:ebsd}.
 
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.6\textwidth]{ebsd.png}
-  \caption{Esquema de una medición de EBSD}
+  \caption{Esquema de una medición de EBSD. Escribir más y poner la referencia al libro.}
   \label{fig:ebsd}
 \end{figure}
 
@@ -462,7 +463,7 @@ Se puede demostrar que el espaciamiento angular entre los llamados conos de Koss
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.6\textwidth]{kikuchi}
-  \caption{Patrón de Kikuchi}
+  \caption{Patrón de Kikuchi Escribir más y poner la referencia al libro.}
   \label{fig:kikuchi}
  \end{figure}
 
@@ -474,11 +475,11 @@ Como el ángulo entre las bandas de Kikuchi es igual al ángulo que tienen entre
 De esta manera, en una medición de EBSD, el haz de electrones barre la muestra, y en cada ubicación registra una serie de bandas de Kikuchi a partir de las cuales determina, la orientación promedio de los cristales en el volumen estudiado.
 El resultado final es una imagen en la que se registra la orientación de todos los cristales del área estudiada como la que se puede ver en la Fig. \ref{fig:ebsdex}. 
 En este caso lo que se hace es asignar un color a los cristales que tienen una dada dirección cristalina paralela al eje Z y colorear cada píxel en función de este dato. 
-Debe notarse que esta imagen, llamada mapa de figura de polo inversa, da información acerca de la dirección de los cristales y no de su orientación, aunque combinando la información de distintos mapas, toda la información orientacional de la muestra puede ser analizada.
+Debe notarse que esta imagen, llamada mapa de figura de polos inversa, da información acerca de la dirección de los cristales y no de su orientación, aunque toda la información orientacional de los cristales ha sido determinada.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=\textwidth]{IF70centroTD-IPF}
-  \caption{Ejemplo de mapa EBSD}
+  \caption{Ejemplo de mapa EBSD. Escribir más.}
   \label{fig:ebsdex}
 \end{figure}
 
@@ -487,9 +488,11 @@ Por ejemplo, en la imagen de la Fig. \ref{fig:ebsdex} puede verse que todos los 
 
 A partir de lo descripto anteriormente se puede apreciar que las magnitudes físicas que se pueden obtener a partir de un experimento de EBSD van a estar definidas a partir de comparar la orientación de los cristales medidos.
 Por ejemplo, en un experimento de XRD uno puede estimar, a partir de las técnicas de LPA, el tamaño de los dominios coherentes de difracción, también llamados cristalitas, mientras que en EBSD se trabaja con el concepto de granos, definidos como porciones del material que tienen una mis-orientación mayor que determinado umbral, que suele variar entre los 5$^{\circ}$ y los 15$^{\circ}$. (escribir mejor esta parte)
-Una comparación similar se puede hacer cuando se discuten las magnitudes asociadas a la deformación de la red cristalina. En los experimentos de XRD se intenta estimar la densidad de dislocaciones del material, observadas por la presencia de un ensanchamiento que crece de una manera particular con los índices  de Miller de los picos estudiados, mientras que en EBSD la cantidad básica para estimar la deformación de la red cristalina es la llama \textit{Kernel Average Misorientation} (KAM) que se define como la mis-orientación promedio de un píxel con sus vecinos más cercanos.
-Debe quedar claro de las definiciones que tanto en las mediciones de de tamaño de grano como de deformación de la red cristalina, las magnitudes medidas a partir de XRD y de EBSD son diferentes y van a arrojar, en general, valores diferentes.
-Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos sometidos a los materiales debe ser cualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estudios de ancho de pico.
+Una comparación similar se puede hacer cuando se discuten las magnitudes asociadas a la deformación de la red cristalina. En los experimentos de XRD se intenta estimar la densidad de dislocaciones del material, observadas por la presencia de un ensanchamiento que crece de una manera particular con los índices  de Miller de los picos estudiados, mientras que en EBSD la cantidad básica para estimar la deformación de la red cristalina es la llamada \textit{Kernel Average Misorientation} (KAM) que se define como la mis-orientación promedio de un píxel con sus vecinos más cercanos.
+Debe quedar claro de las definiciones que tanto en las mediciones de tamaño de grano como de deformación de la red cristalina, las magnitudes medidas a partir de XRD y de EBSD son diferentes y van a arrojar, en general, valores diferentes.
+Sin embargo, es parte de las suposiciones iniciales de este trabajo que, aunque las magnitudes medidas con ambas técnicas son diferentes, su comportamiento con respecto a los procesos a los que son sometidos a los materiales debe ser cualitativamente similar, por lo que se pueden utilizar los resultados obtenidos por EBSD para constatar las conclusiones obtenidas a partir de los estudios de ancho de pico.
+
+Podría enunciarse como una suerte de invariancia de escala de los defectos que, por mantener la naturaleza de los mismos, difieren solamente en el grado de compacidad que se observa en los mismos a las diferentes escalas de observación.
 
 \section{Textura cristalográfica}\label{S:Text}
 Como ya se mencionó en la Sec. \ref{S:motivacion}, las propiedades macroscópicas de un sólido cristalino estarán dadas por las propiedades de su celda unidad, y éstas serán en general anisotrópicas.
@@ -510,8 +513,8 @@ En particular, se define como \textit{Textura Cristalográfica} a la orientació
 Para poder definir adecuadamente la FDO, primero se define un sistema de referencia $K_S$ fijo a la muestra macroscópica.
 La elección de $K_S$ es arbitraria, pero en general se elije de modo tal de respetar las direcciones y simetrías del material en estudio. 
 Por ejemplo, para una chapa laminada, los ejes de $K_S$ suelen definirse como el de laminado (RD), el transverso (TD), que es perpendicular a RD, pero está en el plano de la chapa, y el normal (ND), perpendicular al plano RD-TD.
-El segundo sistema de referencia se elije solidario a un dado cristal y se lo nota $K_C$, y también se elige de modo tal que respete las simetrías del cristal representado.
-Se define entonces a la orientación de un cristal como la rotación $\mathbf{g}$ que lleva desde el sistema de coordenadas $K_C$ al sistema $K_S$:
+El segundo sistema de referencia se elige solidario a un dado cristal y se lo nota $K_C$, y de modo tal que respete las simetrías del cristal representado.
+Se define entonces la orientación de un cristal como la rotación $\mathbf{g}$ que lleva desde el sistema de coordenadas $K_C$ al sistema $K_S$:
 
 \begin{equation}
   K_S \ = \ \mathbf{g} \ * \ K_C
@@ -519,12 +522,12 @@ Se define entonces a la orientación de un cristal como la rotación $\mathbf{g}
 \end{equation}
 \noindent
 
-Existen muchas maneras de caracterizar a las rotaciones, pero en este trabajo se empleará fundamentalmente la de los \textit{Ángulos de Euler}, usando la convención de Bunge\cite{bunge2013texture}.
+Existen muchas maneras de caracterizar las rotaciones, pero en este trabajo se empleará fundamentalmente la de los \textit{Ángulos de Euler}, usando la convención de Bunge\cite{bunge2013texture}.
 Bajo esta convención, se parte del sistema del cristal y se rota el mismo un ángulo $\phi_1$ alrededor del eje Z de $K_C$, generando un sistema de coordenadas intermedio X'Y'Z'.
 Luego se rota éste sistema un ángulo $\Phi$ alrededor de su eje X', lo que produce un segundo sistema de referencia intermedio, denominado X''Y''Z''. Finalmente, se realiza una rotación de magnitud $\phi_2$ alrededor del nuevo eje Z'', hasta que el sistema está en coincidencia con el sistema de referencia de la muestra $K_S$.
 A los ángulos que constituyen la terna $\phi_1 \Phi \phi_2$ se los denomina ángulos de Euler de la orientación $\mathbf{g}$, y son los que definen a la orientación del cristal alineado con $K_C$.
 
-Ahora, si se tienen $N$ cristales, cada uno con una orientación $\mathbf{g}_i$ respecto al sistema de referencia de la muestra, la FDO $f(\mathbf{g}$ será aquella que indique qué proporción de los $N$ cristales tiene una dada orientación $\mathbf{g}$.
+Ahora, si se tienen $N$ cristales, cada uno con una orientación $\mathbf{g}_i$ respecto al sistema de referencia de la muestra, la FDO $f(\mathbf{g})$ será aquella que indique qué proporción de los $N$ cristales tiene una dada orientación $\mathbf{g}$.
 En este contexto queda claro que la FDO será una función discreta, sin embargo, si el número de cristales estudiados es grande, como suele ocurrir en los experimentos de XRD, se puede definir a la FDO como una función continua en el espacio de orientaciones.
 De esta manera, se tiene que la FDO es la función que determina la fracción de volumen que representan los cristales con una orientación que cae en una región $\Delta \Omega$ del espacio de orientaciones\cite{kocks2000texture}:
 \begin{equation}
@@ -533,13 +536,13 @@ De esta manera, se tiene que la FDO es la función que determina la fracción de
 \end{equation}
 \noindent
 donde $\Omega_0$ es el espacio total considerado, que puede tener un volumen máximo de $8\pi^2$ o un valor menor, dado por el volumen del subespacio irreducible que se obtiene de aplicar al espacio total los grupos de simetría de la red de Bravais considerada, más las simetrías de muestra que pudieran existir.
-Si la orientaciones se representan usando los ángulos de Euler, el elemento infinitesimal de volumen vale:
+Si las orientaciones se representan usando los ángulos de Euler, el elemento infinitesimal de volumen vale:
 \begin{equation}
   d\mathbf{g} \ = \ \frac{1}{8\pi^2} \sin(\Phi) d\phi_1 d\Phi d\phi_2
   \label{eq:dg}
 \end{equation}
 \noindent
-donde el factor $1/(8\pi^2)$ es un factor de normalización que se vuelve necesario si se conviene que $f(\mathbf{g}) \ \equiv \ 1$ para un material con una FDO uniforme.
+donde el factor $1/(8\pi^2)$ es un factor de normalización necesario si se conviene que $f(\mathbf{g}) \ \equiv \ 1$ para un material con una FDO uniforme.
 
 \subsection{Determinación de la FDO}\label{SS:FDO}
 La forma más sencilla de determinar la FDO para un dado material sería medir la orientación de cada uno de los cristales que están presentes en un cierto volumen $V$, para luego computar la FDO exacta (discreta), que luego puede aproximarse por la $f(\mathbf{g})$ continua, que es más fácil de manipular matemáticamente.
@@ -547,7 +550,7 @@ Esta tarea puede realizarse a partir de los experimentos de EBSD descriptos en l
 Sin embargo, incluso con los avances en automatización y procesamiento de los microscopios modernos, la medición de un volumen de muestra que sea representativo del todo el material a través de los experimentos de EBSD es una tarea difícil de lograr.
 
 Por otro lado, los volúmenes de interacción de la radiación de rayos X son muchos más grandes que los que se pueden conseguir con electrones, por lo que la medición de volumen representativo del material se vuelve mucho más sencilla.
-El problema es que empleando rayos X sólo pueden medir proyecciones de $f(\mathbf{g})$ llamadas figuras de polos (FP).
+El problema es que empleando rayos X sólo se pueden medir proyecciones de $f(\mathbf{g})$ llamadas figuras de polos (FP).
 Para medir una FP en un experimento de XRD se selecciona una dada familia de planos $\{hkl\}$ colocando el detector a un ángulo $2\theta$ adecuado y se mide la intensidad de dicha reflexión.
 En esta situación, los únicos cristales que contribuirán a la intensidad de la reflexión medida son aquellos cuya dirección $[hkl]$ sea perpendicular a la superficie de la muestra, es decir, la intensidad de una figura de polos en una dada dirección $\mathbf{y}$ es proporcional a la cantidad de cristales que cumplen la condición $[hkl] \ // \ \mathbf{y}$, lo que matemáticamente se escribe como:
 \begin{equation}
@@ -583,13 +586,13 @@ A partir de combinar las Ecs. \ref{eq:PDF}, \ref{eq:ODFharm} y \ref{eq:PDFharm},
 \end{equation}
 \noindent
 La Ec. \ref{eq:CoefHarm} permite entonces la determinación experimental de los coeficientes $F_{l}^{\nu}(\mathbf{h}_i)$, que junto con la igualdad \ref{eq:FPDFharm} constituyen un sistema de $i$ ecuaciones (una por cada FP medida) e infinitas incógnitas, de donde se deduce que para determinar completamente una FDO se necesitan medir infinitas FPs, lo cual es imposible en la práctica.
-No obstante este problema, Bunge\cite{bunge2013texture} también logró demostrar que dependiendo de la simetrías de cristal y de muestra dadas, el número de coeficientes independientes en \ref{eq:FPDFharm} se puede reducir notablemente, cómo se pude ver en la Fig. \ref{fig:harmonics}.
+No obstante este problema, Bunge\cite{bunge2013texture} también logró demostrar que dependiendo de la simetrías de cristal y de muestra dadas, el número de coeficientes independientes en \ref{eq:FPDFharm} se puede reducir notablemente, cómo se puede ver en la Fig. \ref{fig:harmonics}.
 Esto permite estimar la FDO con una precisión razonable midiendo sólo unas pocas FPs, ya que el empleo de las simetrías permite conocer coeficientes de órdenes más altos a partir de aquellos de órdenes más bajos. 
 Por ejemplo para materiales con simetría cristalina cúbica, se puede reconstruir razonablemente bien la FDO solamente con tres FPs.
 \begin{figure}[!htb]
   \centering
   \includegraphics[width=0.7\textwidth]{harmonics}
-  \caption{Cantidad de coeficientes independientes en un desarrollo de armónicos esféricos como función del grado $l$. La línea de puntos en la figura indica el máximo orden del desarrollo en armónicos esféricos de la Función de Distribución de Orientaciones que se puede obtener habiendo medido tres Figuras de Polos.}
+  \caption{Cantidad de coeficientes independientes en un desarrollo de armónicos esféricos como función del grado $l$. La línea de puntos en la figura indica el máximo orden del desarrollo en armónicos esféricos de la Función de Distribución de Orientaciones que se puede obtener habiendo medido tres Figuras de Polos. Imagen obtenida de [ref].}
   \label{fig:harmonics}
 \end{figure}
 
@@ -602,16 +605,14 @@ Otra cantidad que se puede derivar a partir de $f(\mathbf{g})$ es la llamada \te
 donde ahora el camino $\mathbf{\Gamma}$ es una rotación alrededor de la dirección de la muestra definida por $\mathbf{y}$.
 Si bien toda la información sobre la distribución de orientaciones está contenida en la $f(\mathbf{g})$, a menudo resulta más sencillo estudiar la textura de los materiales a partir de las FPs o de las FPI, sobre todo cuando se trabaja con materiales y procesos conocidos.
 
-% \subsection{La textura, su relación con la microestructura y los procesos de deformación}\label{SS:Defo}
 \subsection{FDO y FDO generalizada}\label{SS:ODFG}
 Según lo explicado en la Sec. \ref{S:DRX}, la determinación de la FDO se puede hacer a partir de la medición de figuras de polos, que a su vez pueden ser determinadas por medio de experimentos de XRD, ya que en dichos experimentos se tiene que la intensidad integrada de la reflexión $\{hkl\}$ es proporcional al número de planos cristalinos paralelos a  la superficie del material en la dirección $\mathbf{y}$.
 Ahora bien, como ya se discutió previamente, a partir del estudio de la forma de picos medidos en la misma dirección $\mathbf{y}$ se puede determinar el tamaño de la micro-estructura de los planos $\{hkl\}$ que pertenecen a los cristales que están difractando.
-Por ejemplo, si me mide completamente el pico de la reflexión $hkl$ se puede determinar la proporción de cristales que tienen sus planos $\{hkl\}$ paralelos a la superficie del material, pero además se puede a partir del ancho $H$ de dicho pico estimar la longitud de la columna que difracta coherentemente en la dirección $[hkl]$ empleando la Ec. \ref{eq:Scherrer} o la Ec. \ref{eq:Lorentz} y ver la distorsión perpendicular a esa dirección utilizando la Ec. \ref{eq:Gauss}.
-De esta manera se puede asignar a la dirección $\mathbf{y}$ no sólo un número asociado al número de cristales con sus planos en esa dirección, sino un par de números que indicarán el estado de la micro-estructura de los planos cristalinos orientados en dicha dirección, lo que permite construir lo que se denominas \textit{Figuras de Polos Generalizadas (FPG)} de tamaño de dominio o de distorsión, respectivamente.
+Por ejemplo, si se mide completamente el pico de la reflexión $hkl$ se puede determinar la proporción de cristales que tienen sus planos $\{hkl\}$ paralelos a la superficie del material, pero además se puede a partir del ancho $H$ de dicho pico estimar la longitud de la columna que difracta coherentemente en la dirección $[hkl]$ empleando la Ec. \ref{eq:Scherrer} o la Ec. \ref{eq:Lorentz} y ver la distorsión perpendicular a esa dirección utilizando la Ec. \ref{eq:Gauss}.
+De esta manera se puede asignar a la dirección $\mathbf{y}$ no sólo un número asociado al número de cristales con sus planos en esa dirección, sino un par de números que indicarán el estado de la micro-estructura de los planos cristalinos orientados en dicha dirección, lo que permite construir lo que se denominan \textit{Figuras de Polos Generalizadas (FPG)} de tamaño de dominio o de distorsión, respectivamente.
 
 Es más, si se incorpora la suposición \textit{ad-hoc} de que el ensanchamiento de los picos es proporcional a la energía acumulada en dichos cristales se pueden extender heurísticamente los procedimientos explicados en la Sec. \ref{S:Text} para estimar las FDO a partir de las FP, y utilizarlos para calcular una \textit{Función de Distribución de Orientaciones Generalizada (FDOG)} a partir de las FPG. 
-De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede, en principio, estudiar no sólo la orientación preferencial de los cristales para un dado proceso de deformación, sino hacer un análisis semi-cuantitativo de cómo es la micro-estructura de los cristales que tienen orientaciones similares, lo cual permite extraer muchas conclusiones acerca de como es la anisotropía en la la acumulación de defectos para un determinado material en alguna situación de interés. 
-% \section{Revisión bibliográfica y estado del arte}\label{S:RB}
+De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede, en principio, estudiar no sólo la orientación preferencial de los cristales para un dado proceso de deformación, sino hacer un análisis semi-cuantitativo de cómo es la micro-estructura de los cristales que tienen orientaciones similares, lo cual permite extraer muchas conclusiones acerca de como es la anisotropía de la acumulación de defectos para un determinado material en alguna situación de interés. 
 
 \nomenclature{FP}{Figura de Polos}
 \nomenclature{FPG}{Figura de Polos Generalizadas}
@@ -622,10 +623,11 @@ De esta manera, a partir de un análisis integral de las FDO y las FDOG se puede
 En el Cap. \ref{C:Materiales} se explicarán lo detalles de los experimentos de difracción de rayos X que se realizaron para poder medir la textura de los materiales estudiados en el desarrollo de esta tesis. 
 También se explicarán los algoritmos empleados para poder procesar el gran caudal de datos que se obtiene de un experimento de XRD realizado con luz sincrotrón, así como una descripción del método empleado en las mediciones de EBSD que usaron para corroborar los resultados obtenidos por medio de las técnicas de LPA aplicada a los resultados de sincrotrón.
 
-Cada uno de los capítulos que siguen de la Sec. \ref{C:Materiales} está dedicado a uno de los materiales estudiados.
+Cada uno de los capítulos que siguen está dedicado a uno de los materiales estudiados.
 En los capítulos \ref{C:IF}, \ref{C:F138} y \ref{C:G2205} se estudian tres aceros con características diferentes: el del Cap. \ref{C:IF} es un acero denominado libre de intersticiales (IF) que tiene una estructura cristalina de tipo BCC, el del Cap. \ref{C:F138} es un acero inoxidable denominado F138, que tiene un estructura de tipo FCC y también se estudió un acero de dos fases (BCC + FCC) nomenclado G2205, y cuyos principales resultados se encuentran en el Cap. \ref{C:G2205}.
 
-En el Cap. \ref{C:Al} se muestran los resultados de aplicar los métodos descriptos en un aluminio 1050 obtenido comercialmente.
+En los Caps. \ref{C:AlS} y \ref{C:AlA} se muestran los resultados de aplicar los métodos descriptos en un aluminio 1050 obtenido comercialmente laminado simétrica y asimétricamente, respectivamente.
+
 Al final de cada capítulo se encuentra una conclusión particular que considera lo visto con cada material individualmente, y en el Cap. \ref{C:Conclusiones} se presenta una conclusión general del trabajo.
 
 Finalmente en el Cap. \ref{C:Proyecciones} pueden apreciarse posibles caminos a seguir a partir de los resultados obtenidos en esta tesis.
