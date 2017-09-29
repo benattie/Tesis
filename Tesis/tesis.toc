@@ -31,11 +31,11 @@
 \contentsline {section}{\numberline {4.4}Conclusiones}{63}{section.4.4}
 \contentsline {chapter}{\numberline {5}Estudio sobre el Aluminio 1050 laminado sim\IeC {\'e}tricamente}{65}{chapter.5}
 \contentsline {section}{\numberline {5.1}An\IeC {\'a}lisis de la textura}{65}{section.5.1}
-\contentsline {section}{\numberline {5.2}Estudio de la microestructura de la muestra $Al_C$ por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{67}{section.5.2}
-\contentsline {section}{\numberline {5.3}Estudio de la microestructura de la muestra $Al_L$ por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{68}{section.5.3}
-\contentsline {section}{\numberline {5.4}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{70}{section.5.4}
-\contentsline {section}{\numberline {5.5}Discusi\IeC {\'o}n de resultados}{70}{section.5.5}
-\contentsline {section}{\numberline {5.6}Conclusiones}{70}{section.5.6}
+\contentsline {section}{\numberline {5.2}Estudio de la microestructura de la muestra $Al_C$ por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{68}{section.5.2}
+\contentsline {section}{\numberline {5.3}Estudio de la microestructura de la muestra $Al_L$ por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{70}{section.5.3}
+\contentsline {section}{\numberline {5.4}Estudio de la microestructura por EBSD - Revisi\IeC {\'o}n}{72}{section.5.4}
+\contentsline {section}{\numberline {5.5}Discusi\IeC {\'o}n de resultados}{72}{section.5.5}
+\contentsline {section}{\numberline {5.6}Conclusiones}{72}{section.5.6}
 \contentsline {chapter}{\numberline {6}Estudio sobre el Aluminio 1050 laminado asim\IeC {\'e}tricamente}{73}{chapter.6}
 \contentsline {section}{\numberline {6.1}Estudio de la microestructura por el m\IeC {\'e}todo de Langford y figuras de polos generalizadas}{73}{section.6.1}
 \contentsline {section}{\numberline {6.2}Discusi\IeC {\'o}n de resultados}{73}{section.6.2}
