@@ -294,6 +294,32 @@
 \newblock
   \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1359646208000912}.
 
+\bibitem{Engler2001}
+\textsc{Engler, O., Kim, H.~C., Huh, M.~Y.}
+\newblock {Formation of {\{} 111 {\}} {\textregistered} bre texture in
+  recrystallised aluminium sheet}.
+\newblock \emph{Mater. Sci. Technol.}, \textbf{17}~(January), 75--86, 2001.
+
+\bibitem{Hutchinson1984}
+\textsc{Hutchinson, W.~B.}
+\newblock Development and control of annealing textures in low-carbon steels.
+\newblock \emph{International Metals Reviews}, \textbf{29}~(1), 25--42, 1984.
+\newblock \urlprefix\url{http://dx.doi.org/10.1179/imtr.1984.29.1.25}.
+
+\bibitem{Ray1994}
+\textsc{Ray, R.~K., Jonas, J.~J., Hook, R.~E.}
+\newblock Cold rolling and annealing textures in low carbon and extra low
+  carbon steels.
+\newblock \emph{International Materials Reviews}, \textbf{39}~(4), 129--172,
+  1994.
+\newblock \urlprefix\url{http://dx.doi.org/10.1179/imr.1994.39.4.129}.
+
+\bibitem{Williamson1956a}
+\textsc{Williamson, G.~K., Smallman, R.~E.}
+\newblock {III. Dislocation densities in some annealed and cold-worked metals
+  from measurements on the X-ray debye-scherrer spectrum}.
+\newblock \emph{Philos. Mag.}, \textbf{1}~(1), 34--46, 1956.
+
 \bibitem{Scheriau2011}
 \textsc{Scheriau, S., Zhang, Z., Kleber, S., Pippan, R.}
 \newblock Deformation mechanisms of a modified 316l austenitic steel subjected
@@ -350,5 +376,58 @@
 \newblock \underline{En}: Textures of Materials - ICOTOM 16, tomo 702 de
   \emph{Materials Science Forum}, p\'ags. 647--650. Trans Tech Publications,
   2012.
+
+\bibitem{ESAB:AlAlloys}
+\textsc{ESAB}.
+\newblock Understanding the aluminum alloy designation system, 2017.
+\newblock
+  \urlprefix\url{http://www.esabna.com/us/en/education/blog/understanding-the-aluminum-alloy-designation-system.cfm},
+  [Online; accessed 01-October-2017].
+
+\bibitem{AlOrg:AlAlloys}
+\textsc{Association, T.~A.}
+\newblock International alloy designations and chemical composition limits for
+  wrought aluminum and wrought aluminum alloys, 2017.
+\newblock
+  \urlprefix\url{http://www.aluminum.org/sites/default/files/TEAL_1_OL_2015.pdf},
+  [Online; accessed 01-October-2017].
+
+\bibitem{PAInt:AlAlloys}
+\textsc{International, P.}
+\newblock Ch. 6: Applications for aluminium alloys and tempers, 2017.
+\newblock
+  \urlprefix\url{http://www.pa-international.com.au/images/stories/Applications-for-Aluminum-Alloys-and-Tempers.pdf},
+  [Online; accessed 01-October-2017].
+
+\bibitem{AZOM:AlAlloys}
+\textsc{Materials, A.}
+\newblock Aluminium and aluminium alloys - designations, 2017.
+\newblock \urlprefix\url{https://www.azom.com/article.aspx?ArticleID=310},
+  [Online; accessed 01-October-2017].
+
+\bibitem{jata2013aluminum}
+\textsc{Jata, K., Singh, A.}
+\newblock Aluminum-Lithium Alloys: Chapter 5. Texture and Its Effects on
+  Properties in Aluminum--Lithium Alloys.
+\newblock Elsevier Science, 2013.
+\newblock \urlprefix\url{https://books.google.com.ar/books?id=94ZzDAAAQBAJ}.
+
+\bibitem{Hirsch19882863}
+\textsc{Hirsch, J., Lücke, K.}
+\newblock Overview no. 76: Mechanism of deformation and development of rolling
+  textures in polycrystalline f.c.c. metals—i. description of rolling texture
+  development in homogeneous cuzn alloys.
+\newblock \emph{Acta Metallurgica}, \textbf{36}~(11), 2863 -- 2882, 1988.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0001616088901721}.
+
+\bibitem{Engler1996187}
+\textsc{Engler, O., Vatne, H., Nes, E.}
+\newblock The roles of oriented nucleation and oriented growth on
+  recrystallization textures in commercial purity aluminium.
+\newblock \emph{Materials Science and Engineering: A}, \textbf{205}~(1), 187 --
+  198, 1996.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0921509395098798}.
 
 \end{thebibliography}

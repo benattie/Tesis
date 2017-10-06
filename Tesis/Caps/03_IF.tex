@@ -4,6 +4,9 @@
 
 En este capítulo se estudia la microestructura de un acero libre de intersticiales (IF) que fue laminado hasta lograr una reducción de la sección transversal del 70\,\%.
 Este acero fue obtenido comercialmente, y posee la textura propia de un material BCC laminado, con dos componentes predominantes: la fibra $\alpha$ y la fibra $\gamma$.
+De particular interés es la presencia de la fibra $\gamma$, que es la que confiere al material una elevada anisotropía de tipo planar\cite{Engler2001,Hutchinson1984,Ray1994}.
+Esto significa que las chapas tendrán una elevada capacidad de deformarse en dirección perpendicular a las mismas, pero tendrán propiedades mecánicas isótropas en todas las direcciones paralelas.
+Desde luego esta propiedad es particualmente interesante, ya que mejora la capacidad de conformado del acero, lo que resulta particularmente útil en la elaboración de carrocerías de autos, por ejemplo.
 
 Se eligió este acero por su importancia en la industria automotriz y porque existe cierto consenso acerca de cómo se desarrolla la microestructura de este material en condiciones de laminado, donde se espera que los defectos se acumulan predominantemente en la fibra $\gamma$.
 
@@ -188,37 +191,12 @@ Adicionalmente, el tamaño de grano que se obtiene para los granos que no perten
 A partir de la analizar los dos histogramas que aparecen en la Fig. \ref{fig:IFEBSDVs}-b se obtienen conclusiones parecidas, ya que el valor promedio de la distribución de GND para las orientaciones pertenecientes a la fibra $\alpha$ de 1.30 10$^{14}$\,m$^{-2}$, es claramente menor al obtenido tomando sólo las orientaciones pertenecientes a la fibra $\gamma$, que es igual a 1.79 10$^{14}$\,m$^{-2}$.
 Es más, la propia distribución de GND de las orientaciones pertenecientes a la fibra $\gamma$ es más ancha, con muchos más valores altos que la distribución de las orientaciones que pertenecen a fibra $\alpha$, explicando por qué el promedio de una es mayor que el de la otra, más allá de que la moda de ambas distribuciones es parecida.
 Finalmente, puede verse que las distribuciones complementarias son parecidas, es decir que la distribución de GND de las orientaciones que no pertenecen a la fibra $\alpha$ es parecida a la distribución de orientaciones que pertenecen a fibra $\gamma$, y viceversa.
-\section{Discusión de resultados}\label{S:IFDis}
-Como se dijo al principio de la Sec. \ref{S:IFCMWP}, el método de Langford y el CMWP no sólo difieren en la forma en que presentan los datos, sino que ambos modelan de forma conceptualmente distinta la anisotropía en la microestructura de los materiales.
-Mientra el primer método considera que la anisotropía está vinculada fundamentalmente con la orientación de los cristales caracterizada por la textura, el segundo considera que las cristalitas tienen forma esférica y que la anisotropía en los ensanchamientos no tiene relación con la textura, sino que es consecuencia de variaciones en el factor de contraste, es decir, la anisotropía de ensanchamiento es una consecuencia geométrica, definida por la relación entre el vector de Burgers de una dislocación y el vector de difracción.
-Como consecuencia de esto, la acumulación de defectos no depende de la textura, sino de la orientación de la muestra.
-De alguna manera, esta conclusión es inevitable si se tiene en cuenta que expresiones como la Ec. \ref{eq:Cav2}, que son las empleadas en el software CMWP, se obtienen a partir de la suposición de que el material no tiene textura y de que todos los sistemas de deslizamiento están igualmente poblados.
 
-Desde luego la suposición de que el material no tiene textura claramente no se puede aplicar a este material, sin embargo puede considerarse que todos los sistemas de deslizamiento están igualmente poblados en materiales cúbicos, ya que éstos poseen pocos sistemas de deslizamiento activos.
-El problema que tiene este modelo para estudiar la densidad de dislocaciones del material, es que debido a las suposiciones en que se basa, predice que la densidad de dislocaciones debe ser uniforme para todo el material, lo que no parece corresponder con la FPG que se observa en la Fig. \ref{fig:IFCMWPrho}-b, a menos que se considere que la precisión del método CMWP para estimar densidad de dislocaciones sólo permite estimar el orden de magnitud de dicha cantidad.
-Notar que este es un problema parecido al que se le presentó a Kamminga et al en \cite{mittemeijer2003diffraction}, y que fue abordado en la Sec. \ref{SS:Langford}.
+\section{Estudio sobre muestras recocidas}\label{S:IFRec}
+Para avanzar más sobre el análisis, vamos a estudiar las mismas muestras durante distintos tipos de recocido. A las muestras deformadas las recocimos a 400, 600 y 730 grados. Se sabe que el recocido a 400 y 600 grados no tiene gran influencia en la textura, y que esas temperaturas no son suficiente para limpiar de dislocaciones ni para hacer crecer los granos. Por otro lado, a 730 grados, se sabe que la textura tiene un cambio notable, dejando unicamente a la fibra gamma como componente principal de textura. A su vez, el tamaño de grano tiene un incremento notable y la densidad de dislocaciones disminuye tambien.
+En esta seccion vamos a ver como ese tipo de evolucion se refleja en el analisis de langford y se va a usar tecnica de ebsd como metodo de validacion a una escala distinta.
 
-Por otro lado, suponer que el tamaño de cristalita depende solamente de la orientación de la muestra resulta verosímil al ver los mapa de EBSD, donde se ve que la forma de los granos está claramente condicionada por la forma en que el material fue deformado, aunque siempre debe recordarse que el concepto de grano definido por la metalografía o EBSD es diferente al concepto de cristalita derivado de los experimentos de XRD, ya que ambos surgen de interacciones físicas completamente diferentes.
-
-Sin embargo, es claro que el factor de contraste contribuye al menos parcialmente al efecto de ensanchamiento anisotrópico, aunque no queda claro en qué medida, y el no tomar en cuenta este factor es una de las críticas que se le puede hacer al método de Langford.
-
-La otra crítica que se puede hacer es que la en la reconstrucción de la FDOG de FWHM se tienen que emplear datos con elevado error, ya que el ancho de pico es una cantidad difícil de estimar apropiadamente cuando el pico tiene poca intensidad.
-Si bien esto también ocurre en alguna medida cuando se miden FPs, en el caso de la textura los datos menos confiables son los valores más pequeños de la FP, por lo que su contribución a la FDO es menor.
-En el caso de la FPG de FWHM ocurre que los los picos de menor intensidad tienden a ser de los que poseen mayor FWHM, por  lo que en la FPG, lo valores más elevados pueden ser los menos confiables, lo que a su vez reduciría la confiabilidad de la FDOG obtenida a partir de las FPG.
-
-\begin{figure}[!htb]
-  \centering
-  \includegraphics[width=\textwidth]{Quitandodatos}
-  \caption{Figuras de polos recalculadas para distintos datos de entrada. Para verificar la consistencia de las FDOs calculadas se fueron removiendo datos en las FPGs de FWHM, con base a la intensidad de la FP de intensidad. Los porcentajes que figuran en la imagen indican que se removieron los FWHM que correspondían a puntos que están en el 0\,\%, 10\,\%, 20\,\%, 30\,\% de la distribución de intensidad en las FPs, ya que esos FWHM son lo que tienen mayor error.}
-  \label{fig:IFFWHMRecvsCrop}
-\end{figure}
-
-Para poner a prueba la importancia que tienen estos valores poco confiables en la construcción de la FDOG, se decidió analizar cómo varía la reconstrucción de las FPGs de FWHM cuando se remueven de la FPG experimental los valores de FWHM que provienen de los picos de menor intensidad.
-El proceso se repitió removiendo el 10\,\%, 20\,\%, y 30\,\% de los valores menos intensos, y como se puede ver en la progresión de la Fig. \ref{fig:IFFWHMRecvsCrop}, si bien se puede observar pequeñas variaciones en las FPGs recalculadas, la relaciones cualitativas se mantienen intactas, aún cuando se remueve tanto como el 30\,\% de los datos, lo que resulta en un apoyo importante al método de Langford.
-
-Finalmente, cuando se tienen en cuenta los resultados obtenidos por EBSD, puede verse que cuando se analiza la microestructura a partir de la misorientación de los cristales, la conclusión es que los granos que pertenecen a la fibra $\alpha$ son en promedio más grandes y con menor cantidad de dislocaciones que los que pertenecen a la fibra $\gamma$, lo que implica que los experimentos de EBSD predicen que los picos que se obtendrían de realizar experimentos de XRD sobre los granos que pertenecen a la fibra $\alpha$ deberían ser más angostos que los que se medirían si se hiciera un experimento de difracción sólo con los cristales que pertenecen a la fibra $\gamma$, en acuerdo con lo que se observó en la FDOG de FWHM en la Fig. \ref{fig:IFODFComp}, en apoyo al método de Langford.
-El acuerdo entre el método de Langford y las mediciones de EBSD resulta más importante si se recuerda que los datos de microestructura obtenidos por EBSD son completamente independientes de los obtenidos por XRD, y que, a pesar de que la estadística provista por los experimentos de EBSD es menor que la de XRD, las FDO que se obtienen con ambas técnicas son lo suficientemente similares como para sostener que ambas dan información igualmente representativa de lo que ocurre con la microestructura de la muestra.
-
+\subsection{Método de Langford}\label{SS:IFRecLang}
 Habiendo observado la buena correlación que existe entre las variaciones de ancho de pico y la textura del material, se decidió dar un paso más con el método de Langford, que consistió en emplear las Ecs. \ref{eq:Gauss}, \ref{eq:Lorentz} y \ref{eq:Hg} para generar FPG de tamaño y deformación a partir de las mediciones de FWHM y factor de mezcla $\eta$.
 Las FPG de tamaño y deformación fueron empleadas para generar las FDOG de tamaño y deformación que se muestran en la Fig. \ref{fig:IFMicroRecocido}, y este análisis se hizo tanto para la muestra laminada como para tres muestras que fueron recocidas a diferentes temperaturas después del laminado.
 Todas las muestras fueron recocidas por 5 minutos, y las temperaturas de recocido fueron 400\,$^{\circ}$C, 600\,$^{\circ}$C y 750\,$^{\circ}$C, respectivamente.
@@ -240,6 +218,7 @@ Esto implica que las menores temperaturas de recocido aportan suficiente energí
 En el recocido a 750\,$^{\circ}$C puede verse un comportamiento completamente distinto, ya que se observa como las orientaciones que no pertenecen a la fibra $\gamma$ desaparecieron casi completamente, y que las FDOG de tamaño y deformación se homogeneizaron casi completamente.
 Esto significa que a 750\,$^{\circ}$C, no sólo se aniquilan las dislocaciones, sino que los dominios orientados según la fibra $\gamma$ crecen a expensas de los dominios más grandes que tienen orientaciones menos favorables.
 
+\subsection{EBSD}\label{SS:IFRecLang}
 Si se analizan las muestras recocidas por medio de la técnica de EBSD, la tendencia observada es la misma que la observada a través del método de Langford.
 Sin embargo, dada la anisotropía introducida por el laminado, es de esperar que los tamaños de dominio EBSD muestren también una anisotropía de muestra.
 En la Fig. \ref{fig:VlyHl} puede verse la variación de los tamaños de dominio para la muestra deformada en frío y para las tres temperaturas de recocido, separadas por componente de textura.
@@ -271,8 +250,69 @@ Cuando las muestras son recocidas a 730\,$^{\circ}$ se observa un descenso marca
 Por último, cabe mencionar que para comparar mejor los resultados de tamaño obtenidos en EBSD con los de XRD, es más correcto comparar las longitudes medidas a lo largo de RD cuando se analiza la fibra $\alpha$, con las medidas a lo largo de ND para las orientaciones pertenecientes a la fibra $\gamma$, como se hace en la Fig. \ref{fig:GNDyVH}-b.
 Como era previsible al observar las mediciones de la Fig. \ref{fig:VlyHl}, las diferencias observadas entre las fibras $\alpha$ y $\gamma$ se vuelven más notables, tanto para la muestra laminada en frío como para las muestras recocidas a temperaturas menores a 730\,$^{\circ}$, mientras que para la muestra recocida a 730\,$^{\circ}$ la correlación entre tamaño de grano y componente de textura se pierde completamente, en consonancia con lo observado en las FDOG de la Fig. \ref{fig:IFMicroRecocido}.
 
+\section{Discusión de resultados}\label{S:IFDis}
+Como se dijo al principio de la Sec. \ref{S:IFCMWP}, el método de Langford y el CMWP no sólo difieren en la forma en que presentan los datos, sino que ambos modelan de forma conceptualmente distinta la anisotropía en la microestructura de los materiales.
+Mientras el primer método considera que la anisotropía está vinculada fundamentalmente con la orientación de los cristales caracterizada por la textura, el segundo considera que las cristalitas tienen forma esférica y que la anisotropía en los ensanchamientos no tiene relación con la textura, sino que es consecuencia de variaciones en el factor de contraste, es decir, la anisotropía de ensanchamiento es una consecuencia geométrica, definida por la relación entre el vector de Burgers de una dislocación y el vector de difracción.
+Como consecuencia de esto, la acumulación de defectos no depende de la textura, sino de la orientación de la muestra.
+De alguna manera, esta conclusión es inevitable si se tiene en cuenta que expresiones como la Ec. \ref{eq:Cav2}, que son las empleadas en el software CMWP, se obtienen a partir de la suposición de que el material no tiene textura y de que todos los sistemas de deslizamiento están igualmente poblados.
+
+Desde luego la suposición de que el material no tiene textura claramente no se puede aplicar a este material, sin embargo puede considerarse que todos los sistemas de deslizamiento están igualmente poblados en materiales cúbicos, ya que éstos poseen pocos sistemas de deslizamiento activos.
+El problema que tiene este modelo para estudiar la densidad de dislocaciones del material, es que debido a las suposiciones en que se basa, predice que la densidad de dislocaciones debe ser uniforme para todo el material, lo que no parece corresponder con la FPG que se observa en la Fig. \ref{fig:IFCMWPrho}-b, a menos que se considere que la precisión del método CMWP para estimar densidad de dislocaciones sólo permite estimar el orden de magnitud de dicha cantidad.
+Notar que este es un problema parecido al que se le presentó a Kamminga et al en \cite{mittemeijer2003diffraction}, y que fue abordado en la Sec. \ref{SS:Langford}.
+
+Por otro lado, suponer que el tamaño de cristalita depende solamente de la orientación de la muestra resulta verosímil al ver los mapa de EBSD, donde se ve que la forma de los granos está claramente condicionada por la forma en que el material fue deformado, aunque siempre debe recordarse que el concepto de grano definido por la metalografía o EBSD es diferente al concepto de cristalita derivado de los experimentos de XRD, ya que ambos surgen de interacciones físicas completamente diferentes.
+
+Sin embargo, es claro que el factor de contraste contribuye al menos parcialmente al efecto de ensanchamiento anisotrópico, aunque no queda claro en qué medida, y el no tomar en cuenta este factor es una de las críticas que se le puede hacer al método de Langford.
+
+La otra crítica que se puede hacer es que la en la reconstrucción de la FDOG de FWHM se tienen que emplear datos con elevado error, ya que el ancho de pico es una cantidad difícil de estimar apropiadamente cuando el pico tiene poca intensidad.
+Si bien esto también ocurre en alguna medida cuando se miden FPs, en el caso de la textura los datos menos confiables son los valores más pequeños de la FP, por lo que su contribución a la FDO es menor.
+En el caso de la FPG de FWHM ocurre que los los picos de menor intensidad tienden a ser de los que poseen mayor FWHM, por  lo que en la FPG, lo valores más elevados pueden ser los menos confiables, lo que a su vez reduciría la confiabilidad de la FDOG obtenida a partir de las FPG.
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[width=\textwidth]{Quitandodatos}
+  \caption{Figuras de polos recalculadas para distintos datos de entrada. Para verificar la consistencia de las FDOs calculadas se fueron removiendo datos en las FPGs de FWHM, con base a la intensidad de la FP de intensidad. Los porcentajes que figuran en la imagen indican que se removieron los FWHM que correspondían a puntos que están en el 0\,\%, 10\,\%, 20\,\%, 30\,\% de la distribución de intensidad en las FPs, ya que esos FWHM son lo que tienen mayor error.}
+  \label{fig:IFFWHMRecvsCrop}
+\end{figure}
+
+Para poner a prueba la importancia que tienen estos valores poco confiables en la construcción de la FDOG, se decidió analizar cómo varía la reconstrucción de las FPGs de FWHM cuando se remueven de la FPG experimental los valores de FWHM que provienen de los picos de menor intensidad.
+El proceso se repitió removiendo el 10\,\%, 20\,\%, y 30\,\% de los valores menos intensos, y como se puede ver en la progresión de la Fig. \ref{fig:IFFWHMRecvsCrop}, si bien se puede observar pequeñas variaciones en las FPGs recalculadas, la relaciones cualitativas se mantienen intactas, aún cuando se remueve tanto como el 30\,\% de los datos, lo que resulta en un apoyo importante al método de Langford.
+
+Finalmente, cuando se tienen en cuenta los resultados obtenidos por EBSD, puede verse que cuando se analiza la microestructura a partir de la misorientación de los cristales, la conclusión es que los granos que pertenecen a la fibra $\alpha$ son en promedio más grandes y con menor cantidad de dislocaciones que los que pertenecen a la fibra $\gamma$, lo que implica que los experimentos de EBSD predicen que los picos que se obtendrían de realizar experimentos de XRD sobre los granos que pertenecen a la fibra $\alpha$ deberían ser más angostos que los que se medirían si se hiciera un experimento de difracción sólo con los cristales que pertenecen a la fibra $\gamma$, en acuerdo con lo que se observó en la FDOG de FWHM en la Fig. \ref{fig:IFODFComp}, en apoyo al método de Langford.
+El acuerdo entre el método de Langford y las mediciones de EBSD resulta más importante si se recuerda que los datos de microestructura obtenidos por EBSD son completamente independientes de los obtenidos por XRD, y que, a pesar de que la estadística provista por los experimentos de EBSD es menor que la de XRD, las FDO que se obtienen con ambas técnicas son lo suficientemente similares como para sostener que ambas dan información igualmente representativa de lo que ocurre con la microestructura de la muestra.
+
+Since the dislocation density is a bulk property, for comparing the values obtained with the different methods, average values of $\rho$ for each of the generalized pole figures were taken.
+The $\rho_{CMWP}$ average value was 3.66 10$^{14}$\,m$^{-2}$. For the calculations of the $\rho_{Langford}$ average value, the method of Williamson and Smallman was implemented\cite{Williamson1956a}.  First, average values of $\rho_{Size}^{hkl}$ and $\rho_{Strain}^{hkl}$ were obtained for each pole figure $\{ hkl\}$, according to the relations:
+
+\begin{eqnarray}
+ \rho_{Size}^{hkl} & = & \frac{3}{L^{hkl}} \\
+ \rho_{Strain}^{hkl} & = & \frac{C \left( \varepsilon^{hkl} \right)^2}{b}
+ \label{eq:WS1}
+\end{eqnarray}
+\noindent
+with C a constant that depends on the material elastic constants, b the magnitude of the burgers vector. After that, $\rho_{Langford}^{hkl}$, the average value for the whole pole figure according to Langford, was obtained from the Size and Strain values according to the expression:
+
+\begin{equation}
+  \rho_{Langford}^{hkl} \ = \ \left(  \rho_{Size}^{hkl} \ \rho_{Strain}^{hkl} \right)^{1/2} \\
+  \label{eq:WS2}
+\end{equation}
+
+Finally, the values obtained for each pole figure were averaged to produce the $\rho_{Langford}$, $\rho_{Langford}^{Size}$, $\rho_{Langford}^{Strain}$ shown in Table \ref{tab:rhocomp}
 
 
+\begin{table}[h!]
+\centering
+\caption{Average value for the dislocation density for different methods}
+\label{tab:rhocomp}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+  \rowcolor[HTML]{CBCEFB} 
+  $\rho_{CMWP}$  & $\rho_{Langford}$ &  $\rho_{Langford}^{Strain}$ &  $\rho_{Langford}^{Size}$ \\ \hline
+  $3.66 \, 10^{14}$\,m$^{-2}$ & $4.87 \, 10^{14}$\,m$^{-2}$ & $2.33 \, 10^{14}$\,m$^{-2}$ & $1.17 \, 10^{15}$\,m$^{-2}$ \\ \hline
+  \end{tabular}
+\end{table}
+
+It is clear that CMWP is able to separate domain sizes and dislocation densities through their different dependences with (hkl) variations. In the current case, there is a trend to accumulate dislocations in loose arrays further justifying the application of Langford model. Williamson and Smallman consider that subgrain boundaries created by the deformation process can still be considered as dislocation arrays with their own contribution to dislocation density. On the other hand, CMWP model will capture the dislocation nature of those arrays with the limitation of the known phenomena of strain field screening when the arrays are too compact. There is a gray region between loose arrays and real grain or domain boundaries constituted by the compact arrays, which are evaluated different by various models.
 
 \section{Conclusiones}\label{S:IFConclusiones}
 Se deformó un acero libre de intersticiales por laminado hasta lograr una reducción de la sección transversal del 75\,\%, y se estudió su microestructura por medio de mediciones de EBSD y de difracción de rayos X.
