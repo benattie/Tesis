@@ -48,35 +48,42 @@
  \nomgroup{E}
 
   \item [{EBSD}]\begingroup Difracción de electrones retrodifundidos\nomeqref {1.27}
-		\nompageref{18}
+		\nompageref{19}
   \item [{ECAE}]\begingroup Equal Angle Angular Extrusion, Deformación de Igual Canal Angular\nomeqref {4.0}
 		\nompageref{61}
 
  \nomgroup{F}
 
   \item [{FDO}]\begingroup Función de Distribución de Orientaciones\nomeqref {1.37}
-		\nompageref{26}
+		\nompageref{27}
   \item [{FDOG}]\begingroup Función de Distribución de Orientaciones Generalizadas\nomeqref {1.37}
-		\nompageref{26}
+		\nompageref{27}
   \item [{FP}]\begingroup Figura de Polos\nomeqref {1.37}
-		\nompageref{26}
+		\nompageref{27}
   \item [{FPG}]\begingroup Figura de Polos Generalizadas\nomeqref {1.37}
-		\nompageref{26}
+		\nompageref{27}
 
  \nomgroup{G}
 
   \item [{GND}]\begingroup Dislocaciones geométricamente necesarias\nomeqref {3.0}
-		\nompageref{50}
+		\nompageref{51}
+
+ \nomgroup{H}
+
+  \item [{HAGB}]\begingroup Siglas en inglés para Bordes de grano de alto ángulo (High Angle Grain Boundary).\nomeqref {4.0}
+		\nompageref{66}
 
  \nomgroup{L}
 
+  \item [{LAGB}]\begingroup Siglas en inglés para Bordes de grano de bajo ángulo (Low Angle Grain Boundary).\nomeqref {4.0}
+		\nompageref{66}
   \item [{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}
 		\nompageref{30}
 
  \nomgroup{S}
 
   \item [{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.27}
-		\nompageref{18}
+		\nompageref{19}
 
  \nomgroup{X}
 

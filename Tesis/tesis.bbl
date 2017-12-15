@@ -140,6 +140,14 @@
 \newblock {Asymmetric X-ray line broadening of plastically deformed crystals}.
 \newblock \emph{J. Appl. Crystallogr.}, \textbf{21}~(1), 47--54, 1988.
 
+\bibitem{Warren1959147}
+\textsc{Warren, B.}
+\newblock X-ray studies of deformed metals.
+\newblock \emph{Progress in Metal Physics}, \textbf{8}~(Supplement C), 147 --
+  202, 1959.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/0502820559900152}.
+
 \bibitem{Ungar2001}
 \textsc{Ungár, T., Gubicza, J., Ribárik, G., Borbély, A.}
 \newblock Crystallite size distribution and dislocation structure determined by
@@ -376,6 +384,16 @@
 \newblock \underline{En}: Textures of Materials - ICOTOM 16, tomo 702 de
   \emph{Materials Science Forum}, p\'ags. 647--650. Trans Tech Publications,
   2012.
+
+\bibitem{Devincentis2015}
+\textsc{Vincentis, N.~D., Kliauga, A., Ferrante, M., Avalos, M., Brokmeier,
+  H.-G., Bolmaro, R.}
+\newblock Evaluation of microstructure anisotropy on room and medium
+  temperature ecap deformed f138 steel.
+\newblock \emph{Materials Characterization}, \textbf{107}~(Supplement C), 98 --
+  111, 2015.
+\newblock
+  \urlprefix\url{http://www.sciencedirect.com/science/article/pii/S1044580315002417}.
 
 \bibitem{ESAB:AlAlloys}
 \textsc{ESAB}.

@@ -298,6 +298,17 @@ Finalmente, cuando no sólo se tiene que promediar sobre los diferentes sistemas
 \noindent
 y $f_{\alpha}$ es la fracción de volumen de cada cristalita y los coeficientes de Fourier $A_{n}^{D,\alpha}$ se deben calcular utilizando las Ecs. \ref{eq:WAPlot}, \ref{eq:contrast3}, \ref{eq:Wilkens}, \ref{eq:Cav1} y \ref{eq:Cav2}, según corresponda a cada caso particular para cada cristalita.
 
+\subsection{Contribución de las fallas de apilamiento al ensanchamiento de pico}\label{SS:Twin}
+La contribución de las fallas de apilamiento al ensanchamiento de los picos de difracción es conceptualmente diferente a la producida por dislocaciones ya que la misma implica un corrimiento de los picos de difracción además de un ensanchamiento, además de depender instrínsecamente de la familia de planos \{$hkl$\} observada.
+La contribución de las fallas de apilamiento a los picos de difracción fue estudiada por Warren en 1959 para los materiales FCC y se encuentra en \cite{Warren1959147}.
+Dado que en este trabajo no se estudiarán materiales con estructura HCP (la otra estructura cristalina propensa a tener fallas de apilamiento) sólo se considerará la contribución de las fallas de apilamiento en estructuras FCC.
+
+En los materiales FCC puede demostrarse que el ensanchamiento puede observarse solamente en los planos que cumplen $h \ + k \ + \ l \ = \ 3n, \ n \in \mathbb N$.
+Adicionalmente, Warren demostró que las fallas de apilamiento producidas por deformación producen un corrimiento de los picos afectados, además de un ensanchamiento simétrico, con un carácter super-Lorentziano (verificar).
+Las fallas de apilamiento debidas a maclas y crecimiento cristalino también producen un corrimiento de los picos, pero generan un ensanchamiento asimétrico.
+
+Esto último es particularmente importante si se quiere analizar el ensanchamiento de los picos aplicando el método de Langford que se describirá en la Sec. \ref{SS:Langford}, ya que lo dicho previamente indica que el aporte de las fallas de apilamiento no puede explicarse en términos de ensanchamientos Lorentzianos y Gaussianos que crezcan monótonamente con el orden de difracción $\{hkl\}$.
+
 \subsection{El método CMWP}\label{SS:CMWP}
 El \textit{Convolutional Multiple Whole Profile (CMWP)} es un método desarrollado en base al modelo de Warren-Averbach, que fue codificado en un software que lleva el mismo nombre, y que fue desarrollado por Gábor Ribárik\cite{Ungar2001,Ribarik2001,Ribarik2008}. 
 En lo que sigue se usarán las siglas CMWP tanto para referirse al método que se usa para calcular aspectos de la micro-estructura a partir de los experimentos de XRD como para el software que aplica este método a datos experimentales concretos.

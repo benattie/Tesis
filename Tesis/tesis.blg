@@ -16,45 +16,45 @@ Database file #3: ./bib/International_Tables_for_Crystallography.bib
 Warning--missing school in Kerber2011
 Warning--missing school in Ribarik2008
 Warning--missing school in Devincentis2015PhD
-You've used 60 entries,
+You've used 62 entries,
             2652 wiz_defined-function locations,
-            1459 strings with 22264 characters,
-and the built_in function-call counts, 20844 in all, are:
-= -- 1450
-> -- 552
+            1476 strings with 22750 characters,
+and the built_in function-call counts, 21712 in all, are:
+= -- 1508
+> -- 580
 < -- 2
-+ -- 276
-- -- 138
-* -- 1259
-:= -- 2308
-add.period$ -- 214
-call.type$ -- 60
-change.case$ -- 60
++ -- 290
+- -- 145
+* -- 1319
+:= -- 2404
+add.period$ -- 222
+call.type$ -- 62
+change.case$ -- 62
 chr.to.int$ -- 0
-cite$ -- 63
-duplicate$ -- 2056
-empty$ -- 2181
-format.name$ -- 176
-if$ -- 4536
+cite$ -- 65
+duplicate$ -- 2139
+empty$ -- 2267
+format.name$ -- 184
+if$ -- 4724
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 567
-newline$ -- 335
-num.names$ -- 60
-pop$ -- 880
+int.to.str$ -- 62
+missing$ -- 590
+newline$ -- 347
+num.names$ -- 62
+pop$ -- 911
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 355
+skip$ -- 368
 stack$ -- 0
-substring$ -- 965
-swap$ -- 1392
+substring$ -- 1016
+swap$ -- 1452
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 3
-while$ -- 122
-width$ -- 62
-write$ -- 709
+while$ -- 126
+width$ -- 64
+write$ -- 735
 (There were 3 warnings)

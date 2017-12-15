@@ -20,12 +20,14 @@
 \nomenclatureentry{$\mathbf{b}$@[{$\mathbf{b}$}]\begingroup Vector de Burgers de una dislocación.\nomeqref {1.12}|nompageref}{10}
 \nomenclatureentry{$\mathbf{l}$@[{$\mathbf{l}$}]\begingroup Vector de línea de una dislocación.\nomeqref {1.12}|nompageref}{10}
 \nomenclatureentry{$c_{ij}$@[{$c_{ij}$}]\begingroup Constantes elásticas de un material.\nomeqref {1.12}|nompageref}{10}
-\nomenclatureentry{EBSD@[{EBSD}]\begingroup Difracción de electrones retrodifundidos\nomeqref {1.27}|nompageref}{18}
-\nomenclatureentry{SEM@[{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.27}|nompageref}{18}
-\nomenclatureentry{FP@[{FP}]\begingroup Figura de Polos\nomeqref {1.37}|nompageref}{26}
-\nomenclatureentry{FPG@[{FPG}]\begingroup Figura de Polos Generalizadas\nomeqref {1.37}|nompageref}{26}
-\nomenclatureentry{FDO@[{FDO}]\begingroup Función de Distribución de Orientaciones\nomeqref {1.37}|nompageref}{26}
-\nomenclatureentry{FDOG@[{FDOG}]\begingroup Función de Distribución de Orientaciones Generalizadas\nomeqref {1.37}|nompageref}{26}
+\nomenclatureentry{EBSD@[{EBSD}]\begingroup Difracción de electrones retrodifundidos\nomeqref {1.27}|nompageref}{19}
+\nomenclatureentry{SEM@[{SEM}]\begingroup Microscopio electrónico de barrido\nomeqref {1.27}|nompageref}{19}
+\nomenclatureentry{FP@[{FP}]\begingroup Figura de Polos\nomeqref {1.37}|nompageref}{27}
+\nomenclatureentry{FPG@[{FPG}]\begingroup Figura de Polos Generalizadas\nomeqref {1.37}|nompageref}{27}
+\nomenclatureentry{FDO@[{FDO}]\begingroup Función de Distribución de Orientaciones\nomeqref {1.37}|nompageref}{27}
+\nomenclatureentry{FDOG@[{FDOG}]\begingroup Función de Distribución de Orientaciones Generalizadas\nomeqref {1.37}|nompageref}{27}
 \nomenclatureentry{LPA@[{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}|nompageref}{30}
-\nomenclatureentry{GND@[{GND}]\begingroup Dislocaciones geométricamente necesarias\nomeqref {3.0}|nompageref}{50}
+\nomenclatureentry{GND@[{GND}]\begingroup Dislocaciones geométricamente necesarias\nomeqref {3.0}|nompageref}{51}
 \nomenclatureentry{ECAE@[{ECAE}]\begingroup Equal Angle Angular Extrusion, Deformación de Igual Canal Angular\nomeqref {4.0}|nompageref}{61}
+\nomenclatureentry{HAGB@[{HAGB}]\begingroup Siglas en inglés para Bordes de grano de alto ángulo (High Angle Grain Boundary).\nomeqref {4.0}|nompageref}{66}
+\nomenclatureentry{LAGB@[{LAGB}]\begingroup Siglas en inglés para Bordes de grano de bajo ángulo (Low Angle Grain Boundary).\nomeqref {4.0}|nompageref}{66}
