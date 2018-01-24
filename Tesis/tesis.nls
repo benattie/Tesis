@@ -50,7 +50,7 @@
   \item [{EBSD}]\begingroup Difracción de electrones retrodifundidos\nomeqref {1.27}
 		\nompageref{19}
   \item [{ECAE}]\begingroup Equal Angle Angular Extrusion, Deformación de Igual Canal Angular\nomeqref {4.0}
-		\nompageref{61}
+		\nompageref{62}
 
  \nomgroup{F}
 
@@ -71,14 +71,19 @@
  \nomgroup{H}
 
   \item [{HAGB}]\begingroup Siglas en inglés para Bordes de grano de alto ángulo (High Angle Grain Boundary).\nomeqref {4.0}
-		\nompageref{66}
+		\nompageref{67}
 
  \nomgroup{L}
 
   \item [{LAGB}]\begingroup Siglas en inglés para Bordes de grano de bajo ángulo (Low Angle Grain Boundary).\nomeqref {4.0}
-		\nompageref{66}
+		\nompageref{67}
   \item [{LPA}]\begingroup Análisis de ancho de pico\nomeqref {2.0}
 		\nompageref{30}
+
+ \nomgroup{M}
+
+  \item [{m.r.d.}]\begingroup Multiples of Random Distribution, Múltiplos de la Distribución Aleatoria.\nomeqref {4.0}
+		\nompageref{68}
 
  \nomgroup{S}
 
